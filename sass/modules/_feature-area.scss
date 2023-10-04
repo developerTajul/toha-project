@@ -1,0 +1,199 @@
+.feature-area {
+    padding: 10px 0;
+    position: relative;
+    .feature-shape {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: -99;
+      flex-shrink: 0;
+      flex-shrink: 0;
+      @include sm {
+        height: 120px;
+        width: 120px;
+        transform: translate(0%, -50%);
+      }
+    }
+
+    .feature-container {
+      position: relative;
+      border-radius: 20px;
+      padding: 60px 30px;
+      background: $white;
+      box-shadow: 0px 4px 60px 0px rgba(211, 211, 211, 0.25);
+      @include sm {
+        padding: 40px 16px;
+      }
+      .shape-1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        transform: translate(-57%, -75%);
+        @include sm {
+          z-index: 20;
+          transform: translate(-18%, -83%);
+        }
+      }
+      .title {
+        text-align: center;
+        margin-bottom: 40px;
+        color: $black;
+      }
+      .feather-item-wrapper {
+        display: flex;
+        gap: 45px;
+        @include transition;
+        @include lg {
+          gap: 12px;
+        }
+        .feature-item {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          justify-items: center;
+          gap: 27px;
+          @include transition;
+          // cursor: pointer;
+          @include lg {
+            gap: 12px;
+          }
+          @include xs {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 20px;
+          }
+          .icon-wrapper {
+            width: 85px;
+            height: 85px;
+            border-radius: 50%;
+            border: 2px solid $secondary-color;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            gap: 10px;
+            position: relative;
+            @include transition;
+            @include sm {
+              width: 65px;
+              height: 65px;
+              gap: 5px;
+            }
+            @include lg {
+              width: 70px;
+              height: 70px;
+              gap: 10px;
+            }
+            .count {
+              width: 25px;
+              height: 25px;
+              background-color: $text-color;
+              border-radius: 50px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              position: absolute;
+              top: 0;
+              right: 0;
+              transform: translate(0, -25%);
+              font-family: $body-font;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              color: $white;
+              @include sm {
+                width: 20px;
+                height: 20px;
+                font-size: 10px;
+              }
+              @include lg {
+                width: 20px;
+                height: 20px;
+                font-size: 10px;
+              }
+            }
+            i {
+              font-size: 40px;
+              @include transition;
+              @include sm {
+                font-size: 28px;
+              }
+            }
+          }
+          .content {
+            h4,
+            .title {
+              margin: 0;
+              text-align: unset;
+              @include lg {
+                font-size: 22px;
+                line-height: 29px;
+              }
+            }
+            p,
+            .desc {
+              margin-top: 7px;
+              margin-bottom: 0;
+              @include sm {
+                margin-top: 0;
+              }
+            }
+          }
+          &:hover {
+            .icon-wrapper {
+              @include transition;
+              background: $primary-color;
+              border-color: $primary-color; 
+              i {
+                color: #fff;
+              }
+              .count {
+                background-color: $black;
+              }
+            }
+          }
+          &.active {
+            .icon-wrapper {
+              @include transition;
+              background: $primary-color;
+              border-color: $primary-color;
+              i {
+                color: #fff;
+              }
+              .count {
+                background-color: $black;
+              }
+            }
+          }
+          @include md {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            .icon-wrapper {
+              margin-right: 0;
+              margin-bottom: 20px;
+            }
+          }
+        }
+        @include md {
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          gap: 20px;
+        }
+        @include sm {
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+        }
+      }
+    }
+}

@@ -1,0 +1,223 @@
+.portfolio-slider-area {
+    .portfolio-container{
+        max-width: 100%;
+        margin: 0 120px;
+        @include sm{
+            margin: 0 12px;
+        }
+        @include md{
+            margin: 0 40px;
+        }
+        @include lg{
+            margin: 0 60px;
+        }
+    }
+    .portfolio-title-area {
+        width: 528px;
+        height: 161px;
+        border-radius: 5px;
+        text-align: center;
+        margin: 50px auto 0px;
+        z-index: 99;
+        .span {
+            color: $primary-color;
+        }
+        h4 {
+            color: $black;
+            font-family: $heading-font;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 50px;
+            padding: 20px 0;
+        }
+
+        .portfolio-top {
+            margin-bottom: 20px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 209px;
+            height: 39px;
+            background-color: #ffffff;
+            margin: auto;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0px 4px 40px 0px rgba(166, 166, 166, 0.25);
+
+            i.icon-Frame {
+                color: $primary-color;
+            }
+        }
+    }
+    .img-content-wrapper {
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        transition: all 0.9s ease-in-out !important;
+        .content {
+            a {
+                i {
+                    font-size: 65px;
+                }
+            }
+        }
+        &.slick-center {
+            // margin-left: 120px;
+            // margin-right: 120px;
+            margin-top: 135px;
+            @include sm {
+                margin-top: 0;
+            }
+            @include md {
+                margin-top: 0;
+            }
+            .content {
+                visibility: visible;
+                @include transition;
+                opacity: 1;
+                a {
+                    transform: scale(1);
+                    @include transition;
+                    i {
+                    }
+                }
+                .content-title {
+                    transform: translate(0, -40px);
+                }
+            }
+        }
+        .slider_icon {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            gap: 20px;
+            img {
+                padding: 15px;
+                border-radius: 50px;
+            }
+
+            .box-white {
+                box-shadow: 0px 4px 50px rgba(151, 151, 151, 0.25);
+            }
+            .box-primary {
+                background-color: $primary-color;
+            }
+        }
+        &:hover {
+            .content {
+                visibility: visible;
+                @include transition;
+                opacity: 1;
+            }
+        }
+    }
+    .slider-area {
+        padding-top: 85px;
+        position: relative;
+        @include sm {
+            padding-top: 60px;
+        }
+        @include md {
+            padding: 50px 0 0;
+        }
+        .button-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 24px 0;
+            z-index: 10;
+            @media only screen and (min-width: 991px) and (max-width: 1399px) {
+                position: absolute;
+                left: 42%;
+            }
+            @media only screen and (min-width: 1400px) {
+                left: 47%;
+                position: absolute;
+            }
+            .single-custom-btn {
+                button {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50px;
+                    background-color: $white;
+                    box-shadow: 0px 4px 50px rgba(151, 151, 151, 0.25);
+                    i {
+                        color: $text-color;
+                    }
+                }
+                &.right {
+                    button {
+                        background-color: $primary-color;
+                        i {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+        .portfolio-slider-wrapper {
+            position: relative;
+            .slick-list {
+                padding: 0 !important;
+            }
+
+            .prev-btn,
+            .next-btn {
+                display: none !important;
+                position: absolute;
+                top: 0;
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                z-index: 99;
+                background-color: $white;
+                box-shadow: 0px 4px 50px rgba(151, 151, 151, 0.25);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                i {
+                    color: $primary-color;
+                }
+                &:hover {
+                    background-color: $primary-color;
+                    i {
+                        color: $white;
+                    }
+                }
+            }
+            .prev-btn {
+                left: 44.5%;
+                i {
+                    color: $text-color;
+                }
+                @include md {
+                    left: 40%;
+                    top: -60px;
+                }
+                @include sm {
+                    left: 30%;
+                }
+            }
+            .next-btn {
+                left: 50%;
+                background-color: $primary-color;
+                i {
+                    color: $white;
+                }
+                @include md {
+                    left: 50%;
+                    top: -60px;
+                }
+                @include sm {
+                    left: 50%;
+                }
+                @include xs {
+                    left: 50%;
+                }
+            }
+        }
+    }
+}

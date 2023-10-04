@@ -1,0 +1,60 @@
+.service-slider-wrapper {
+    padding: 40px 34px 0px 34px;
+    // @include sm {
+    //     padding: 15px 0 15px 0;
+    // }
+    // @include md {
+    //     padding: 17px;
+    // }
+    position: relative;
+    background: $white;
+    border-radius: 17px;
+
+    .slick-list {
+        padding: 0 !important;
+    }
+    .info-card-arrow-btn.prev-btn.slick-arrow {
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+        position: absolute;
+        background: $white;
+        border-radius: 50%;
+        top: 50%;
+        left: 0;
+        transform: translate(-140%, -22%);
+        bottom: 0;
+        color: $black;
+        box-shadow: 0px 4px 50px rgba(151, 151, 151, 0.25);
+        z-index: 99;
+        @include md {
+            transform: translate(-100%, -22%);
+        }
+    }
+    .info-card-arrow-btn.next-btn.slick-arrow {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        flex-shrink: 0;
+        right: 0;
+        top: 50%;
+        transform: translate(135%, -25%);
+        border-radius: 50%;
+        box-shadow: 0px 4px 50px rgba(151, 151, 151, 0.25);
+        background: $primary-color;
+        color: #ffff;
+        @include md {
+            transform: translate(100%, -25%);
+        }
+    }
+    .service-single-item {
+        &.slick-center {
+            .service-img-wrapper .icon-wrapper {
+                background-color: $black;
+            }
+            .content .service-card-btn {
+                visibility: visible;
+            }
+        }
+    }
+}

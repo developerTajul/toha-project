@@ -1,0 +1,73 @@
+.service-area {
+    margin-top: -96px;
+    @include rmaxwd(1400) {
+        margin-top: 0;
+        padding-top: 70px;
+    }
+    .border-wrapper {
+        margin-top: 0;
+        z-index: 10;
+        position: relative;
+    }
+}
+
+.about-us-area {
+    &.style-2 {
+        padding: 140px 0;
+        @include sm {
+            padding: 70px 0;
+        }
+        @include lg {
+            padding: 100px 0;
+        }
+        @include xl {
+            padding: 120px 0;
+        }
+    }
+}
+.service-offer-inner {
+    position: relative;
+    .shape-1 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(50%, -50%);
+        @include rmaxwd(1399) {
+            display: none;
+        }
+        img {
+            position: relative;
+            z-index: 0;
+        }
+    }
+}
+// Portfolio-slider-area
+.portfolio-slider-area {
+    &.style-1 {
+        padding: 140px 0;
+        @include sm {
+            padding: 0 0 70px 0;
+        }
+        @include md {
+            padding: 0 0 100px 0;
+        }
+        @include lg {
+            padding: 120px 0;
+        }
+    }
+}
+
+.faq-area {
+    &.style-1 {
+        padding: 140px 0 100px 0;
+        @include sm {
+            padding: 70px 0 40px 0;
+        }
+        @include md {
+            padding: 100px 0 60px 0;
+        }
+        @include lg {
+            padding: 120px 0 80px 0;
+        }
+    }
+}

@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: $body-font;
+  color: $text-color;
+  vertical-align: baseline;
+  line-height: 29px;
+  font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: $heading-font;
+  color: $black;
+  font-style: normal;
+  @include transition;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 90px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 600;
+}
+h4 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 500;
+}
+h5 {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h6 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+label {
+  color: $text-color;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+}
+button {
+  cursor: pointer;
+  @include transition;
+}
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+a,
+.button {
+  text-decoration: none;
+  @include transition;
+}
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+a:focus {
+  color: $primary-color;
+  text-decoration: none;
+  @include transition;
+}
+a,
+button {
+  color: $primary-color;
+  outline: medium none;
+  @include transition;
+
+  &:hover {
+    color: $secondary-color;
+    @include transition;
+  }
+}
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+  outline: 0;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+::-moz-selection {
+  background: $primary-color;
+  text-shadow: none;
+  color: #fff;
+}
+::selection {
+  background: $primary-color;
+  text-shadow: none;
+  color: #fff;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.background-black {
+  background-color: rgb(57, 61, 72);
+}
+
+.bg-light-black {
+  background-color: rgb(49, 55, 63);
+}
+.background-blue {
+  background-color: $secondary-color;
+}
+.bg-dark-blue {
+  background-color: rgb(14, 49, 81);
+}
+.background-light-blue {
+  background-color: $primary-color;
+}
+.background-skye {
+  background-color: $secondary-color;
+}
+.background-gray {
+  background-color: $gray-50;
+}
+.page-bg {
+  background-color: #f7f7f5;
+}
+
+.page-area {
+  padding-top: 136px;
+  padding-bottom: 124px;
+}
+.blog-area {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.page-area,
+.blog-area {
+  @include rmaxwd(991) {
+    padding-top: 100px;
+    padding-bottom: 52px;
+  }
+  @include rmaxwd(767) {
+    padding-top: 70px;
+    padding-bottom: 22px;
+  }
+  .page-links {
+    margin-bottom: 20px;
+  }
+}
+.border-radius-12 {
+  border-radius: 12px;
+}
+.text-white-100 {
+  color: $white-100;
+}
+code {
+  color: $primary-color;
+}
+.theme-btn-wrapper {
+  display: flex;
+}
+.theme-btn,
+.wp-block-loginout a,
+input.theme-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: $black;
+  color: $white;
+  text-align: center;
+  z-index: 1;
+  padding: 7px 20px;
+  @include transition;
+  border-radius: 5px;
+  overflow: hidden;
+  height: auto;
+  width: auto;
+  font-family: $body-font;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  text-transform: capitalize;
+  p{
+    margin-bottom: 0;
+  }
+  a {
+    color: $white;
+  }
+  i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+  }
+  &:hover {
+    color: $black;
+    background-color: $black;
+    i{
+      color: $black;
+    }
+  }
+  &:focus {
+    color: $white;
+  }
+  &.style-three {
+    padding: 7px 20px;
+    &:hover {
+      @include transition;
+      background: $white !important;
+      color: $primary-color;
+      i {
+        @include transition;
+        color: $primary-color;
+      }
+    }
+  }
+  &.style-two {
+    background-color: $black;
+    padding: 15px 20px;
+    a {
+      display: flex;
+      align-items: center;
+      color: $white;
+      gap: 6px;
+    }
+    &:hover {
+      background-color: $white;
+      color: $black;
+      a {
+        color: $black !important;
+        i {
+          color: $black;
+          @include transition;
+        }
+      }
+    }
+  }
+}
+
+.wp-block-loginout {
+  a {
+    position: relative;
+    margin-top: 20px;
+
+    &:after {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      content: "\f105";
+      font-family: $font-awesome;
+      border-radius: 6px;
+      background-color: $primary-color;
+      color: #fff;
+      font-size: 16px;
+      margin-left: 4px;
+    }
+  }
+}
+.contact-form-btn {
+  justify-content: center;
+  width: 100%;
+  display: block;
+  line-height: 42px;
+
+  .icon {
+    float: right;
+  }
+}
+input.theme-btn {
+  display: inline-block !important;
+  width: inherit !important;
+  border: 0 !important;
+}

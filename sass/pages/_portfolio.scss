@@ -1,0 +1,52 @@
+.icotop-navbar {
+    display: flex;
+}
+.portfolio-area {
+    &.style-2 {
+        padding: 140px 0;
+        @include sm {
+            padding: 70px 0;
+        }
+        @include md {
+            padding: 100px 0;
+        }
+        @include lg {
+            padding: 120px 0;
+        }
+        .section-title{
+            margin-bottom: 48px;
+        }
+        .filter-button-group {
+            width: 100%;
+            margin-bottom: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            @include sm {
+                flex-wrap: wrap;
+                gap: 12px;
+                align-items: start;
+                justify-content: start;
+            }
+            button {
+                padding: 10px 32px;
+                border-radius: 31px;
+                color: $black;
+                background: $white;
+                border: 1px solid $secondary-color;
+                &:hover {
+                    background: $primary-color;
+                    color: $white;
+                    border-color: transparent;
+                }
+            }
+
+            .active {
+                background: $primary-color;
+                color: $white;
+                border-color: transparent;
+            }
+        }
+    }
+}

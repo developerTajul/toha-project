@@ -1,0 +1,883 @@
+.sidebar {
+  // padding-left: 13px;
+
+  @include rmaxwd(991) {
+    padding-left: 0;
+    padding-top: 40px;
+  }
+}
+.page-sidebar {
+  margin-bottom: 50px;
+  padding-left: 18px;
+}
+
+/* Widget */
+.widget {
+  background-color: $white;
+  padding: 32px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 60px 0px rgba(220, 220, 220, 0.25);
+
+  &.widget_search {
+    padding: 40px;
+    @include lg {
+      padding: 24px;
+    }
+    .search-form {
+      margin-bottom: 0;
+    }
+  }
+  &.widget_tag_cloud {
+    .tagcloud {
+      margin-bottom: 0;
+    }
+  }
+  &.widget_newsletter {
+    padding: 40px;
+    @include lg {
+      padding: 24px;
+    }
+    .widget-newsletter {
+      .input-field {
+        padding-bottom: 0;
+      }
+    }
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+  @include sm {
+    padding: 20px;
+  }
+  @include lg {
+    padding: 24px;
+  }
+  ol,
+  ul {
+    margin-bottom: 0;
+  }
+
+  /* Widget Instagram Feed */
+  .widget-instagram-feed {
+    width: 100%;
+
+    .single-instagram-feed {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  /* Widget Title */
+  .wp-block-heading,
+  .widget-title,
+  .wp-block-search__label {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: $black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    position: relative;
+
+    @include sm {
+      font-size: 22px;
+    }
+
+    // &:before {
+    //   content: "\f0da";
+    //   font-family: $font-awesome;
+    //   margin-right: 6px;
+    //   color: $secondary-color;
+    //   font-size: 18px;
+    // }
+  }
+
+  /* Social Widget Block */
+  .wp-block-social-links {
+    .wp-social-link {
+      padding: 0;
+      margin: 0;
+      line-height: 0;
+
+      a {
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  /* Recent Comment List Block Widget & Latest Post Widget Block */
+  .has-avatars.has-dates.has-excerpts.wp-block-latest-comments,
+  .has-dates.has-excerpts.wp-block-latest-comments {
+    li {
+      &.wp-block-latest-comments__comment {
+        .wp-block-latest-comments__comment-meta {
+          font-weight: 500;
+
+          .wp-block-latest-comments__comment-author,
+          .wp-block-latest-comments__comment-link {
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+  .wp-block-latest-comments,
+  .wp-block-latest-posts {
+    li {
+      &.wp-block-latest-comments__comment {
+        margin-bottom: 0;
+      }
+      .wp-block-latest-comments__comment-meta,
+      .wp-block-latest-posts__post-title {
+        line-height: 28px;
+        font-weight: 400;
+
+        .wp-block-latest-comments__comment-date {
+          font-size: 14px !important;
+          margin-bottom: 10px;
+          position: relative;
+
+          &:before {
+            content: "\f274";
+            font-family: $font-awesome;
+            padding-right: 8px;
+          }
+        }
+      }
+      a {
+        color: $text-color;
+
+        &.wp-block-latest-comments__comment-author,
+        &.wp-block-latest-comments__comment-link {
+          display: inline !important;
+          text-transform: capitalize;
+          line-height: 28px;
+          font-weight: 400;
+        }
+        &:hover {
+          color: $primary-color;
+        }
+      }
+      .wp-block-latest-comments__comment-excerpt {
+        p {
+          font-size: 16px;
+          line-height: 28px;
+          margin: 0;
+        }
+      }
+    }
+  }
+  /* Social Widget */
+  .social-profile {
+    justify-content: flex-start;
+
+    a {
+      width: 60px;
+      height: 60px;
+      background-color: $primary-color;
+      color: $white;
+      @include transition;
+      border-radius: 50px;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      @include rmaxwd(1199) {
+        width: 40px;
+        height: 40px;
+      }
+      &.facebook {
+        background-color: #1877f2;
+      }
+      &.twitter {
+        background-color: #1da1f2;
+      }
+      &.linkedin {
+        background-color: #0a66c2;
+      }
+      &.instagram {
+        background-color: #405de6;
+      }
+
+      &:hover {
+        color: $white;
+        @include transition;
+        background-color: $primary-color;
+      }
+    }
+  }
+  // Newsletter
+  .widget-newsletter {
+    .desc {
+      font-family: $heading-font;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+    }
+    .input-field {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid $text-color;
+      padding-bottom: 8px;
+      padding-top: 0;
+      margin-top: 15px;
+      input {
+        font-family: $body-font;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        width: 100%;
+      }
+      .submit-btn {
+        i {
+          color: $black;
+          font-size: 30px;
+          line-height: 30px;
+        }
+      }
+      ::placeholder {
+        color: $text-color;
+        opacity: 1;
+      }
+
+      :-ms-input-placeholder {
+        color: $text-color;
+      }
+
+      ::-ms-input-placeholder {
+        color: $text-color;
+      }
+    }
+  }
+  /* Select Option  */
+  select {
+    max-width: 100%;
+    height: 50px;
+    width: 100%;
+    // border: 1px solid $text-color;
+    padding: 0 10px;
+    border-radius: 5px;
+    color: $text-color;
+    margin-bottom: 0;
+    background-color: #f2f4f5;
+  }
+  /* Login Widget */
+  .has-login-form {
+    .login-username,
+    .login-password {
+      label {
+        margin-bottom: 10px;
+      }
+      input {
+        max-width: 100%;
+        height: 50px;
+        width: 100%;
+        border: 1px solid $gray;
+        padding: 0 10px;
+        border-radius: 5px;
+        color: $text-color;
+      }
+    }
+    .login-remember {
+      label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+    .login-submit {
+      margin-bottom: 0;
+
+      input.button-primary {
+        display: inline-flex;
+        background: $primary-color;
+        color: #fff;
+        padding: 12px 32px;
+        text-align: center;
+        font-weight: 500;
+        font-family: $body-font;
+        text-transform: capitalize;
+        position: relative;
+        z-index: 1;
+        transition: 0.3s;
+        font-size: 16px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50px;
+      }
+    }
+  }
+  /* Search Widget */
+  .search-form {
+    display: flex !important;
+
+    button {
+      width: 62px;
+      flex-shrink: 0;
+    }
+  }
+  .wp-block-search__no-button {
+    &.wp-block-search {
+      input {
+        border-radius: 10px;
+      }
+    }
+  }
+
+  &.widget_block{
+    &.widget_search{
+      .wp-block-search,
+      .search-form{
+        button{
+          text-indent: -78px;
+          z-index: 1;
+          &:after{
+            content: "\f002";
+            font-family: "Font Awesome 6 Pro";
+            font-size: 17px;
+            color: $white;
+            z-index: 10;
+            position: relative;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+  .wp-block-search {
+    margin-bottom: -2px;
+  }
+  .wp-block-search,
+  .search-form {
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    
+
+
+    .wp-block-search__inside-wrapper {
+      display: flex;
+      padding: 0 !important;
+      overflow: hidden;
+      border-radius: 10px;
+      // border: 1px solid #E7E7E7;
+      background-color: #f2f4f5;
+    }
+    label {
+      font-size: 24px;
+      display: block;
+      line-height: 28px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      color: $black;
+      font-family: $heading-font;
+    }
+    input {
+      background-color: #f2f4f5;
+      padding: 0 25px;
+      height: 60px;
+      width: 100%;
+      color: $black;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 29px;
+      border: none;
+      z-index: 5;
+    }
+    ::placeholder {
+      color: $text-color;
+      opacity: 1;
+    }
+
+    :-ms-input-placeholder {
+      color: $text-color;
+    }
+
+    ::-ms-input-placeholder {
+      color: $text-color;
+    }
+    button {
+      color: $white;
+      padding: 0 20px;
+      position: relative;
+      right: 0;
+      background-color: $black;
+      top: 0;
+      height: auto;
+      line-height: 0;
+      border: 0;
+      margin-left: 0 !important;
+    }
+  }
+
+  /* Tagcloud Widget */
+  .tagcloud,
+  .wp-block-tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+
+    a {
+      color: $black;
+      display: inline-block;
+      font-family: $body-font;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 29px;
+      padding: 0 10px;
+      border-radius: 3px;
+      background: rgba(3, 192, 180, 0.19);
+      @include transition;
+
+      &:hover {
+        color: $white;
+        background: $black;
+        border-color: $black;
+        @include transition;
+      }
+    }
+  }
+
+  /* Default Widget */
+  //ol {
+  //  padding-left: 0;
+  //}
+  ul,
+  ol {
+    margin-bottom: 0;
+    padding-left: 0;
+
+    li {
+      display: block;
+      padding: 10px 0;
+      border-bottom: 1px solid $gray-300;
+
+      &:first-child {
+        padding-top: 0;
+      }
+      &:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+      }
+      /* Recent Comment Widget */
+      &.recentcomments {
+        .comment-author-link {
+          a {
+            &:before {
+              display: block;
+            }
+          }
+        }
+        a {
+          padding-left: 0;
+          display: inline;
+
+          &:before {
+            display: none;
+          }
+        }
+      }
+      a {
+        color: $text-color;
+        position: relative;
+        display: inline-block;
+        text-transform: capitalize;
+        font-size: 18px;
+        @include transition;
+
+        &:hover {
+          color: $primary-color;
+          @include transition;
+        }
+
+        /* RSS Widget */
+        &.rsswidget {
+          padding-left: 0;
+          font-weight: 500;
+          display: block;
+
+          &:before {
+            display: none;
+          }
+        }
+      }
+
+      ul {
+        padding-left: 25px;
+        padding-top: 10px;
+      }
+    }
+    /* Tag Cloud Widget */
+    &.wp-tag-cloud {
+      li {
+        display: inline-block;
+        padding: 0;
+        border: 0;
+
+        a {
+          &:before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  // Category Widget
+  &.widget_categories,
+  &.widget_archive {
+    ul {
+      li {
+        text-align: right;
+        display: inline-block;
+        width: 100%;
+
+        &.cat-item {
+          text-align: right;
+          display: inline-block;
+          width: 100%;
+        }
+        a {
+          float: left;
+        }
+      }
+    }
+  }
+  &.widget_nav_menu{
+    ul{
+      li{
+        a{
+          color: $text-color;
+        }
+      }
+    }
+  }
+  // Widget text
+  .widget_text{
+    .textwidget{
+      p{
+        strong{
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+/* About Info Widget*/
+.widget-about-info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  .about-desc {
+    text-align: left;
+
+    .about-title {
+      font-size: 20px;
+    }
+  }
+
+  .about-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .social-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    border-top: 1px solid $gray-300;
+    width: 100%;
+    margin-top: 10px;
+
+    a {
+      @include transition;
+      width: 44px;
+      height: 44px;
+      background-color: $gray-100;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $secondary-color;
+      @include transition;
+
+      &:hover {
+        color: $white;
+        @include transition;
+        background-color: $primary-color;
+      }
+    }
+  }
+  .news-letter {
+  }
+}
+/* Latest Post Widget*/
+.has-dates.has-author.wp-block-latest-posts {
+  .wp-block-latest-posts__post-title {
+    display: inline-block;
+    width: 100%;
+    font-weight: 500;
+  }
+}
+.widget_rss {
+  .wp-block-heading:before,
+  .widget-title:before {
+    display: none;
+  }
+  .rss-widget-icon {
+    margin-right: 6px;
+  }
+  ul {
+    li {
+      a {
+        &.rsswidget {
+          color: $black;
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}
+.wp-block-latest-posts,
+.wp-block-rss,
+.widget_rss {
+  .wp-block-rss__item-title {
+    display: inline-block;
+    width: 100%;
+    font-weight: 500;
+  }
+  .wp-block-latest-posts__post-author,
+  .wp-block-rss__item-publish-date {
+    margin-right: 10px;
+  }
+  .wp-block-latest-posts__post-author,
+  .wp-block-latest-posts__post-date,
+  .wp-block-rss__item-publish-date,
+  .wp-block-rss__item-author,
+  .rss-date {
+    display: inline-block;
+    font-size: 14px !important;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: relative;
+  }
+
+  .wp-block-latest-posts__post-date,
+  .wp-block-rss__item-publish-date,
+  .rss-date {
+    &:before {
+      content: "\f274";
+      font-family: $font-awesome;
+      padding-right: 8px;
+    }
+  }
+
+  .wp-block-latest-posts__post-author,
+  .wp-block-rss__item-author {
+    &:before {
+      content: "\f007";
+      font-family: $font-awesome;
+      padding-right: 8px;
+    }
+  }
+  .wp-block-latest-posts__post-excerpt,
+  .wp-block-rss__item-excerpt,
+  .rssSummary {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+.widget_latest_post {
+  ul {
+    li {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 24px;
+      border: 0;
+      align-items: center;
+
+      &:hover {
+        .latest-post-thumb {
+          img {
+            transform: scale(1.05);
+            @include transition;
+          }
+        }
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      a {
+        padding-left: 0;
+
+        &:before {
+          display: none;
+        }
+      }
+
+      .latest-post-thumb {
+        flex-shrink: 0;
+        overflow: hidden;
+        border-radius: 10px;
+        img {
+          transform: scale(1);
+          @include transition;
+        }
+      }
+      .latest-post-desc {
+        .latest-post-title {
+          margin-bottom: 8px;
+          font-size: 18px;
+          line-height: 24px;
+          color: $black;
+          font-family: $heading-font;
+
+          a {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 500;
+            color: $black;
+            position: relative;
+            text-transform: capitalize;
+            @include transition;
+            font-family: $heading-font;
+
+            &:hover {
+              color: $text-color;
+              @include transition;
+            }
+            @include sm {
+              font-size: 18px;
+              line-height: 28px;
+            }
+            @include lg {
+              font-size: 16px;
+              line-height: 24px;
+            }
+            @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+              font-size: 16px;
+            }
+          }
+        }
+        .latest-post-meta {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 29px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          color: #5e6f92;
+          i {
+            color: $primary-color;
+            font-size: 16px;
+            line-height: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Instagram Widget
+.widget-instagram-feed {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  grid-gap: 12px;
+  @include sm {
+    gap: 4px;
+  }
+
+  .single-instagram-feed {
+    border-radius: 5px;
+    width: 72px;
+    height: 72px;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+
+    &:hover {
+      img {
+        transform: scale(1.1);
+        @include transition;
+      }
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: scale(1);
+      @include transition;
+    }
+  }
+}
+// Widget Promotion
+.widget_promotion {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: $black;
+
+  .wp-block-heading {
+    width: 100%;
+    text-align: center;
+    color: $white;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 10px;
+  }
+  .secondary-btn {
+    display: inline-block;
+    background: $primary-color;
+    color: $secondary-color;
+    padding: 12px 104px;
+    font-weight: 600;
+    font-family: $body-font;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 1;
+    @include transition;
+    font-size: 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+
+    i {
+      color: #fff;
+      font-size: 16px;
+    }
+    &:hover {
+      @include transition;
+      background-color: $white;
+      border-color: $white;
+    }
+  }
+  p {
+    color: rgba(255, 255, 255, 0.53);
+    margin-bottom: 32px;
+  }
+}
+
+//
+.single-post-item .single-post-meta {
+  gap: 32px;
+}

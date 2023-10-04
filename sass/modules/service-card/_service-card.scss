@@ -1,0 +1,189 @@
+.border-wrapper {
+    background: $white;
+    padding: 40px;
+    margin-top: 48px;
+    padding-bottom: 0px;
+    box-shadow: 0px 4px 60px 0px rgba(220, 220, 220, 0.25);
+    @include sm {
+        padding: 24px;
+    }
+    @include md {
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    border-radius: 20px 20px 0px 0px;
+    .service-card-wrapper {
+        border-radius: 20px;
+        padding: 3px;
+        background: linear-gradient(to top, $white, $secondary-color);
+    }
+}
+.service-single-item {
+    &.slick-slide {
+        padding: 0 12px;
+    }
+    @include sm {
+        padding: 0px;
+    }
+    .service-card-btn {
+        visibility: hidden;
+        opacity: 0;
+        display: inline-flex;
+        background: $primary-color;
+        justify-content: center;
+        color: $white;
+        align-items: center;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        gap: 20px;
+        transform: scale(1.03);
+        @include transition;
+        img {
+            padding: 15px;
+            border-radius: 50px;
+        }
+        .box-white {
+            box-shadow: 0px 4px 50px rgba(151, 151, 151, 0.25);
+        }
+        .box-primary {
+            background-color: $primary-color;
+        }
+    }
+    .icon-eye {
+        color: $primary-color;
+    }
+    .content {
+        text-align: center;
+        padding: 10px;
+        padding-bottom: 44px;
+        @media only screen and (min-width: 768px) and (max-width: 1199px){
+            padding: 0;
+        }
+
+        h4 {
+            font-size: 24px;
+            font-family: $heading-font;
+            font-weight: 600;
+            line-height: 34px;
+            @media only screen and (min-width: 768px) and (max-width: 1199px){
+                font-size: 19px;
+            }
+        }
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 29px;
+            margin-top: 11px;
+            margin-bottom: 20px;
+            @include rmaxwd(1199) {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+    }
+    .service-img-wrapper {
+        border-radius: 20px 20px 0px 0px;
+        margin-bottom: 15px;
+        position: relative;
+        overflow: hidden;
+        .icon-wrapper {
+            position: absolute;
+            width: 80px;
+            height: 100px;
+            border-radius: 0px 0px 40px 40px;
+            background: $primary-color;
+            left: 30px;
+            z-index: 100;
+            @include transition;
+            .icon-circle {
+                width: 66px;
+                height: 66px;
+                border-radius: 50%;
+                background-color: #f0f8ff38;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.0509803922);
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                bottom: 9px;
+                left: 50%;
+                position: absolute;
+                color: $white;
+                transform: translate(-50%, 0);
+                i {
+                    color: $white;
+                    font-size: 40px;
+                    line-height: 40px;
+                }
+            }
+        }
+        .icon-wrapper::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            height: 100%;
+            width: 100%;
+            background: $black;
+            border-radius: 0px 0px 40px 40px;
+            @include transition;
+            transform-origin: 0 0;
+            transform: scaleY(0);
+        }
+        img {
+            width: 100%;
+            height: 249px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            object-fit: cover;
+            transform: scale(1.01);
+            @include transition;
+        }
+    }
+    &:hover {
+        .service-card-btn {
+            visibility: visible;
+            opacity: 1;
+            transform: scale(1.03);
+        }
+        .service-img-wrapper {
+            img {
+                transform: scale(1.03);
+            }
+            .icon-wrapper {
+                &:before {
+                    transform: scaleY(1);
+                }
+            }
+        }
+    }
+    &.active {
+        .service-card-btn {
+            visibility: visible;
+            opacity: 1;
+            transform: scale(1.03);
+        }
+        .service-img-wrapper {
+            img {
+                transform: scale(1.03);
+            }
+            .icon-wrapper {
+                &:before {
+                    transform: scaleY(1);
+                }
+            }
+        }
+    }
+    &.slick-center {
+        @include sm {
+            .service-card-btn {
+                visibility: visible;
+                opacity: 1;
+                transform: scale(1.03);
+            }
+        }
+    }
+}

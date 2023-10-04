@@ -1,0 +1,19 @@
+.post-card {
+    &.style-2 {
+        border-radius: 10px;
+        background-color: $gray-300;
+        box-shadow: none;
+        .content-wrapper {
+            padding: 25px 30px 23px 30px;
+            @include rmaxwd(767) {
+                padding: 25px 16px 23px 16px;
+            }
+            .post-content {
+                margin-top: 0;
+                .title {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}

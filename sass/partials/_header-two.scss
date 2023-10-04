@@ -1,0 +1,64 @@
+.header-area {
+  &.style-two {
+   &.has-header-top {
+     .header-menu-area {
+       &.sticky_menu {
+         .logo {
+           height: 84px;
+           margin-top: inherit;
+         }
+       }
+       .logo {
+         height: 162px;
+         margin-top: -42px;
+
+         @media only screen and (min-width: 992px) and (max-width: 1199px){
+           height: 120px;
+           margin-top: inherit;
+         }
+         @include md {
+           height: 100px;
+           margin-top: inherit;
+         }
+
+         @include sm {
+           height: 80px;
+           margin-top: inherit;
+         }
+       }
+     }
+   }
+    // Header Top Area
+    .header-top {
+      .header-top-btn {
+        a {
+          margin-bottom: inherit;
+          padding: 6px 46px;
+          &:hover {
+            &:before {
+              @include transition;
+              background-color: $secondary-color;
+            }
+          }
+          &:before {
+            border-radius: 0;
+            transform: skewX(-20deg);
+            @include transition;
+          }
+        }
+      }
+    }
+
+    // Header Menu Area
+    .header-menu-area {
+      .logo {
+        &:before {
+          border-radius: 0;
+          transform: skewX(-20deg);
+          bottom: 0;
+          height: 190px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+.service-details-area {
+    padding: 140px 0;
+    .sidebar {
+        .categories-wrapper {
+            background-color: $white;
+            box-shadow: 0px 4px 60px 0px rgba(209, 209, 209, 0.25);
+            margin-bottom: 60px;
+            border-radius: 20px;
+            overflow: hidden;
+            .title {
+                padding: 18px 30px;
+                background-color: $primary-color;
+                h4 {
+                    color: $white;
+                }
+            }
+            .content-wrapper {
+                padding: 24px 50px 65px 34px;
+                .desc {
+                    margin-bottom: 21px;
+                }
+                .categories-list {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    .list {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .text {
+                            color: $black;
+                            @include transition;
+                            margin-left: 0;
+                            margin-bottom: 0;
+                        }
+                        i {
+                            color: $primary-color;
+                        }
+                        &:hover {
+                            .text {
+                                margin-left: 20px;
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .consultation-form {
+            border-radius: 20px;
+            @media only screen and (min-width: 0) and (max-width: 991px){
+                border-radius: 20px 20px 0px 0px;
+            }
+            .input-box{
+                input{
+                    padding: 8px 12px 8px 12px; 
+                }
+                i{
+                    right: 12px;
+                    top: 12px;
+                    font-size: 20px;
+                }
+            }
+            .base-area{
+                p{
+                    @media only screen and (min-width: 992px) and (max-width: 1399px){
+                        font-size: 22px;
+                    br{
+                            display: none;
+                        }
+                    }
+                }
+                .appointment-form{
+                    .form-box{
+                        margin-left: 12px;
+                        margin-right: 12px;
+                    }
+                } 
+            }
+        }
+    }
+    &.appointment-area {
+        .title-border1 {
+            margin: 0 35px 4px 35px;
+        }
+        .title-border2 {
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+    }
+    .content-wrapper {
+        .single-item {
+            .title {
+                margin-top: 48px;
+            }
+            .text {
+                margin-top: 27px;
+                margin-bottom: 0;
+            }
+            .image {
+                img {
+                    border-radius: 20px;
+                }
+            }
+            .list-wrapper {
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+
+                .list {
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    font-weight: 600;
+                    font-size: 18px;
+                    i {
+                        color: $primary-color;
+                        font-size: 30px;
+                        padding: 10px 0;
+                    }
+                    p{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.why-choose-us-area {
+    &.style-2 {
+        padding: 140px 0;
+        @include sm {
+            padding: 70px 0;
+        }
+        @include lg {
+            padding: 100px 0;
+        }
+        @include xl {
+            padding: 120px 0;
+        }
+        .treatment-card-wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            border-right: 1px solid #dfdfdf;
+            border-bottom: 1px solid #dfdfdf;
+            @include sm {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            @include md {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @include lg {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @include xl {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .single-choose-card {
+                border-top: 1px solid #dfdfdf;
+                border-left: 1px solid #dfdfdf;
+                border-bottom: 1px solid transparent;
+                border-right: 1px solid transparent;
+                position: relative;
+                &:hover {
+                    border-color: #dfdfdf;
+                }
+            }
+        }
+    }
+}
+.treatment-service-area {
+    padding: 140px 0;
+    .border-wrapper {
+        border-radius: 20px;
+        padding-bottom: 40px;
+        margin-top: 0;
+        .service-card-wrapper {
+            background: $secondary-color;
+            .service-slider-wrapper {
+                padding: 40px 42px 40px 41px;
+                @include sm {
+                    padding: 20px;
+                    padding-bottom: 0;
+                }
+            }
+            .service-single-item {
+                .content {
+                    padding-bottom: 25px;
+                }
+            }
+        }
+    }
+    @include sm {
+        padding: 70px 0;
+    }
+    @include md {
+        padding: 100px 0;
+    }
+    @include lg {
+        padding: 120px 0;
+    }
+}

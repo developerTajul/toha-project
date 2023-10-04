@@ -1,0 +1,121 @@
+.page-breadcrumb-area {
+  padding-top: 127px;
+  padding-bottom: 194px;
+  margin: 30px 40px 0 40px;
+  position: relative;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+
+  @media only screen and (min-width: 768px) and (max-width: 1399px)  {
+    padding: 100px 24px;
+  }
+  @include sm {
+    padding: 80px 12px;
+    margin: 20px 0 0 0;
+    border-radius: 0;
+  }
+}
+.page-overlay {
+  background: rgb(247, 247, 245);
+  background: linear-gradient(90deg, rgba(247, 247, 245, 1) 0%, rgba(247, 247, 245, 0.7679446778711485) 100%);
+  opacity: 0.6;
+  height: 100%;
+  left: 0;
+  // position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.page-heading {
+  h3,
+  .page-title {
+    font-family: $heading-font;
+    font-size: 70px;
+    text-align: start;
+    color: $black;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    line-height: 90px;
+    font-weight: 700;
+    @include sm {
+      font-size: 38px;
+      line-height: 52px;
+    }
+    @include md {
+      font-size: 60px;
+      line-height: 72px;
+    }
+  }
+}
+.breadcrumb-wrapper {
+  // padding: 0 100px;
+
+  @include rmaxwd(1199) {
+    padding: 0;
+  }
+}
+.breadcrumb-list {
+  ul {
+    margin-bottom: 0;
+    padding-left: 0;
+    display: inline-flex;
+    gap: 0 9px;
+    li {
+      list-style: none;
+      display: inline-flex;
+      gap: 0 16px;
+      align-items: center;
+      color: $white;
+      &.active {
+        color: $primary-color;
+
+        a {
+          color: $text-color;
+        }
+      }
+      a {
+        font-family: $heading-font;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 34px;
+        text-align: center;
+        color: $black;
+        text-transform: capitalize;
+        margin-bottom: 0;
+        @include transition;
+
+        &:hover {
+          @include transition;
+          color: $black;
+        }
+        @include sm {
+          font-size: 18px;
+        }
+        @include md {
+          font-size: 20px;
+        }
+      }
+
+      &:before {
+        content: "\f054";
+        font-size: 12px;
+        color: $black;
+        font-family: $font-awesome;
+        display: inline-flex;
+      }
+
+      &:first-child {
+        &:before {
+          color: transparent;
+          display: none;
+        }
+      }
+    }
+  }
+}

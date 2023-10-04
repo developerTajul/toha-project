@@ -1,0 +1,130 @@
+// Contact-info-area
+.contact-info-area {
+    padding-top: 140px;
+    padding-bottom: 60px;
+
+    @include sm {
+        padding-top: 70px;
+    }
+    @include lg {
+        padding-top: 100px;
+    }
+    @include xl {
+        padding-top: 120px;
+    }
+    .contact-info-card {
+        background-color: $gray-100;
+        padding-top: 40px;
+        padding-bottom: 72px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        position: relative;
+        &:after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-image: url("../images/shapes/testimonial-shape.svg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: $primary-color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i {
+                color: $white;
+                font-size: 40px;
+                line-height: 40px;
+            }
+        }
+        .content-wrapper {
+            text-align: center;
+            display: inline-flex;
+            flex-direction: column;
+            gap: 10px;
+            .title {
+                font-weight: 500;
+                line-height: 30px;
+            }
+            .desc {
+                font-weight: 400;
+                line-height: 31px;
+                color: $text-color;
+                z-index: 10;
+                &.address {
+                    font-size: 12px;
+                    line-height: 20px;
+                    margin-top: 4px;
+                }
+            }
+        }
+        &.address-card {
+            padding-bottom: 60px;
+        }
+    }
+}
+// contact-form-area
+.contact-form-area {
+    padding-bottom: 129px;
+    @include sm {
+        padding-bottom: 60px;
+    }
+    @include lg {
+        padding-bottom: 90px;
+    }
+    @include xl {
+        padding-bottom: 120px;
+    }
+    .comment-form {
+        margin-top: 0;
+    }
+    .comment-title-section {
+        .desc {
+            margin-top: 17px;
+            margin-bottom: 43px;
+            letter-spacing: -0.5px;
+        }
+    }
+    .comment-respond{
+        input,
+        textarea{
+            background-color: transparent;
+            border-bottom: 1px solid $secondary-color;
+            border-radius: unset;
+        }
+        input{
+            height: 37px;
+        }
+        .theme-btn{
+            background-color: $primary-color;
+        }
+    }
+}
+
+// Map Widget
+.map-widget {
+    height: 100%;
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+    &.style-1 {
+        height: 500px;
+    }
+    &.style-2 {
+        iframe {
+            border-radius: 20px;
+        }
+    }
+}

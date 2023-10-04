@@ -1,0 +1,44 @@
+.about-us-area {
+    &.style-3 {
+        padding-top: 224px;
+        padding-bottom: 140px;
+        @include sm {
+            padding-bottom: 70px;
+            padding-top: 180px;
+        }
+        @include lg {
+            padding-bottom: 100px;
+            padding-top: 200px;
+        }
+        @include xl {
+            padding-bottom: 120px;
+            padding-top: 220px;
+        }
+    }
+}
+
+.about-service-area{
+    .service-area-slider{
+        &.style-1{
+            .border-wrapper{
+                position: relative;
+                &:after{
+                    background-color: #fff;
+                    height: 80px;
+                    content: "";
+                    position: absolute;
+                    bottom: -80px;
+                    left: -80px;
+                    right: -80px;
+                    @include sm{
+                        right: 0;
+                    }
+                    @media only screen and (min-width: 767px) and (max-width: 1399px){
+                        right: -30px;
+                    }
+                }
+            }
+        }
+    }
+
+}

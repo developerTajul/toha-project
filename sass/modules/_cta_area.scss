@@ -1,0 +1,132 @@
+.cta-area {
+    padding-bottom: 80px;
+    @include sm {
+        height: 450px;
+    }
+    .book-appointment-area {
+        margin-top: 36px;
+        padding: 194px 0 1px 0px;
+        @include md {
+            padding: 100px 0 1px 0px;
+        }
+
+        .book-appointment-time-desc {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            @include md {
+                display: flex;
+                margin-top: 35px;
+            }
+            @include sm {
+                gap: 20px !important;
+            }
+            .time-icon {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                padding: 24px;
+                border-radius: 94px;
+                background: rgba(255, 255, 255, 0.12);
+                i {
+                    font-size: 60px;
+                    color: $white;
+                }
+                @include sm {
+                    i {
+                        font-size: 30px;
+                        color: $white;
+                    }
+                }
+                @include md {
+                    i {
+                        font-size: 40px;
+                        color: $white;
+                    }
+                }
+            }
+            .title-desc {
+                display: flex;
+                justify-content: center;
+                @include md {
+                    justify-content: start;
+                }
+                p {
+                    color: $white;
+                    font-family: $heading-font;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 50px;
+                    margin-bottom: 0;
+
+                    @include sm {
+                        line-height: 34px;
+                    }
+                    @include lg{
+                        br{
+                            display: none;
+                        }
+                    }
+                }
+                @include sm {
+                    p {
+                        font-size: 28px;
+                    }
+                }
+                @include md {
+                    p {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+        .book-appointment-btn {
+            display: flex;
+            justify-content: end;
+            .appointment-btn {
+                background: $black;
+                padding: 15px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 6px;
+                color: $white;
+                font-family: $body-font;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 29px;
+                border-radius: 5px;
+                @include transition;
+                &:hover {
+                    background: $white;
+                    color: $primary-color;
+                }
+            }
+            @include md {
+                justify-content: start;
+                margin-top: 10px;
+            }
+            @include sm {
+                justify-content: start;
+                margin-top: 10px;
+            }
+            a {
+                color: $white;
+            }
+            .ApoitBtn {
+                background-color: $black;
+                display: inline-flex;
+                padding: 15px 20px;
+                border-radius: 5px;
+                justify-content: center;
+                align-items: center;
+                gap: 6px;
+                i {
+                    color: $white;
+                }
+            }
+        }
+    }
+}

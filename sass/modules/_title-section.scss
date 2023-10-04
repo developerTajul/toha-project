@@ -1,0 +1,94 @@
+.section-title {
+  display: flex;
+  gap: 22px;
+  flex-direction: column;
+  z-index: 2;
+  position: relative;
+
+  &.mb-70,
+  &.mb-75 {
+    @include rmaxwd(767) {
+      margin-bottom: 50px;
+    }
+  }
+  .short-title {
+    .tag   {
+      display: inline-flex;
+      align-items: center;
+      flex-shrink: 0;
+      gap: 10px;
+      padding: 4px 12px;
+      box-shadow: 0px 4px 40px 0px rgba(166, 166, 166, 0.25);
+      border-radius: 5px;
+      background-color: $white;
+      i {
+        color: $primary-color;
+        font-size: 18px;
+        line-height: 31px;
+      }
+      p {
+        font-weight: 600;
+        color: $text-color;
+        margin-bottom: 0;
+      }
+
+      @include sm {
+        font-size: 20px;
+      }
+    }
+  }
+  .title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    font-family: $heading-font;
+    color: $black;
+    margin-bottom: 0;
+    @include md {
+      br {
+        // display: none;
+      }
+    }
+    @include md {
+      font-size: 38px;
+      line-height: 48px;
+    }
+    @include sm {
+      font-size: 32px;
+      line-height: 42px;
+    }
+    @media only screen and (min-width: 0px) and (max-width: 439px) {
+      br {
+        display: none;
+      }
+    }
+    span {
+      color: $primary-color;
+      display: inline-block;
+    }
+  }
+  .desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    font-family: $body-font;
+    color: $text-color;
+    margin-bottom: 0;
+  }
+  .text {
+    margin-bottom: 0;
+  }
+  .divider {
+    width: 72px;
+    height: 6px;
+    background-color: $primary-color;
+    margin-top: 16px;
+  }
+}
+.section-desc{
+  margin-bottom: 0;
+  p{
+    margin-bottom: 0;
+  }
+}

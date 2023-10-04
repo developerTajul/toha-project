@@ -1,0 +1,318 @@
+.slider-area {
+  &.style-2 {
+    .single-slider {
+      .single-slider-inner {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        @include sm {
+          flex-direction: row;
+          height: 650px;
+        }
+        @include rmaxwd(1399) {
+          flex-direction: row;
+          height: 600px;
+        }
+        @include rwd(1400){
+          flex-direction: row;
+          height: 811px;
+        }
+      }
+      &.slick-active{
+        .slider-text-container{
+          .hero-title{
+            .slider-title, .tag, .slider-short-desc{
+              -webkit-animation-name: MovefadeUp;
+              animation-name: MovefadeUp;
+              -webkit-animation-fill-mode: both;
+            }
+            .slider-title{
+              -webkit-animation-delay: 0.3s;
+              animation-delay: 0.3s;
+              -webkit-animation-duration: 0.3s;
+              animation-duration: 0.3s;
+            }
+            .tag{
+              -webkit-animation-delay: 0.5s;
+              animation-delay: 0.5s;
+              -webkit-animation-duration: 0.5s;
+              animation-duration: 0.5s;
+            }
+            .slider-short-desc{
+              -webkit-animation-delay: 0.7s;
+              animation-delay: 0.7s;
+              -webkit-animation-duration: 0.7s;
+              animation-duration: 0.7s;
+            }
+          }
+        }
+      }
+          // Active Slider Animate
+    .slick-active .slider-short-title,
+    .slick-active .slider-title,
+    .slick-active .slider-short-desc,
+    .slick-active .slider-btn-wrapper {
+      -webkit-animation-name: MovefadeUp;
+      animation-name: MovefadeUp;
+      -webkit-animation-fill-mode: both;
+    }
+
+
+    .slick-active .slider-short-title {
+      -webkit-animation-delay: 0.3s;
+      animation-delay: 0.3s;
+      -webkit-animation-duration: 0.3s;
+      animation-duration: 0.3s;
+    }
+    .slick-active .slider-title {
+      -webkit-animation-delay: 0.5s;
+      animation-delay: 0.5s;
+      -webkit-animation-duration: 0.5s;
+      animation-duration: 0.5s;
+    }
+
+    .slick-active .slider-short-desc {
+      -webkit-animation-delay: 0.7s;
+      animation-delay: 0.7s;
+      -webkit-animation-duration: 0.7s;
+      animation-duration: 0.7s;
+    }
+
+    .slick-active .slider-btn-wrapper {
+      -webkit-animation-delay: 0.9s;
+      animation-delay: 0.9s;
+      -webkit-animation-duration: 0.9s;
+      animation-duration: 0.9s;
+    }
+
+      .hero-title {
+        z-index: 5;
+        position: relative;
+        margin-left: 9px;
+        .slider-title {
+          padding-top: 15px;
+          color: $white;
+          font-family: $heading-font;
+          font-size: 70px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 60px;
+          @include transition;
+          @include sm {
+            font-size: 38px;
+            line-height: 20px;
+            span {
+              font-size: 26px;
+            }
+          }
+        }
+        .tag {
+          color: $white;
+          font-family: $heading-font;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 60px;
+          @include rmaxwd(1199) {
+            font-size: 39px;
+          }
+        }
+        .slider-short-desc {
+          padding-top: 18px;
+          color: $white;
+          font-family: $body-font;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 29px;
+          margin-bottom: 0;
+        }
+        .slider-btn-wrapper {
+          margin-top: 27px;
+          .theme-btn {
+            background: $black;
+            &:hover {
+              background: $white;
+              color: $black;
+            }
+          }
+        }
+      }
+      .slider-image {
+        width: 100%;
+        order: 1;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+        animation: unset;
+        top: unset;
+        right: unset;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        @include rwd(1200) {
+          width: 50%;
+          order: 2;
+        }
+      }
+      .slider-text-wrapper {
+        width: 100%;
+        height: 100%;
+        padding-top: 176px;
+        padding-bottom: 190px;
+        background: $primary-color;
+        order: 2;
+        display: none;
+        position: relative;
+
+        @media screen and (min-width: "1200px") {
+          width: 50%;
+          order: 1;
+          display: block;
+        }
+      }
+      .slider-text-container {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        &:after {
+          content: "";
+          background: $black;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0.7;
+          @media screen and (min-width: "1200px") {
+            display: none;
+          }
+        }
+        .slider-top-icon-frame {
+          position: absolute;
+          z-index: 20;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: $black;
+          width: 84px;
+          height: 84px;
+          border-radius: 100px;
+          top: unset;
+          i {
+            color: $white;
+            font-size: 24px;
+          }
+          @include rwd(1200) {
+            right: 50%;
+            bottom: 50%;
+            transform: translate(50%, 50%);
+            display: flex;
+          }
+          @include rmaxwd(1199) {
+            display: none;
+          }
+        }
+      }
+    }
+    button.post-gallery-btn {
+      position: relative;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      transition: 0.3s;
+      z-index: 99;
+      background-color: rgba(255, 255, 255, 0.2);
+      cursor: pointer;
+      top: 90%;
+      bottom: 70%;
+      transform: translateY(-50%);
+      overflow: hidden;
+      display: none !important;
+      i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $white;
+        font-size: 17px;
+        @include transition;
+      }
+      &:hover {
+        @include transition;
+
+        i {
+          color: $white;
+          @include transition;
+        }
+      }
+      @media screen and (min-width: "767px") {
+        top: 50%;
+        bottom: 50%;
+        display: block !important;
+      }
+    }
+    .top-shape {
+      position: absolute;
+      top: 30px;
+      right: 51.2%;
+      img {
+        width: 280px;
+        height: 246px;
+      }
+      @include md {
+        right: 0%;
+        z-index: 10;
+      }
+    }
+    .bottom-shape {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      img {
+        width: 269px;
+        height: 325px;
+      }
+      @include md {
+        z-index: 10;
+      }
+    }
+    .slider-arrow-btn {
+      position: relative;
+      bottom: 0;
+      right: 0;
+      margin-bottom: 30px;
+      z-index: 20;
+      margin-right: 30px;
+      &.prev-btn {
+        position: absolute;
+        margin-right: 100px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background: $white;
+        i {
+          color: $black-300;
+        }
+      }
+      &.next-btn {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background: $primary-color;
+        i {
+          color: $white;
+        }
+      }
+    }
+  }
+}

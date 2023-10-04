@@ -1,0 +1,38 @@
+.blog-post-area {
+    &.style-1 {
+        padding: 140px 0 140px 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        @include rmaxwd(991) {
+            padding: 80px 0;
+        }
+        @include lg {
+            padding: 100px 0;
+        }
+        .sidebar {
+            padding: 20px;
+            background-color: $white;
+            box-shadow: 0px 4px 60px 0px rgba(220, 220, 220, 0.25);
+            border-radius: 20px;
+            @include rmaxwd(767) {
+                padding: 16px;
+            }
+            .sidebar-btn {
+                margin-top: 20px;
+                a {
+                    border-radius: 5px;
+                    padding: 15px 20px;
+                    display: flex;
+                    background-color: $primary-color;
+                    align-items: center;
+                    justify-content: center;
+                    color: $white;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 29px;
+                }
+            }
+        }
+    }
+}

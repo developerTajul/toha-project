@@ -1,0 +1,168 @@
+// Feature-area
+.feature-area {
+    &.style-1 {
+        padding-top: 55px;
+        @include sm {
+            padding-top: 80px;
+        }
+        @include md {
+            padding-top: 55px;
+        }
+        @include lg {
+            padding-top: 65px;
+        }
+    }
+}
+
+// about-us-area
+.about-us-area {
+    &.style-1 {
+        padding-top: 173px;
+        padding-bottom: 140px;
+        @include sm {
+            padding-top: 130px;
+            padding-bottom: 70px;
+        }
+        @include md {
+            padding-top: 150px;
+            padding-bottom: 100px;
+        }
+        @include lg {
+            padding-top: 170px;
+            padding-bottom: 120px;
+        }
+    }
+}
+
+// Service Area
+.service-area-slider {
+    padding: 140px 0px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @include sm {
+        padding-top: 70px;
+    }
+    @include md {
+        padding-top: 100px;
+    }
+    @include lg {
+        padding-top: 120px;
+    }
+    .border-wrapper {
+        margin-top: 50px;
+    }
+    .service-slider-wrapper {
+        @include sm {
+            padding: 20px 0 20px 0;
+        }
+    }
+    .service-single-item {
+        .content {
+            @include sm {
+                padding: 0;
+            }
+        }
+    }
+}
+
+// Team Area
+.team-area {
+    &.style-1 {
+        padding: 140px 0;
+        @include sm {
+            padding: 70px 0;
+        }
+        @include md {
+            padding: 100px 0;
+        }
+        @include lg {
+            padding: 120px 0;
+        }
+    }
+}
+.why-choose-us-area {
+    &.style-1 {
+        padding-top: 140px;
+        @include sm {
+            padding-top: 70px;
+        }
+        @include md {
+            padding-top: 100px;
+        }
+        @include lg {
+            padding-top: 120px;
+        }
+        .section-title{
+            .title{
+                @include rwd(1400){
+                    padding-right: 50px;
+                }
+                br{
+                    @include lg{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+.testimonial-area-wrapper {
+    .testimonial-area {
+        &.style-1 {
+            padding: 140px 0;
+            .section-desc {
+                padding-bottom: 10px;
+            }
+            .testimonial-card-wrapper{
+                .slick-list{
+                    .slick-slide{
+                        margin: 0 12px;
+                        @include transition;
+                    }
+                }
+                .testimonial-arrow-btn.prev-btn.slick-arrow {
+                    width: 50px;
+                    height: 50px;
+                    flex-shrink: 0;
+                    position: absolute;
+                    background: $white;
+                    border-radius: 50%;
+                    top: 50%;
+                    left: 0;
+                    transform: translate(-140%, -22%);
+                    bottom: 0;
+                    color: $black;
+                    box-shadow: 0px 4px 50px rgba(151, 151, 151, 0.25);
+                    z-index: 99;
+                    @include md {
+                        transform: translate(-100%, -22%);
+                    }
+                    @include rmaxwd(1440) {
+                        transform: translate(-50%, -22%);
+                    }
+                }
+                .testimonial-arrow-btn.next-btn.slick-arrow {
+                    width: 50px;
+                    height: 50px;
+                    position: absolute;
+                    flex-shrink: 0;
+                    right: 0;
+                    top: 50%;
+                    transform: translate(135%, -25%);
+                    border-radius: 50%;
+                    box-shadow: 0px 4px 50px rgba(151, 151, 151, 0.25);
+                    background: $primary-color;
+                    color: #ffff;
+                    @include md {
+                        transform: translate(100%, -25%);
+                    }
+                    @include rmaxwd(1440) {
+                        transform: translate(50%, -25%);
+                    }
+
+                }
+            }
+        }
+    }
+}
