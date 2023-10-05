@@ -7861,7 +7861,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 50%;
+  width: 100%;
   top: 0;
   bottom: 0;
   left: 0;
@@ -7870,39 +7870,24 @@ body.admin-bar .header-menu-area.sticky_menu {
   overflow: hidden;
   height: 100%;
 }
-.team-area .shape-2 {
-  position: absolute;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 50%;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  margin-top: 268px;
-  margin-bottom: 140px;
-  z-index: -2;
-  height: 100%;
-  overflow: hidden;
-}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .team-area .section-title {
     padding: 10px;
   }
 }
-.team-area .card-wrapper {
+
+.card-wrapper {
   background: #ffffff;
   border-radius: 20px;
   box-shadow: 0px 4px 60px 0px rgba(220, 220, 220, 0.25);
   overflow: hidden;
 }
-.team-area .card-wrapper .single-card-inner {
+.card-wrapper .single-card-inner {
   padding: 30px;
-  padding-bottom: 0px;
   flex-shrink: 0;
   transition: all 0.5s ease-out;
 }
-.team-area .card-wrapper .single-card-inner .designation {
+.card-wrapper .single-card-inner .designation {
   display: inline-flex;
   padding: 5px 12px;
   justify-content: center;
@@ -7918,16 +7903,16 @@ body.admin-bar .header-menu-area.sticky_menu {
   line-height: 29px;
   margin-bottom: 14px;
 }
-.team-area .card-wrapper .single-card-inner .designation i.icon-Frame {
+.card-wrapper .single-card-inner .designation i.icon-Frame {
   color: #f17732;
 }
-.team-area .card-wrapper .single-card-inner .content h4 {
+.card-wrapper .single-card-inner .content h4 {
   font-family: "Jost", sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 34px;
 }
-.team-area .card-wrapper .single-card-inner .content .degree {
+.card-wrapper .single-card-inner .content .degree {
   margin-top: 5px;
   color: #666;
   font-family: "Poppins", sans-serif;
@@ -7936,7 +7921,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   line-height: 29px;
   margin-bottom: 0;
 }
-.team-area .card-wrapper .single-card-inner .content .location {
+.card-wrapper .single-card-inner .content .location {
   display: flex;
   gap: 15px;
   margin-top: 19px;
@@ -7944,17 +7929,17 @@ body.admin-bar .header-menu-area.sticky_menu {
   flex-shrink: 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .team-area .card-wrapper .single-card-inner .content .location {
+  .card-wrapper .single-card-inner .content .location {
     width: 100%;
     justify-content: start;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .team-area .card-wrapper .single-card-inner .content .location {
+  .card-wrapper .single-card-inner .content .location {
     justify-content: start;
   }
 }
-.team-area .card-wrapper .single-card-inner .content .location p {
+.card-wrapper .single-card-inner .content .location p {
   color: #666;
   font-size: 14px;
   font-weight: 400;
@@ -7962,16 +7947,16 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Poppins", sans-serif;
   margin-bottom: 0;
 }
-.team-area .card-wrapper .single-card-inner .content .location i.icon-pin-2 {
+.card-wrapper .single-card-inner .content .location i.icon-pin-2 {
   padding-top: 4px;
   font-size: 25px;
 }
-.team-area .card-wrapper .single-card-inner .middle-img-wrapper {
+.card-wrapper .single-card-inner .middle-img-wrapper {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
 }
-.team-area .card-wrapper .single-card-inner .middle-img-wrapper .icon-list {
+.card-wrapper .single-card-inner .middle-img-wrapper .icon-list {
   visibility: hidden;
   margin-top: 10px;
   background-color: #f17732;
@@ -7990,39 +7975,38 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding-left: 12px;
   transition: all 0.5s ease-out;
 }
-.team-area .card-wrapper .single-card-inner .middle-img-wrapper .icon-list li {
+.card-wrapper .single-card-inner .middle-img-wrapper .icon-list li {
   padding: 5.8px;
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.team-area .card-wrapper .single-card-inner .middle-img-wrapper .icon-list li i {
+.card-wrapper .single-card-inner .middle-img-wrapper .icon-list li i {
   color: #ffffff;
   font-size: 12px;
 }
-.team-area .card-wrapper .single-card-inner .team-img-wrapper img {
+.card-wrapper .single-card-inner .team-img-wrapper img {
   width: 100%;
   transform: scale(1);
   transition: all 0.5s ease-out;
 }
-.team-area .card-wrapper .single-card-inner:hover .icon-list {
+.card-wrapper .single-card-inner:hover .icon-list {
   visibility: visible;
   left: 0;
 }
-.team-area .card-wrapper .single-card-inner:hover .icon-list::after {
+.card-wrapper .single-card-inner:hover .icon-list::after {
   visibility: hidden;
 }
-.team-area .card-wrapper .single-card-inner:hover .team-img-wrapper img {
+.card-wrapper .single-card-inner:hover .team-img-wrapper img {
   transform: scale(1.03);
 }
-.team-area .card-bottom {
-  margin-top: 28px;
+.card-wrapper .card-bottom {
   border-top: 1px solid lightgrey;
   display: flex;
   align-items: center;
 }
-.team-area .card-btn {
+.card-wrapper .card-btn {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -8037,24 +8021,24 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding-left: 36px;
 }
 @media (max-width: 1199px) {
-  .team-area .card-btn {
+  .card-wrapper .card-btn {
     padding-left: 22px;
   }
 }
-.team-area .card-btn:last-child {
+.card-wrapper .card-btn:last-child {
   border-left: 1px solid #dfdfdf;
 }
-.team-area .card-btn i {
+.card-wrapper .card-btn i {
   color: #f17732;
   font-size: 20px;
   line-height: 20px;
   transition: all 0.5s ease-out;
 }
-.team-area .card-btn:hover {
+.card-wrapper .card-btn:hover {
   background-color: #f17732;
   color: #ffffff;
 }
-.team-area .card-btn:hover i {
+.card-wrapper .card-btn:hover i {
   transition: all 0.5s ease-out;
   color: #ffffff;
 }
