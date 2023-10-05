@@ -36,19 +36,9 @@
 
 // Service Area
 .service-area-slider {
-    padding: 140px 0px 0px 0px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    @include sm {
-        padding-top: 70px;
-    }
-    @include md {
-        padding-top: 100px;
-    }
-    @include lg {
-        padding-top: 120px;
-    }
     .border-wrapper {
         margin-top: 50px;
     }
