@@ -640,7 +640,7 @@
             fixedContentPos: false,
         });
 
-        $(".img-content-wrapper").magnificPopup({
+        $(".image-card").magnificPopup({
             disableOn: 700,
             delegate: 'a',
             type: "image",
