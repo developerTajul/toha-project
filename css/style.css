@@ -5702,7 +5702,8 @@ body.admin-bar .header-menu-area.sticky_menu {
     bottom: 0;
   }
 }
-.counter-area .book-appointment-area {
+
+.book-appointment-area {
   position: relative;
   z-index: 20;
   margin-top: 82px;
@@ -5711,7 +5712,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 74px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-area .book-appointment-area {
+  .book-appointment-area {
     margin-top: 20px;
     display: grid;
     grid-template-columns: auto;
@@ -5721,7 +5722,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .counter-area .book-appointment-area {
+  .book-appointment-area {
     margin-top: 20px;
     display: grid;
     grid-template-columns: auto;
@@ -5731,7 +5732,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-area .book-appointment-area {
+  .book-appointment-area {
     margin-top: 20px;
     display: grid;
     grid-template-columns: auto;
@@ -5740,13 +5741,13 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding: 0px 10px;
   }
 }
-.counter-area .book-appointment-area .book-appointment-time-desc {
+.book-appointment-area .book-appointment-time-desc {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
 }
-.counter-area .book-appointment-area .book-appointment-time-desc .time-icon {
+.book-appointment-area .book-appointment-time-desc .time-icon {
   flex-shrink: 0;
   height: 110px;
   width: 110px;
@@ -5756,42 +5757,42 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 100px;
   background: rgba(255, 255, 255, 0.12);
 }
-.counter-area .book-appointment-area .book-appointment-time-desc .time-icon i {
+.book-appointment-area .book-appointment-time-desc .time-icon i {
   font-size: 60px;
   color: #ffffff;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-area .book-appointment-area .book-appointment-time-desc .time-icon {
+  .book-appointment-area .book-appointment-time-desc .time-icon {
     height: 84px;
     width: 84px;
   }
-  .counter-area .book-appointment-area .book-appointment-time-desc .time-icon i {
+  .book-appointment-area .book-appointment-time-desc .time-icon i {
     font-size: 32px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .counter-area .book-appointment-area .book-appointment-time-desc .time-icon {
+  .book-appointment-area .book-appointment-time-desc .time-icon {
     height: 84px;
     width: 84px;
   }
-  .counter-area .book-appointment-area .book-appointment-time-desc .time-icon i {
+  .book-appointment-area .book-appointment-time-desc .time-icon i {
     font-size: 32px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-area .book-appointment-area .book-appointment-time-desc .time-icon {
+  .book-appointment-area .book-appointment-time-desc .time-icon {
     height: 84px;
     width: 84px;
   }
-  .counter-area .book-appointment-area .book-appointment-time-desc .time-icon i {
+  .book-appointment-area .book-appointment-time-desc .time-icon i {
     font-size: 32px;
   }
 }
-.counter-area .book-appointment-area .book-appointment-time-desc .title-desc {
+.book-appointment-area .book-appointment-time-desc .title-desc {
   max-width: 606px;
   width: 100%;
 }
-.counter-area .book-appointment-area .book-appointment-time-desc .title-desc p {
+.book-appointment-area .book-appointment-time-desc .title-desc p {
   color: #ffffff;
   font-family: "Jost", sans-serif;
   font-size: 40px;
@@ -5800,20 +5801,20 @@ body.admin-bar .header-menu-area.sticky_menu {
   line-height: 50px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-area .book-appointment-area .book-appointment-time-desc {
+  .book-appointment-area .book-appointment-time-desc {
     flex-direction: column;
     justify-content: left;
     align-items: start;
     row-gap: 10px;
   }
 }
-.counter-area .book-appointment-area .book-appointment-btn {
+.book-appointment-area .book-appointment-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 60px;
 }
-.counter-area .book-appointment-area .book-appointment-btn .appointment-btn {
+.book-appointment-area .book-appointment-btn .appointment-btn {
   background: #111821;
   padding: 15px 20px;
   display: flex;
@@ -5829,36 +5830,46 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 5px;
   transition: all 0.5s ease-out;
 }
-.counter-area .book-appointment-area .book-appointment-btn .appointment-btn:hover {
+.book-appointment-area .book-appointment-btn .appointment-btn:hover {
   background: #ffffff;
   color: #f17732;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-area .book-appointment-area .book-appointment-btn {
+  .book-appointment-area .book-appointment-btn {
     justify-content: start;
     align-items: start;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .counter-area .book-appointment-area .book-appointment-btn {
+  .book-appointment-area .book-appointment-btn {
     justify-content: start;
     align-items: start;
     margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-area .book-appointment-area .book-appointment-btn {
+  .book-appointment-area .book-appointment-btn {
     justify-content: start;
     align-items: start;
     margin-bottom: 20px;
   }
 }
 
-.fun-fact-content {
+.fun-fact-area {
   position: relative;
+  top: 0;
+  height: auto;
+  background: rgba(17, 24, 33, 0.9);
+  border-radius: 0px 0px 20px 20px;
+  padding: 0px 40px 40px 40px;
   z-index: 20;
 }
-.fun-fact-content .shape-1 {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .fun-fact-area {
+    padding: 0px 20px 20px 20px;
+  }
+}
+.fun-fact-area .shape-1 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -5867,61 +5878,48 @@ body.admin-bar .header-menu-area.sticky_menu {
   transform: translate(50%, 50%);
 }
 @media (max-width: 991px) {
-  .fun-fact-content .shape-1 {
+  .fun-fact-area .shape-1 {
     display: none;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1399px) {
-  .fun-fact-content .shape-1 {
+  .fun-fact-area .shape-1 {
     transform: translate(0, 50%);
   }
 }
-.fun-fact-content .fun-fact-area {
-  position: relative;
-  top: 0;
-  height: auto;
-  background: rgba(17, 24, 33, 0.9);
-  border-radius: 0px 0px 20px 20px;
-  padding: 0px 40px 40px 40px;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .fun-fact-content .fun-fact-area {
-    padding: 0px 20px 20px 20px;
-  }
-}
-.fun-fact-content .fun-fact-area .fun-fact-box {
+.fun-fact-area .fun-fact-box {
   position: relative;
   height: auto;
   border-radius: 0px 0px 20px 20px;
   border: 1px solid #31373f;
   border-top: 1px solid #111821;
 }
-.fun-fact-content .fun-fact-area .fun-fact-box .top-icon {
+.fun-fact-area .fun-fact-box .top-icon {
   position: absolute;
   top: 0;
   left: 0;
 }
-.fun-fact-content .fun-fact-area .fun-fact-box .bottom-icon {
+.fun-fact-area .fun-fact-box .bottom-icon {
   position: absolute;
   right: 0;
   bottom: 0;
   margin-right: 20px;
 }
-.fun-fact-content .fun-fact-area .fun-fact-box .counter-items-box {
+.fun-fact-area .fun-fact-box .counter-items-box {
   padding: 53px 96px 54px 95px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .fun-fact-content .fun-fact-area .fun-fact-box .counter-items-box {
+  .fun-fact-area .fun-fact-box .counter-items-box {
     display: grid;
     grid-template-columns: auto auto;
     grid-row-gap: 30px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .fun-fact-content .fun-fact-area .fun-fact-box .counter-items-box {
+  .fun-fact-area .fun-fact-box .counter-items-box {
     padding: 40px;
     margin: 0px;
     display: flex;
@@ -5930,7 +5928,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .fun-fact-content .fun-fact-area .fun-fact-box .counter-items-box {
+  .fun-fact-area .fun-fact-box .counter-items-box {
     padding: 14px;
     display: flex;
     flex-wrap: wrap;
@@ -5939,23 +5937,19 @@ body.admin-bar .header-menu-area.sticky_menu {
     gap: 20px;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .fun-fact-content .fun-fact-area .fun-fact-box .counter-items-box .single-item {
-    width: 100%;
-  }
-}
-.fun-fact-content .fun-fact-area .fun-fact-box .counter-items-box .single-item .single-item-content {
+
+.counter-card {
   display: flex;
   gap: 17px;
   align-items: center;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .fun-fact-content .fun-fact-area .fun-fact-box .counter-items-box .single-item .single-item-content {
+  .counter-card {
     width: 100%;
     justify-content: space-between;
   }
 }
-.fun-fact-content .fun-fact-area .fun-fact-box .counter-items-box .single-item .single-item-content .icon {
+.counter-card .icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -5963,14 +5957,14 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #ffffff;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .fun-fact-content .fun-fact-area .fun-fact-box .counter-items-box .single-item .single-item-content .content {
+  .counter-card .content {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 }
-.fun-fact-content .fun-fact-area .fun-fact-box .counter-items-box .single-item .single-item-content .content .counter {
+.counter-card .content .counter {
   color: #ffffff;
   font-family: "Jost", sans-serif;
   font-size: 70px;
@@ -5979,11 +5973,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   line-height: 72px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .fun-fact-content .fun-fact-area .fun-fact-box .counter-items-box .single-item .single-item-content .content .counter {
+  .counter-card .content .counter {
     font-size: 58px;
   }
 }
-.fun-fact-content .fun-fact-area .fun-fact-box .counter-items-box .single-item .single-item-content .content .content-title {
+.counter-card .content .content-title {
   flex: 50%;
   color: #f17732;
   font-family: "Poppins", sans-serif;
@@ -5991,7 +5985,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 400;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .fun-fact-content .fun-fact-area .fun-fact-box .counter-items-box .single-item .single-item-content .content .content-title {
+  .counter-card .content .content-title {
     font-size: 14px;
   }
 }
