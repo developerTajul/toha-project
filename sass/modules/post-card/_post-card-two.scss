@@ -16,4 +16,103 @@
             }
         }
     }
+    &.style-3{
+        .content-wrapper{
+            .post-image{
+                position: relative;
+                .icon-list{
+                    visibility: hidden;
+                margin-top: 10px;
+                background-color: #f17732;
+                display: flex;
+                gap: 5px;
+                position: absolute;
+                bottom: 0;
+                margin-bottom: 18px;
+                left: -100%;
+                width: 140px;
+                height: 40px;
+                flex-shrink: 0;
+                align-items: center;
+                border-radius: 0 50px 50px 0;
+                overflow: hidden;
+                padding-left: 12px;
+                @include transition;
+                li {
+                    padding: 5.8px;
+                    list-style: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    i {
+                        color: $white;
+                        font-size: 12px;
+                    }
+                }
+                }
+            }
+        }
+        .post-card-bottom{
+            .card-btn,
+            .read-more,
+            .comment-btn{
+                gap: 10px;
+                background-color: $white;
+                color: $text-color;
+                border-color: #dfdfdf;
+                i {
+                    color: $primary-color;
+                    font-size: 20px;
+                    line-height: 20px;
+                    @include transition;
+                }
+                &:hover {
+                    background-color: $primary-color;
+                    color: $white;
+                    i {
+                        @include transition;
+                        color: $white;
+                    }
+                }
+                &:last-child {
+                    border-left: 1px solid #dfdfdf;
+                }
+            }
+        }
+        .post-content{
+            .title{
+                margin-top: 12px;
+                margin-bottom: 5px;
+            }
+            .sub-title{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 29px;
+                margin-bottom: 0;
+                color: $text-color;
+            }
+            .post-desc{
+                display: inline-flex;
+                align-items: center;
+                gap: 15px;
+                margin-top: 19px;
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+        &:hover{
+            .content-wrapper{
+                .post-image{
+                    .icon-list {
+                        visibility: visible;
+                        left: 0;
+                        // width: 140px;
+                    }
+                }
+            }
+        }
+    }
 }

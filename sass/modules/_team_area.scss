@@ -33,176 +33,176 @@
         }
     }
 }
-.card-wrapper {
-    background: $white;
-    border-radius: 20px;
-    box-shadow: 0px 4px 60px 0px rgba(220, 220, 220, 0.25);
-    overflow: hidden;
-    .single-card-inner {
-        padding: 30px;
-        // padding-bottom: 0px;
-        flex-shrink: 0;
-        @include transition;
-        .designation {
-            display: inline-flex;
-            padding: 5px 12px;
-            justify-content: center;
-            color: $primary-color;
-            border-radius: 5px;
-            background: #fff;
-            box-shadow: 0px 4px 40px 0px rgba(166, 166, 166, 0.25);
-            margin-top: 20px;
-            font-family: $body-font;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: 29px;
-            margin-bottom: 14px;
-            i.icon-Frame {
-                color: $primary-color;
-            }
-        }
-        .content {
-            h4 {
-                font-family: $heading-font;
-                // text-align: start;
-                font-size: 24px;
-                font-weight: 500;
-                line-height: 34px;
-            }
-            .degree {
-                margin-top: 5px;
-                color: #666;
-                font-family: $body-font;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 29px;
-                margin-bottom: 0;
-            }
-            .location {
-                display: flex;
-                gap: 15px;
-                margin-top: 19px;
-                align-items: center;
-                flex-shrink: 0;
-                @include sm {
-                    width: 100%;
-                    justify-content: start;
-                }
-                @include md {
-                    justify-content: start;
-                }
-                p {
-                    color: #666;
-                    font-size: 14px;
-                    font-weight: 400;
-                    line-height: 24px;
-                    font-family: $body-font;
-                    margin-bottom: 0;
-                }
-                i.icon-pin-2 {
-                    padding-top: 4px;
-                    font-size: 25px;
-                }
-            }
-        }
-        .middle-img-wrapper {
-            position: relative;
-            overflow: hidden;
-            border-radius: 10px;
-            .icon-list {
-                visibility: hidden;
-                margin-top: 10px;
-                background-color: #f17732;
-                display: flex;
-                gap: 5px;
-                position: absolute;
-                bottom: 0;
-                margin-bottom: 18px;
-                left: -100%;
-                width: 140px;
-                height: 40px;
-                flex-shrink: 0;
-                align-items: center;
-                border-radius: 0 50px 50px 0;
-                overflow: hidden;
-                padding-left: 12px;
-                @include transition;
-                li {
-                    padding: 5.8px;
-                    list-style: none;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    i {
-                        color: $white;
-                        font-size: 12px;
-                    }
-                }
-            }
-        }
-        .team-img-wrapper {
-            img {
-                width: 100%;
-                transform: scale(1);
-                @include transition;
-            }
-        }
-        &:hover {
-            .icon-list {
-                visibility: visible;
-                left: 0;
-                // width: 140px;
-            }
-            .icon-list::after {
-                visibility: hidden;
-            }
-            .team-img-wrapper {
-                img {
-                    transform: scale(1.03);
-                }
-            }
-        }
-    }
-    .card-bottom {
-        // margin-top: 28px;
-        border-top: 1px solid lightgrey;
-        display: flex;
-        align-items: center;
-    }
-    .card-btn {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        gap: 10px;
-        width: 50%;
-        font-family: $body-font;
-        font-size: 12px;
-        font-weight: 600;
-        line-height: 29px;
-        color: $text-color;
-        padding: 12px;
-        padding-left: 36px;
-        @include rmaxwd(1199) {
-            padding-left: 22px;
-        }
-        &:last-child {
-            border-left: 1px solid #dfdfdf;
-        }
-        i {
-            color: $primary-color;
-            font-size: 20px;
-            line-height: 20px;
-            @include transition;
-        }
-        &:hover {
-            background-color: $primary-color;
-            color: $white;
-            i {
-                @include transition;
-                color: $white;
-            }
-        }
-    }
-}
+// .team-card {
+//     background: $white;
+//     border-radius: 20px;
+//     box-shadow: 0px 4px 60px 0px rgba(220, 220, 220, 0.25);
+//     overflow: hidden;
+//     .content-wrapper {
+//         padding: 30px;
+//         // padding-bottom: 0px;
+//         flex-shrink: 0;
+//         @include transition;
+//         .designation {
+//             display: inline-flex;
+//             padding: 5px 12px;
+//             justify-content: center;
+//             color: $primary-color;
+//             border-radius: 5px;
+//             background: #fff;
+//             box-shadow: 0px 4px 40px 0px rgba(166, 166, 166, 0.25);
+//             margin-top: 20px;
+//             font-family: $body-font;
+//             font-size: 14px;
+//             font-style: normal;
+//             font-weight: 600;
+//             line-height: 29px;
+//             margin-bottom: 14px;
+//             i.icon-Frame {
+//                 color: $primary-color;
+//             }
+//         }
+//         .content {
+//             h4 {
+//                 font-family: $heading-font;
+//                 // text-align: start;
+//                 font-size: 24px;
+//                 font-weight: 500;
+//                 line-height: 34px;
+//             }
+//             .degree {
+//                 margin-top: 5px;
+//                 color: #666;
+//                 font-family: $body-font;
+//                 font-size: 16px;
+//                 font-weight: 400;
+//                 line-height: 29px;
+//                 margin-bottom: 0;
+//             }
+//             .location {
+//                 display: flex;
+//                 gap: 15px;
+//                 margin-top: 19px;
+//                 align-items: center;
+//                 flex-shrink: 0;
+//                 @include sm {
+//                     width: 100%;
+//                     justify-content: start;
+//                 }
+//                 @include md {
+//                     justify-content: start;
+//                 }
+//                 p {
+//                     color: #666;
+//                     font-size: 14px;
+//                     font-weight: 400;
+//                     line-height: 24px;
+//                     font-family: $body-font;
+//                     margin-bottom: 0;
+//                 }
+//                 i.icon-pin-2 {
+//                     padding-top: 4px;
+//                     font-size: 25px;
+//                 }
+//             }
+//         }
+//         .middle-img-wrapper {
+//             position: relative;
+//             overflow: hidden;
+//             border-radius: 10px;
+//             .icon-list {
+//                 visibility: hidden;
+//                 margin-top: 10px;
+//                 background-color: #f17732;
+//                 display: flex;
+//                 gap: 5px;
+//                 position: absolute;
+//                 bottom: 0;
+//                 margin-bottom: 18px;
+//                 left: -100%;
+//                 width: 140px;
+//                 height: 40px;
+//                 flex-shrink: 0;
+//                 align-items: center;
+//                 border-radius: 0 50px 50px 0;
+//                 overflow: hidden;
+//                 padding-left: 12px;
+//                 @include transition;
+//                 li {
+//                     padding: 5.8px;
+//                     list-style: none;
+//                     display: flex;
+//                     justify-content: center;
+//                     align-items: center;
+//                     i {
+//                         color: $white;
+//                         font-size: 12px;
+//                     }
+//                 }
+//             }
+//         }
+//         .team-img-wrapper {
+//             img {
+//                 width: 100%;
+//                 transform: scale(1);
+//                 @include transition;
+//             }
+//         }
+//         &:hover {
+//             .icon-list {
+//                 visibility: visible;
+//                 left: 0;
+//                 // width: 140px;
+//             }
+//             .icon-list::after {
+//                 visibility: hidden;
+//             }
+//             .team-img-wrapper {
+//                 img {
+//                     transform: scale(1.03);
+//                 }
+//             }
+//         }
+//     }
+//     .card-bottom {
+//         // margin-top: 28px;
+//         border-top: 1px solid lightgrey;
+//         display: flex;
+//         align-items: center;
+//     }
+//     .card-btn {
+//         display: flex;
+//         justify-content: start;
+//         align-items: center;
+//         gap: 10px;
+//         width: 50%;
+//         font-family: $body-font;
+//         font-size: 12px;
+//         font-weight: 600;
+//         line-height: 29px;
+//         color: $text-color;
+//         padding: 12px;
+//         padding-left: 36px;
+//         @include rmaxwd(1199) {
+//             padding-left: 22px;
+//         }
+//         &:last-child {
+//             border-left: 1px solid #dfdfdf;
+//         }
+//         i {
+//             color: $primary-color;
+//             font-size: 20px;
+//             line-height: 20px;
+//             @include transition;
+//         }
+//         &:hover {
+//             background-color: $primary-color;
+//             color: $white;
+//             i {
+//                 @include transition;
+//                 color: $white;
+//             }
+//         }
+//     }
+// }
 
