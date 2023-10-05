@@ -66,21 +66,7 @@
     }
 }
 
-// Team Area
-.team-area {
-    &.style-1 {
-        padding: 140px 0;
-        @include sm {
-            padding: 70px 0;
-        }
-        @include md {
-            padding: 100px 0;
-        }
-        @include lg {
-            padding: 120px 0;
-        }
-    }
-}
+
 .why-choose-us-area {
     &.style-1 {
         padding-top: 140px;
@@ -107,61 +93,58 @@
         }
     }
 }
-.testimonial-area-wrapper {
-    .testimonial-area {
-        &.style-1 {
-            padding: 140px 0;
-            .section-desc {
-                padding-bottom: 10px;
+.testimonial-area {
+    &.style-1 {
+        .section-desc {
+            padding-bottom: 10px;
+        }
+        .testimonial-card-wrapper{
+            .slick-list{
+                .slick-slide{
+                    margin: 0 12px;
+                    @include transition;
+                }
             }
-            .testimonial-card-wrapper{
-                .slick-list{
-                    .slick-slide{
-                        margin: 0 12px;
-                        @include transition;
-                    }
+            .testimonial-arrow-btn.prev-btn.slick-arrow {
+                width: 50px;
+                height: 50px;
+                flex-shrink: 0;
+                position: absolute;
+                background: $white;
+                border-radius: 50%;
+                top: 50%;
+                left: 0;
+                transform: translate(-140%, -22%);
+                bottom: 0;
+                color: $black;
+                box-shadow: 0px 4px 50px rgba(151, 151, 151, 0.25);
+                z-index: 99;
+                @include md {
+                    transform: translate(-100%, -22%);
                 }
-                .testimonial-arrow-btn.prev-btn.slick-arrow {
-                    width: 50px;
-                    height: 50px;
-                    flex-shrink: 0;
-                    position: absolute;
-                    background: $white;
-                    border-radius: 50%;
-                    top: 50%;
-                    left: 0;
-                    transform: translate(-140%, -22%);
-                    bottom: 0;
-                    color: $black;
-                    box-shadow: 0px 4px 50px rgba(151, 151, 151, 0.25);
-                    z-index: 99;
-                    @include md {
-                        transform: translate(-100%, -22%);
-                    }
-                    @include rmaxwd(1440) {
-                        transform: translate(-50%, -22%);
-                    }
+                @include rmaxwd(1440) {
+                    transform: translate(-50%, -22%);
                 }
-                .testimonial-arrow-btn.next-btn.slick-arrow {
-                    width: 50px;
-                    height: 50px;
-                    position: absolute;
-                    flex-shrink: 0;
-                    right: 0;
-                    top: 50%;
-                    transform: translate(135%, -25%);
-                    border-radius: 50%;
-                    box-shadow: 0px 4px 50px rgba(151, 151, 151, 0.25);
-                    background: $primary-color;
-                    color: #ffff;
-                    @include md {
-                        transform: translate(100%, -25%);
-                    }
-                    @include rmaxwd(1440) {
-                        transform: translate(50%, -25%);
-                    }
+            }
+            .testimonial-arrow-btn.next-btn.slick-arrow {
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                flex-shrink: 0;
+                right: 0;
+                top: 50%;
+                transform: translate(135%, -25%);
+                border-radius: 50%;
+                box-shadow: 0px 4px 50px rgba(151, 151, 151, 0.25);
+                background: $primary-color;
+                color: #ffff;
+                @include md {
+                    transform: translate(100%, -25%);
+                }
+                @include rmaxwd(1440) {
+                    transform: translate(50%, -25%);
+                }
 
-                }
             }
         }
     }
