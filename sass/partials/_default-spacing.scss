@@ -29,6 +29,23 @@
   }
 }
 
+// padding
+.pt-sm-70{
+  @include sm{
+    padding-top: 70px !important;
+  }
+}
+.pt-md-100{
+  @include md{
+    padding-top: 100px !important;
+  }
+}
+.pt-lg-120{
+  @include lg{
+    padding-top: 120px !important;
+  }
+}
+
 .mt-5 {
   margin-top: 5px;
 }

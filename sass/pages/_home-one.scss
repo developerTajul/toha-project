@@ -69,16 +69,16 @@
 
 .why-choose-us-area {
     &.style-1 {
-        padding-top: 140px;
-        @include sm {
-            padding-top: 70px;
-        }
-        @include md {
-            padding-top: 100px;
-        }
-        @include lg {
-            padding-top: 120px;
-        }
+        // padding-top: 140px;
+        // @include sm {
+        //     padding-top: 70px;
+        // }
+        // @include md {
+        //     padding-top: 100px;
+        // }
+        // @include lg {
+        //     padding-top: 120px;
+        // }
         .section-title{
             .title{
                 @include rwd(1400){
