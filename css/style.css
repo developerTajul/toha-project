@@ -6039,58 +6039,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .eye-care-skill-area {
   position: relative;
-  padding-top: 140px;
-}
-@media (max-width: 991px) {
-  .eye-care-skill-area {
-    padding: 80px 0;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .eye-care-skill-area {
-    padding: 100px 0;
-  }
 }
 .eye-care-skill-area .area-bg {
   position: absolute;
   top: 0;
   left: 0;
-}
-.eye-care-skill-area .image-wrapper {
-  position: relative;
-  display: flex;
-  align-items: end;
-}
-.eye-care-skill-area .image-wrapper img {
-  position: relative;
-  z-index: 5;
-  border-radius: 10px;
-}
-.eye-care-skill-area .image-wrapper .shape-1 {
-  flex-shrink: 0;
-  right: 69px;
-  top: 31px;
-  position: absolute;
-  z-index: 0;
-}
-@media (max-width: 767px) {
-  .eye-care-skill-area .image-wrapper .shape-1 {
-    right: 0;
-    top: 0;
-  }
-}
-.eye-care-skill-area .image-wrapper .child-img {
-  flex-shrink: 0;
-  margin-bottom: 25px;
-  margin-left: -86px;
-  z-index: 10;
-  position: relative;
-}
-@media (max-width: 1439px) {
-  .eye-care-skill-area .image-wrapper .child-img {
-    flex-shrink: 1;
-    margin-left: -98px;
-  }
 }
 @media (max-width: 991px) {
   .eye-care-skill-area .content-wrapper {
@@ -6104,6 +6057,43 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .eye-care-skill-area .section-desc {
   margin-top: 30px;
+}
+
+.eye-care-image-card {
+  position: relative;
+  display: flex;
+  align-items: end;
+}
+.eye-care-image-card img {
+  position: relative;
+  z-index: 5;
+  border-radius: 10px;
+}
+.eye-care-image-card .shape-1 {
+  flex-shrink: 0;
+  right: 69px;
+  top: 31px;
+  position: absolute;
+  z-index: 0;
+}
+@media (max-width: 767px) {
+  .eye-care-image-card .shape-1 {
+    right: 0;
+    top: 0;
+  }
+}
+.eye-care-image-card .child-img {
+  flex-shrink: 0;
+  margin-bottom: 25px;
+  margin-left: -86px;
+  z-index: 10;
+  position: relative;
+}
+@media (max-width: 1439px) {
+  .eye-care-image-card .child-img {
+    flex-shrink: 1;
+    margin-left: -98px;
+  }
 }
 
 .faq-area {
@@ -9974,12 +9964,6 @@ ul.children {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  padding-top: 140px;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-offer.style-2 {
-    padding-top: 60px;
-  }
 }
 .service-offer.style-2 .service-offer-container {
   background-color: #ffffff;
@@ -10902,25 +10886,6 @@ ul.children {
   margin-top: 0;
   z-index: 10;
   position: relative;
-}
-
-.about-us-area.style-2 {
-  padding: 140px 0;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .about-us-area.style-2 {
-    padding: 70px 0;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-us-area.style-2 {
-    padding: 100px 0;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .about-us-area.style-2 {
-    padding: 120px 0;
-  }
 }
 
 .service-offer-inner {

@@ -11,20 +11,6 @@
     }
 }
 
-.about-us-area {
-    &.style-2 {
-        padding: 140px 0;
-        @include sm {
-            padding: 70px 0;
-        }
-        @include lg {
-            padding: 100px 0;
-        }
-        @include xl {
-            padding: 120px 0;
-        }
-    }
-}
 .service-offer-inner {
     position: relative;
     .shape-1 {
