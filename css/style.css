@@ -5311,7 +5311,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding: 10px;
   flex-shrink: 0;
 }
-.certified .tag-inner {
+.certified .inner-wrapper {
   width: 100%;
   height: 100%;
   border-radius: 100%;
@@ -5324,11 +5324,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: center;
   text-align: center;
 }
-.certified .tag-inner h2 {
+.certified .inner-wrapper h2 {
   color: #f17732;
   margin: 0;
 }
-.certified .tag-inner p {
+.certified .inner-wrapper p {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
