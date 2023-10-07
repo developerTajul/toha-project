@@ -10431,9 +10431,6 @@ ul.children {
   color: #ffffff;
 }
 
-.service-details-area {
-  padding: 140px 0;
-}
 .service-details-area .sidebar .categories-wrapper {
   background-color: #ffffff;
   box-shadow: 0px 4px 60px 0px rgba(209, 209, 209, 0.25);
@@ -10720,24 +10717,6 @@ ul.children {
   }
 }
 
-.why-choose-us-area.style-2 {
-  padding: 140px 0;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .why-choose-us-area.style-2 {
-    padding: 70px 0;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .why-choose-us-area.style-2 {
-    padding: 100px 0;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .why-choose-us-area.style-2 {
-    padding: 120px 0;
-  }
-}
 .why-choose-us-area.style-2 .treatment-card-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -11155,7 +11134,6 @@ ul.children {
   }
 }
 .why-choose-us-area.style-2 {
-  padding: 140px 0;
   position: relative;
 }
 .why-choose-us-area.style-2 .shape-1 {
