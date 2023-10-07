@@ -4967,9 +4967,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Jost", sans-serif;
   color: #f17732;
 }
+.appointment-area.style-2 .consultation-form-wrapper {
+  position: relative;
+}
+.appointment-area.style-2 .consultation-form-wrapper .shape-1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+  z-index: 0;
+}
 .appointment-area.style-2 .consultation-form {
   padding-top: 0;
   border-radius: 0 0 20px 20px;
+  position: relative;
+  z-index: 10;
 }
 .appointment-area.style-2 .consultation-form .base-area {
   padding: 0;

@@ -154,9 +154,22 @@
                 color: $primary-color;
             }
         }
+        .consultation-form-wrapper{
+            position: relative;
+            .shape-1{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                transform: translate(50%, 50%);
+                z-index: 0;
+            }
+        }
         .consultation-form{
             padding-top: 0;
             border-radius: 0 0 20px 20px;
+            position: relative;
+            z-index: 10;
+            
             .base-area{
                 padding: 0;
                 background: none;
