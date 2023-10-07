@@ -71,7 +71,7 @@
             }
             @include md {
                 grid-template-columns: repeat(2, 1fr);
-            }
+            } 
             @media only screen and (min-width: 992px) and (max-width: 1439px) {
                 grid-template-columns: repeat(3, 1fr);
             }
@@ -309,32 +309,7 @@
     .title {
         margin: 22px 0;
     }
-    .list-wrapper {
-        ul{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            padding-left: 0;
-            margin-bottom: 0;
-            li{
-                display: inline-flex;
-                align-items: center;
-                gap: 25px;
-                margin-bottom: 0;
-                @include transition;
-
-                &:before {
-                    content: "";
-                    width: 15px;
-                    height: 15px;
-                    border-radius: 3px;
-                    background-color: $secondary-color;
-                    flex-shrink: 0;
-                    @include transition;
-                }
-            }
-        }
-    }
+    
     .read-more-wrapper {
         display: flex;
         align-items: end;

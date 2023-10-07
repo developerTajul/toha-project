@@ -1,0 +1,43 @@
+.list-wrapper {
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 0;
+        margin-bottom: 0;
+        li{
+            display: inline-flex;
+            align-items: center;
+            gap: 25px;
+            margin-bottom: 0;
+            @include transition;
+
+            &:before {
+                content: "";
+                // width: 15px;                         
+                // height: 15px;                         
+                border-radius: 3px;
+                background-color: $secondary-color;
+                flex-shrink: 0;
+                @include transition;
+            }
+        }
+    }
+    &.style-2{
+        ul{
+            li{
+                &:before{
+                    content: "\e916";
+                    font-family: $iconmoon;
+                    font-size: 36px;
+                    line-height: 35px;
+                    color: #ffffff;
+                    width: unset;
+                    height: unset;
+                    background-color: unset;
+                    
+                }
+            }
+        }
+    }
+}

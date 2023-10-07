@@ -10775,9 +10775,6 @@ ul.children {
   border-color: #dfdfdf;
 }
 
-.treatment-service-area {
-  padding: 140px 0;
-}
 .treatment-service-area .border-wrapper {
   border-radius: 20px;
   padding-bottom: 40px;
@@ -11426,29 +11423,6 @@ ul.children {
 }
 .single-choose-card .title {
   margin: 22px 0;
-}
-.single-choose-card .list-wrapper ul {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-.single-choose-card .list-wrapper ul li {
-  display: inline-flex;
-  align-items: center;
-  gap: 25px;
-  margin-bottom: 0;
-  transition: all 0.5s ease-out;
-}
-.single-choose-card .list-wrapper ul li:before {
-  content: "";
-  width: 15px;
-  height: 15px;
-  border-radius: 3px;
-  background-color: #03c0b4;
-  flex-shrink: 0;
-  transition: all 0.5s ease-out;
 }
 .single-choose-card .read-more-wrapper {
   display: flex;
@@ -12107,4 +12081,36 @@ ul.children {
 }
 .image-card:hover .content .content-title {
   transform: translate(0px, -40px);
+}
+
+.list-wrapper ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.list-wrapper ul li {
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 0;
+  transition: all 0.5s ease-out;
+}
+.list-wrapper ul li:before {
+  content: "";
+  border-radius: 3px;
+  background-color: #03c0b4;
+  flex-shrink: 0;
+  transition: all 0.5s ease-out;
+}
+.list-wrapper.style-2 ul li:before {
+  content: "\e916";
+  font-family: "iconmoon" !important;
+  font-size: 36px;
+  line-height: 35px;
+  color: #ffffff;
+  width: unset;
+  height: unset;
+  background-color: unset;
 }/*# sourceMappingURL=style.css.map */
