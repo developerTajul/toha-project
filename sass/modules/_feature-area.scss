@@ -1,9 +1,8 @@
 .feature-area {
-    padding: 10px 0;
     position: relative;
     .feature-shape {
       position: absolute;
-      top: 0;
+      top: 12px;
       right: 0;
       z-index: -99;
       flex-shrink: 0;
