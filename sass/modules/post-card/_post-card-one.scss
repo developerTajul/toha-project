@@ -24,6 +24,7 @@
     .post-image {
       overflow: hidden;
       border-radius: 10px;
+      margin-bottom: 20px;
       img {
         border-radius: 20px;
         transform: scale(1.01);
@@ -34,7 +35,7 @@
       }
     }
     .post-content {
-      margin-top: 20px;
+      // margin-top: 20px;
       .post-tag {
         .post-tag-list {
           a {
