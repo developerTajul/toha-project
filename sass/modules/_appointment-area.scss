@@ -162,6 +162,9 @@
                 right: 0;
                 transform: translate(50%, 50%);
                 z-index: 0;
+                @include rmaxwd(1399){
+                    display: none;
+                }
             }
         }
         .consultation-form{

@@ -131,9 +131,6 @@
                 }
             }
             .list-wrapper {
-                display: flex;
-                flex-direction: column;
-                gap: 20px;
                 padding-top: 15px;
                 @include sm {
                     padding-bottom: 24px;

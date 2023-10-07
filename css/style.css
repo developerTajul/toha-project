@@ -4977,6 +4977,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   transform: translate(50%, 50%);
   z-index: 0;
 }
+@media (max-width: 1399px) {
+  .appointment-area.style-2 .consultation-form-wrapper .shape-1 {
+    display: none;
+  }
+}
 .appointment-area.style-2 .consultation-form {
   padding-top: 0;
   border-radius: 0 0 20px 20px;
@@ -5546,6 +5551,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-us-area.style-2 .content-wrapper .about-list .list-wrapper .list-item .icon i {
   font-size: 40px;
   line-height: 40px;
+  color: #ffffff;
 }
 @media (max-width: 767px) {
   .about-us-area.style-2 .content-wrapper .about-list .list-wrapper .list-item .icon {
@@ -6151,98 +6157,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   flex-wrap: wrap;
   justify-content: center;
 }
-.faq-area .single-expert {
-  position: relative;
-  width: 199px;
-  height: 199px;
-  background: #f17732;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-}
-.faq-area .single-expert .icon {
-  justify-content: center;
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  transform: translateY(50%);
-  z-index: 10;
-  margin-right: 7px;
-  margin-bottom: 2px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .faq-area .single-expert .icon {
-    width: 180px;
-    height: 180px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .faq-area .single-expert .icon {
-    width: 140px;
-    height: 140px;
-    margin-left: 10px;
-    transform: translateY(80%);
-    top: 0;
-  }
-}
-.faq-area .single-expert .icon.style-2 {
-  top: 0;
-  bottom: unset;
-  transform: translateY(-50%);
-}
-.faq-area .single-expert .icon i {
-  z-index: 20;
-  border-radius: 100%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  width: 50px;
-  height: 50px;
-  background: white;
-  font-size: 30px;
-  color: #f17732;
-}
-.faq-area .single-expert .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.faq-area .single-expert .content .counter {
-  color: #ffffff;
-  font-family: "Jost", sans-serif;
-  font-size: 70px;
-  font-weight: 700;
-  line-height: 66px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .faq-area .single-expert .content .counter {
-    font-size: 48px;
-    line-height: 24px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .faq-area .single-expert .content .counter {
-    font-size: 24px;
-    line-height: 24px;
-  }
-}
-.faq-area .single-expert .content .content-title {
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .faq-area .single-expert .content .content-title {
-    font-size: 14px;
-  }
-}
 .faq-area .accordion-wrapper {
   z-index: 10;
   position: relative;
@@ -6256,6 +6170,99 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
+}
+
+.single-expert {
+  position: relative;
+  width: 199px;
+  height: 199px;
+  background: #f17732;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.single-expert .icon {
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(50%);
+  z-index: 10;
+  margin-right: 7px;
+  margin-bottom: 2px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-expert .icon {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .single-expert .icon {
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+    transform: translateY(80%);
+    top: 0;
+  }
+}
+.single-expert .icon.style-2 {
+  top: 0;
+  bottom: unset;
+  transform: translateY(-50%);
+}
+.single-expert .icon i {
+  z-index: 20;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background: white;
+  font-size: 30px;
+  color: #f17732;
+}
+.single-expert .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.single-expert .content .counter {
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 66px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-expert .content .counter {
+    font-size: 48px;
+    line-height: 24px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .single-expert .content .counter {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+.single-expert .content .content-title {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .single-expert .content .content-title {
+    font-size: 14px;
+  }
 }
 
 .feature-area {
@@ -8358,148 +8365,15 @@ ul.children {
 .cta-area {
   padding-bottom: 80px;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .cta-area {
-    height: 450px;
-  }
-}
 .cta-area .book-appointment-area {
   margin-top: 36px;
   padding: 194px 0 1px 0px;
+  margin-bottom: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .cta-area .book-appointment-area {
     padding: 100px 0 1px 0px;
   }
-}
-.cta-area .book-appointment-area .book-appointment-time-desc {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .cta-area .book-appointment-area .book-appointment-time-desc {
-    display: flex;
-    margin-top: 35px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .cta-area .book-appointment-area .book-appointment-time-desc {
-    gap: 20px !important;
-  }
-}
-.cta-area .book-appointment-area .book-appointment-time-desc .time-icon {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  padding: 24px;
-  border-radius: 94px;
-  background: rgba(255, 255, 255, 0.12);
-}
-.cta-area .book-appointment-area .book-appointment-time-desc .time-icon i {
-  font-size: 60px;
-  color: #ffffff;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .cta-area .book-appointment-area .book-appointment-time-desc .time-icon i {
-    font-size: 30px;
-    color: #ffffff;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .cta-area .book-appointment-area .book-appointment-time-desc .time-icon i {
-    font-size: 40px;
-    color: #ffffff;
-  }
-}
-.cta-area .book-appointment-area .book-appointment-time-desc .title-desc {
-  display: flex;
-  justify-content: center;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .cta-area .book-appointment-area .book-appointment-time-desc .title-desc {
-    justify-content: start;
-  }
-}
-.cta-area .book-appointment-area .book-appointment-time-desc .title-desc p {
-  color: #ffffff;
-  font-family: "Jost", sans-serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 50px;
-  margin-bottom: 0;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .cta-area .book-appointment-area .book-appointment-time-desc .title-desc p {
-    line-height: 34px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .cta-area .book-appointment-area .book-appointment-time-desc .title-desc p br {
-    display: none;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .cta-area .book-appointment-area .book-appointment-time-desc .title-desc p {
-    font-size: 28px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .cta-area .book-appointment-area .book-appointment-time-desc .title-desc p {
-    font-size: 30px;
-  }
-}
-.cta-area .book-appointment-area .book-appointment-btn {
-  display: flex;
-  justify-content: end;
-}
-.cta-area .book-appointment-area .book-appointment-btn .appointment-btn {
-  background: #111821;
-  padding: 15px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 6px;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 29px;
-  border-radius: 5px;
-  transition: all 0.5s ease-out;
-}
-.cta-area .book-appointment-area .book-appointment-btn .appointment-btn:hover {
-  background: #ffffff;
-  color: #f17732;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .cta-area .book-appointment-area .book-appointment-btn {
-    justify-content: start;
-    margin-top: 10px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .cta-area .book-appointment-area .book-appointment-btn {
-    justify-content: start;
-    margin-top: 10px;
-  }
-}
-.cta-area .book-appointment-area .book-appointment-btn a {
-  color: #ffffff;
-}
-.cta-area .book-appointment-area .book-appointment-btn .ApoitBtn {
-  background-color: #111821;
-  display: inline-flex;
-  padding: 15px 20px;
-  border-radius: 5px;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
-}
-.cta-area .book-appointment-area .book-appointment-btn .ApoitBtn i {
-  color: #ffffff;
 }
 
 .portfolio-slider-wrapper {
@@ -10227,9 +10101,6 @@ ul.children {
   margin-bottom: 0;
 }
 .service-offer.style-2 .service-offer-container .list-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
   padding-top: 15px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {

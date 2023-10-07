@@ -53,89 +53,7 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    .single-expert {
-        position: relative;
-        width: 199px;
-        height: 199px;
-        background: $primary-color;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 10;
-        .icon {
-            justify-content: center;
-            display: flex;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            transform: translateY(50%);
-            z-index: 10;
-            margin-right: 7px;
-            margin-bottom: 2px;
-            @include md {
-                width: 180px;
-                height: 180px;
-            }
-            @include sm {
-                width: 140px;
-                height: 140px;
-                margin-left: 10px;
-                transform: translateY(80%);
-                top: 0;
-
-            }
-            &.style-2{
-                top: 0;
-                bottom: unset;
-                transform: translateY(-50%);
-            }
-            i {
-                z-index: 20;
-                border-radius: 100%;
-                align-items: center;
-                justify-content: center;
-                display: flex;
-                width: 50px;
-                height: 50px;
-                background: white;
-                font-size: 30px;
-                color: #f17732;
-            }
-        }
-        .content {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            .counter {
-                color: $white;
-                font-family: $heading-font;
-                font-size: 70px;
-                font-weight: 700;
-                line-height: 66px;
-                @include md {
-                    font-size: 48px;
-                    line-height: 24px;
-                }
-                @include sm {
-                    font-size: 24px;
-                    line-height: 24px;
-                }
-            }
-            .content-title {
-                color: $white;
-                font-family: $body-font;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                @include sm {
-                    font-size: 14px;
-                }
-            }
-        }
-    }
+    
     .accordion-wrapper {
         z-index: 10;
         position: relative;
@@ -150,6 +68,89 @@
             font-style: normal;
             font-weight: 700;
             line-height: 30px;
+        }
+    }
+}
+.single-expert {
+    position: relative;
+    width: 199px;
+    height: 199px;
+    background: $primary-color;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    .icon {
+        justify-content: center;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transform: translateY(50%);
+        z-index: 10;
+        margin-right: 7px;
+        margin-bottom: 2px;
+        @include md {
+            width: 180px;
+            height: 180px;
+        }
+        @include sm {
+            width: 140px;
+            height: 140px;
+            margin-left: 10px;
+            transform: translateY(80%);
+            top: 0;
+
+        }
+        &.style-2{
+            top: 0;
+            bottom: unset;
+            transform: translateY(-50%);
+        }
+        i {
+            z-index: 20;
+            border-radius: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 50px;
+            height: 50px;
+            background: white;
+            font-size: 30px;
+            color: #f17732;
+        }
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .counter {
+            color: $white;
+            font-family: $heading-font;
+            font-size: 70px;
+            font-weight: 700;
+            line-height: 66px;
+            @include md {
+                font-size: 48px;
+                line-height: 24px;
+            }
+            @include sm {
+                font-size: 24px;
+                line-height: 24px;
+            }
+        }
+        .content-title {
+            color: $white;
+            font-family: $body-font;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            @include sm {
+                font-size: 14px;
+            }
         }
     }
 }
