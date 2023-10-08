@@ -5315,14 +5315,12 @@ body.admin-bar .header-menu-area.sticky_menu {
   width: 100%;
   height: 100%;
   border-radius: 100%;
-  background-image: url("../images/about/circle.png");
-  background-position: center;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  border: 1px dashed #03c0b4;
 }
 .certified .inner-wrapper h2 {
   color: #f17732;
