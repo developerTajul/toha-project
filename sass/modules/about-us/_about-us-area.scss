@@ -1,13 +1,13 @@
 .about-us-area {
-    @include sm {
-        padding: 80px 15px 80px 0;
-    }
-    @include md {
-        padding: 80px 30px 80px 0;
-    }
-    @include lg {
-        padding: 100px 0;
-    }
+    // @include sm {
+    //     padding: 80px 15px 80px 0;
+    // }
+    // @include md {
+    //     padding: 80px 30px 80px 0;
+    // }
+    // @include lg {
+    //     padding: 100px 0;
+    // }
     
     .section-desc {
         margin-top: 20px;
@@ -111,12 +111,10 @@
             top: 0;
             right: 0;
             transform: translate(74px, -91px);
-            width: 206px;
-            height: 217px;
-            background-image: url("../images/shapes/shape-12.png");
-            background-size: cover;
+            // width: 206px;
+            // height: 217px;
             @include rmaxwd(767) {
-                transform: translate(24px, -76px);
+                transform: translate(0, -76px);
                 width: 146px;
                 height: 146px;
             }
@@ -127,7 +125,7 @@
             right: 0;
             transform: translate(40px, 40px);
             @include rmaxwd(767) {
-                transform: translate(24px, 40px);
+                transform: translate(0, 40px);
             }
             .text {
                 margin: 0;
