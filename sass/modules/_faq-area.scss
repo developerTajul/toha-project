@@ -84,7 +84,6 @@
     @include lg{
         width: 180px;
         height: 180px;
-
     }
     .icon {
         justify-content: center;
@@ -97,22 +96,20 @@
         z-index: 10;
         margin-right: 7px;
         margin-bottom: 2px;
-        @include md {
-            width: 180px;
-            height: 180px;
-        }
         @include sm {
-            width: 140px;
-            height: 140px;
             margin-left: 10px;
-            transform: translateY(80%);
-            top: 0;
+            transform: translateY(50%);
 
         }
         &.style-2{
             top: 0;
             bottom: unset;
             transform: translateY(-50%);
+            @include sm{
+                top: unset;
+                bottom: 0;
+                transform: translateY(50%);
+            }
         }
         i {
             z-index: 20;

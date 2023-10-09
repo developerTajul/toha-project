@@ -562,6 +562,12 @@ input.theme-btn {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .mt-sm-30 {
+    margin-top: 30px !important;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   .mb-sm-20 {
     margin-bottom: 20px !important;
   }
@@ -6249,25 +6255,23 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-right: 7px;
   margin-bottom: 2px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .single-expert .icon {
-    width: 180px;
-    height: 180px;
-  }
-}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .single-expert .icon {
-    width: 140px;
-    height: 140px;
     margin-left: 10px;
-    transform: translateY(80%);
-    top: 0;
+    transform: translateY(50%);
   }
 }
 .single-expert .icon.style-2 {
   top: 0;
   bottom: unset;
   transform: translateY(-50%);
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .single-expert .icon.style-2 {
+    top: unset;
+    bottom: 0;
+    transform: translateY(50%);
+  }
 }
 .single-expert .icon i {
   z-index: 20;

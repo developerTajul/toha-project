@@ -114,6 +114,11 @@
     margin-top: 20px !important;
   }
 }
+.mt-sm-30{
+  @include sm{
+    margin-top: 30px !important;
+  }
+}
 
 .mb-sm-20{
   @include sm{
