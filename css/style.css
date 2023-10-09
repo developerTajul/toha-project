@@ -531,6 +531,12 @@ input.theme-btn {
   }
 }
 
+@media (min-width: 1400px) {
+  .-mt-lg-96 {
+    margin-top: -96px;
+  }
+}
+
 @media (max-width: 1199px) {
   .mt-lg-20 {
     margin-top: 20px !important;
@@ -10883,9 +10889,6 @@ ul.children {
   border-color: transparent;
 }
 
-.service-area {
-  margin-top: -96px;
-}
 @media (max-width: 1400px) {
   .service-area {
     margin-top: 0;
