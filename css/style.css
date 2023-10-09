@@ -5966,19 +5966,82 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 
+.top-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bottom-icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 20px;
+}
+
+.counter-items-box {
+  position: relative;
+  padding: 53px 96px 94px 95px;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(17, 24, 33, 0.9);
+  border-radius: 0px 0px 20px 20px;
+}
+.counter-items-box:before {
+  content: "";
+  position: absolute;
+  height: calc(100% - 40px);
+  top: 0;
+  left: 0;
+  padding: 0px 37px 38px 38px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: none;
+  width: calc(100% - 80px);
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 0px 0px 20px 20px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .counter-items-box {
+    padding: 0px 20px 20px 20px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .counter-items-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .counter-items-box {
+    padding: 40px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .counter-items-box {
+    padding: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
 .fun-fact-area {
   position: relative;
   top: 0;
   height: auto;
-  background: rgba(17, 24, 33, 0.9);
-  border-radius: 0px 0px 20px 20px;
-  padding: 0px 40px 40px 40px;
-  z-index: 20;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .fun-fact-area {
-    padding: 0px 20px 20px 20px;
-  }
 }
 .fun-fact-area .shape-1 {
   position: absolute;
@@ -6004,49 +6067,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 0px 0px 20px 20px;
   border: 1px solid #31373f;
   border-top: 1px solid #111821;
-}
-.fun-fact-area .fun-fact-box .top-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.fun-fact-area .fun-fact-box .bottom-icon {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  margin-right: 20px;
-}
-.fun-fact-area .fun-fact-box .counter-items-box {
-  padding: 53px 96px 54px 95px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .fun-fact-area .fun-fact-box .counter-items-box {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-row-gap: 30px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .fun-fact-area .fun-fact-box .counter-items-box {
-    padding: 40px;
-    margin: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .fun-fact-area .fun-fact-box .counter-items-box {
-    padding: 14px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
 }
 
 .counter-card {
