@@ -80,14 +80,7 @@
         background-position: center center;
         z-index: 2;
         overflow: hidden;
-        padding-top: 178px;
         background-color: $gray;
-        @include md {
-            padding-top: 0px;
-        }
-        @include sm {
-            padding-top: 0px;
-        }
         &:after {
             content: "";
             background: rgba(2, 10, 39, 0.7);

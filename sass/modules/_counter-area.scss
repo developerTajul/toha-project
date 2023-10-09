@@ -40,32 +40,26 @@
 .book-appointment-area {
     position: relative;
     z-index: 20;
-    margin-top: 82px;
+    // margin-top: 82px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 74px;
+    // margin-bottom: 74px;
     @include lg {
-        margin-top: 20px;
         display: grid;
         grid-template-columns: auto;
         gap: 20px;
-        margin-bottom: 60px;
         padding: 0px 20px;
     }
     @include md {
-        margin-top: 20px;
         display: grid;
         grid-template-columns: auto;
         gap: 20px;
-        margin-bottom: 40px;
         padding: 0px 20px;
     }
     @include sm {
-        margin-top: 20px;
         display: grid;
         grid-template-columns: auto;
         gap: 20px;
-        margin-bottom: 20px;
         padding: 0px 10px;
     }
     .book-appointment-time-desc {
@@ -118,6 +112,7 @@
                 font-style: normal;
                 font-weight: 700;
                 line-height: 50px;
+                margin-bottom: 0;
             }
         }
         @include lg {

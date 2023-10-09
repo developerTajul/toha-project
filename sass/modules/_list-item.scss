@@ -14,8 +14,8 @@
 
             &:before {
                 content: "";
-                // width: 15px;                         
-                // height: 15px;                         
+                width: 15px;                         
+                height: 15px;                         
                 border-radius: 3px;
                 background-color: $secondary-color;
                 flex-shrink: 0;
@@ -26,12 +26,16 @@
     &.style-2{
         ul{
             li{
+                font-family: $heading-font;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
                 &:before{
                     content: "\e916";
-                    font-family: $iconmoon;
-                    font-size: 36px;
-                    line-height: 35px;
-                    color: #ffffff;
+                    font-family: $icomoon;
+                    font-size: 30px;
+                    line-height: 30px;
+                    color: $primary-color;
                     width: unset;
                     height: unset;
                     background-color: unset;
