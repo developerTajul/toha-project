@@ -5792,7 +5792,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   overflow: hidden;
   height: auto;
 }
-.counter-area:after {
+.counter-area.bg-primary {
+  position: relative;
+}
+.counter-area.bg-primary:after {
   content: "";
   background: #f17732;
   position: absolute;
