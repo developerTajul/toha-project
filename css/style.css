@@ -5233,6 +5233,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-us-area .content-wrapper .list-section {
   display: flex;
   justify-content: space-between;
+  gap: 40px;
 }
 @media (max-width: 767px) {
   .about-us-area .content-wrapper .list-section {
@@ -5995,7 +5996,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-items-box {
-    padding: 0px 20px 20px 20px;
+    padding: 50px 58px 55px 57px;
+    flex-direction: column;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -6007,21 +6009,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-items-box {
-    padding: 40px;
+    padding: 50px 58px 55px 57px;
     margin: 0px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-items-box {
-    padding: 14px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
   }
 }
 .counter-items-box .top-icon {
@@ -6034,37 +6026,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   right: 40px;
   bottom: 40px;
   margin-right: 20px;
-}
-
-.fun-fact-area {
-  position: relative;
-  top: 0;
-  height: auto;
-}
-.fun-fact-area .shape-1 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 206px;
-  height: 217px;
-  transform: translate(50%, 50%);
-}
-@media (max-width: 991px) {
-  .fun-fact-area .shape-1 {
-    display: none;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1399px) {
-  .fun-fact-area .shape-1 {
-    transform: translate(0, 50%);
-  }
-}
-.fun-fact-area .fun-fact-box {
-  position: relative;
-  height: auto;
-  border-radius: 0px 0px 20px 20px;
-  border: 1px solid #31373f;
-  border-top: 1px solid #111821;
 }
 
 .counter-card {
@@ -11333,7 +11294,7 @@ ul.children {
 .single-choose-card:hover .list-wrapper li {
   color: #ffffff;
 }
-.single-choose-card:hover .list-wrapper li:before {
+.single-choose-card:hover .list-wrapper li .square {
   background-color: #ffffff;
 }
 .single-choose-card:hover .read-more-wrapper .read-more h5 {

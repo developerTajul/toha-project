@@ -20,7 +20,6 @@
             opacity: 0.9;
         }
     }
-
     .side-image {
         @include rwd(1450) {
             z-index: 2;
@@ -195,7 +194,8 @@
         border-radius: 0px 0px 20px 20px;
     }
     @include sm {
-        padding: 0px 20px 20px 20px;
+        padding: 50px 58px 55px 57px;
+        flex-direction: column;
     }
     @include lg {
         display: grid;
@@ -203,7 +203,7 @@
         grid-row-gap: 30px;
     }
     @include md {
-        padding: 40px;
+        padding: 50px 58px 55px 57px;
         margin: 0px;
         display: flex;
         flex-wrap: wrap;
@@ -211,12 +211,12 @@
         gap: 30px;
     }
     @include sm {
-        padding: 14px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
+        // padding: 14px;
+        // display: flex;
+        // flex-wrap: wrap;
+        // align-items: center;
+        // justify-content: center;
+        // gap: 20px;
     }
     .top-icon {
         position: absolute;
@@ -229,44 +229,38 @@
         bottom: 40px;
         margin-right: 20px;
     }
-    // .single-item {
-    //     @include sm {
-    //         width: 100%;
-    //     }
-    // }
 }
-.fun-fact-area {
-    position: relative;
-    top: 0;
-    height: auto;
+// .fun-fact-area {
+//     position: relative;
+//     top: 0;
+//     height: auto;
     
-    
-    .shape-1 {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 206px;
-        height: 217px;
-        transform: translate(50%, 50%);
+//     .shape-1 {
+//         position: absolute;
+//         bottom: 0;
+//         right: 0;
+//         width: 206px;
+//         height: 217px;
+//         transform: translate(50%, 50%);
 
-        @include rmaxwd(991) {
-            display: none;
-        }
-        @media only screen and (min-width: 992px) and (max-width: 1399px){
-            transform: translate(0, 50%);
-        }
-    }
-    .fun-fact-box {
-        position: relative;
-        height: auto;
-        border-radius: 0px 0px 20px 20px;
-        border: 1px solid $black-200;
-        border-top: 1px solid $black;
-        //border-top: none;
-        // margin: 0px 40px 40px 40px;
+//         @include rmaxwd(991) {
+//             display: none;
+//         }
+//         @media only screen and (min-width: 992px) and (max-width: 1399px){
+//             transform: translate(0, 50%);
+//         }
+//     }
+//     .fun-fact-box {
+//         position: relative;
+//         height: auto;
+//         border-radius: 0px 0px 20px 20px;
+//         border: 1px solid $black-200;
+//         border-top: 1px solid $black;
+//         //border-top: none;
+//         // margin: 0px 40px 40px 40px;
         
-    }
-}
+//     }
+// }
 .counter-card {
     display: flex;
     gap: 17px;

@@ -247,7 +247,7 @@
             
             li {
                 color: $white;
-                &:before {
+                .square {
                     background-color: $white;
                 }
             }
