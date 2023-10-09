@@ -30,7 +30,9 @@
 }
 
 .pt-194{
-  padding-top: 194px;
+  @include rwd(1400) {
+    padding-top: 194px;
+  }
 }
 .pt-183{
   padding-top: 183px;
@@ -48,6 +50,11 @@
 }
 .pt-sm-70{
   @include sm{
+    padding-top: 70px !important;
+  }
+}
+.pt-xl-70{
+  @include rmaxwd(1399){
     padding-top: 70px !important;
   }
 }
@@ -95,6 +102,11 @@
 .-mt-lg-96{
   @include rwd (1400){
     margin-top: -96px;
+  }
+}
+.-mb-lg-150{
+  @include rwd (1400){
+    margin-bottom: -150px;
   }
 }
 .mt-lg-20{

@@ -464,8 +464,10 @@ input.theme-btn {
   }
 }
 
-.pt-194 {
-  padding-top: 194px;
+@media (min-width: 1400px) {
+  .pt-194 {
+    padding-top: 194px;
+  }
 }
 
 .pt-183 {
@@ -486,6 +488,12 @@ input.theme-btn {
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .pt-sm-70 {
+    padding-top: 70px !important;
+  }
+}
+
+@media (max-width: 1399px) {
+  .pt-xl-70 {
     padding-top: 70px !important;
   }
 }
@@ -538,6 +546,12 @@ input.theme-btn {
 @media (min-width: 1400px) {
   .-mt-lg-96 {
     margin-top: -96px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .-mb-lg-150 {
+    margin-bottom: -150px;
   }
 }
 
@@ -6217,6 +6231,12 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: center;
   z-index: 10;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-expert {
+    width: 180px;
+    height: 180px;
+  }
+}
 .single-expert .icon {
   justify-content: center;
   display: flex;
@@ -8395,19 +8415,6 @@ ul.children {
   border-color: #f17732 !important;
 }
 
-.cta-area {
-  padding-bottom: 80px;
-}
-.cta-area .book-appointment-area {
-  margin-top: 36px;
-  margin-bottom: 0;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .cta-area .book-appointment-area {
-    padding: 100px 0 1px 0px;
-  }
-}
-
 .portfolio-slider-wrapper {
   position: relative;
 }
@@ -10011,9 +10018,7 @@ ul.children {
 .service-offer.style-2 .service-offer-container {
   background-color: #ffffff;
   padding: 0 100px 74px;
-  margin-top: 60px;
   border-radius: 10px;
-  margin-bottom: -150px;
   z-index: 99;
   position: relative;
 }
@@ -10921,44 +10926,6 @@ ul.children {
 .service-offer-inner .shape-1 img {
   position: relative;
   z-index: 0;
-}
-
-.portfolio-slider-area.style-1 {
-  padding: 140px 0;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .portfolio-slider-area.style-1 {
-    padding: 0 0 70px 0;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .portfolio-slider-area.style-1 {
-    padding: 0 0 100px 0;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .portfolio-slider-area.style-1 {
-    padding: 120px 0;
-  }
-}
-
-.faq-area.style-1 {
-  padding: 140px 0 100px 0;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .faq-area.style-1 {
-    padding: 70px 0 40px 0;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .faq-area.style-1 {
-    padding: 100px 0 60px 0;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .faq-area.style-1 {
-    padding: 120px 0 80px 0;
-  }
 }
 
 .service-area-slider {
