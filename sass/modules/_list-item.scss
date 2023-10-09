@@ -11,9 +11,7 @@
             gap: 25px;
             margin-bottom: 0;
             @include transition;
-
-            &:before {
-                content: "";
+            .square {
                 width: 15px;                         
                 height: 15px;                         
                 border-radius: 3px;
@@ -30,8 +28,7 @@
                 font-size: 20px;
                 font-weight: 500;
                 line-height: 30px;
-                &:before{
-                    content: "\e916";
+                i{
                     font-family: $icomoon;
                     font-size: 30px;
                     line-height: 30px;
