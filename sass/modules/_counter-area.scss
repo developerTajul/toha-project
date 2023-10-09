@@ -20,9 +20,6 @@
 
     .side-image {
         @include rwd(1450) {
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
             z-index: 2;
             overflow: hidden;
             height: auto;
@@ -167,17 +164,7 @@
         }
     }
 }
-.top-icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.bottom-icon {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin-right: 20px;
-}
+
 .counter-items-box {
     position: relative;
     padding: 53px 96px 94px 95px;
@@ -227,6 +214,17 @@
         align-items: center;
         justify-content: center;
         gap: 20px;
+    }
+    .top-icon {
+        position: absolute;
+        top: 0;
+        left: 40px;
+    }
+    .bottom-icon {
+        position: absolute;
+        right: 40px;
+        bottom: 40px;
+        margin-right: 20px;
     }
     // .single-item {
     //     @include sm {

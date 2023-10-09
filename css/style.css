@@ -5805,9 +5805,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media (min-width: 1450px) {
   .counter-area .side-image {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
     z-index: 2;
     overflow: hidden;
     height: auto;
@@ -5966,19 +5963,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 
-.top-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.bottom-icon {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  margin-right: 20px;
-}
-
 .counter-items-box {
   position: relative;
   padding: 53px 96px 94px 95px;
@@ -6036,6 +6020,17 @@ body.admin-bar .header-menu-area.sticky_menu {
     justify-content: center;
     gap: 20px;
   }
+}
+.counter-items-box .top-icon {
+  position: absolute;
+  top: 0;
+  left: 40px;
+}
+.counter-items-box .bottom-icon {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  margin-right: 20px;
 }
 
 .fun-fact-area {
