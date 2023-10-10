@@ -5968,7 +5968,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 
-.counter-items-box {
+.counter-items-box-test {
   position: relative;
   padding: 53px 96px 94px 95px;
   z-index: 20;
@@ -5978,7 +5978,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   background: rgba(17, 24, 33, 0.9);
   border-radius: 0px 0px 20px 20px;
 }
-.counter-items-box:before {
+.counter-items-box-test:before {
   content: "";
   position: absolute;
   height: calc(100% - 40px);
@@ -5996,20 +5996,20 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 0px 0px 20px 20px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-items-box {
+  .counter-items-box-test {
     padding: 50px 58px 55px 57px;
     flex-direction: column;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-items-box {
+  .counter-items-box-test {
     display: grid;
     grid-template-columns: auto auto;
     grid-row-gap: 30px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .counter-items-box {
+  .counter-items-box-test {
     padding: 50px 58px 55px 57px;
     margin: 0px;
     display: flex;
@@ -6017,12 +6017,12 @@ body.admin-bar .header-menu-area.sticky_menu {
     gap: 30px;
   }
 }
-.counter-items-box .top-icon {
+.counter-items-box-test .top-icon {
   position: absolute;
   top: 0;
   left: 40px;
 }
-.counter-items-box .bottom-icon {
+.counter-items-box-test .bottom-icon {
   position: absolute;
   right: 40px;
   bottom: 40px;
