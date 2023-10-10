@@ -27,42 +27,42 @@
         @include xl{
             padding-left: 48px;
         }
-        .list-section {
-            display: flex;
-            justify-content: space-between;
-            gap: 40px;
-            @include rmaxwd(767) {
-                flex-direction: column-reverse;
-                gap: 24px;
-                align-items: start;
-            }
+    }
+    .list-section {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        @include rmaxwd(767) {
+            flex-direction: column-reverse;
+            gap: 24px;
+            align-items: start;
         }
-        .content-bottom {
-            margin-top: 23px;
-            display: inline-flex;
-            gap: 66px;
-            @include rmaxwd(767) {
-                flex-direction: column;
-                gap: 30px;
-            }
-            .read-more {
-                a {
-                    display: inline-flex;
-                    flex-shrink: 0;
-                    align-items: center;
-                    gap: 6px;
-                    padding: 15px 20px;
-                    background-color: black;
-                    border-radius: 5px;
-                    color: $white;
-                    p {
-                        font-weight: 600;
-                        margin-bottom: 0;
-                        
-                    }
-                    &:hover {
-                        background-color: $primary-color;
-                    }
+    }
+    .content-bottom {
+        margin-top: 23px;
+        display: inline-flex;
+        gap: 66px;
+        @include rmaxwd(767) {
+            flex-direction: column;
+            gap: 30px;
+        }
+        .read-more {
+            a {
+                display: inline-flex;
+                flex-shrink: 0;
+                align-items: center;
+                gap: 6px;
+                padding: 15px 20px;
+                background-color: black;
+                border-radius: 5px;
+                color: $white;
+                p {
+                    font-weight: 600;
+                    margin-bottom: 0;
+                    
+                }
+                &:hover {
+                    background-color: $primary-color;
                 }
             }
         }

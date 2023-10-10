@@ -5230,30 +5230,30 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding-left: 48px;
   }
 }
-.about-us-area .content-wrapper .list-section {
+.about-us-area .list-section {
   display: flex;
   justify-content: space-between;
   gap: 40px;
 }
 @media (max-width: 767px) {
-  .about-us-area .content-wrapper .list-section {
+  .about-us-area .list-section {
     flex-direction: column-reverse;
     gap: 24px;
     align-items: start;
   }
 }
-.about-us-area .content-wrapper .content-bottom {
+.about-us-area .content-bottom {
   margin-top: 23px;
   display: inline-flex;
   gap: 66px;
 }
 @media (max-width: 767px) {
-  .about-us-area .content-wrapper .content-bottom {
+  .about-us-area .content-bottom {
     flex-direction: column;
     gap: 30px;
   }
 }
-.about-us-area .content-wrapper .content-bottom .read-more a {
+.about-us-area .content-bottom .read-more a {
   display: inline-flex;
   flex-shrink: 0;
   align-items: center;
@@ -5263,11 +5263,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 5px;
   color: #ffffff;
 }
-.about-us-area .content-wrapper .content-bottom .read-more a p {
+.about-us-area .content-bottom .read-more a p {
   font-weight: 600;
   margin-bottom: 0;
 }
-.about-us-area .content-wrapper .content-bottom .read-more a:hover {
+.about-us-area .content-bottom .read-more a:hover {
   background-color: #f17732;
 }
 
