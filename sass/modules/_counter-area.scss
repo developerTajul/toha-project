@@ -8,7 +8,7 @@
     height: auto;
     &.bg-primary{
         position: relative;
-        &:after {
+        &:before {
             content: "";
             background: $primary-color;
             position: absolute;
@@ -158,8 +158,8 @@
     padding-top: 0;
     background-color: #272224;
     border-radius: 0 0 20px 20px;
-    z-index: 10;
-    position: relative;
+    // z-index: 10;
+    // position: relative;
 }
 .counter-items-box {
     padding: 54px 96px;
@@ -197,9 +197,11 @@
         align-items: center;
     }
     .top-icon {
-        position: absolute;
-        top: 0;
-        left: 0;
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
     }
     .bottom-icon {
         position: absolute;
@@ -222,69 +224,69 @@
         }
     }
 }
-.counter-items-box-test {
-    position: relative;
-    padding: 53px 96px 94px 95px;
-    z-index: 20;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgba(17, 24, 33, 0.9);
-    border-radius: 0px 0px 20px 20px;
-    &:before{
-        content: "";
-        position: absolute;
-        height: calc(100% - 40px);
-        top: 0;
-        left: 0;
-        padding: 0px 37px 38px 38px;
-        border: 1px solid rgba(255, 255, 255, 0.15);
-        border-top: none;
-        width: calc(100% - 80px);
-        right: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        border-radius: 0px 0px 20px 20px;
-    }
-    @include sm {
-        padding: 50px 58px 55px 57px;
-        flex-direction: column;
-    }
-    @include lg {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-row-gap: 30px;
-    }
-    @include md {
-        padding: 50px 58px 55px 57px;
-        margin: 0px;
-        display: flex;
-        flex-wrap: wrap;
-        // grid-template-columns: auto auto;
-        gap: 30px;
-    }
-    @include sm {
-        // padding: 14px;
-        // display: flex;
-        // flex-wrap: wrap;
-        // align-items: center;
-        // justify-content: center;
-        // gap: 20px;
-    }
-    .top-icon {
-        position: absolute;
-        top: 0;
-        left: 40px;
-    }
-    .bottom-icon {
-        position: absolute;
-        right: 40px;
-        bottom: 40px;
-        margin-right: 20px;
-    }
-}
+// .counter-items-box-test {
+//     position: relative;
+//     padding: 53px 96px 94px 95px;
+//     z-index: 20;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     background: rgba(17, 24, 33, 0.9);
+//     border-radius: 0px 0px 20px 20px;
+//     &:before{
+//         content: "";
+//         position: absolute;
+//         height: calc(100% - 40px);
+//         top: 0;
+//         left: 0;
+//         padding: 0px 37px 38px 38px;
+//         border: 1px solid rgba(255, 255, 255, 0.15);
+//         border-top: none;
+//         width: calc(100% - 80px);
+//         right: 0;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         margin: 0 auto;
+//         border-radius: 0px 0px 20px 20px;
+//     }
+//     @include sm {
+//         padding: 50px 58px 55px 57px;
+//         flex-direction: column;
+//     }
+//     @include lg {
+//         display: grid;
+//         grid-template-columns: auto auto;
+//         grid-row-gap: 30px;
+//     }
+//     @include md {
+//         padding: 50px 58px 55px 57px;
+//         margin: 0px;
+//         display: flex;
+//         flex-wrap: wrap;
+//         // grid-template-columns: auto auto;
+//         gap: 30px;
+//     }
+//     @include sm {
+//         // padding: 14px;
+//         // display: flex;
+//         // flex-wrap: wrap;
+//         // align-items: center;
+//         // justify-content: center;
+//         // gap: 20px;
+//     }
+//     .top-icon {
+//         position: absolute;
+//         top: 0;
+//         left: 40px;
+//     }
+//     .bottom-icon {
+//         position: absolute;
+//         right: 40px;
+//         bottom: 40px;
+//         margin-right: 20px;
+//     }
+// }
 // .fun-fact-area {
 //     position: relative;
 //     top: 0;

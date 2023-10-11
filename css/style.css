@@ -5801,7 +5801,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .counter-area.bg-primary {
   position: relative;
 }
-.counter-area.bg-primary:after {
+.counter-area.bg-primary:before {
   content: "";
   background: #f17732;
   position: absolute;
@@ -5964,8 +5964,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding-top: 0;
   background-color: #272224;
   border-radius: 0 0 20px 20px;
-  z-index: 10;
-  position: relative;
 }
 
 .counter-items-box {
@@ -6001,7 +5999,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: space-between;
   align-items: center;
 }
-.counter-items-box .top-icon {
+.counter-items-box .top-icon img {
   position: absolute;
   top: 0;
   left: 0;
@@ -6024,67 +6022,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-right: 31px;
   bottom: 0;
 }
-.counter-items-box-test {
-  position: relative;
-  padding: 53px 96px 94px 95px;
-  z-index: 20;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: rgba(17, 24, 33, 0.9);
-  border-radius: 0px 0px 20px 20px;
-}
-.counter-items-box-test:before {
-  content: "";
-  position: absolute;
-  height: calc(100% - 40px);
-  top: 0;
-  left: 0;
-  padding: 0px 37px 38px 38px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-top: none;
-  width: calc(100% - 80px);
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  border-radius: 0px 0px 20px 20px;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-items-box-test {
-    padding: 50px 58px 55px 57px;
-    flex-direction: column;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-items-box-test {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-row-gap: 30px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .counter-items-box-test {
-    padding: 50px 58px 55px 57px;
-    margin: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-}
-.counter-items-box-test .top-icon {
-  position: absolute;
-  top: 0;
-  left: 40px;
-}
-.counter-items-box-test .bottom-icon {
-  position: absolute;
-  right: 40px;
-  bottom: 40px;
-  margin-right: 20px;
-}
-
 .counter-card {
   display: flex;
   gap: 17px;
@@ -11283,7 +11220,7 @@ ul.children {
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
-.single-card-wrapper.elementor-container {
+.single-card-wrapper .elementor-container {
   display: grid !important;
   grid-template-columns: auto auto auto auto;
 }

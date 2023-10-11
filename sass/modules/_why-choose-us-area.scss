@@ -182,7 +182,7 @@
     margin-top: 60px;
     display: grid ;
     grid-template-columns: auto auto auto auto;
-    &.elementor-container{
+    .elementor-container{
         display: grid !important;
         grid-template-columns: auto auto auto auto;
     }
