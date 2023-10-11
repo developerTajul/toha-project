@@ -5973,6 +5973,59 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 
+.fun-fact-box {
+  padding: 40px;
+  padding-top: 0;
+  background-color: #272224;
+  border-radius: 0 0 20px 20px;
+  z-index: 10;
+  position: relative;
+}
+
+.counter-items-box {
+  position: relative;
+  padding: 54px 96px;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0px 0px 20px 20px;
+  border: 1px solid #635F61;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .counter-items-box {
+    padding: 50px 58px 55px 57px;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .counter-items-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .counter-items-box {
+    padding: 50px 58px 55px 57px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+.counter-items-box .top-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.counter-items-box .bottom-icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 20px;
+}
+
 .counter-items-box-test {
   position: relative;
   padding: 53px 96px 94px 95px;

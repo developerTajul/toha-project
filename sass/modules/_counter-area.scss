@@ -167,7 +167,60 @@
         }
     }
 }
-
+.fun-fact-box{
+    padding: 40px;
+    padding-top: 0;
+    background-color: #272224;
+    border-radius: 0 0 20px 20px;
+    z-index: 10;
+    position: relative;
+}
+.counter-items-box {
+    position: relative;
+    padding: 54px 96px;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+    border: 1px solid #635F61;
+    @include sm {
+        padding: 50px 58px 55px 57px;
+        flex-direction: column;
+    }
+    @include lg {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row-gap: 30px;
+    }
+    @include md {
+        padding: 50px 58px 55px 57px;
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        // grid-template-columns: auto auto;
+        gap: 30px;
+    }
+    @include sm {
+        // padding: 14px;
+        // display: flex;
+        // flex-wrap: wrap;
+        // align-items: center;
+        // justify-content: center;
+        // gap: 20px;
+    }
+    .top-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .bottom-icon {
+        position: absolute;
+        right: 0;
+        bottom:0;
+        margin-right: 20px;
+    }
+}
 .counter-items-box-test {
     position: relative;
     padding: 53px 96px 94px 95px;
