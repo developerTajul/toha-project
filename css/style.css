@@ -11285,14 +11285,14 @@ ul.children {
 .single-card-wrapper {
   margin-top: 60px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: auto auto auto auto;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .single-card-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-@media only screen and (min-width: 668px) and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .single-card-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }

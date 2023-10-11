@@ -181,14 +181,14 @@
 .single-card-wrapper {
     margin-top: 60px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: auto auto auto auto;
     @include rmaxwd(1400) {
         // margin: 0 12px;
     }
     @include sm {
         grid-template-columns: repeat(1, 1fr);
     }
-    @media only screen and (min-width: 668px) and (max-width: 1199px) {
+    @media only screen and (min-width: 768px) and (max-width: 1199px) {
         grid-template-columns: repeat(2, 1fr);
     }
 }
