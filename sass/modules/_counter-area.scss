@@ -179,9 +179,6 @@
     position: relative;
     padding: 54px 96px;
     z-index: 20;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border-radius: 0px 0px 20px 20px;
     border: 1px solid #635F61;
     @include sm {
@@ -208,6 +205,11 @@
         // align-items: center;
         // justify-content: center;
         // gap: 20px;
+    }
+    &.style-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .top-icon {
         position: absolute;

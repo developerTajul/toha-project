@@ -5986,9 +5986,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
   padding: 54px 96px;
   z-index: 20;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   border-radius: 0px 0px 20px 20px;
   border: 1px solid #635F61;
 }
@@ -6013,6 +6010,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     flex-wrap: wrap;
     gap: 30px;
   }
+}
+.counter-items-box.style-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .counter-items-box .top-icon {
   position: absolute;
