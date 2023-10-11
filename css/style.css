@@ -5813,20 +5813,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   opacity: 0.9;
   z-index: 0;
 }
-@media (min-width: 1450px) {
-  .counter-area .side-image {
-    z-index: 2;
-    overflow: hidden;
-    height: auto;
-    position: absolute;
-    right: 0;
-    height: 100%;
-    z-index: 10;
-    width: 314px;
-    margin-right: 31px;
-    bottom: 0;
-  }
-}
 
 .book-appointment-area {
   position: relative;
@@ -5983,7 +5969,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .counter-items-box {
-  position: relative;
   padding: 54px 96px;
   z-index: 20;
   border-radius: 0px 0px 20px 20px;
@@ -6027,7 +6012,18 @@ body.admin-bar .header-menu-area.sticky_menu {
   bottom: 0;
   margin-right: 20px;
 }
-
+.counter-items-box .side-image {
+  z-index: 2;
+  overflow: hidden;
+  height: auto;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  z-index: 10;
+  width: 314px;
+  margin-right: 31px;
+  bottom: 0;
+}
 .counter-items-box-test {
   position: relative;
   padding: 53px 96px 94px 95px;
@@ -11287,6 +11283,10 @@ ul.children {
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
+.single-card-wrapper.elementor-container {
+  display: grid !important;
+  grid-template-columns: auto auto auto auto;
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .single-card-wrapper {
     grid-template-columns: repeat(1, 1fr);
@@ -11308,6 +11308,7 @@ ul.children {
   background: #ffffff;
   background-image: none;
   overflow: hidden;
+  height: 100%;
   transition: all 0.5s ease-out;
 }
 @media (max-width: 1700px) {

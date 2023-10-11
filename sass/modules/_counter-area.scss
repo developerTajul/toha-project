@@ -21,20 +21,6 @@
             z-index: 0;
         }
     }
-    .side-image {
-        @include rwd(1450) {
-            z-index: 2;
-            overflow: hidden;
-            height: auto;
-            position: absolute;
-            right: 0;
-            height: 100%;
-            z-index: 10;
-            width: 314px;
-            margin-right: 31px;
-            bottom: 0;
-        }
-    }
 
 }
 .book-appointment-area {
@@ -176,7 +162,6 @@
     position: relative;
 }
 .counter-items-box {
-    position: relative;
     padding: 54px 96px;
     z-index: 20;
     border-radius: 0px 0px 20px 20px;
@@ -221,6 +206,20 @@
         right: 0;
         bottom:0;
         margin-right: 20px;
+    }
+    .side-image {
+        z-index: 2;
+        overflow: hidden;
+        height: auto;
+        position: absolute;
+        right: 0;
+        height: 100%;
+        z-index: 10;
+        width: 314px;
+        margin-right: 31px;
+        bottom: 0;
+        @include rwd(1450) {
+        }
     }
 }
 .counter-items-box-test {

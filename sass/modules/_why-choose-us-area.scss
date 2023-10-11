@@ -180,8 +180,12 @@
 }
 .single-card-wrapper {
     margin-top: 60px;
-    display: grid;
+    display: grid ;
     grid-template-columns: auto auto auto auto;
+    &.elementor-container{
+        display: grid !important;
+        grid-template-columns: auto auto auto auto;
+    }
     @include rmaxwd(1400) {
         // margin: 0 12px;
     }
@@ -202,6 +206,7 @@
     background: $white;
     background-image: none;
     overflow: hidden;
+    height: 100%;
     @include transition;
     @include rmaxwd(1700) {
         padding: 40px 22px 30px 22px;
