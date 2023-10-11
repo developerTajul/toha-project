@@ -445,9 +445,6 @@ input.theme-btn {
   }
 }
 
-.section-space {
-  padding: 140px 0;
-}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .section-space {
     padding: 70px 0;
@@ -11215,12 +11212,8 @@ ul.children {
   line-height: 80px;
 }
 
-.single-card-wrapper {
-  margin-top: 60px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-}
 .single-card-wrapper .elementor-container {
+  margin-top: 60px;
   display: grid !important;
   grid-template-columns: auto auto auto auto;
 }

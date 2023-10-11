@@ -178,11 +178,11 @@
         }
     }
 }
+// For word-press theme
+
 .single-card-wrapper {
-    margin-top: 60px;
-    display: grid ;
-    grid-template-columns: auto auto auto auto;
     .elementor-container{
+        margin-top: 60px;
         display: grid !important;
         grid-template-columns: auto auto auto auto;
     }
