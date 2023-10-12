@@ -7946,7 +7946,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .team-area {
   position: relative;
-  padding-bottom: 170px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .team-area {
@@ -7962,7 +7961,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   .team-area {
     height: auto;
     padding-top: 40px;
-    padding-bottom: 40px;
   }
 }
 .team-area .shape-1 {
@@ -11226,6 +11224,9 @@ ul.children {
   .single-card-wrapper .elementor-container {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+.single-card-wrapper .elementor-container .elementor-column {
+  width: 100% !important;
 }
 .single-choose-card {
   position: relative;
