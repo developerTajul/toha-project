@@ -21,7 +21,9 @@
             z-index: 0;
         }
     }
-
+    .container_outter_wrapper{
+        position: relative;
+    }
 }
 .book-appointment-area {
     position: relative;
@@ -197,17 +199,25 @@
         align-items: center;
     }
     .top-icon {
-        img{
             position: absolute;
             top: 0;
             left: 0;
-        }
+            left: calc(0% + 18%);
     }
     .bottom-icon {
-        position: absolute;
-        right: 0;
-        bottom:0;
-        margin-right: 20px;
+            position: absolute;
+            right: 0% + 18%;
+            bottom: 53%;
+            margin-right: 20px;
+            @include sm{
+                bottom: 40% !important;
+            }
+            @include md{
+                bottom: 44% !important;
+            }
+            @include lg{
+                bottom: 44% !important;
+            }
     }
     .side-image {
         z-index: 2;
@@ -217,10 +227,11 @@
         right: 0;
         height: 100%;
         z-index: 10;
-        width: 314px;
+        // width: 314px;
         margin-right: 31px;
         bottom: 0;
-        @include rwd(1450) {
+        @include rmaxwd(1450) {
+            display: none !important;
         }
     }
 }

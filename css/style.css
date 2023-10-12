@@ -5810,6 +5810,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   opacity: 0.9;
   z-index: 0;
 }
+.counter-area .container_outter_wrapper {
+  position: relative;
+}
 
 .book-appointment-area {
   position: relative;
@@ -5996,16 +5999,32 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: space-between;
   align-items: center;
 }
-.counter-items-box .top-icon img {
+.counter-items-box .top-icon {
   position: absolute;
   top: 0;
   left: 0;
+  left: 18%;
 }
 .counter-items-box .bottom-icon {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 18%;
+  bottom: 53%;
   margin-right: 20px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .counter-items-box .bottom-icon {
+    bottom: 40% !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .counter-items-box .bottom-icon {
+    bottom: 44% !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .counter-items-box .bottom-icon {
+    bottom: 44% !important;
+  }
 }
 .counter-items-box .side-image {
   z-index: 2;
@@ -6015,10 +6034,15 @@ body.admin-bar .header-menu-area.sticky_menu {
   right: 0;
   height: 100%;
   z-index: 10;
-  width: 314px;
   margin-right: 31px;
   bottom: 0;
 }
+@media (max-width: 1450px) {
+  .counter-items-box .side-image {
+    display: none !important;
+  }
+}
+
 .counter-card {
   display: flex;
   gap: 17px;
@@ -9574,6 +9598,8 @@ ul.children {
   transform: scale(1.01);
   width: 356px;
   height: 345px;
+  -o-object-fit: cover;
+     object-fit: cover;
   transition: all 0.5s ease-out;
 }
 @media (max-width: 1199px) {
