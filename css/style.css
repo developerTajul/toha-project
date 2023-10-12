@@ -5091,7 +5091,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .appointment-area.style-2 .appointment-form {
   height: 100%;
 }
-.appointment-area.style-2 .appointment-form .form-box {
+.appointment-area.style-2 .appointment-form form {
   margin: 37px 30px 30px 30px;
   height: 100%;
   display: flex;
@@ -5100,28 +5100,28 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 20px;
   flex-direction: row;
 }
-.appointment-area.style-2 .appointment-form .form-box .form-btn {
+.appointment-area.style-2 .appointment-form form .form-btn {
   width: 100%;
 }
-.appointment-area.style-2 .appointment-form .form-box .form-btn .theme-btn {
+.appointment-area.style-2 .appointment-form form .form-btn .theme-btn {
   display: flex;
   justify-content: center;
   background: #f17732;
   width: 100%;
   height: 59px;
 }
-.appointment-area.style-2 .appointment-form .form-box .form-btn .theme-btn:hover {
+.appointment-area.style-2 .appointment-form form .form-btn .theme-btn:hover {
   background: #ffffff;
   color: #f17732;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appointment-area.style-2 .appointment-form .form-box {
+  .appointment-area.style-2 .appointment-form form {
     flex-direction: column;
     gap: 30px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .appointment-area.style-2 .appointment-form .form-box {
+  .appointment-area.style-2 .appointment-form form {
     flex-direction: column;
     gap: 30px;
   }
@@ -9572,6 +9572,8 @@ ul.children {
 .post-card .content-wrapper .post-image img {
   border-radius: 10px;
   transform: scale(1.01);
+  width: 356px;
+  height: 345px;
   transition: all 0.5s ease-out;
 }
 @media (max-width: 1199px) {

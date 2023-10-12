@@ -180,7 +180,16 @@
         }
         .appointment-form {
             height: 100%;
-            .form-box {
+            // form{
+            //     margin: 37px 30px 30px 30px;
+            //     height: 100%;
+            //     display: flex;
+            //     justify-content: space-between;
+            //     align-items: center;
+            //     gap: 20px;
+            //     flex-direction: row;
+            // }
+            form {
                 margin: 37px 30px 30px 30px;
                 height: 100%;
                 display: flex;

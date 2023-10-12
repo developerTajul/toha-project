@@ -14,7 +14,7 @@
     }
   }
   .content-wrapper {
-    padding: 30px;  
+    padding: 30px;
     padding-bottom: 25px;
     display: flex;
     flex-direction: column;
@@ -25,6 +25,8 @@
       img {
         border-radius: 10px;
         transform: scale(1.01);
+        width: 356px;
+        height: 345px;
         @include transition;
         @include rmaxwd(1199) {
           width: 100%;
