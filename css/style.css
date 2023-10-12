@@ -11984,7 +11984,10 @@ ul.children {
   color: #ffffff;
 }
 .image-card .img-wrapper img {
-  width: 100%;
+  width: 480px;
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .image-card:hover .content {
   visibility: visible;

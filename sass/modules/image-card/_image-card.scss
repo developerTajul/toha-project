@@ -47,7 +47,9 @@
     }
     .img-wrapper {
         img {
-            width: 100%;
+            width: 480px;
+            height: 550px;
+            object-fit: cover;
         }
     }
     // .slider_icon {
