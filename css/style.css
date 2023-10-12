@@ -6088,7 +6088,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-items-box .elementor-container {
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
     gap: 30px;
   }
 }
@@ -6113,50 +6113,58 @@ body.admin-bar .header-menu-area.sticky_menu {
     gap: 30px;
   }
 }
-.counter-items-box .top-icon {
+.counter-items-box.style-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-icon {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0 !important;
   left: 18%;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-items-box .top-icon {
+  .top-icon {
     left: 10%;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .counter-items-box .top-icon {
+  .top-icon {
     left: 10%;
   }
 }
-.counter-items-box .bottom-icon {
+
+.bottom-icon {
   position: absolute;
   right: 18%;
   bottom: 53%;
   margin-right: 20px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .counter-items-box .bottom-icon {
+  .bottom-icon {
     bottom: 40% !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .counter-items-box .bottom-icon {
+  .bottom-icon {
     bottom: 44% !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-items-box .bottom-icon {
+  .bottom-icon {
     bottom: 41% !important;
     right: 8% !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .counter-items-box .bottom-icon {
+  .bottom-icon {
     right: 8% !important;
   }
 }
-.counter-items-box .side-image {
+
+.side-image {
   z-index: 2;
   overflow: hidden;
   height: auto;
@@ -6168,14 +6176,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   bottom: 0;
 }
 @media (max-width: 1450px) {
-  .counter-items-box .side-image {
+  .side-image {
     display: none !important;
   }
-}
-.counter-items-box.style-2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .counter-card {
