@@ -191,6 +191,10 @@
         @media only screen and (min-width: 768px) and (max-width: 1199px) {
             grid-template-columns: repeat(2, 1fr);
         }
+
+        .elementor-column {
+            width: 100% !important;
+        }
     }
     @include rmaxwd(1400) {
         // margin: 0 12px;

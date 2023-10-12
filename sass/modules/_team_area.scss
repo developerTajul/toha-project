@@ -1,6 +1,5 @@
 .team-area {
     position: relative;
-    padding-bottom: 170px;
     @include lg {
         height: auto;
     }
@@ -10,7 +9,6 @@
     @include sm {
         height: auto;
         padding-top: 40px;
-        padding-bottom: 40px;
     }
     .shape-1 {
         position: absolute;
