@@ -225,11 +225,14 @@
 .top-icon {
     position: absolute;
     // left: -35% !important;
-        @include lg{
-            left: -38% !important;
+        @include sm{
+            left: -27% !important;
         }
         @include md{
             left: -34% !important;
+        }
+        @include lg{
+            left: -38% !important;
         }
         @include xl{
             left: -39% !important;
@@ -241,7 +244,8 @@
         bottom: 53%;
         margin-right: 20px;
         @include sm{
-            bottom: 40% !important;
+            bottom: unset !important;
+            top: 312px !important;
         }
         @include md{
             left: unset !important;
