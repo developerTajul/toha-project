@@ -114,45 +114,45 @@
             row-gap: 10px;
         }
     }
-    .book-appointment-btn {
+}
+.book-appointment-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    .appointment-btn {
+        background: $black;
+        padding: 15px 20px;
         display: flex;
-        justify-content: center;
         align-items: center;
-        margin-right: 60px;
-        .appointment-btn {
-            background: $black;
-            padding: 15px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 6px;
-            color: $white;
-            font-family: $body-font;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: 29px;
-            border-radius: 5px;
-            @include transition;
-            &:hover {
-                background: $white;
-                color: $primary-color;
-            }
+        justify-content: space-between;
+        gap: 6px;
+        color: $white;
+        font-family: $body-font;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 29px;
+        border-radius: 5px;
+        @include transition;
+        &:hover {
+            background: $white;
+            color: $primary-color;
         }
-        @include lg {
-            justify-content: start;
-            align-items: start;
-        }
-        @include md {
-            justify-content: start;
-            align-items: start;
-            margin-bottom: 20px;
-        }
-        @include sm {
-            justify-content: start;
-            align-items: start;
-            margin-bottom: 20px;
-        }
+    }
+    @include lg {
+        justify-content: start;
+        align-items: start;
+    }
+    @include md {
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 20px;
+    }
+    @include sm {
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 20px;
     }
 }
 .fun-fact-box{

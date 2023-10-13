@@ -6023,13 +6023,14 @@ body.admin-bar .header-menu-area.sticky_menu {
     row-gap: 10px;
   }
 }
-.book-appointment-area .book-appointment-btn {
+
+.book-appointment-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 60px;
 }
-.book-appointment-area .book-appointment-btn .appointment-btn {
+.book-appointment-btn .appointment-btn {
   background: #111821;
   padding: 15px 20px;
   display: flex;
@@ -6045,25 +6046,25 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 5px;
   transition: all 0.5s ease-out;
 }
-.book-appointment-area .book-appointment-btn .appointment-btn:hover {
+.book-appointment-btn .appointment-btn:hover {
   background: #ffffff;
   color: #f17732;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .book-appointment-area .book-appointment-btn {
+  .book-appointment-btn {
     justify-content: start;
     align-items: start;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .book-appointment-area .book-appointment-btn {
+  .book-appointment-btn {
     justify-content: start;
     align-items: start;
     margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .book-appointment-area .book-appointment-btn {
+  .book-appointment-btn {
     justify-content: start;
     align-items: start;
     margin-bottom: 20px;
