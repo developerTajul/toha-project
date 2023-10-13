@@ -6122,12 +6122,15 @@ body.admin-bar .header-menu-area.sticky_menu {
 .top-icon {
   position: absolute;
   top: 0;
-  left: 0;
-  left: 18%;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .top-icon {
     left: -38% !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .top-icon {
+    left: -35% !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -6149,7 +6152,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .bottom-icon {
-    bottom: 44% !important;
+    left: 300px !important;
+    right: 0px !important;
+    top: 240px;
+    bottom: 0px !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
