@@ -226,7 +226,10 @@
             bottom: 40% !important;
         }
         @include md{
-            bottom: 44% !important;
+            left: 300px !important;
+            right: 0px !important;
+            top: 240px;
+            bottom: 0px !important;
         }
         @include lg{
             bottom: 41% !important;
