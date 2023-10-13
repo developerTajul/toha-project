@@ -209,7 +209,7 @@
 }
 .top-icon {
     position: absolute;
-    top: 0;
+    left: -35% !important;
         @include lg{
             left: -38% !important;
         }
