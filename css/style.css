@@ -6026,9 +6026,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .book-appointment-btn {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center !important;
+  align-items: center !important;
   margin-right: 60px;
+  height: 100% !important;
 }
 .book-appointment-btn .appointment-btn {
   background: #111821;
