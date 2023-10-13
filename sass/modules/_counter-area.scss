@@ -172,7 +172,7 @@
         display: flex;
         @include md{
             flex-wrap: wrap !important;
-            gap: 30px;
+            gap: 30px 0;
         }
         @include sm {
             padding: 50px 58px 55px 57px;
@@ -234,9 +234,8 @@
             bottom: 40% !important;
         }
         @include md{
-            left: 300px !important;
-            right: 0px !important;
-            top: 240px;
+            left: unset !important;
+            right: -37% !important;
             bottom: 0px !important;
         }
         @include lg{

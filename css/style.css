@@ -6089,7 +6089,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-items-box .elementor-container {
     flex-wrap: wrap !important;
-    gap: 30px;
+    gap: 30px 0;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -6156,9 +6156,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .bottom-icon {
-    left: 300px !important;
-    right: 0px !important;
-    top: 240px;
+    left: unset !important;
+    right: -37% !important;
     bottom: 0px !important;
   }
 }
