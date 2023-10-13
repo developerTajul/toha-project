@@ -6112,7 +6112,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-items-box .elementor-container .elementor-column {
-    width: 50% !important;
+    width: 100% !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
