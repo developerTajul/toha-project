@@ -6174,6 +6174,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   .bottom-icon {
     bottom: unset !important;
     top: 312px !important;
+    left: 25% !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

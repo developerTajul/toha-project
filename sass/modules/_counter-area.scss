@@ -246,6 +246,7 @@
         @include sm{
             bottom: unset !important;
             top: 312px !important;
+            left: 25% !important;
         }
         @include md{
             left: unset !important;
