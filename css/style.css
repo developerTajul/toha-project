@@ -6140,7 +6140,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .top-icon {
-    left: -35% !important;
+    left: -34% !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -6163,8 +6163,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .bottom-icon {
     left: unset !important;
-    right: -37% !important;
+    right: -34% !important;
     bottom: 0px !important;
+    top: 186px !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

@@ -223,7 +223,7 @@
             left: -38% !important;
         }
         @include md{
-            left: -35% !important;
+            left: -34% !important;
         }
         @include xl{
             left: -39% !important;
@@ -239,8 +239,9 @@
         }
         @include md{
             left: unset !important;
-            right: -37% !important;
+            right: -34% !important;
             bottom: 0px !important;
+            top: 186px !important;
         }
         @include lg{
             bottom: unset !important;
