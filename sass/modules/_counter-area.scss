@@ -210,10 +210,8 @@
 .top-icon {
     position: absolute;
     top: 0;
-    left: 0 !important;
-    left: calc(0% + 18%);
         @include lg{
-            left: 10%;
+            left: -38% !important;
         }
         @include xl{
             left: 10%;
@@ -232,7 +230,8 @@
         }
         @include lg{
             bottom: 41% !important;
-            right: 8% !important;
+            right: -39% !important;
+            left: unset !important;
         }
         @include xl{
             right: 8% !important;

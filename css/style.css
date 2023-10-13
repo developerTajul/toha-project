@@ -6122,12 +6122,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 .top-icon {
   position: absolute;
   top: 0;
-  left: 0 !important;
+  left: 0;
   left: 18%;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .top-icon {
-    left: 10%;
+    left: -38% !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -6155,7 +6155,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .bottom-icon {
     bottom: 41% !important;
-    right: 8% !important;
+    right: -39% !important;
+    left: unset !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
