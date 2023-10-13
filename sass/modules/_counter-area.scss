@@ -209,7 +209,7 @@
 }
 .top-icon {
     position: absolute;
-    left: -35% !important;
+    // left: -35% !important;
         @include lg{
             left: -38% !important;
         }
@@ -217,7 +217,7 @@
             left: -35% !important;
         }
         @include xl{
-            left: 10%;
+            left: -39% !important;
         }
     }
 .bottom-icon {
@@ -240,7 +240,8 @@
             left: unset !important;
         }
         @include xl{
-            right: 8% !important;
+            right: -39% !important;
+            left: unset !important;
         }
 }
 .side-image {
