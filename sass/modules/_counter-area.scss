@@ -213,6 +213,9 @@
         @include lg{
             left: -38% !important;
         }
+        @include md{
+            left: -300px;
+        }
         @include xl{
             left: 10%;
         }
