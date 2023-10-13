@@ -6090,6 +6090,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   .counter-items-box .elementor-container {
     flex-wrap: wrap !important;
     gap: 30px 0;
+    justify-content: space-between;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -6102,6 +6103,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   .counter-items-box .elementor-container {
     flex-wrap: wrap;
     grid-row-gap: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .counter-items-box .elementor-container .elementor-column {
+    width: 50% !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

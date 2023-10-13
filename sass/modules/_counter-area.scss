@@ -173,6 +173,7 @@
         @include md{
             flex-wrap: wrap !important;
             gap: 30px 0;
+            justify-content: space-between;
         }
         @include sm {
             padding: 50px 58px 55px 57px;
@@ -183,6 +184,9 @@
             grid-row-gap: 30px;
         }
         .elementor-column{
+            @include md{
+                width: 50% !important;
+            }
             @include lg{
                 width: 50% !important;
             }
