@@ -168,6 +168,9 @@
     z-index: 20;
     border-radius: 0px 0px 20px 20px;
     border: 1px solid #635F61;
+    @include sm{
+        padding: 0;
+    }
     .elementor-container{
         display: flex;
         @include md{
@@ -176,7 +179,7 @@
             justify-content: space-between;
         }
         @include sm {
-            padding: 50px 58px 55px 57px;
+            padding: 30px;
             flex-direction: column;
         }
         @include lg {

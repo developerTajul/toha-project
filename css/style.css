@@ -6083,6 +6083,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 0px 0px 20px 20px;
   border: 1px solid #635F61;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .counter-items-box {
+    padding: 0;
+  }
+}
 .counter-items-box .elementor-container {
   display: flex;
 }
@@ -6095,7 +6100,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-items-box .elementor-container {
-    padding: 50px 58px 55px 57px;
+    padding: 30px;
     flex-direction: column;
   }
 }
