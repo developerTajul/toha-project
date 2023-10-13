@@ -6104,6 +6104,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     grid-row-gap: 30px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .counter-items-box .elementor-container .elementor-column {
+    width: 50% !important;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-items-box {
     padding: 50px 58px 55px 57px;
@@ -6159,9 +6164,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .bottom-icon {
-    bottom: 41% !important;
-    right: -39% !important;
+    bottom: unset !important;
+    right: -38% !important;
     left: unset !important;
+    top: 188px !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {

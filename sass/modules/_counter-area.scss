@@ -182,6 +182,11 @@
             flex-wrap: wrap;
             grid-row-gap: 30px;
         }
+        .elementor-column{
+            @include lg{
+                width: 50% !important;
+            }
+        }
     }
     @include md {
         padding: 50px 58px 55px 57px;
@@ -235,9 +240,10 @@
             bottom: 0px !important;
         }
         @include lg{
-            bottom: 41% !important;
-            right: -39% !important;
+            bottom: unset !important;
+            right: -38% !important;
             left: unset !important;
+            top: 188px !important;
         }
         @include xl{
             right: -39% !important;
