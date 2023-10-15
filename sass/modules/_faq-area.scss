@@ -53,6 +53,9 @@
             gap: 70px;
             flex-wrap: wrap;
             justify-content: center;
+            .elementor-element{
+                width: auto !important;
+            }
         }
     }
     

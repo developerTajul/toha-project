@@ -6372,6 +6372,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   flex-wrap: wrap;
   justify-content: center;
 }
+.faq-area .counter-wrapper .elementor-widget-wrap .elementor-element {
+  width: auto !important;
+}
 .faq-area .accordion-wrapper {
   z-index: 10;
   position: relative;
