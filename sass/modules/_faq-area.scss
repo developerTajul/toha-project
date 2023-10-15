@@ -47,11 +47,13 @@
         z-index: 10;
     }
     .counter-wrapper {
-        display: flex;
-        align-items: center;
-        gap: 70px;
-        flex-wrap: wrap;
-        justify-content: center;
+        .elementor-widget-wrap{
+            display: flex;
+            align-items: center;
+            gap: 70px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     }
     
     .accordion-wrapper {
@@ -81,7 +83,6 @@
     align-items: center;
     justify-content: center;
     z-index: 10;
-    margin-left: 10%;
     @include lg{
         width: 180px;
         height: 180px;
@@ -155,13 +156,5 @@
                 font-size: 14px;
             }
         }
-    }
-    &.style-2{
-        margin-top: -33%;
-        margin-left: 58%;
-    }
-    &.style-3{
-        margin-top: 0;
-        margin-left: 33%;
     }
 }
