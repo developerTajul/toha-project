@@ -27,13 +27,19 @@
 }
 .image {
     display: flex;
+    z-index: 1;
 }
 .shape-1 {
     display: flex;
-    justify-content: end;
+    justify-content: end !important;
+    position: absolute !important;
+    right: 75px;
+    z-index: 0;
 }
 .child-img {
-    position: absolute;
+    position: absolute !important;
     bottom: 0;
     right: -22%;
+    top: 25%;
+    z-index: 3;
 }
