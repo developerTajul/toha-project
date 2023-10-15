@@ -6205,11 +6205,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 .side-image {
   z-index: 2;
   overflow: hidden;
-  height: auto;
   position: absolute;
   right: 0;
-  height: 100%;
   z-index: 10;
+  height: 511px;
   margin-right: 31px;
   bottom: 0;
 }
