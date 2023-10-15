@@ -6483,6 +6483,14 @@ body.admin-bar .header-menu-area.sticky_menu {
     font-size: 14px;
   }
 }
+.single-expert.style-2 {
+  margin-top: -33%;
+  margin-left: 58%;
+}
+.single-expert.style-3 {
+  margin-top: -33%;
+  margin-left: 43%;
+}
 
 .feature-area {
   position: relative;
