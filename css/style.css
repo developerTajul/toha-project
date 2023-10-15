@@ -5029,7 +5029,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
   background: #111821;
   border-radius: 20px 20px 0px 0px;
-  padding: 20px 20px 48px 20px;
+  padding: 20px 40px 50px 40px;
   z-index: 10;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
