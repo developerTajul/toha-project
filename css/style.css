@@ -6397,6 +6397,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   align-items: center;
   justify-content: center;
   z-index: 10;
+  margin-left: 10%;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single-expert {
@@ -6488,8 +6489,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-left: 58%;
 }
 .single-expert.style-3 {
-  margin-top: -33%;
-  margin-left: 43%;
+  margin-top: 0;
+  margin-left: 33%;
 }
 
 .feature-area {
