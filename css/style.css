@@ -9237,6 +9237,15 @@ ul.children {
   line-height: 15px;
 }
 
+.blog-posts .single-post-item .post-content-wrapper {
+  padding: 0;
+}
+.blog-posts .single-post-item .post-content-wrapper .post-meta,
+.blog-posts .single-post-item .post-content-wrapper .post-title,
+.blog-posts .single-post-item .post-content-wrapper .post-content {
+  padding: 0 30px;
+}
+
 .single-post-item {
   background-color: #ffffff;
   border-radius: 20px;

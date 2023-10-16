@@ -318,7 +318,18 @@
   }
 }
 // Blog Details End
-
+.blog-posts{
+  .single-post-item{
+    .post-content-wrapper{
+      padding: 0;
+      .post-meta,
+      .post-title,
+      .post-content{
+        padding: 0 30px;
+      }
+    }
+  }
+}
 // Standard Blog Post
 .single-post-item {
   background-color: $white;
