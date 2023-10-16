@@ -6416,8 +6416,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   right: 0;
   transform: translateY(50%);
   z-index: 10;
-  margin-right: 7px;
-  margin-bottom: 2px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .single-expert .icon {
@@ -6425,16 +6423,49 @@ body.admin-bar .header-menu-area.sticky_menu {
     transform: translateY(50%);
   }
 }
-.single-expert .icon.style-2 {
+.single-expert .icon.top {
   top: 0;
   bottom: unset;
   transform: translateY(-50%);
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .single-expert .icon.style-2 {
+  .single-expert .icon.top {
     top: unset;
     bottom: 0;
     transform: translateY(50%);
+  }
+}
+.single-expert .icon.right {
+  top: unset;
+  bottom: 50%;
+  right: 0;
+  justify-content: end;
+  margin-right: 0;
+  transform: translate(25px, 25px);
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .single-expert .icon.right {
+    top: unset;
+    bottom: 0;
+    transform: translateY(50%);
+    justify-content: center;
+  }
+}
+.single-expert .icon.left {
+  top: 50%;
+  bottom: unset;
+  right: unset;
+  justify-content: start;
+  margin-right: 0;
+  transform: translate(-25px, -25px);
+  left: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .single-expert .icon.left {
+    top: unset;
+    bottom: 0;
+    transform: translateY(50%);
+    justify-content: center;
   }
 }
 .single-expert .icon i {
