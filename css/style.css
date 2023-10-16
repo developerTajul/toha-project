@@ -10251,7 +10251,8 @@ ul.children {
   background-repeat: no-repeat;
   position: relative;
 }
-.service-offer.style-2 .service-offer-container {
+
+.service-offer-container {
   background-color: #ffffff;
   padding: 0 100px 74px;
   border-radius: 10px;
@@ -10259,66 +10260,66 @@ ul.children {
   position: relative;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service-offer.style-2 .service-offer-container {
+  .service-offer-container {
     padding: 0 50px 74px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-offer.style-2 .service-offer-container {
+  .service-offer-container {
     padding: 0 20px 20px 20px;
   }
 }
-.service-offer.style-2 .service-offer-container .process-step-slider-tab {
+.service-offer-container .process-step-slider-tab {
   margin-bottom: 60px;
   gap: 10px;
   text-align: center;
   display: flex;
   justify-content: space-between;
 }
-.service-offer.style-2 .service-offer-container .process-step-slider-tab li {
+.service-offer-container .process-step-slider-tab li {
   list-style: none;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service-offer.style-2 .service-offer-container .process-step-slider-tab {
+  .service-offer-container .process-step-slider-tab {
     flex-wrap: wrap;
     justify-content: center;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-offer.style-2 .service-offer-container .process-step-slider-tab {
+  .service-offer-container .process-step-slider-tab {
     flex-wrap: wrap;
     justify-content: center;
   }
 }
-.service-offer.style-2 .service-offer-container .process-step-slider-tab .slick-list {
+.service-offer-container .process-step-slider-tab .slick-list {
   padding: 0 !important;
   margin: 0 -12px;
 }
 @media only screen and (min-width: 992px) and (max-width: 2560px) {
-  .service-offer.style-2 .service-offer-container .process-step-slider-tab .slick-list .slick-track {
+  .service-offer-container .process-step-slider-tab .slick-list .slick-track {
     transform: none !important;
   }
 }
-.service-offer.style-2 .service-offer-container .process-step-slider-tab .slick-list .slick-track .slick-slide {
+.service-offer-container .process-step-slider-tab .slick-list .slick-track .slick-slide {
   margin: 0 5px;
 }
 @media (max-width: 991px) {
-  .service-offer.style-2 .service-offer-container .process-step-slider-tab .slick-list .slick-track .slick-slide .content .title {
+  .service-offer-container .process-step-slider-tab .slick-list .slick-track .slick-slide .content .title {
     text-align: left;
   }
 }
-.service-offer.style-2 .service-offer-container .process-step-slider-tab .single-offer-tab {
+.service-offer-container .process-step-slider-tab .single-offer-tab {
   padding: 26px 20px 26px 21px;
   border-radius: 0px 0px 10px 10px;
   cursor: pointer;
   background-color: #eafbf1;
 }
-.service-offer.style-2 .service-offer-container .process-step-slider-tab .single-offer-tab i {
+.service-offer-container .process-step-slider-tab .single-offer-tab i {
   font-size: 60px;
   line-height: 60px;
   color: #f17732;
 }
-.service-offer.style-2 .service-offer-container .process-step-slider-tab .single-offer-tab h4 {
+.service-offer-container .process-step-slider-tab .single-offer-tab h4 {
   color: #111821;
   font-family: "Jost", sans-serif;
   font-size: 24px;
@@ -10327,28 +10328,28 @@ ul.children {
   margin-top: 5px;
 }
 @media (max-width: 991px) {
-  .service-offer.style-2 .service-offer-container .process-step-slider-tab .single-offer-tab h4 br {
+  .service-offer-container .process-step-slider-tab .single-offer-tab h4 br {
     display: none;
   }
 }
-.service-offer.style-2 .service-offer-container .process-step-slider-tab .single-offer-tab.slick-current {
+.service-offer-container .process-step-slider-tab .single-offer-tab.slick-current {
   background-color: #f17732;
   color: #ffffff;
 }
-.service-offer.style-2 .service-offer-container .process-step-slider-tab .single-offer-tab.slick-current i {
+.service-offer-container .process-step-slider-tab .single-offer-tab.slick-current i {
   color: #ffffff;
 }
-.service-offer.style-2 .service-offer-container .process-step-slider-tab .single-offer-tab.slick-current h4 {
+.service-offer-container .process-step-slider-tab .single-offer-tab.slick-current h4 {
   color: #ffffff;
 }
-.service-offer.style-2 .service-offer-container .process-step-slider-tab .tab-2 {
+.service-offer-container .process-step-slider-tab .tab-2 {
   background-color: #f17732;
   color: #ffffff;
 }
-.service-offer.style-2 .service-offer-container .tab-content-wrapper .slick-list .slick-slide {
+.service-offer-container .tab-content-wrapper .slick-list .slick-slide {
   margin: 0 4px;
 }
-.service-offer.style-2 .service-offer-container .content-wrapper h3 {
+.service-offer-container .content-wrapper h3 {
   color: #111821;
   padding-bottom: 10px;
   font-family: "Jost", sans-serif;
@@ -10356,7 +10357,7 @@ ul.children {
   font-weight: 600;
   line-height: 40px;
 }
-.service-offer.style-2 .service-offer-container .content-wrapper .text {
+.service-offer-container .content-wrapper .text {
   color: #666666;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -10364,10 +10365,10 @@ ul.children {
   line-height: 29px;
   padding: 15px 30px 15px 0;
 }
-.service-offer.style-2 .service-offer-container .content-wrapper .text p {
+.service-offer-container .content-wrapper .text p {
   margin-bottom: 0;
 }
-.service-offer.style-2 .service-offer-container ul {
+.service-offer-container ul {
   padding-top: 15px;
   display: flex;
   flex-direction: column;
@@ -10376,16 +10377,16 @@ ul.children {
   margin-bottom: 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-offer.style-2 .service-offer-container ul {
+  .service-offer-container ul {
     padding-bottom: 24px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service-offer.style-2 .service-offer-container ul {
+  .service-offer-container ul {
     padding-bottom: 24px;
   }
 }
-.service-offer.style-2 .service-offer-container ul li {
+.service-offer-container ul li {
   display: inline-flex;
   align-items: center;
   gap: 25px;
@@ -10395,7 +10396,7 @@ ul.children {
   font-weight: 500;
   line-height: 30px;
 }
-.service-offer.style-2 .service-offer-container ul li i {
+.service-offer-container ul li i {
   font-family: "icomoon" !important;
   font-size: 30px;
   line-height: 30px;
@@ -10404,21 +10405,21 @@ ul.children {
   height: unset;
   background-color: unset;
 }
-.service-offer.style-2 .service-offer-container .check-box {
+.service-offer-container .check-box {
   display: flex;
   gap: 15px;
   align-items: center;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-offer.style-2 .service-offer-container .check-box {
+  .service-offer-container .check-box {
     padding-bottom: 0;
   }
 }
-.service-offer.style-2 .service-offer-container .check-box i {
+.service-offer-container .check-box i {
   color: #f17732;
   font-size: 30px;
 }
-.service-offer.style-2 .service-offer-container .check-box span {
+.service-offer-container .check-box span {
   font-family: "Jost", sans-serif;
   font-size: 20px;
   font-weight: 500;
