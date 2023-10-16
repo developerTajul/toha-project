@@ -9238,7 +9238,7 @@ ul.children {
 }
 
 .blog-posts .single-post-item .post-content-wrapper {
-  padding: 0;
+  padding: 30px 0 0 0;
 }
 .blog-posts .single-post-item .post-content-wrapper .post-meta,
 .blog-posts .single-post-item .post-content-wrapper .post-title,
