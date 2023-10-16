@@ -226,6 +226,13 @@
 .top-icon {
     position: absolute;
     // left: -35% !important;
+    &.temp{
+        top: 0;
+        left: 18%;
+        @include sm{
+            left: 13% !important;
+        }
+    }
         @include sm{
             left: -27% !important;
         }

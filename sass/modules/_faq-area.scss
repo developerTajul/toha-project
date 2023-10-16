@@ -46,6 +46,13 @@
         top: 0;
         z-index: 10;
     }
+    .counter-item-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 70px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .counter-wrapper {
         .elementor-widget-wrap{
             display: flex;
