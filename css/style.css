@@ -8032,6 +8032,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   flex-shrink: 0;
   overflow: hidden;
   border-radius: 10px;
+  width: 100px;
+  height: 100px;
 }
 .widget_latest_post ul li .latest-post-thumb img {
   transform: scale(1);
@@ -9103,7 +9105,6 @@ ul.children {
   margin-bottom: 20px;
 }
 .blog-details-wrapper .single-post-item .post-content p img {
-  margin: 20px 0;
   border-radius: 8px;
 }
 .blog-details-wrapper .single-post-item .post-content .wp-block-pullquote blockquote {

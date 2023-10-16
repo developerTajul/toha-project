@@ -735,6 +735,8 @@
         flex-shrink: 0;
         overflow: hidden;
         border-radius: 10px;
+        width: 100px;
+        height: 100px;
         img {
           transform: scale(1);
           @include transition;
