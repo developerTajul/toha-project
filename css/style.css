@@ -6303,7 +6303,17 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex;
   align-items: end;
 }
-
+.eye-care-image-card .image {
+  display: flex;
+  z-index: 1;
+}
+.eye-care-image-card .shape-1 {
+  display: flex;
+  justify-content: end !important;
+  position: absolute !important;
+  right: 75px;
+  z-index: 0;
+}
 .image {
   display: flex;
   z-index: 1;
@@ -10356,18 +10366,42 @@ ul.children {
 .service-offer.style-2 .service-offer-container .content-wrapper .text p {
   margin-bottom: 0;
 }
-.service-offer.style-2 .service-offer-container .list-wrapper {
+.service-offer.style-2 .service-offer-container ul {
   padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-offer.style-2 .service-offer-container .list-wrapper {
+  .service-offer.style-2 .service-offer-container ul {
     padding-bottom: 24px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service-offer.style-2 .service-offer-container .list-wrapper {
+  .service-offer.style-2 .service-offer-container ul {
     padding-bottom: 24px;
   }
+}
+.service-offer.style-2 .service-offer-container ul li {
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 0;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.service-offer.style-2 .service-offer-container ul li i {
+  font-family: "icomoon" !important;
+  font-size: 30px;
+  line-height: 30px;
+  color: #f17732;
+  width: unset;
+  height: unset;
+  background-color: unset;
 }
 .service-offer.style-2 .service-offer-container .check-box {
   display: flex;

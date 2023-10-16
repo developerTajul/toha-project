@@ -125,13 +125,38 @@
                     }
                 }
             }
-            .list-wrapper {
+            ul {
                 padding-top: 15px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding-left: 0;
+                margin-bottom: 0;
                 @include sm {
                     padding-bottom: 24px;
                 }
                 @include md {
                     padding-bottom: 24px;
+                }
+                li{
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 25px;
+                    margin-bottom: 0;
+                    font-family: $heading-font;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    i{
+                        font-family: $icomoon;
+                        font-size: 30px;
+                        line-height: 30px;
+                        color: $primary-color;
+                        width: unset;
+                        height: unset;
+                        background-color: unset;
+                        
+                    }
                 }
             }
             .check-box {

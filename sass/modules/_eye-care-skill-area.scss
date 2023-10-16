@@ -24,7 +24,24 @@
     position: relative;
     display: flex;
     align-items: end;
+    .image {
+        display: flex;
+        z-index: 1;
+    }
+    .shape-1 {
+        display: flex;
+        justify-content: end !important;
+        position: absolute !important;
+        right: 75px;
+        z-index: 0;
+    }
+    .child {
+
+    }
+    
 }
+
+// For theme
 .image {
     display: flex;
     z-index: 1;
