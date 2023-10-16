@@ -28,15 +28,19 @@
         display: flex;
         z-index: 1;
     }
-    .shape-1 {
-        display: flex;
-        justify-content: end !important;
-        position: absolute !important;
-        right: 75px;
+    .shape {
+        flex-shrink: 0;
+        right: 69px;
+        top: 31px;
+        position: absolute;
         z-index: 0;
     }
     .child {
-
+        flex-shrink: 0;
+        margin-bottom: 25px;
+        margin-left: -86px;
+        z-index: 10;
+        position: relative;
     }
     
 }

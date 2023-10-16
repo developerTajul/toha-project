@@ -6307,13 +6307,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex;
   z-index: 1;
 }
-.eye-care-image-card .shape-1 {
-  display: flex;
-  justify-content: end !important;
-  position: absolute !important;
-  right: 75px;
+.eye-care-image-card .shape {
+  flex-shrink: 0;
+  right: 69px;
+  top: 31px;
+  position: absolute;
   z-index: 0;
 }
+.eye-care-image-card .child {
+  flex-shrink: 0;
+  margin-bottom: 25px;
+  margin-left: -86px;
+  z-index: 10;
+  position: relative;
+}
+
 .image {
   display: flex;
   z-index: 1;
