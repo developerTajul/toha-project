@@ -220,7 +220,11 @@ table {
 .size-thumbnail {
   margin-bottom: 20px;
 }
-
+.sidebar{
+  .size-thumbnail {
+    margin-bottom: 0;
+  }
+}
 img {
   &.emoji {
     width: 15px;

@@ -2435,6 +2435,10 @@ table td#today a {
   margin-bottom: 20px;
 }
 
+.sidebar .size-thumbnail {
+  margin-bottom: 0;
+}
+
 img.emoji {
   width: 15px;
   height: 15px;
@@ -7997,7 +8001,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .widget_latest_post ul li {
   display: flex;
   gap: 14px;
-  margin-bottom: 24px;
+  margin-bottom: 14px;
   border: 0;
   align-items: center;
 }
