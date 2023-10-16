@@ -193,7 +193,11 @@
       cursor: pointer;
       flex-direction: row;
       position: relative;
-
+      &[aria-expanded="false"]{
+        &:after {
+          content: "\2b";
+        }
+      }
       @include sm {
         gap: 8px;
       }
@@ -209,11 +213,6 @@
         font-family: $font-awesome;
         color: $white;
         font-size: 20px;
-      }
-      &.collapsed {
-        &:after {
-          content: "\2b";
-        }
       }
 
       .accordion-title {

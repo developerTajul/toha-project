@@ -4967,6 +4967,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   flex-direction: row;
   position: relative;
 }
+.accordion-wrapper .accordion-list-item .accordion-head[aria-expanded=false]:after {
+  content: "+";
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .accordion-wrapper .accordion-list-item .accordion-head {
     gap: 8px;
@@ -4983,9 +4986,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Font Awesome 6 Pro";
   color: #ffffff;
   font-size: 20px;
-}
-.accordion-wrapper .accordion-list-item .accordion-head.collapsed:after {
-  content: "+";
 }
 .accordion-wrapper .accordion-list-item .accordion-head .accordion-title {
   font-family: "Jost", sans-serif;
