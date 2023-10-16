@@ -6793,7 +6793,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .testimonial-area.style-1 .shape-1 {
   position: absolute;
   top: 0;
-  bottom: 0;
+  left: 0;
+  right: unset;
+  bottom: unset;
 }
 @media (max-width: 991px) {
   .testimonial-area.style-1 .section-desc {
