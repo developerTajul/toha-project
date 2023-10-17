@@ -9578,6 +9578,7 @@ ul.children {
 .single-post-item .post-video {
   position: relative;
   margin: 30px;
+  margin-bottom: 0;
   overflow: hidden;
   border-radius: 10px;
 }
