@@ -9304,6 +9304,9 @@ ul.children {
 .blog-posts .single-post-item.format-image .post-thumbnail img {
   width: unset;
 }
+.blog-posts .single-post-item.tag-image .post-content-wrapper {
+  padding-bottom: 30px;
+}
 
 .single-post-item {
   background-color: #ffffff;

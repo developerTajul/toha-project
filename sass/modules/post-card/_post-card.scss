@@ -338,6 +338,11 @@
         }
       }
     }
+    &.tag-image{
+      .post-content-wrapper{
+        padding-bottom: 30px;
+      }
+    }
   }
 }
 // Standard Blog Post
