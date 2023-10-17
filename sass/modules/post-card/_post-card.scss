@@ -536,7 +536,6 @@
     .blog-post-cat{
       display: inline-block;
       span{
-        margin-right: 16px;
         float: left;
         font-family: "Jost", sans-serif;
         font-size: 20px;
@@ -546,6 +545,7 @@
         color: $secondary-color;
       }
       .post-cat-list{
+        margin-left: 30px;
         display: flex;
         gap: 8px;
         flex-wrap: wrap;
