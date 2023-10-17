@@ -9481,6 +9481,12 @@ ul.children {
 .single-post-item .single-post-meta .blog-post-cat span {
   margin-right: 16px;
   float: left;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  color: #03c0b4;
 }
 .single-post-item .single-post-meta .blog-post-cat .post-cat-list {
   display: flex;
