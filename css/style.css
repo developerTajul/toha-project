@@ -9480,13 +9480,19 @@ ul.children {
   gap: 24px;
 }
 .single-post-item .single-post-meta .blog-post-cat .post-cat-list {
-  display: inline-block;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
   font-size: 16px;
-  line-height: 1;
   padding: 12px 22px;
   border-radius: 50px;
   transition: all 0.5s ease-out;
-  border: 1px solid #bfc5cb;
+  border: 1px solid transparent;
+}
+.single-post-item .single-post-meta .blog-post-cat .post-cat-list .news-cat {
+  padding: 4px 8px;
+  border: 1px solid #F07733;
+  border-radius: 50px;
 }
 .single-post-item .social-share {
   display: flex;
