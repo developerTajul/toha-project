@@ -328,6 +328,11 @@
         padding: 0 30px;
       }
     }
+    &.format-image{
+      .post-content-wrapper{
+        padding-bottom: 0;
+      }
+    }
   }
 }
 // Standard Blog Post
