@@ -6341,7 +6341,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex;
   z-index: 1;
 }
-.image img {
+.image .elementor-widget-container img {
   border-radius: 10px;
 }
 
@@ -6360,7 +6360,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   top: 25%;
   z-index: 3;
 }
-.child-img img {
+.child-img .elementor-widget-container img {
   border-radius: 10px;
 }
 

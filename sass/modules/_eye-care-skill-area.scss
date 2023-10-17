@@ -49,8 +49,10 @@
 .image {
     display: flex;
     z-index: 1;
-    img{
-        border-radius: 10px;
+    .elementor-widget-container{
+        img{
+            border-radius: 10px;
+        }
     }
 }
 .shape-1 {
@@ -66,7 +68,9 @@
     right: -22%;
     top: 25%;
     z-index: 3;
-    img{
-        border-radius: 10px;
+    .elementor-widget-container{
+        img{
+            border-radius: 10px;
+        }
     }
 }
