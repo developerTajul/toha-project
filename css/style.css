@@ -9588,7 +9588,6 @@ ul.children {
 }
 .single-post-item .post-thumbnail img,
 .single-post-item .post-video img {
-  width: 100%;
   transform: scale(1);
   border-radius: 10px;
   transition: all 0.5s ease-out;
