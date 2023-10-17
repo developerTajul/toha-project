@@ -321,7 +321,7 @@
 .blog-posts{
   .single-post-item{
     .post-content-wrapper{
-      padding: 30px 0 0 0;
+      padding: 0px 0 0 0;
       .post-meta,
       .post-title,
       .post-content{
@@ -623,7 +623,7 @@
   .post-video {
     position: relative;
     margin: 30px;
-    margin-bottom: 0;
+    // margin-bottom: 0;
     // padding: 30px;
     // padding-bottom: 0;
     overflow: hidden;
