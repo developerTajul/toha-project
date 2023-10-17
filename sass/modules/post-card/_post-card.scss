@@ -534,21 +534,34 @@
     flex-direction: column;
     width: 100%;
     .blog-post-cat{
-      display: flex;
-      gap: 24px;
+      display: inline-block;
+      span{
+        margin-right: 16px;
+        float: left;
+      }
       .post-cat-list{
         display: flex;
         gap: 8px;
         flex-wrap: wrap;
         font-size: 16px;
-        padding: 12px 22px;
+        padding: 0;
         border-radius: 50px;
-        transition: all 0.5s ease-out;
         border: 1px solid transparent;
         .news-cat{
-          padding: 4px 8px;
-          border: 1px solid #F07733;
+          color: #666666;
+          display: inline-block;
+          font-size: 16px;
+          line-height: 1;
+          padding: 12px 22px;
           border-radius: 50px;
+          border: 1px solid #bfc5cb;
+          @include transition;
+          &:hover{
+            color: $white;
+            background: $primary-color;
+            border-color: $primary-color;
+            @include transition;
+          }
         }
       }
     }
