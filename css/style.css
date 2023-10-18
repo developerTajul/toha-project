@@ -8487,7 +8487,7 @@ ul.children {
 .comment-respond .contacts-email,
 .comment-respond .contacts-name,
 .comment-respond .single-input-field {
-  margin-bottom: 30px;
+  margin-bottom: 14px;
 }
 .comment-respond label {
   display: block;
@@ -9045,7 +9045,6 @@ ul.children {
 }
 .blog-details-wrapper .comment-respond input,
 .blog-details-wrapper .comment-respond select {
-  height: 40px;
   padding: 0 12px;
 }
 .blog-details-wrapper .comment-respond textarea {
