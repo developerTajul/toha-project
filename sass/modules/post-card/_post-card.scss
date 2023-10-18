@@ -563,8 +563,9 @@
     width: 100%;
     .blog-post-cat{
       display: inline-block;
-      span{
+      > span{
           float: left;
+          margin-top: 8px;
         // &:first-child{
         //   font-family: "Jost", sans-serif;
         //   font-size: 20px;
@@ -642,7 +643,7 @@
       font-weight: 700;
       display: inline-block;
       font-family: $heading-font;
-      color: $secondary-color;
+      color: $black;
       margin-bottom: 0;
       margin-right: 30px;
       text-transform: uppercase;

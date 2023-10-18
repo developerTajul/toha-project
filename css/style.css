@@ -9498,8 +9498,9 @@ ul.children {
 .single-post-item .single-post-meta .blog-post-cat {
   display: inline-block;
 }
-.single-post-item .single-post-meta .blog-post-cat span {
+.single-post-item .single-post-meta .blog-post-cat > span {
   float: left;
+  margin-top: 8px;
 }
 .single-post-item .single-post-meta .blog-post-cat .post-cat-list {
   display: flex;
@@ -9558,7 +9559,7 @@ ul.children {
   font-weight: 700;
   display: inline-block;
   font-family: "Jost", sans-serif;
-  color: #03c0b4;
+  color: #111821;
   margin-bottom: 0;
   margin-right: 30px;
   text-transform: uppercase;
