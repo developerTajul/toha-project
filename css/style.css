@@ -8341,9 +8341,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .latest-comments li .comments-box {
   padding: 50px;
-  border: 1px solid #f6f7f5;
   border-radius: 8px;
   margin-bottom: 24px;
+  box-shadow: 0px 4px 60px 0px rgba(220, 220, 220, 0.25);
+  background-color: #ffffff;
 }
 @media (max-width: 767px) {
   .latest-comments li .comments-box {
@@ -9080,6 +9081,7 @@ ul.children {
 
 .blog-details-wrapper .comment-respond {
   margin-top: 78px;
+  margin-bottom: 78px;
 }
 .blog-details-wrapper .comment-respond input,
 .blog-details-wrapper .comment-respond select {
@@ -9221,6 +9223,7 @@ ul.children {
 }
 .blog-details-wrapper .latest-comments li .comments-box .comments-text p {
   margin-bottom: 0;
+  color: #ffffff;
 }
 .blog-details-wrapper .wp-block-loginout {
   margin-top: 0;

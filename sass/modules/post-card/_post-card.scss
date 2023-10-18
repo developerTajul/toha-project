@@ -65,6 +65,8 @@
 .blog-details-wrapper {
   .comment-respond {
     margin-top: 78px;
+    margin-bottom: 78px;
+    
     input,
     select{
       // height: 40px;
@@ -232,6 +234,7 @@
   }
   .latest-comments li .comments-box .comments-text p{
     margin-bottom: 0;
+    color:$white;
   }
   // logout btn 
   .wp-block-loginout{

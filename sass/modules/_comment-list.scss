@@ -112,9 +112,11 @@
 
     .comments-box {
       padding: 50px;
-      border: 1px solid $gray-300;
+      // border: 1px solid $gray-300;
       border-radius: 8px;
       margin-bottom: 24px;
+      box-shadow: 0px 4px 60px 0px rgba(220, 220, 220, 0.25);
+      background-color: $white;
 
       @include rmaxwd(767) {
         padding: 30px;
