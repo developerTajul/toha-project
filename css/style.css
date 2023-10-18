@@ -10950,6 +10950,7 @@ ul.children {
   flex-direction: column;
   margin-top: 20px;
   padding-left: 0;
+  gap: 20px;
 }
 .service-details-area .content-wrapper .single-item ul li {
   display: flex;
