@@ -9054,6 +9054,7 @@ ul.children {
   overflow: hidden;
   border-radius: 10px;
   background-color: #f2f4f5;
+  width: 60%;
 }
 .blog-area .blog-post-items .no-results .search-form input {
   background-color: #f2f4f5;
