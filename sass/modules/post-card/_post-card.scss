@@ -31,6 +31,14 @@
 .blog-details-wrapper {
   .comment-respond {
     margin-top: 78px;
+    input,
+    select{
+      height: 40px;
+      padding: 0 12px;
+    }
+    textarea{
+      padding: 12px;
+    }
   }
   .post-comments {
     margin-top: 70px;
@@ -154,6 +162,11 @@
       .wp-block-pullquote{
         blockquote{
           background-color: transparent;
+        }
+      }
+      &:last-child{
+        p{
+          margin-bottom: 0;
         }
       }
     }

@@ -48,6 +48,7 @@
         }
         .consultation-form {
             border-radius: 20px;
+            padding: 20px 26px 20px 20px;
             @media only screen and (min-width: 0) and (max-width: 991px){
                 border-radius: 20px 20px 0px 0px;
             }
@@ -116,7 +117,7 @@
                     i {
                         color: $primary-color;
                         font-size: 30px;
-                        padding: 10px 0;
+                        // padding: 10px 0;
                     }
                     p{
                         margin-bottom: 0;

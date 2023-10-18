@@ -9043,6 +9043,14 @@ ul.children {
 .blog-details-wrapper .comment-respond {
   margin-top: 78px;
 }
+.blog-details-wrapper .comment-respond input,
+.blog-details-wrapper .comment-respond select {
+  height: 40px;
+  padding: 0 12px;
+}
+.blog-details-wrapper .comment-respond textarea {
+  padding: 12px;
+}
 .blog-details-wrapper .post-comments {
   margin-top: 70px;
 }
@@ -9147,6 +9155,9 @@ ul.children {
 }
 .blog-details-wrapper .single-post-item .post-content .wp-block-pullquote blockquote {
   background-color: transparent;
+}
+.blog-details-wrapper .single-post-item .post-content:last-child p {
+  margin-bottom: 0;
 }
 .blog-details-wrapper .single-post-item .post-testimonial {
   padding: 55px 38px;
@@ -10848,6 +10859,7 @@ ul.children {
 }
 .service-details-area .sidebar .consultation-form {
   border-radius: 20px;
+  padding: 20px 26px 20px 20px;
 }
 @media only screen and (min-width: 0) and (max-width: 991px) {
   .service-details-area .sidebar .consultation-form {
@@ -10906,7 +10918,6 @@ ul.children {
 .service-details-area .content-wrapper .single-item .list-wrapper .list i {
   color: #f17732;
   font-size: 30px;
-  padding: 10px 0;
 }
 .service-details-area .content-wrapper .single-item .list-wrapper .list p {
   margin-bottom: 0;
