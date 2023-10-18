@@ -10945,23 +10945,24 @@ ul.children {
 .service-details-area .content-wrapper .single-item .image img {
   border-radius: 20px;
 }
-.service-details-area .content-wrapper .single-item .list-wrapper {
+.service-details-area .content-wrapper .single-item ul {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+  padding-left: 0;
 }
-.service-details-area .content-wrapper .single-item .list-wrapper .list {
+.service-details-area .content-wrapper .single-item ul li {
   display: flex;
   align-items: center;
   gap: 15px;
   font-weight: 600;
   font-size: 18px;
 }
-.service-details-area .content-wrapper .single-item .list-wrapper .list i {
+.service-details-area .content-wrapper .single-item ul li i {
   color: #f17732;
   font-size: 30px;
 }
-.service-details-area .content-wrapper .single-item .list-wrapper .list p {
+.service-details-area .content-wrapper .single-item ul li p {
   margin-bottom: 0;
 }
 
