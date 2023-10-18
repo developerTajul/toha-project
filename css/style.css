@@ -11773,6 +11773,10 @@ ul.children {
     padding-top: 80px;
   }
 }
+.footer .footer-sec .shape_1 img,
+.footer .footer-sec .shape_2 img {
+  opacity: 0.3;
+}
 .footer .footer-sec .shape_2 {
   position: absolute;
   right: 0;
