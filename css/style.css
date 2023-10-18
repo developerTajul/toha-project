@@ -2633,6 +2633,7 @@ blockquote p {
 .post-content .wp-block-search .wp-block-search__inside-wrapper input {
   border: none;
   background-color: #f2f4f5;
+  padding: 8px;
 }
 .post-content .wp-block-search .wp-block-search__inside-wrapper button {
   color: #ffffff;
@@ -2660,6 +2661,7 @@ blockquote p {
 
 .wp-block-button {
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .wp-block-archives select,
@@ -7981,6 +7983,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   width: 100%;
   font-weight: 500;
 }
+.wp-block-latest-posts .wp-block-rss__item-title a,
+.wp-block-rss .wp-block-rss__item-title a,
+.widget_rss .wp-block-rss__item-title a {
+  color: #111821;
+}
 .wp-block-latest-posts .wp-block-latest-posts__post-author,
 .wp-block-latest-posts .wp-block-rss__item-publish-date,
 .wp-block-rss .wp-block-latest-posts__post-author,
@@ -8487,7 +8494,7 @@ ul.children {
 .comment-respond .contacts-email,
 .comment-respond .contacts-name,
 .comment-respond .single-input-field {
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 .comment-respond label {
   display: block;

@@ -661,6 +661,9 @@
     display: inline-block;
     width: 100%;
     font-weight: 500;
+    a{
+      color: $black;
+    }
   }
   .wp-block-latest-posts__post-author,
   .wp-block-rss__item-publish-date {

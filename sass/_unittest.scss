@@ -419,6 +419,7 @@ blockquote {
       input{
         border: none;
         background-color: #f2f4f5;
+        padding: 8px;
       }
       button{
         color: $white;
@@ -450,6 +451,7 @@ blockquote {
 }
 .wp-block-button {
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 .wp-block-archives,
 .wp-block-categories {
