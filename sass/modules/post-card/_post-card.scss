@@ -27,6 +27,40 @@
       // padding-top: 7px;
     }
   }
+  .blog-post-items{
+    .no-results{
+      .search-form{
+        display: flex;
+        padding: 0 !important;
+        overflow: hidden;
+        border-radius: 10px;
+        background-color: #f2f4f5;
+        input{
+          background-color: #f2f4f5;
+          padding: 0 25px;
+          height: 60px;
+          width: 100%;
+          color: #111821;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 29px;
+          border: none;
+        }
+        button{
+          color: #ffffff;
+          padding: 0 20px;
+          position: relative;
+          right: 0;
+          background-color: #111821;
+          top: 0;
+          height: auto;
+          line-height: 0;
+          border: 0;
+          margin-left: 0 !important;
+        }
+      }
+    }
+  }
 }
 .blog-details-wrapper {
   .comment-respond {
