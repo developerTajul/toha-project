@@ -11098,6 +11098,13 @@ ul.children {
   background-color: #f17732;
 }
 
+.elementor-widget-Eyewell-map {
+  height: 100%;
+}
+.elementor-widget-Eyewell-map .elementor-widget-container {
+  height: 100%;
+}
+
 .map-widget {
   height: 100%;
 }

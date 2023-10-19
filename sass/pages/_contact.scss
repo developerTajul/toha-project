@@ -114,6 +114,12 @@
 }
 
 // Map Widget
+.elementor-widget-Eyewell-map{
+    height: 100%;
+    .elementor-widget-container{
+        height: 100%;
+    }
+}
 .map-widget {
     height: 100%;
     iframe {
