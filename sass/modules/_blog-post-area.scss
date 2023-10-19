@@ -18,6 +18,14 @@
             @include rmaxwd(767) {
                 padding: 16px;
             }
+            .post-card-wrapper{
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                @include lg{
+                    flex-direction: row;
+                }
+            }
             .sidebar-btn {
                 margin-top: 20px;
                 a {

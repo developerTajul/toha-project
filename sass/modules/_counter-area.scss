@@ -122,6 +122,11 @@
     margin-right: 60px;
     height: 100% !important;
     z-index: 10;
+    .elementor-widget-container{
+        @include rwd (1199){
+            padding-top: 115px;
+        }
+    }
     .appointment-btn {
         background: $black;
         padding: 15px 20px;

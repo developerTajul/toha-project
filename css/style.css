@@ -5893,6 +5893,16 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding: 16px;
   }
 }
+.blog-post-area.style-1 .sidebar .post-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .blog-post-area.style-1 .sidebar .post-card-wrapper {
+    flex-direction: row;
+  }
+}
 .blog-post-area.style-1 .sidebar .sidebar-btn {
   margin-top: 20px;
 }
@@ -6043,6 +6053,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-right: 60px;
   height: 100% !important;
   z-index: 10;
+}
+@media (min-width: 1199px) {
+  .book-appointment-btn .elementor-widget-container {
+    padding-top: 115px;
+  }
 }
 .book-appointment-btn .appointment-btn {
   background: #111821;
