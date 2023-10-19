@@ -5637,11 +5637,18 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: #DFDFDF;
   margin: 0 40px;
 }
-@media (max-width: 991px) {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   .banner .divider {
     width: 100%;
     height: 1px;
     margin: 20px 0 12px 0;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 991px) {
+  .banner .divider {
+    width: 1px;
+    height: 100px;
+    margin: 0 20px;
   }
 }
 .banner .content span {
@@ -6065,6 +6072,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   .book-appointment-btn .elementor-widget-container {
     padding-top: 115px;
   }
+}
+.book-appointment-btn .elementor-widget-container .elementor-button-text {
+  font-size: 14px;
 }
 .book-appointment-btn .appointment-btn {
   background: #111821;
@@ -6827,6 +6837,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   left: 0;
   right: unset;
   bottom: unset;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .testimonial-area.style-1 .section-title br {
+    display: none;
+  }
 }
 .testimonial-area.style-1 .section-desc {
   height: 100%;

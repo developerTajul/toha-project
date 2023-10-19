@@ -127,6 +127,9 @@
         @include rwd (1199){
             padding-top: 115px;
         }
+        .elementor-button-text{
+            font-size: 14px;
+        }
     }
     .appointment-btn {
         background: $black;

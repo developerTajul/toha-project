@@ -8,6 +8,13 @@
             right: unset;
             bottom: unset;
         }
+        .section-title{
+            br{
+                @include md{
+                    display: none;
+                }
+            }
+        }
         .section-desc {
             height: 100%;
             display: flex;
