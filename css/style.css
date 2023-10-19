@@ -5635,6 +5635,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   .banner .divider {
     width: 100%;
     height: 1px;
+    margin: 20px 0 12px 0;
   }
 }
 .banner .content span {
@@ -5645,7 +5646,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media (max-width: 500px) {
   .banner .content {
     margin-left: 0;
-    margin-top: 24px;
     padding: 0;
     border: none;
   }
