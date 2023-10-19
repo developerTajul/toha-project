@@ -5053,6 +5053,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .consultation-form {
     border-radius: 0px;
+    padding: 20px;
   }
 }
 .consultation-form .base-area {
@@ -5070,6 +5071,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 .consultation-form .base-area .base-inner-area .title {
   margin-top: 40px;
   padding: 0 32px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .consultation-form .base-area .base-inner-area .title {
+    padding: 0;
+  }
 }
 .consultation-form .base-area p {
   font-family: "Jost", sans-serif;
@@ -5952,6 +5958,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   z-index: 20;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .book-appointment-area {
@@ -12433,6 +12440,11 @@ ul.children {
   width: 480px;
   height: 550px;
   object-fit: cover;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .image-card .img-wrapper img {
+    width: 100%;
+  }
 }
 .image-card:hover .content {
   visibility: visible;
