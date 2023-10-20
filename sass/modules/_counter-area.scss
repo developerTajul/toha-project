@@ -156,12 +156,12 @@
         align-items: start;
     }
     @include md {
-        justify-content: start;
+        justify-content: start ;
         align-items: start;
         margin-bottom: 20px;
     }
     @include sm {
-        justify-content: start;
+        justify-content: start !important;
         align-items: start;
         margin-bottom: 20px;
     }
