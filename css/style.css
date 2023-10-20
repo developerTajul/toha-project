@@ -5482,7 +5482,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   transform: rotate(180deg);
   writing-mode: vertical-rl;
   margin-bottom: 30px;
-  height: 80px;
+  width: 80px;
 }
 .about-image-card .water-text h2 {
   text-align: start;
