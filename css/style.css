@@ -6068,11 +6068,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   height: 100% !important;
   z-index: 10;
 }
-@media (min-width: 1199px) {
-  .book-appointment-btn .elementor-widget-container {
-    padding-top: 115px;
-  }
-}
 .book-appointment-btn .elementor-widget-container .elementor-button-text {
   font-size: 14px;
 }
