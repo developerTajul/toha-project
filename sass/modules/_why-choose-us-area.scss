@@ -342,3 +342,19 @@
         }
     }
 }
+
+// Theme Responsive
+.why-choose-us-area{
+    .why-choose-us-title-wrapper{
+        .elementor-container{
+            @include md{
+                flex-direction: column;
+            }
+            .elementor-column{
+                @include md{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -11800,6 +11800,17 @@ ul.children {
   font-weight: 700;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .why-choose-us-area .why-choose-us-title-wrapper .elementor-container {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .why-choose-us-area .why-choose-us-title-wrapper .elementor-container .elementor-column {
+    width: 100%;
+  }
+}
+
 .footer .footer-sec {
   padding-top: 80px;
   padding-bottom: 11px;
