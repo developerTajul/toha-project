@@ -349,10 +349,11 @@
         .elementor-container{
             @include md{
                 flex-direction: column;
+                padding: 0 12px;
             }
             .elementor-column{
                 @include md{
-                    width: 100%;
+                    width: 80%;
                 }
             }
         }

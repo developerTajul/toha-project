@@ -6917,6 +6917,20 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #666666;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .testimonial-area .testimonial-title-wrapper {
+    padding: 0 12px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .testimonial-area .testimonial-title-wrapper .elementor-container {
+    flex-direction: column;
+  }
+}
+.testimonial-area .testimonial-title-wrapper .elementor-container .elementor-column {
+  width: 80%;
+}
+
 .skill-progressbar-wrapper {
   width: 100%;
   display: flex;
@@ -11803,11 +11817,12 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .why-choose-us-area .why-choose-us-title-wrapper .elementor-container {
     flex-direction: column;
+    padding: 0 12px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .why-choose-us-area .why-choose-us-title-wrapper .elementor-container .elementor-column {
-    width: 100%;
+    width: 80%;
   }
 }
 

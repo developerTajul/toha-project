@@ -97,3 +97,20 @@
         }
     }
 }
+
+// theme-responsive
+.testimonial-area{
+    .testimonial-title-wrapper{
+        @include md{
+            padding: 0 12px;
+        }
+        .elementor-container{
+            @include md{
+                flex-direction: column;
+            }
+            .elementor-column{
+                width: 80%;
+            }
+        }
+    }
+}
