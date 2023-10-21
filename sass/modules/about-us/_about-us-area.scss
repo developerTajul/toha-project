@@ -370,7 +370,7 @@
 }
 .about-us-area{
     .elementor-container{
-        @include lg{
+        @include rmaxwd(1199){
             flex-direction: column;
         }
         .about-image-card{

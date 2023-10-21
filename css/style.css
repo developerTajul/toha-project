@@ -5697,7 +5697,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 0;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
   .about-us-area .elementor-container {
     flex-direction: column;
   }
@@ -5902,16 +5902,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-@media (max-width: 991px) {
-  .blog-post-area.style-1 {
-    padding: 80px 0;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .blog-post-area.style-1 {
-    padding: 100px 0;
-  }
 }
 .blog-post-area.style-1 .sidebar {
   padding: 20px;
