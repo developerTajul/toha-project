@@ -5329,9 +5329,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 30px;
 }
 
-.about-us-area .section-desc {
-  margin-top: 20px;
-}
 .about-us-area .section-desc p {
   margin-bottom: 0;
 }
@@ -5348,6 +5345,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .about-us-area .content-wrapper {
     padding-left: 48px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-area .content-wrapper .elemento-widget-wrap {
+    width: 100%;
   }
 }
 
@@ -5497,6 +5499,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   .about-image-card .water-text h2 {
     font-size: 40px;
     line-height: 60px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-image-card .elementor-widget-wrap {
+    width: 100%;
   }
 }
 

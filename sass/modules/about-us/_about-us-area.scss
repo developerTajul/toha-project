@@ -10,7 +10,7 @@
     // }
     
     .section-desc {
-        margin-top: 20px;
+        // margin-top: 20px;
         p{
             margin-bottom: 0;
         }
@@ -26,6 +26,11 @@
         }
         @include xl{
             padding-left: 48px;
+        }
+        .elemento-widget-wrap{
+            @include lg{
+                width: 100%;
+            }
         }
     }
 }
@@ -165,6 +170,11 @@
                 font-size: 40px;
                 line-height: 60px;
             }
+        }
+    }
+    .elementor-widget-wrap{
+        @include lg{
+            width: 100%;
         }
     }
 }
