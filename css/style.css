@@ -5347,11 +5347,6 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding-left: 48px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-us-area .content-wrapper .elemento-widget-wrap {
-    width: 100%;
-  }
-}
 
 .list-section {
   display: flex;
@@ -5499,11 +5494,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   .about-image-card .water-text h2 {
     font-size: 40px;
     line-height: 60px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-image-card .elementor-widget-wrap {
-    width: 100%;
   }
 }
 
@@ -5700,6 +5690,12 @@ body.admin-bar .header-menu-area.sticky_menu {
   line-height: 30px;
   color: #666666;
   margin-bottom: 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-area .elementor-container {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 991px) {

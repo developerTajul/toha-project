@@ -27,11 +27,6 @@
         @include xl{
             padding-left: 48px;
         }
-        .elemento-widget-wrap{
-            @include lg{
-                width: 100%;
-            }
-        }
     }
 }
 .list-section {
@@ -170,11 +165,6 @@
                 font-size: 40px;
                 line-height: 60px;
             }
-        }
-    }
-    .elementor-widget-wrap{
-        @include lg{
-            width: 100%;
         }
     }
 }
@@ -372,6 +362,13 @@
             line-height: 30px;
             color: $text-color;
             margin-bottom: 0;
+        }
+    }
+}
+.about-us-area{
+    .elementor-container{
+        @include lg{
+            flex-direction: column;
         }
     }
 }
