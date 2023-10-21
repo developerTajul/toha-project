@@ -373,17 +373,17 @@
         @include lg{
             flex-direction: column;
         }
+        .about-image-card{
+            @include lg{
+                width: 80%;
+            }
+        }
         .content-wrapper{
-            .banner{
-                .content{
-                    h4{
-                        br{
-                            @include lg{
-                                // display: none;
-                            }
-                        }
-                    }
-                }
+            @include lg{
+                width: 80%;
+            }
+            @include rmaxwd (991){
+                // width: 100%;
             }
         }
     }

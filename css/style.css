@@ -5702,6 +5702,16 @@ body.admin-bar .header-menu-area.sticky_menu {
     flex-direction: column;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-area .elementor-container .about-image-card {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-area .elementor-container .content-wrapper {
+    width: 80%;
+  }
+}
 @media (max-width: 991px) {
   .about-us-area.style-2 {
     padding: 80px 0;
