@@ -6126,6 +6126,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: #272224;
   border-radius: 0 0 20px 20px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .fun-fact-box {
+    padding: 24px;
+  }
+}
 
 .counter-items-box {
   padding: 54px 96px;

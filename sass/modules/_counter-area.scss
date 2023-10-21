@@ -173,6 +173,9 @@
     border-radius: 0 0 20px 20px;
     // z-index: 10;
     // position: relative;
+    @include sm{
+        padding: 24px;
+    }
 }
 .counter-items-box {
     padding: 54px 96px;
