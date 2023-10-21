@@ -5702,12 +5702,12 @@ body.admin-bar .header-menu-area.sticky_menu {
     flex-direction: column;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .about-us-area .elementor-container .about-image-card {
     width: 80%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .about-us-area .elementor-container .content-wrapper {
     width: 80%;
   }
