@@ -39,6 +39,9 @@
         gap: 24px;
         align-items: start;
     }
+    @include lg{
+        justify-content: unset;
+    }
 }
 .content-bottom {
     margin-top: 23px;
@@ -369,6 +372,19 @@
     .elementor-container{
         @include lg{
             flex-direction: column;
+        }
+        .content-wrapper{
+            .banner{
+                .content{
+                    h4{
+                        br{
+                            @include lg{
+                                // display: none;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

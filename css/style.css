@@ -5361,6 +5361,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     align-items: start;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .list-section {
+    justify-content: unset;
+  }
+}
 
 .content-bottom {
   margin-top: 23px;
@@ -5697,7 +5702,6 @@ body.admin-bar .header-menu-area.sticky_menu {
     flex-direction: column;
   }
 }
-
 @media (max-width: 991px) {
   .about-us-area.style-2 {
     padding: 80px 0;
