@@ -356,7 +356,7 @@
         }
         .elementor-column{
             @include md{
-                width: unset;
+                width: unset !important;
             }
         }
         .book-appointment-btn{
