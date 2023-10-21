@@ -8301,7 +8301,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .team-area {
     height: auto;
-    padding-top: 40px;
   }
 }
 .team-area .shape-1 {
