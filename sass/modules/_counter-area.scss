@@ -300,100 +300,6 @@
         display: none !important;
     }
 }
-// .counter-items-box-test {
-//     position: relative;
-//     padding: 53px 96px 94px 95px;
-//     z-index: 20;
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     background: rgba(17, 24, 33, 0.9);
-//     border-radius: 0px 0px 20px 20px;
-//     &:before{
-//         content: "";
-//         position: absolute;
-//         height: calc(100% - 40px);
-//         top: 0;
-//         left: 0;
-//         padding: 0px 37px 38px 38px;
-//         border: 1px solid rgba(255, 255, 255, 0.15);
-//         border-top: none;
-//         width: calc(100% - 80px);
-//         right: 0;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//         margin: 0 auto;
-//         border-radius: 0px 0px 20px 20px;
-//     }
-//     @include sm {
-//         padding: 50px 58px 55px 57px;
-//         flex-direction: column;
-//     }
-//     @include lg {
-//         display: grid;
-//         grid-template-columns: auto auto;
-//         grid-row-gap: 30px;
-//     }
-//     @include md {
-//         padding: 50px 58px 55px 57px;
-//         margin: 0px;
-//         display: flex;
-//         flex-wrap: wrap;
-//         // grid-template-columns: auto auto;
-//         gap: 30px;
-//     }
-//     @include sm {
-//         // padding: 14px;
-//         // display: flex;
-//         // flex-wrap: wrap;
-//         // align-items: center;
-//         // justify-content: center;
-//         // gap: 20px;
-//     }
-//     .top-icon {
-//         position: absolute;
-//         top: 0;
-//         left: 40px;
-//     }
-//     .bottom-icon {
-//         position: absolute;
-//         right: 40px;
-//         bottom: 40px;
-//         margin-right: 20px;
-//     }
-// }
-// .fun-fact-area {
-//     position: relative;
-//     top: 0;
-//     height: auto;
-    
-//     .shape-1 {
-//         position: absolute;
-//         bottom: 0;
-//         right: 0;
-//         width: 206px;
-//         height: 217px;
-//         transform: translate(50%, 50%);
-
-//         @include rmaxwd(991) {
-//             display: none;
-//         }
-//         @media only screen and (min-width: 992px) and (max-width: 1399px){
-//             transform: translate(0, 50%);
-//         }
-//     }
-//     .fun-fact-box {
-//         position: relative;
-//         height: auto;
-//         border-radius: 0px 0px 20px 20px;
-//         border: 1px solid $black-200;
-//         border-top: 1px solid $black;
-//         //border-top: none;
-//         // margin: 0px 40px 40px 40px;
-        
-//     }
-// }
 .counter-card {
     display: flex;
     gap: 17px;
@@ -437,6 +343,25 @@
             font-weight: 400;
             @include xl{
                 font-size: 14px;
+            }
+        }
+    }
+}
+
+// theme responsive
+.book-appointment-area{
+    .elementor-container{
+        @include md{
+            flex-direction: column;
+        }
+        .elementor-column{
+            @include md{
+                width: unset;
+            }
+        }
+        .book-appointment-btn{
+            @include md{
+                margin-right: 0;
             }
         }
     }
