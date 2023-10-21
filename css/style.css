@@ -11831,6 +11831,9 @@ ul.children {
   font-weight: 700;
 }
 
+.why-choose-us-area .why-choose-us-title-wrapper .elementor-container {
+  padding: 0 12px;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .why-choose-us-area .why-choose-us-title-wrapper .elementor-container {
     flex-direction: column;
