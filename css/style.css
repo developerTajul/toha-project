@@ -445,22 +445,6 @@ input.theme-btn {
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .section-space {
-    padding: 70px 0;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .section-space {
-    padding: 100px 0;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .section-space {
-    padding: 120px 0;
-  }
-}
-
 @media (min-width: 1400px) {
   .pt-194 {
     padding-top: 194px;
@@ -6155,7 +6139,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-items-box .elementor-container {
-    padding: 30px;
+    padding: 24px;
     flex-direction: column;
   }
 }

@@ -16,17 +16,17 @@
   }
 }
 // section-spacing
-.section-space{
-  @include sm {
-    padding: 70px 0;
-  }
-  @include md {
-      padding: 100px 0;
-  }
-  @include lg {
-      padding: 120px 0;
-  }
-}
+// .section-space{
+//   @include sm {
+//     padding: 70px 0;
+//   }
+//   @include md {
+//       padding: 100px 0;
+//   }
+//   @include lg {
+//       padding: 120px 0;
+//   }
+// }
 
 .pt-194{
   @include rwd(1400) {
