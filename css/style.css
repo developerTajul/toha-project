@@ -6857,6 +6857,12 @@ body.admin-bar .header-menu-area.sticky_menu {
     transform: unset;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .feature-area .elementor-section .shape-1 {
+    left: 40px;
+    top: 28px;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .feature-area .elementor-container .feature-container {
     padding: 28px 0;

@@ -208,6 +208,10 @@
         top: 45px !important;
         transform: unset;
       }
+      @include xl{
+        left: 40px;
+        top: 28px;
+      }
     }
   }
   .elementor-container{
