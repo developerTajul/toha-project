@@ -11845,7 +11845,7 @@ ul.children {
 
 .why-choose-us-area .why-choose-us-title-wrapper .elementor-container {
   padding: 0 12px;
-  align-items: center;
+  align-items: end;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .why-choose-us-area .why-choose-us-title-wrapper .elementor-container {
