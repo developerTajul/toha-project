@@ -6863,6 +6863,12 @@ body.admin-bar .header-menu-area.sticky_menu {
     margin: 0 50px;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .feature-area .elementor-container .feature-container {
+    padding: 30px 12px;
+    margin: 0 48px;
+  }
+}
 
 .testimonial-area.style-1 {
   position: relative;
