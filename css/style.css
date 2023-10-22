@@ -6947,7 +6947,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #666666;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .testimonial-area .testimonial-title-wrapper {
     padding: 0 12px;
   }
@@ -11857,6 +11857,9 @@ ul.children {
   .why-choose-us-area .why-choose-us-title-wrapper .elementor-container .elementor-column {
     width: 80%;
   }
+}
+.why-choose-us-area .elementor-section .shape-2 {
+  transform: unset;
 }
 
 .footer .footer-sec {
