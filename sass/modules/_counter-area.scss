@@ -351,6 +351,7 @@
 // theme responsive
 .book-appointment-area{
     .elementor-container{
+        width: 100%;
         @include md{
             flex-direction: column;
         }
@@ -359,7 +360,12 @@
                 width: unset !important;
             }
         }
+        .book-appointment-time-desc{
+            justify-content: unset;
+        }
         .book-appointment-btn{
+            margin-right: 0;
+            height: 100% !important;
             @include md{
                 margin-right: 0;
             }
