@@ -6858,13 +6858,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .feature-area .elementor-container {
-    padding: 0 50px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .feature-area .elementor-container .feature-container {
-    padding: 28px 0px;
+    padding: 28px 50px;
   }
 }
 
