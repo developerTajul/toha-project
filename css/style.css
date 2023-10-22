@@ -6339,6 +6339,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-right: 0;
   height: 100% !important;
 }
+.book-appointment-area .elementor-container .book-appointment-btn .elementor-align-right {
+  text-align: start;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .book-appointment-area .elementor-container .book-appointment-btn {
     margin-right: 0;
