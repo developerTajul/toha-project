@@ -6850,6 +6850,24 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: #111821;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .feature-area .elementor-section .shape-1 {
+    left: -39px;
+    top: 45px !important;
+    transform: unset;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .feature-area .elementor-container {
+    padding: 0 50px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .feature-area .elementor-container .feature-container {
+    padding: 28px 0px;
+  }
+}
+
 .testimonial-area.style-1 {
   position: relative;
 }

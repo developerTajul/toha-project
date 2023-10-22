@@ -198,3 +198,26 @@
   }
  
 }
+
+// Theme Responsive
+.feature-area{
+  .elementor-section{
+    .shape-1{
+      @include lg{
+        left: -39px;
+        top: 45px !important;
+        transform: unset;
+      }
+    }
+  }
+  .elementor-container{
+    @include lg{
+      padding: 0 50px;
+    }
+    .feature-container{
+      @include lg{
+        padding: 28px 0px;
+      }
+    }
+  }
+}
