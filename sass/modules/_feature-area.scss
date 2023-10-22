@@ -213,7 +213,8 @@
   .elementor-container{
     .feature-container{
       @include lg{
-        padding: 28px 50px;
+        padding: 28px 0;
+        margin: 0 50px;
       }
     }
   }

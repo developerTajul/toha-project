@@ -6859,7 +6859,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .feature-area .elementor-container .feature-container {
-    padding: 28px 50px;
+    padding: 28px 0;
+    margin: 0 50px;
   }
 }
 
