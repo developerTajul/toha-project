@@ -6318,6 +6318,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 
+.book-appointment-area .elementor-container {
+  width: 100%;
+  align-items: center;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .book-appointment-area .elementor-container {
     flex-direction: column;
@@ -6327,6 +6331,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   .book-appointment-area .elementor-container .elementor-column {
     width: unset !important;
   }
+}
+.book-appointment-area .elementor-container .book-appointment-time-desc {
+  justify-content: unset;
+}
+.book-appointment-area .elementor-container .book-appointment-btn {
+  margin-right: 0;
+  height: 100% !important;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .book-appointment-area .elementor-container .book-appointment-btn {

@@ -352,6 +352,7 @@
 .book-appointment-area{
     .elementor-container{
         width: 100%;
+        align-items: center;
         @include md{
             flex-direction: column;
         }
