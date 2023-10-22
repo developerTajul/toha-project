@@ -101,7 +101,7 @@
 // theme-responsive
 .testimonial-area{
     .testimonial-title-wrapper{
-        @include rmaxwd(991){
+        @include rmaxwd(1199){
             padding: 0 12px;
         }
         .elementor-container{

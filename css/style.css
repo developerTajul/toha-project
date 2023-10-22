@@ -6961,7 +6961,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #666666;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .testimonial-area .testimonial-title-wrapper {
     padding: 0 12px;
   }
