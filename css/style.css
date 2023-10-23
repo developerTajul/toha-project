@@ -10833,7 +10833,10 @@ ul.children {
 }
 
 .service-area-wrapper {
-  z-index: unset;
+  z-index: unset !important;
+}
+.service-area-wrapper .slider-area {
+  z-index: 10;
 }
 
 .doctor-single-area {

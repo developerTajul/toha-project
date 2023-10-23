@@ -190,6 +190,8 @@
 
 // Theme Responsive
 .service-area-wrapper{
-    z-index: unset;
-    
+    z-index: unset !important;
+    .slider-area{
+        z-index: 10;
+    }
 }
