@@ -5695,14 +5695,10 @@ body.admin-bar .header-menu-area.sticky_menu {
     align-items: center;
   }
 }
-@media (max-width: 1023px) {
-  .about-us-area .elementor-container {
-    flex-direction: column;
-  }
-}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-us-area .elementor-container {
     flex-direction: row !important;
+    align-items: center;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -6686,6 +6682,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media (max-width: 991px) {
   .faq-area .elementor-container {
     padding: 0 12px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .faq-area .elementor-container {
+    padding-right: 28px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -8885,12 +8886,12 @@ ul.children {
     margin: 0 16px;
   }
 }
-@media only screen and (min-width: 1199px) and (max-width: 1399px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio-slider-wrapper .slick-list .slick-slide {
     margin: 0 20px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1199px) and (max-width: 1399px) {
   .portfolio-slider-wrapper .slick-list .slick-slide {
     margin: 0 20px;
   }

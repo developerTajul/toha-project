@@ -375,11 +375,9 @@
             flex-direction: column-reverse !important;
             align-items: center;
         }
-        @include rmaxwd(1023){
-            flex-direction: column;
-        }
         @include lg{
             flex-direction: row !important;
+            align-items: center;
         }
         .about-image-card{
             @media only screen and (min-width: 768px) and (max-width: 1023px){

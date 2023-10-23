@@ -16,12 +16,12 @@
       @include md{
         margin: 0 16px;
       }
-      @media only screen and (min-width: 1199px) and (max-width: 1399px) {
-        margin: 0 20px;
-      }
       @include lg {
         margin: 0 20px;
       }
+      @media only screen and (min-width: 1199px) and (max-width: 1399px) {
+      margin: 0 20px;
+      } 
 
       &.slick-active {
         @include transition;
