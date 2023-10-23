@@ -191,7 +191,7 @@
 // Theme Responsive
 .service-area-wrapper{
     z-index: unset !important;
-    @include xl{
+    @media only screen and (min-width: 992px) and (max-width: 1399px){
         margin-top: 0 !important;
     }
     .slider-area{
