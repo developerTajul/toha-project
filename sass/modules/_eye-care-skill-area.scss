@@ -80,12 +80,14 @@
         width: 200px !important;
         height: auto;
         display: flex;
+        justify-content: end;
         align-items: end !important;
     }
     @include md{
         right: 0;
-        width: 250px;
+        width: 250px !important;
         display: flex;
+        justify-content: end;
         align-items: end !important;
     }
     .elementor-widget-container{
