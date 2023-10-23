@@ -3882,7 +3882,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 700;
   display: block;
   float: left;
-  padding: 10px 30px;
+  padding: 10px 30px 10px 0;
   margin: 0;
   text-align: left;
   color: #111821;
@@ -3891,6 +3891,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .mean-container .mean-nav ul li a:hover {
   color: #f17732;
+}
+
+.mean-container .mean-nav ul li li a {
+  padding: 10px 10%;
 }
 
 .mean-container .mean-nav ul li a.mean-expand {
@@ -6467,7 +6471,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media (max-width: 991px) {
   .eye-care-skill-area .elementor-container .content-wrapper .elementor-widget-wrap {
-    margin-left: 0 !important;
+    margin-left: 18px !important;
   }
 }
 
