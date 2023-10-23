@@ -6424,11 +6424,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   .child-img {
     right: 0;
     margin-bottom: 0 !important;
-    width: 200px;
+    width: 200px !important;
     height: auto;
     display: flex;
     justify-content: end;
-    align-items: end;
+    align-items: end !important;
   }
 }
 .child-img .elementor-widget-container img {
@@ -6444,8 +6444,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 .eye-care-skill-area .elementor-container {
   padding: 0 12px;
 }
-.eye-care-skill-area .elementor-container .content-wrapper .elementor-widget-wrap {
-  margin-left: 0;
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .eye-care-skill-area .elementor-container .content-wrapper .elementor-widget-wrap {
+    margin-left: 0 !important;
+  }
 }
 
 .faq-area {
@@ -6649,6 +6651,17 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .single-expert .content .content-title {
     font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .faq-area .elementor-container {
+    padding: 0 12px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .faq-area .faq-counter-inner {
+    margin-bottom: 78px;
   }
 }
 

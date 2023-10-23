@@ -77,11 +77,11 @@
     @include sm{
         right: 0;
         margin-bottom: 0 !important;
-        width: 200px;
+        width: 200px !important;
         height: auto;
         display: flex;
         justify-content: end;
-        align-items: end;
+        align-items: end !important;
     }
     .elementor-widget-container{
         img{
@@ -102,7 +102,9 @@
         padding: 0 12px;
         .content-wrapper{
             .elementor-widget-wrap{
-                margin-left: 0;
+                @include sm{
+                    margin-left: 0 !important;
+                }
             }
         }
     }
