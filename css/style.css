@@ -8997,6 +8997,11 @@ ul.children {
     margin: 0 24px;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .portfolio-slider-area .portfolio-container {
+    margin: 0 40px;
+  }
+}
 .portfolio-slider-area .portfolio-title-area {
   width: 528px;
   height: 161px;

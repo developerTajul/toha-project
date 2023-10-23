@@ -11,6 +11,9 @@
         @include lg{
             margin: 0 24px;
         }
+        @include xl{
+            margin: 0 40px;
+        }
     }
     .portfolio-title-area {
         width: 528px;
