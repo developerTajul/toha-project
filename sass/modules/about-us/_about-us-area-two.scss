@@ -61,7 +61,7 @@
                 }
                 .divider {
                     width: 2px;
-                    border-right: 1px solid $secondary-color;
+                    background: $secondary-color;
                     margin: 0 36px;
                     @include rmaxwd(1199) {
                         margin: 24px 0;
@@ -162,5 +162,14 @@
 .about-us-area{
     .elementor-container{
         padding: 0 12px;
+        @include rmaxwd (991){
+            flex-direction: column-reverse !important;
+            align-items: center;
+        }
+        .elementor-col-50{
+            @include rmaxwd(991){
+                width: 80%;
+            }
+        }
     }
 }

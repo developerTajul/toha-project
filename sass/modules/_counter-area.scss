@@ -355,6 +355,7 @@
         align-items: center;
         @include md{
             flex-direction: column;
+            align-items: start;
         }
         .elementor-column{
             @include md{

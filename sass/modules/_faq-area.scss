@@ -200,12 +200,12 @@
 // Theme 
 .faq-area{
     .elementor-container{
-        @include sm{
+        @include rmaxwd(991){
             padding: 0 12px;
         }
     }
     .faq-counter-inner{
-        @include sm{
+        @include sm{ 
             margin-bottom: 78px;
         }
     }
