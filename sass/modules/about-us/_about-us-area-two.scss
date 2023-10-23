@@ -160,17 +160,20 @@
 
 // Theme Responsive
 .about-us-area{
-    .elementor-container{
-        @include rmaxwd (991){
-            flex-direction: column-reverse !important;
+    &.style-2{
+        .elementor-container{
             align-items: center;
-        }
-        @include lg{
-            flex-direction: row !important;
-        }
-        .elementor-col-50{
-            @include rmaxwd(991){
-                width: 80% !important;
+            @include rmaxwd (991){
+                flex-direction: column-reverse !important;
+                align-items: center;
+            }
+            @include lg{
+                flex-direction: row !important;
+            }
+            .elementor-col-50{
+                @include rmaxwd(991){
+                    width: 80% !important;
+                }
             }
         }
     }

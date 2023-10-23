@@ -369,21 +369,23 @@
     }
 }
 .about-us-area{
-    .elementor-container{
-        @include rmaxwd(1199){
-            flex-direction: column;
-        }
-        .about-image-card{
-            @media only screen and (min-width: 768px) and (max-width: 1199px){
-                width: 80%;
+    &.style-1{
+        .elementor-container{
+            @include rmaxwd(1199){
+                flex-direction: column;
             }
-        }
-        .content-wrapper{
-            @media only screen and (min-width: 768px) and (max-width: 1199px){
-                width: 80%;
+            .about-image-card{
+                @media only screen and (min-width: 768px) and (max-width: 1199px){
+                    width: 80%;
+                }
             }
-            @include rmaxwd (991){
-                // width: 100%;
+            .content-wrapper{
+                @media only screen and (min-width: 768px) and (max-width: 1199px){
+                    width: 80%;
+                }
+                @include rmaxwd (991){
+                    // width: 100%;
+                }
             }
         }
     }
