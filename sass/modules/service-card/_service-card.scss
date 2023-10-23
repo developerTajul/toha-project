@@ -191,6 +191,9 @@
 // Theme Responsive
 .service-area-wrapper{
     z-index: unset !important;
+    @include xl{
+        margin-top: 0;
+    }
     .slider-area{
         z-index: 10;
     }

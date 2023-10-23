@@ -10918,6 +10918,11 @@ ul.children {
 .service-area-wrapper {
   z-index: unset !important;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .service-area-wrapper {
+    margin-top: 0;
+  }
+}
 .service-area-wrapper .slider-area {
   z-index: 10;
 }
