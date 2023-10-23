@@ -6418,8 +6418,20 @@ body.admin-bar .header-menu-area.sticky_menu {
   top: 25%;
   z-index: 3;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .child-img {
+    right: 0;
+    margin-bottom: 0;
+  }
+}
 .child-img .elementor-widget-container img {
   border-radius: 10px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .child-img .elementor-widget-container {
+    display: flex;
+    justify-content: end;
+  }
 }
 
 .faq-area {

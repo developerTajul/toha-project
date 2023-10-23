@@ -68,9 +68,19 @@
     right: -22%;
     top: 25%;
     z-index: 3;
+    @include sm{
+        right: 0;
+        margin-bottom: 0;
+    }
     .elementor-widget-container{
         img{
             border-radius: 10px;
+        }
+    }
+    .elementor-widget-container{
+        @include sm{
+            display: flex;
+            justify-content: end;
         }
     }
 }
