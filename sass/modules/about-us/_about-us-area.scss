@@ -101,9 +101,9 @@
             top: 0;
             left: 0;
             transform: translate(-88px, -50px);
-            width: 196px;
-            height: 200px;
-            background-color: $gray;
+            // width: 196px;
+            // height: 200px;
+            // background-color: $gray;
             border-radius: 20px;
             @include rmaxwd(767) {
                 transform: translate(-66px, -50px);
