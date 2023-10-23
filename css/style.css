@@ -8888,10 +8888,10 @@ ul.children {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio-slider-wrapper .slick-list .slick-slide {
-    margin: 0 20px;
+    margin: 0 12px;
   }
 }
-@media only screen and (min-width: 1199px) and (max-width: 1399px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .portfolio-slider-wrapper .slick-list .slick-slide {
     margin: 0 20px;
   }
@@ -8983,7 +8983,7 @@ ul.children {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio-slider-area .portfolio-container {
-    margin: 0 60px;
+    margin: 0 24px;
   }
 }
 .portfolio-slider-area .portfolio-title-area {
