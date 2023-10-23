@@ -100,5 +100,10 @@
 .eye-care-skill-area{
     .elementor-container {
         padding: 0 12px;
+        .content-wrapper{
+            .elementor-widget-wrap{
+                margin-left: 0;
+            }
+        }
     }
 }

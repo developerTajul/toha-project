@@ -6444,6 +6444,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .eye-care-skill-area .elementor-container {
   padding: 0 12px;
 }
+.eye-care-skill-area .elementor-container .content-wrapper .elementor-widget-wrap {
+  margin-left: 0;
+}
 
 .faq-area {
   position: relative;
