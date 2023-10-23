@@ -41,6 +41,12 @@
         margin-left: -86px;
         z-index: 10;
         position: relative;
+        @include sm{
+            flex-shrink: unset;
+            margin-left: -76%;
+            width: 200px;
+            height: auto;
+        }
     }
     
 }
@@ -70,7 +76,12 @@
     z-index: 3;
     @include sm{
         right: 0;
-        margin-bottom: 0;
+        margin-bottom: 0 !important;
+        width: 200px;
+        height: auto;
+        display: flex;
+        justify-content: end;
+        align-items: end;
     }
     .elementor-widget-container{
         img{
@@ -82,5 +93,12 @@
             display: flex;
             justify-content: end;
         }
+    }
+}
+
+// Theme Responsive
+.eye-care-skill-area{
+    .elementor-container {
+        padding: 0 12px;
     }
 }

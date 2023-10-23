@@ -5698,16 +5698,6 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 80%;
   }
 }
-@media (max-width: 991px) {
-  .about-us-area.style-2 {
-    padding: 80px 0;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-us-area.style-2 {
-    padding: 100px 0;
-  }
-}
 @media (max-width: 1199px) {
   .about-us-area.style-2 .content-wrapper {
     margin-top: 36px;
@@ -5882,6 +5872,10 @@ body.admin-bar .header-menu-area.sticky_menu {
     align-items: center;
     height: 100%;
   }
+}
+
+.about-us-area .elementor-container {
+  padding: 0 12px;
 }
 
 .blog-post-area.style-1 {
@@ -6395,6 +6389,14 @@ body.admin-bar .header-menu-area.sticky_menu {
   z-index: 10;
   position: relative;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .eye-care-image-card .child {
+    flex-shrink: unset;
+    margin-left: -76%;
+    width: 200px;
+    height: auto;
+  }
+}
 
 .image {
   display: flex;
@@ -6421,7 +6423,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .child-img {
     right: 0;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: end;
   }
 }
 .child-img .elementor-widget-container img {
@@ -6432,6 +6439,10 @@ body.admin-bar .header-menu-area.sticky_menu {
     display: flex;
     justify-content: end;
   }
+}
+
+.eye-care-skill-area .elementor-container {
+  padding: 0 12px;
 }
 
 .faq-area {
