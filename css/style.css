@@ -6513,15 +6513,15 @@ body.admin-bar .header-menu-area.sticky_menu {
   z-index: 10;
   position: relative;
 }
-.faq-area .accordion-wrapper .section-title .title {
-  color: #ffffff;
-}
 .faq-area .accordion-wrapper .accordion-title {
   font-family: "Jost", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
+}
+.faq-area .section-title .title {
+  color: #ffffff;
 }
 
 .single-expert {
