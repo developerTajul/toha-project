@@ -370,11 +370,19 @@
 }
 .about-us-area{
     .elementor-container{
-        @include rmaxwd(1199){
+        @include rmaxwd(991){
+            padding: 0 12px;
+            flex-direction: column-reverse !important;
+            align-items: center;
+        }
+        @include rmaxwd(1023){
             flex-direction: column;
         }
+        @include lg{
+            flex-direction: row !important;
+        }
         .about-image-card{
-            @media only screen and (min-width: 768px) and (max-width: 1199px){
+            @media only screen and (min-width: 768px) and (max-width: 1023px){
                 width: 80%;
             }
         }
@@ -384,6 +392,11 @@
             }
             @include rmaxwd (991){
                 // width: 100%;
+            }
+        }
+        .elementor-col-50{
+            @include rmaxwd(991){
+                width: 80% !important;
             }
         }
     }
