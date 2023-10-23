@@ -61,4 +61,26 @@
       }
     }
   }
+  &.style-2 {
+    ul {
+      li {
+        > a {
+          padding: 30px;
+          &:before {
+            right: 12px;
+          }
+        }
+        ul {
+          li {
+            a {
+              padding: 10px 20px;
+            }
+          }
+        }
+      }
+      ul {
+        left: 12px;
+      }
+    }
+  }
 }

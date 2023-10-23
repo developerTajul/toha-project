@@ -3833,6 +3833,18 @@ body.admin-bar .header-menu-area.sticky_menu {
   bottom: 0;
   height: 190px;
 }
+.header-area.style-2 ul li > a {
+  padding: 30px;
+}
+.header-area.style-2 ul li > a:before {
+  right: 12px;
+}
+.header-area.style-2 ul li ul li a {
+  padding: 10px 20px;
+}
+.header-area.style-2 ul ul {
+  left: 12px;
+}
 
 .mean-container a.meanmenu-reveal {
   display: none;
