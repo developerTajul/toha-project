@@ -42,10 +42,12 @@
         z-index: 10;
         position: relative;
         @include sm{
-            flex-shrink: unset;
             margin-left: -76%;
             width: 200px;
             height: auto;
+        }
+        @include rmaxwd(1199){
+            flex-shrink: unset;
         }
     }
     

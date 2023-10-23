@@ -5688,35 +5688,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 0;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .about-us-area .elementor-container {
-    padding: 0 12px;
-    flex-direction: column-reverse !important;
-    align-items: center;
+    flex-direction: column;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-us-area .elementor-container {
-    flex-direction: row !important;
-    align-items: center;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .about-us-area .elementor-container .about-image-card {
     width: 80%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .about-us-area .elementor-container .content-wrapper {
     width: 80%;
   }
 }
-@media (max-width: 991px) {
-  .about-us-area .elementor-container .elementor-col-50 {
-    width: 80% !important;
-  }
-}
-
 @media (max-width: 1199px) {
   .about-us-area.style-2 .content-wrapper {
     margin-top: 36px;
@@ -5890,6 +5876,23 @@ body.admin-bar .header-menu-area.sticky_menu {
     display: flex;
     align-items: center;
     height: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-us-area .elementor-container {
+    flex-direction: column-reverse !important;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-area .elementor-container {
+    flex-direction: row !important;
+  }
+}
+@media (max-width: 991px) {
+  .about-us-area .elementor-container .elementor-col-50 {
+    width: 80% !important;
   }
 }
 
@@ -6407,10 +6410,14 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .eye-care-image-card .child {
-    flex-shrink: unset;
     margin-left: -76%;
     width: 200px;
     height: auto;
+  }
+}
+@media (max-width: 1199px) {
+  .eye-care-image-card .child {
+    flex-shrink: unset;
   }
 }
 
