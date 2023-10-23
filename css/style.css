@@ -4495,7 +4495,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media (max-width: 1799px) {
   .slider-area .single-slider-inner .slider-image {
     width: auto;
-    margin-top: inherit;
   }
 }
 
@@ -10831,6 +10830,10 @@ ul.children {
     opacity: 1;
     transform: scale(1.03);
   }
+}
+
+.service-area-wrapper {
+  z-index: unset;
 }
 
 .doctor-single-area {
