@@ -5801,7 +5801,7 @@ body.admin-bar .header-menu-area.sticky_menu {
     align-items: start;
   }
 }
-@media only screen and (min-width: 991px) and (max-width: 1439px) {
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
   .about-us-area.style-2 .content-wrapper .about-list .list-desc {
     gap: 28px;
   }
