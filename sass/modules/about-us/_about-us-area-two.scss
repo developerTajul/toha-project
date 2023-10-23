@@ -168,7 +168,7 @@
         }
         .elementor-col-50{
             @include rmaxwd(991){
-                width: 80%;
+                width: 80% !important;
             }
         }
     }
