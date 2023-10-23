@@ -5891,6 +5891,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-us-area.style-2 .elementor-container {
     flex-direction: row !important;
+    padding: 0 12px;
   }
 }
 @media (max-width: 991px) {
@@ -6479,7 +6480,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .eye-care-skill-area .elementor-container {
   padding: 0 12px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1399px) {
   .eye-care-skill-area .elementor-container .content-wrapper .elementor-widget-wrap {
     margin-left: 18px !important;
   }
@@ -6694,7 +6695,7 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding: 0 12px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
   .faq-area .elementor-container {
     padding-right: 28px;
   }

@@ -169,6 +169,7 @@
             }
             @include lg{
                 flex-direction: row !important;
+                padding: 0 12px;
             }
             .elementor-col-50{
                 @include rmaxwd(991){

@@ -203,7 +203,7 @@
         @include rmaxwd(991){
             padding: 0 12px;
         }
-        @include lg{
+        @media only screen and (min-width: 992px) and (max-width: 1399px){
             padding-right: 28px;
         }
     }
