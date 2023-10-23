@@ -10918,7 +10918,7 @@ ul.children {
 .service-area-wrapper {
   z-index: unset !important;
 }
-@media (max-width: 1399pxpx) {
+@media (max-width: 1399px) {
   .service-area-wrapper {
     margin-top: 0 !important;
   }
