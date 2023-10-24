@@ -5715,6 +5715,10 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 80%;
   }
 }
+.about-us-area.style-1 .elementor-container .content-wrapper .section-title {
+  margin-bottom: 20px;
+}
+
 @media (max-width: 1199px) {
   .about-us-area.style-2 .content-wrapper {
     margin-top: 36px;
