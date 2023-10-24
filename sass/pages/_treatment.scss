@@ -71,3 +71,16 @@
         padding: 120px 0;
     }
 }
+
+// Theme
+.why-choose-us-area{
+    &.style-2{
+        .single-card-box{
+            .elementor-column{
+                @media only screen and (min-width: 768px) and (max-width: 1199px){
+                    width: 50% !important;
+                }
+            }
+        }
+    }
+}

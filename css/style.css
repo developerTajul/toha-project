@@ -11436,6 +11436,12 @@ ul.children {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .why-choose-us-area.style-2 .single-card-box .elementor-column {
+    width: 50% !important;
+  }
+}
+
 .icotop-navbar {
   display: flex;
 }
