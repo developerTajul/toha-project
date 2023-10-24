@@ -206,12 +206,16 @@
         @media only screen and (min-width: 992px) and (max-width: 1399px){
             padding: 0 28px;
         }
-        .elementor-widget-wrap{
+        .elementor-column{
             &:last-child{
-                margin-top: 38px;
+                @include sm{
+                    margin-top: 70px;
+                }
             }
+        }
+        .elementor-widget-wrap{
             @include sm{
-                padding-left: 0;
+                padding-left: 0 !important;
             }
         }
     }

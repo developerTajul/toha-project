@@ -6709,12 +6709,14 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding: 0 28px;
   }
 }
-.faq-area .elementor-container .elementor-widget-wrap:last-child {
-  margin-top: 38px;
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .faq-area .elementor-container .elementor-column:last-child {
+    margin-top: 70px;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .faq-area .elementor-container .elementor-widget-wrap {
-    padding-left: 0;
+    padding-left: 0 !important;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
