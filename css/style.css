@@ -5614,7 +5614,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-top: 1px solid #dfdfdf;
   border-bottom: 1px solid #dfdfdf;
   margin-top: 30px;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   justify-content: start;
 }
 @media (max-width: 500px) {
