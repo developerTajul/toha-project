@@ -77,8 +77,11 @@
     &.style-2{
         .single-card-box{
             .elementor-column{
-                @media only screen and (min-width: 768px) and (max-width: 1199px){
-                    width: 50% !important;
+                .elementor-element{
+                    height: 100%;
+                }
+                .elementor-widget-container{
+                    height: 100%;
                 }
             }
         }
