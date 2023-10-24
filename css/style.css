@@ -5707,6 +5707,9 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 80%;
   }
 }
+.about-us-area.style-1 .elementor-container .content-wrapper {
+  padding-left: 12px;
+}
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .about-us-area.style-1 .elementor-container .content-wrapper {
     width: 80%;
