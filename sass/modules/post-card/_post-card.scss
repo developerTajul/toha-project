@@ -616,6 +616,11 @@
       > span{
           float: left;
           margin-top: 8px;
+          font-family: $heading-font;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 30px;
         // &:first-child{
         //   font-family: "Jost", sans-serif;
         //   font-size: 20px;
