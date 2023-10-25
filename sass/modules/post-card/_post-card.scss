@@ -235,7 +235,10 @@
   }
   .latest-comments li .comments-box .comments-text p{
     margin-bottom: 0;
-    color:$white;
+    color: $black;
+    a{
+      color: $primary-color;
+    }
   }
   // logout btn 
   .wp-block-loginout{

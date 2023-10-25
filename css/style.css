@@ -9442,7 +9442,10 @@ ul.children {
 }
 .blog-details-wrapper .latest-comments li .comments-box .comments-text p {
   margin-bottom: 0;
-  color: #ffffff;
+  color: #111821;
+}
+.blog-details-wrapper .latest-comments li .comments-box .comments-text p a {
+  color: #f17732;
 }
 .blog-details-wrapper .wp-block-loginout {
   margin-top: 0;
