@@ -335,7 +335,7 @@
   &.widget_block{
     .wp-block-loginout{
       a{
-        &:before{
+        &:after{
           background-color: transparent;
         }
       }
