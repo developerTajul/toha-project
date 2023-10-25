@@ -3504,6 +3504,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .header-menu-area.sticky_menu .logo .sticky-logo {
   display: block;
+  width: 170px;
 }
 .header-menu-area.sticky_menu .logo .sticky-logo img {
   width: 170px;
