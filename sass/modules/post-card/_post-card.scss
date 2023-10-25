@@ -159,6 +159,15 @@
       p{
         margin-bottom: 20px;
       }
+      .wp-block-archives{
+        li{
+          a{
+            &:hover{
+              color: $primary-color;
+            }
+          }
+        }
+      }
       .wp-block-query .wp-block-post-template {
         padding-left: 0;
 

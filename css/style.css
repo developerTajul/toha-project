@@ -9385,6 +9385,9 @@ ul.children {
 .blog-details-wrapper .single-post-item .post-content p {
   margin-bottom: 20px;
 }
+.blog-details-wrapper .single-post-item .post-content .wp-block-archives li a:hover {
+  color: #f17732;
+}
 .blog-details-wrapper .single-post-item .post-content .wp-block-query .wp-block-post-template {
   padding-left: 0;
 }
