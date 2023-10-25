@@ -401,7 +401,7 @@ input.theme-btn.style-two:hover a i {
   content: "\f105";
   font-family: "Font Awesome 6 Pro";
   border-radius: 6px;
-  background-color: #f17732;
+  background-color: transparent;
   color: #fff;
   font-size: 16px;
   margin-left: 4px;
@@ -7920,7 +7920,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .widget .wp-block-search__no-button.wp-block-search input {
   border-radius: 10px;
 }
-.widget.widget_block .wp-block-loginout a:before {
+.widget.widget_block .wp-block-loginout a:after {
   background-color: transparent;
 }
 .widget.widget_block.widget_search .wp-block-search button,
