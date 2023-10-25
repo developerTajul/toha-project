@@ -7920,6 +7920,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .widget .wp-block-search__no-button.wp-block-search input {
   border-radius: 10px;
 }
+.widget.widget_block .wp-block-loginout a:before {
+  background-color: transparent;
+}
 .widget.widget_block.widget_search .wp-block-search button,
 .widget.widget_block.widget_search .search-form button {
   text-indent: -78px;

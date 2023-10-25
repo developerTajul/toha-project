@@ -333,6 +333,13 @@
   }
 
   &.widget_block{
+    .wp-block-loginout{
+      a{
+        &:before{
+          background-color: transparent;
+        }
+      }
+    }
     &.widget_search{
       .wp-block-search,
       .search-form{
