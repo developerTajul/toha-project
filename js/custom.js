@@ -754,5 +754,6 @@
         // $('input[type:date]').trigger('click');
         // $("#car_d_date").datepicker('show');
         $(this).datepicker();
+        // $("input").focus();
     });
 })(jQuery);

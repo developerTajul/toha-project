@@ -6748,6 +6748,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .feature-area {
   position: relative;
+  background-position-y: 12px;
 }
 .feature-area .feature-shape {
   position: absolute;
