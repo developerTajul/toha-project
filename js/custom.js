@@ -750,10 +750,12 @@
         collection[i].setAttribute("placeholder", "Search");
       }
     //   Book-appointment date-picker click handler 
-    $('.icon-calendar').on('click', function () {
-        // $('input[type:date]').trigger('click');
-        // $("#car_d_date").datepicker('show');
-        // $(this).datepicker();
-        // $("input").focus();
-    });
+    // $('.icon-calendar').on('click', function () {
+    //     $('input[type:date]').trigger('click');
+    //     // $('input[type="date"]::-webkit-calendar-picker-indicator').trigger('click');
+    //     console.log("{sdf")
+    //     $("#car_d_date").datepicker('show');
+    //     $(this).datepicker();
+    //     $("input").focus();
+    // });
 })(jQuery);

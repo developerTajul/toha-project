@@ -5098,6 +5098,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 .consultation-form .base-area p:first-child {
   margin-top: 0;
 }
+.consultation-form .base-area .appointment-form .contacts-date {
+  position: relative;
+  z-index: 99;
+}
 .consultation-form .base-area .appointment-form .form-box {
   margin-left: 33px;
   margin-right: 35px;
@@ -5115,18 +5119,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 .consultation-form .base-area .appointment-form .form-box .form-btn .theme-btn:hover {
   background: #ffffff;
   color: #f17732;
-}
-.consultation-form input[type=date]::-webkit-calendar-picker-indicator {
-  background: transparent;
-  bottom: 0;
-  color: transparent;
-  cursor: pointer;
-  height: auto;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: auto;
 }
 
 .appointment-area.style-1 {
