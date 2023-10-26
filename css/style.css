@@ -5120,6 +5120,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   background: #ffffff;
   color: #f17732;
 }
+.consultation-form input[type=date]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
 
 .appointment-area.style-1 {
   position: relative;
