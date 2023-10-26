@@ -307,10 +307,14 @@
         &.style-2{
             .consultation-form{
                 .appointment-form{
-                    .input-box,
-                    .form-btn{
+                    .input-box{
                         p{
                             margin-bottom: 0;
+                        }
+                        .contacts-date{
+                            p{
+                                margin-bottom: -37px;
+                            }
                         }
                     }
                     .form-btn{
