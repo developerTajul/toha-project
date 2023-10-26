@@ -753,7 +753,7 @@
     $('.icon-calendar').on('click', function () {
         // $('input[type:date]').trigger('click');
         // $("#car_d_date").datepicker('show');
-        $(this).datepicker();
+        // $(this).datepicker();
         // $("input").focus();
     });
 })(jQuery);
