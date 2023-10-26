@@ -187,6 +187,7 @@
     }
     .elementor-container{
         display: flex;
+        justify-content: space-between;
         @include md{
             flex-wrap: wrap !important;
             gap: 30px 0;
@@ -201,6 +202,7 @@
             grid-row-gap: 30px;
         }
         .elementor-column{
+            width: unset;
             @include sm{
                 width: 100% !important;
             }

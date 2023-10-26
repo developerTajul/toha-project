@@ -6177,6 +6177,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .counter-items-box .elementor-container {
   display: flex;
+  justify-content: space-between;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-items-box .elementor-container {
@@ -6196,6 +6197,9 @@ body.admin-bar .header-menu-area.sticky_menu {
     flex-wrap: wrap;
     grid-row-gap: 30px;
   }
+}
+.counter-items-box .elementor-container .elementor-column {
+  width: unset;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-items-box .elementor-container .elementor-column {
