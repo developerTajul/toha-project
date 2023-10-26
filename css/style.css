@@ -6748,7 +6748,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .feature-area {
   position: relative;
-  background-position-y: 12px !important;
+  background-position-y: 12px;
 }
 .feature-area .feature-shape {
   position: absolute;
@@ -6779,10 +6779,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .feature-area .feature-container .shape-1 {
   position: absolute;
-  top: 12px !important;
-  left: -67px !important;
+  top: 0;
+  left: 12px !important;
   z-index: 99;
-  transform: translate(0%, 0%);
+  transform: translate(-57%, -75%);
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .feature-area .feature-container .shape-1 {
@@ -6973,6 +6973,12 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: #111821;
 }
 
+.feature-area .elementor-section .shape-1 {
+  top: 12px !important;
+  left: -67px !important;
+  z-index: 99;
+  transform: translate(0%, 0%);
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .feature-area .elementor-section .shape-1 {
     left: -39px;

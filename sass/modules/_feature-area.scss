@@ -1,6 +1,6 @@
 .feature-area {
     position: relative;
-    background-position-y: 12px !important;
+    background-position-y: 12px;
     .feature-shape {
       position: absolute;
       top: 12px;
@@ -26,10 +26,10 @@
       }
       .shape-1 {
         position: absolute;
-        top: 12px !important;
-        left: -67px !important;
+        top: 0;
+        left: 12px !important;
         z-index: 99;
-        transform: translate(-0%, 0%);
+        transform: translate(-57%, -75%);
         @include sm {
           z-index: 20;
           transform: translate(-18%, -83%);
@@ -204,6 +204,10 @@
 .feature-area{
   .elementor-section{
     .shape-1{
+      top: 12px !important;
+        left: -67px !important;
+        z-index: 99;
+        transform: translate(-0%, 0%);
       @include lg{
         left: -39px;
         top: 45px !important;
