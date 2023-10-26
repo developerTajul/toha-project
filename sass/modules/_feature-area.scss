@@ -26,10 +26,10 @@
       }
       .shape-1 {
         position: absolute;
-        top: 0;
-        left: 12px !important;
+        top: 12px !important;
+        left: -67px !important;
         z-index: 99;
-        transform: translate(-57%, -75%);
+        transform: translate(-0%, 0%);
         @include sm {
           z-index: 20;
           transform: translate(-18%, -83%);
