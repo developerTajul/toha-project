@@ -328,11 +328,13 @@
         align-items: end;
         justify-content: space-between;
         .read-more {
-            h5 {
+                font-family: $heading-font;
                 color: $secondary-color;
                 font-weight: 500;
                 line-height: 30px;
-            }
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px; 
         }
         .count {
             color: #03c0b440;

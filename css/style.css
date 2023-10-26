@@ -12034,8 +12034,12 @@ ul.children {
   align-items: end;
   justify-content: space-between;
 }
-.single-choose-card .read-more-wrapper .read-more h5 {
+.single-choose-card .read-more-wrapper .read-more {
+  font-family: "Jost", sans-serif;
   color: #03c0b4;
+  font-weight: 500;
+  line-height: 30px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 30px;
 }
