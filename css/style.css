@@ -6308,7 +6308,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   z-index: 10;
   height: 511px;
   margin-right: 31px;
-  bottom: 0;
+  bottom: -75px;
 }
 @media (max-width: 1450px) {
   .side-image {
@@ -6397,6 +6397,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   .book-appointment-area .elementor-container .book-appointment-btn {
     margin-right: 0;
   }
+}
+
+.counter-area .elementor-container .side-image {
+  bottom: unset !important;
 }
 
 .eye-care-skill-area {

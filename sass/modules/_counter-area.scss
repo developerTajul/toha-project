@@ -297,7 +297,7 @@
     // width: 314px;
     height: 511px;
     margin-right: 31px;
-    bottom: 0;
+    bottom: -75px;
     @include rmaxwd(1450) {
         display: none !important;
     }
@@ -377,6 +377,13 @@
             @include md{
                 margin-right: 0;
             }
+        }
+    }
+}
+.counter-area{
+    .elementor-container{
+        .side-image{
+            bottom: unset !important;
         }
     }
 }
