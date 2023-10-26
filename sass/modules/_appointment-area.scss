@@ -235,6 +235,10 @@
                         }
                     }
                 }
+                .wpcf7-response-output{
+                    width: 400px;
+                    margin: 0 !important;
+                }
                 @include md {
                     flex-direction: column;
                     gap: 30px;

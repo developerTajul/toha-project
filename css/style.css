@@ -5252,6 +5252,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   background: #ffffff;
   color: #f17732;
 }
+.appointment-area.style-2 .appointment-form form .wpcf7-response-output {
+  width: 400px;
+  margin: 0 !important;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .appointment-area.style-2 .appointment-form form {
     flex-direction: column;
