@@ -5336,8 +5336,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 .elementor-section .appointment-area.style-1 .consultation-form {
   padding-bottom: 0;
 }
-.elementor-section .appointment-area.style-2 .consultation-form .appointment-form .input-box p {
+.elementor-section .appointment-area.style-2 .consultation-form .appointment-form .input-box p,
+.elementor-section .appointment-area.style-2 .consultation-form .appointment-form .form-btn p {
   margin-bottom: 0;
+}
+.elementor-section .appointment-area.style-2 .consultation-form .appointment-form .form-btn p {
+  margin-bottom: -40px;
 }
 
 .about-us-area .section-desc p {
