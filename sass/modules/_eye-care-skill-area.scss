@@ -109,6 +109,9 @@
 .eye-care-skill-area{
     .elementor-container {
         padding: 0 12px;
+        .shape-1{
+            justify-content: end !important;
+        }
         .content-wrapper{
             .elementor-widget-wrap{
                 @include rmaxwd(1399){

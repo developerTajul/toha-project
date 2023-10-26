@@ -6507,6 +6507,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .eye-care-skill-area .elementor-container {
   padding: 0 12px;
 }
+.eye-care-skill-area .elementor-container .shape-1 {
+  justify-content: end !important;
+}
 @media (max-width: 1399px) {
   .eye-care-skill-area .elementor-container .content-wrapper .elementor-widget-wrap {
     margin-left: 18px !important;

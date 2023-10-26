@@ -749,4 +749,10 @@
     for (let i = 0; i < collection.length; i++) {
         collection[i].setAttribute("placeholder", "Search");
       }
+    //   Book-appointment date-picker click handler 
+    $('.icon-calendar').on('click', function () {
+        // $('input[type:date]').trigger('click');
+        // $("#car_d_date").datepicker('show');
+        $(this).datepicker();
+    });
 })(jQuery);
