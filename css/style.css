@@ -6316,6 +6316,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex;
   gap: 17px;
   align-items: center;
+  justify-content: center;
   position: relative;
   z-index: 10;
 }
