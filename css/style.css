@@ -5233,9 +5233,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 .appointment-area.style-2 .appointment-form form {
   margin: 37px 30px 30px 30px;
   height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   flex-direction: row;
 }
