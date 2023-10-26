@@ -298,7 +298,27 @@
 
 // Theme 
 .elementor-section{
-    .consultation-form{
-        padding-bottom: 0;
+    .appointment-area{
+        &.style-1{
+            .consultation-form{
+                padding-bottom: 0;
+            }
+        }
+        &.style-2{
+            .consultation-form{
+                .appointment-form{
+                    .input-box{
+                        p{
+                            margin-bottom: 0;
+                        }
+                    }
+                    .form-btn{
+                        p{
+                            margin-bottom: -40px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
