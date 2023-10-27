@@ -86,11 +86,14 @@
         // cursor: pointer;
         // height: auto;
         // left: 0;
-        // position: absolute;
+        position: absolute;
         // right: 0;
         // top: 0;
         // width: auto;
         opacity: 0;
+        font-size: 40px;
+        line-height: 30px;
+        right: 12px;
     }
 }
 .appointment-area {

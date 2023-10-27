@@ -5121,7 +5121,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #f17732;
 }
 .consultation-form input[type=date]::-webkit-calendar-picker-indicator {
+  position: absolute;
   opacity: 0;
+  font-size: 40px;
+  line-height: 30px;
+  right: 12px;
 }
 
 .appointment-area.style-1 {
