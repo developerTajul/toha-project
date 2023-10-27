@@ -112,7 +112,13 @@
         .shape-1{
             justify-content: end !important;
         }
+        .section-desc{
+            margin-bottom: 30px;
+        }
         .content-wrapper{
+            .skill-progressbar{
+                margin-bottom: 31px;
+            }
             .elementor-widget-wrap{
                 @include rmaxwd(1399){
                     margin-left: 18px !important;

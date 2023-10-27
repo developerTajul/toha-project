@@ -6535,6 +6535,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 .eye-care-skill-area .elementor-container .shape-1 {
   justify-content: end !important;
 }
+.eye-care-skill-area .elementor-container .section-desc {
+  margin-bottom: 30px;
+}
+.eye-care-skill-area .elementor-container .content-wrapper .skill-progressbar {
+  margin-bottom: 31px;
+}
 @media (max-width: 1399px) {
   .eye-care-skill-area .elementor-container .content-wrapper .elementor-widget-wrap {
     margin-left: 18px !important;
@@ -6754,6 +6760,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   .faq-area .elementor-container {
     padding: 0 28px;
   }
+}
+.faq-area .elementor-container .section-title {
+  margin-bottom: 32px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .faq-area .elementor-container .elementor-column:last-child {
