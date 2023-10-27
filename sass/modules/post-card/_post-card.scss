@@ -548,6 +548,16 @@
       }
     }
   }
+  &.category-block{
+    .post-title{
+      margin-bottom: 20px;
+    }
+    blockquote{
+      p{
+        color: $white;
+      }
+    }
+  }
 
   .post-title {
     font-size: 24px;
