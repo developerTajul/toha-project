@@ -557,6 +557,13 @@
         color: $white;
       }
     }
+    .wp-block-pullquote{
+      blockquote{
+        p{
+          color: unset;
+        }
+      }
+    }
   }
 
   .post-title {

@@ -9773,6 +9773,9 @@ ul.children {
 .single-post-item.category-block blockquote p {
   color: #ffffff;
 }
+.single-post-item.category-block .wp-block-pullquote blockquote p {
+  color: unset;
+}
 .single-post-item .post-title {
   font-size: 24px;
   font-style: normal;
