@@ -4951,7 +4951,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .accordion-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 0;
 }
 .accordion-wrapper.style-2 .accordion-list-item {
   background-color: #ffffff;
@@ -4967,6 +4967,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .accordion-wrapper .accordion-list-item {
   position: relative;
+  border-top: 1px solid #514F56;
+}
+.accordion-wrapper .accordion-list-item:first-child {
+  border-top: transparent;
 }
 .accordion-wrapper .accordion-list-item .accordion-head {
   display: flex;
@@ -4976,6 +4980,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   cursor: pointer;
   flex-direction: row;
   position: relative;
+  padding: 20px 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .accordion-wrapper .accordion-list-item .accordion-head {
@@ -5020,7 +5025,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 .accordion-wrapper .accordion-list-item .accordion-item-body {
   color: #ffffff;
   position: relative;
-  padding-top: 40px;
+  padding: 20px 0;
+  border-top: 1px solid #514F56;
 }
 .accordion-wrapper .accordion-list-item .accordion-item-body p {
   margin-bottom: 0;
@@ -6616,6 +6622,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 700;
   line-height: 30px;
 }
+.faq-area .section-title {
+  margin-bottom: 40px;
+}
 .faq-area .section-title .title {
   color: #ffffff;
 }
@@ -6757,9 +6766,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   .faq-area .elementor-container {
     padding: 0 28px;
   }
-}
-.faq-area .elementor-container .section-title {
-  margin-bottom: 32px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .faq-area .elementor-container .elementor-column:last-child {

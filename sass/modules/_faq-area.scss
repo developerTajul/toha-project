@@ -79,6 +79,7 @@
         }
     }
     .section-title {
+        margin-bottom: 40px;
         .title {
             color: $white;
         }
@@ -207,7 +208,7 @@
             padding: 0 28px;
         }
         .section-title{
-            margin-bottom: 32px;
+            // margin-bottom: 32px;
         }
         .elementor-column{
             &:last-child{
