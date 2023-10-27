@@ -111,7 +111,7 @@
       height: 480px;
     }
     .post-meta {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
     .post-gallery {
       &:hover {
@@ -197,7 +197,7 @@
         }
       }
       p {
-        margin-bottom: 20px;
+        margin: 20px;
 
         img {
           // margin: 20px 0;
@@ -1074,6 +1074,11 @@
         margin: 0;
         line-height: 30px;
         text-transform: capitalize;
+        a{
+          &:hover{
+            color: $primary-color;
+          }
+        }
       }
     }
   }

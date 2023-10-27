@@ -341,6 +341,9 @@ blockquote {
   padding: 55px 38px 60px 175px;
   padding-left: 175px;
   font-family: $iconmoon;
+  p{
+    color: $white;
+  }
 
   @include sm {
     padding: 20px;
@@ -383,7 +386,6 @@ blockquote {
   border-top: 5px solid $primary-color !important;
   border-bottom: 5px solid $primary-color !important;
   background-color: #eef5f8;
-  
 }
 .wp-block-quote__citation,
 .wp-block-quote cite,

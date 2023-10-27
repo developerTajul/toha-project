@@ -2522,6 +2522,10 @@ blockquote {
   padding-left: 175px;
   font-family: "iconmoon" !important;
 }
+.wp-block-quote p,
+blockquote p {
+  color: #ffffff;
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .wp-block-quote,
   blockquote {
@@ -9393,7 +9397,7 @@ ul.children {
   height: 480px;
 }
 .blog-details-wrapper .single-post-item .post-meta {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .blog-details-wrapper .single-post-item .post-gallery:hover img {
   transform: scale(1) !important;
@@ -9469,7 +9473,7 @@ ul.children {
   gap: 30px;
 }
 .blog-details-wrapper .single-post-item .post-content p {
-  margin-bottom: 20px;
+  margin: 20px;
 }
 .blog-details-wrapper .single-post-item .post-content p img {
   border-radius: 8px;
@@ -10225,6 +10229,9 @@ ul.children {
   margin: 0;
   line-height: 30px;
   text-transform: capitalize;
+}
+.blog-post-nav .post-navigation .text h4 a:hover {
+  color: #f17732;
 }
 
 .post-card {
