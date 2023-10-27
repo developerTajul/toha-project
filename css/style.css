@@ -6495,7 +6495,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .child-img {
   position: absolute !important;
   bottom: 0;
-  right: -22%;
+  right: -24%;
   top: 25%;
   z-index: 3;
 }
@@ -6529,9 +6529,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 
-.eye-care-skill-area .elementor-container {
-  padding: 0 12px;
-}
 .eye-care-skill-area .elementor-container .shape-1 {
   justify-content: end !important;
 }

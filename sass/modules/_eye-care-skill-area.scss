@@ -73,7 +73,7 @@
 .child-img {
     position: absolute !important;
     bottom: 0;
-    right: -22%;
+    right: -24%;
     top: 25%;
     z-index: 3;
     @include sm{
@@ -108,7 +108,7 @@
 // Theme Responsive
 .eye-care-skill-area{
     .elementor-container {
-        padding: 0 12px;
+        // padding: 0 12px;
         .shape-1{
             justify-content: end !important;
         }
