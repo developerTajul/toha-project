@@ -6646,7 +6646,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   line-height: 30px;
 }
 .faq-area .section-title {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .faq-area .section-title .title {
   color: #ffffff;
@@ -9528,7 +9528,6 @@ ul.children {
 }
 .blog-details-wrapper .latest-comments li .comments-box .comments-text p {
   margin-bottom: 0;
-  color: #111821;
 }
 .blog-details-wrapper .latest-comments li .comments-box .comments-text p a {
   color: #f17732;
