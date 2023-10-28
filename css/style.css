@@ -10584,6 +10584,11 @@ ul.children {
   gap: 15px;
   margin-top: 19px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .post-card.style-3 .post-content .post-desc {
+    gap: 4px;
+  }
+}
 .post-card.style-3 .post-content .post-desc p {
   font-size: 14px;
   font-weight: 400;
@@ -11759,7 +11764,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .service-area-slider .service-slider-wrapper {
-    padding-top: 20px;
+    padding: 20px 0 0 0;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {

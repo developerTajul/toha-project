@@ -96,6 +96,9 @@
                 align-items: center;
                 gap: 15px;
                 margin-top: 19px;
+                @include sm{
+                    gap: 4px;
+                }
                 p{
                     font-size: 14px;
                     font-weight: 400;

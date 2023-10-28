@@ -8,7 +8,7 @@
     }
     .service-slider-wrapper {
         @include sm {
-            padding-top: 20px;
+            padding: 20px 0 0 0;
         }
     }
     .service-single-item {
