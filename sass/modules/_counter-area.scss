@@ -177,7 +177,7 @@
     // z-index: 10;
     // position: relative;
     @include sm{
-        padding: 24px;
+        padding: 37px;
         padding-top: 0;
     }
 }
@@ -379,9 +379,12 @@
         .book-appointment-btn{
             margin-right: 0;
             height: 100% !important;
+            @include sm{
+                margin-top: 10px;
+            }
             .elementor-align-right{
                 @include sm{
-                    // text-align: start;
+                    text-align: start;
                 }
             }
             @include md{
