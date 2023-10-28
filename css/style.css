@@ -2589,7 +2589,12 @@ blockquote p {
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .wp-block-pullquote .has-background blockquote p {
+  .wp-block-pullquote.has-background blockquote {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .wp-block-pullquote.has-background blockquote p {
     line-height: 42px;
   }
 }

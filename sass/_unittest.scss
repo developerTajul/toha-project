@@ -390,8 +390,11 @@ blockquote {
   @include sm{
     padding: 0;
   }
-  .has-background {
+  &.has-background {
     blockquote{
+      @include sm{
+        width: 100%;
+      }
       p{
           @include sm{
             line-height: 42px;
