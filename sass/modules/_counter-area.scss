@@ -381,6 +381,10 @@
             @include sm{
                 margin-top: 10px;
             }
+            @include md{
+                margin-bottom: 0;
+                margin-top: 20px;
+            }
             .elementor-align-right{
                 @include sm{
                     text-align: start;

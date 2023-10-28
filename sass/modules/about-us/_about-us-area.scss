@@ -384,7 +384,8 @@
                     width: 80%;
                 }
             }
-            .content-wrapper{
+            .content-wrapper,
+            .image-card-wrapper{
                 padding-left: 12px;
                 @include sm{
                     padding-left: 0;

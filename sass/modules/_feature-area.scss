@@ -247,6 +247,11 @@
         margin-bottom: 20px;
         gap: 18px;
       }
+      .icon-wrapper{
+        @include md{
+          margin-bottom: 0;
+        }
+      }
       .content{
         p{
           br{

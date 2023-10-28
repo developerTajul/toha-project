@@ -5791,20 +5791,24 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 80%;
   }
 }
-.about-us-area.style-1 .elementor-container .content-wrapper {
+.about-us-area.style-1 .elementor-container .content-wrapper,
+.about-us-area.style-1 .elementor-container .image-card-wrapper {
   padding-left: 12px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .about-us-area.style-1 .elementor-container .content-wrapper {
+  .about-us-area.style-1 .elementor-container .content-wrapper,
+  .about-us-area.style-1 .elementor-container .image-card-wrapper {
     padding-left: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
-  .about-us-area.style-1 .elementor-container .content-wrapper {
+  .about-us-area.style-1 .elementor-container .content-wrapper,
+  .about-us-area.style-1 .elementor-container .image-card-wrapper {
     width: 80%;
   }
 }
-.about-us-area.style-1 .elementor-container .content-wrapper .section-title {
+.about-us-area.style-1 .elementor-container .content-wrapper .section-title,
+.about-us-area.style-1 .elementor-container .image-card-wrapper .section-title {
   margin-bottom: 20px;
 }
 
@@ -6501,6 +6505,12 @@ body.admin-bar .header-menu-area.sticky_menu {
     margin-top: 10px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .book-appointment-area .elementor-container .book-appointment-btn {
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .book-appointment-area .elementor-container .book-appointment-btn .elementor-align-right {
     text-align: start;
@@ -7152,6 +7162,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   .feature-area .elementor-container .feature-item {
     margin-bottom: 20px;
     gap: 18px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .feature-area .elementor-container .feature-item .icon-wrapper {
+    margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -12248,7 +12263,11 @@ ul.children {
 
 .why-choose-us-area .why-choose-us-title-wrapper .elementor-container {
   padding: 0 12px;
-  align-items: end;
+}
+@media (max-width: 1399px) {
+  .why-choose-us-area .why-choose-us-title-wrapper .elementor-container {
+    align-items: end;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .why-choose-us-area .why-choose-us-title-wrapper .elementor-container {

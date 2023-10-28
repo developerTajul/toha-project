@@ -353,7 +353,9 @@
     .why-choose-us-title-wrapper{
         .elementor-container{
             padding: 0 12px;
-            align-items: end;
+            @include rmaxwd(1399){
+                align-items: end;
+            }
             @include md{
                 flex-direction: column;
                 padding: 0 12px;
