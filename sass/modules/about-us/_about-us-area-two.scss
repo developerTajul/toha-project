@@ -1,5 +1,6 @@
 .about-us-area {
     &.style-2 {
+        
         .content-wrapper {
             @include rmaxwd(1199) {
                 margin-top: 36px;
@@ -161,8 +162,18 @@
 // Theme Responsive
 .about-us-area{
     &.style-2{
+        @include sm{
+            padding: 70px 0;
+        }
+        @include md{
+            padding: 100px 0;
+        }
+        @include lg{
+            padding: 120px 0;
+        }
         .elementor-container{
             align-items: center;
+            
             @include rmaxwd (991){
                 flex-direction: column-reverse !important;
                 align-items: center;
@@ -174,6 +185,11 @@
             .elementor-col-50{
                 @include rmaxwd(991){
                     width: 80% !important;
+                }
+            }
+            .section-title{
+                @include sm{
+                    padding: 0 12px;
                 }
             }
         }

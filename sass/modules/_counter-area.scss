@@ -372,7 +372,9 @@
             margin-right: 0;
             height: 100% !important;
             .elementor-align-right{
-                // text-align: start;
+                @include sm{
+                    // text-align: start;
+                }
             }
             @include md{
                 margin-right: 0;

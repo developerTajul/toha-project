@@ -5958,6 +5958,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-2 {
+    padding: 70px 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-us-area.style-2 {
+    padding: 100px 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-area.style-2 {
+    padding: 120px 0;
+  }
+}
 .about-us-area.style-2 .elementor-container {
   align-items: center;
 }
@@ -5976,6 +5991,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media (max-width: 991px) {
   .about-us-area.style-2 .elementor-container .elementor-col-50 {
     width: 80% !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-2 .elementor-container .section-title {
+    padding: 0 12px;
   }
 }
 
