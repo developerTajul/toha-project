@@ -12,6 +12,7 @@
         height: 120px;
         width: 120px;
         transform: translate(0%, -50%);
+        display: none;
       }
     }
 
@@ -219,7 +220,10 @@
       }
     }
   }
-  .elementor-container{
+  >.elementor-container{
+    @include sm{
+      padding: 0 12px;
+    }
     .feature-container{
       @include lg{
         padding: 28px 0;
@@ -228,6 +232,13 @@
       @include xl{
         padding: 30px 12px;
         margin: 0 48px;
+      }
+    }
+  }
+  .elementor-container{
+    .feature-item{
+      @include sm{
+        margin-bottom: 20px;  
       }
     }
   }
