@@ -7080,6 +7080,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: #111821;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .feature-area {
+    background-image: unset;
+  }
+}
 .feature-area .elementor-section .shape-1 {
   top: 12px !important;
   left: -67px !important;
@@ -7119,6 +7124,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .feature-area .elementor-container .feature-item {
     margin-bottom: 20px;
+    gap: 18px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .feature-area .elementor-container .feature-item .content p br {
+    display: none;
   }
 }
 

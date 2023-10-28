@@ -203,12 +203,16 @@
 
 // Theme Responsive
 .feature-area{
+  @include sm{
+    background-image: unset;
+  }
   .elementor-section{
     .shape-1{
       top: 12px !important;
         left: -67px !important;
         z-index: 99;
         transform: translate(-0%, 0%);
+
       @include lg{
         left: -39px;
         top: 45px !important;
@@ -238,7 +242,17 @@
   .elementor-container{
     .feature-item{
       @include sm{
-        margin-bottom: 20px;  
+        margin-bottom: 20px;
+        gap: 18px;
+      }
+      .content{
+        p{
+          br{
+            @include sm{
+              display: none;
+            }
+          }
+        }
       }
     }
   }
