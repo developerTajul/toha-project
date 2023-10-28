@@ -8628,6 +8628,12 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .team-area.style-1 .elemento-container > .elementor-widget-container {
+    padding-bottom: 24px;
+  }
+}
+
 .blog-coment-title h2,
 .blog-coment-title .wp-block-comments-title,
 .wp-block-comments h2,
@@ -11900,6 +11906,11 @@ ul.children {
   font-size: 169px;
   line-height: 130px;
   color: rgba(166, 166, 166, 0.2509803922);
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .why-choose-us-area .shape-2 {
+    display: none;
+  }
 }
 @media (max-width: 1399px) {
   .why-choose-us-area .shape-2 {

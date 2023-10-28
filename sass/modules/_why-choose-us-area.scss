@@ -15,6 +15,9 @@
                 line-height: 130px;
                 color: #a6a6a640;
             }
+            @include sm{
+                display: none;
+            }
             @include rmaxwd(1399) {
                 top: 0;
                 right: 30px;
