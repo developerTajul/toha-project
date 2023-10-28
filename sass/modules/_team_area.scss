@@ -34,7 +34,7 @@
 // Theme
 .team-area{
     &.style-1{
-        .elemento-container{
+        .elementor-container{
             >.elementor-widget-container{
                 @include sm{
                     padding-bottom: 24px;
