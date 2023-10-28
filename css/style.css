@@ -9291,17 +9291,11 @@ ul.children {
   opacity: 1;
 }
 .portfolio-slider-area .slider-area {
-  padding-top: 85px;
   position: relative;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .portfolio-slider-area .slider-area {
-    padding-top: 60px;
-  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-slider-area .slider-area {
-    padding: 50px 0 0;
+    padding: 0;
   }
 }
 .portfolio-slider-area .slider-area .button-wrapper {
