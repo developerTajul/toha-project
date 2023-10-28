@@ -6187,8 +6187,24 @@ body.admin-bar .header-menu-area.sticky_menu {
   height: 100% !important;
   z-index: 10;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .book-appointment-btn {
+    justify-content: start;
+    align-items: start;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .book-appointment-btn {
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 20px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .book-appointment-btn {
+    justify-content: start !important;
+    align-items: start;
+    margin-bottom: 50px;
     height: auto;
   }
 }
@@ -6214,26 +6230,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 .book-appointment-btn .appointment-btn:hover {
   background: #ffffff;
   color: #f17732;
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .book-appointment-btn {
-    justify-content: start;
-    align-items: start;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .book-appointment-btn {
-    justify-content: start;
-    align-items: start;
-    margin-bottom: 20px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .book-appointment-btn {
-    justify-content: start !important;
-    align-items: start;
-    margin-bottom: 20px;
-  }
 }
 
 .fun-fact-box {
@@ -6418,7 +6414,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-card {
     width: 100%;
-    gap: 12px;
+    gap: 24px;
   }
 }
 .counter-card .icon {

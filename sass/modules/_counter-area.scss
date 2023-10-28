@@ -123,7 +123,19 @@
     margin-right: 60px;
     height: 100% !important;
     z-index: 10;
-    @include sm{
+    @include lg {
+        justify-content: start;
+        align-items: start;
+    }
+    @include md {
+        justify-content: start ;
+        align-items: start;
+        margin-bottom: 20px;
+    }
+    @include sm {
+        justify-content: start !important;
+        align-items: start;
+        margin-bottom: 50px;
         height: auto;
     }
     .elementor-widget-container{
@@ -154,20 +166,7 @@
             color: $primary-color;
         }
     }
-    @include lg {
-        justify-content: start;
-        align-items: start;
-    }
-    @include md {
-        justify-content: start ;
-        align-items: start;
-        margin-bottom: 20px;
-    }
-    @include sm {
-        justify-content: start !important;
-        align-items: start;
-        margin-bottom: 20px;
-    }
+   
 }
 .fun-fact-box{
     padding: 40px;
@@ -319,7 +318,7 @@
     z-index: 10;
     @include sm {
         width: 100%;
-        gap: 12px;
+        gap: 24px;
     }
     .icon {
         display: flex;
