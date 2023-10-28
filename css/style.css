@@ -10365,6 +10365,11 @@ ul.children {
   display: flex;
   flex-direction: column;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .post-card .content-wrapper {
+    padding: 16px;
+  }
+}
 .post-card .content-wrapper .post-image {
   overflow: hidden;
   border-radius: 10px;

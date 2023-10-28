@@ -18,6 +18,9 @@
     padding-bottom: 25px;
     display: flex;
     flex-direction: column;
+    @include sm{
+      padding: 16px;
+    }
     .post-image {
       overflow: hidden;
       border-radius: 10px;
