@@ -265,8 +265,23 @@
    }
    .wp-block-quote, blockquote{
     padding-left: 175px;
+    @include sm{
+      padding-left: 30px;
+      padding-top: 100px;
+      text-align: center;
+    }
     &:before{
       position: absolute;
+    }
+    &.is-style-large{
+      @include sm{
+        padding-top: 175px;
+      }
+    }
+    &.cite{
+      @include sm{
+        text-align: center;
+      }
     }
   }
   .wp-block-column{

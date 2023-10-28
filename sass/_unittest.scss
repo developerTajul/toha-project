@@ -363,8 +363,9 @@ blockquote {
     @include sm {
       top: 0;
       line-height: 62px;
-      transform: translate(100%, 20%);
-      left: 20px;
+      transform: translate(-50%, 20%);
+      left: 50%;
+      bottom: unset;
     }
   }
   p {
@@ -386,6 +387,18 @@ blockquote {
   border-top: 5px solid $primary-color !important;
   border-bottom: 5px solid $primary-color !important;
   background-color: #eef5f8;
+  @include sm{
+    padding: 0;
+  }
+  .has-background {
+    blockquote{
+      p{
+          @include sm{
+            line-height: 42px;
+          }
+        }
+      }
+  }
 }
 .wp-block-quote__citation,
 .wp-block-quote cite,
