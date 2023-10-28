@@ -6,6 +6,7 @@
     box-shadow: 0px 4px 60px 0px rgba(220, 220, 220, 0.25);
     @include sm {
         padding: 24px;
+        padding-bottom: 0;
     }
     @include md {
         padding: 20px;
@@ -13,7 +14,7 @@
     }
     border-radius: 20px 20px 0px 0px;
     .service-card-wrapper {
-        border-radius: 20px;
+        border-radius:  20px 20px 0 0;
         padding: 3px;
         background: linear-gradient(to top, $white, $secondary-color);
     }

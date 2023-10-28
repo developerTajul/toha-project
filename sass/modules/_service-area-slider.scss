@@ -8,7 +8,7 @@
     // }
     position: relative;
     background: $white;
-    border-radius: 17px;
+    border-radius: 17px 17px 0 0;
 
     .slick-list {
         padding: 0 !important;
@@ -54,6 +54,17 @@
             }
             .content .service-card-btn {
                 visibility: visible;
+            }
+        }
+    }
+}
+
+// Theme
+.service-area-slider{
+    .elementor-container{
+        .section-title{
+            @include sm{
+                padding: 0 12px;
             }
         }
     }

@@ -6187,6 +6187,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   height: 100% !important;
   z-index: 10;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .book-appointment-btn {
+    height: auto;
+  }
+}
 .book-appointment-btn .elementor-widget-container .elementor-button-text {
   font-size: 14px;
 }
@@ -6240,6 +6245,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .fun-fact-box {
     padding: 24px;
+    padding-top: 0;
   }
 }
 
@@ -6308,6 +6314,12 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .counter-items-box.style-2 {
+    flex-direction: column;
+    padding: 20px 12px;
+  }
 }
 
 .top-icon {
@@ -6406,7 +6418,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-card {
     width: 100%;
-    justify-content: space-between;
+    gap: 12px;
   }
 }
 .counter-card .icon {
@@ -10698,7 +10710,7 @@ ul.children {
   padding: 40px 34px 0px 34px;
   position: relative;
   background: #ffffff;
-  border-radius: 17px;
+  border-radius: 17px 17px 0 0;
 }
 .service-slider-wrapper .slick-list {
   padding: 0 !important;
@@ -10746,6 +10758,12 @@ ul.children {
 }
 .service-slider-wrapper .service-single-item.slick-center .content .service-card-btn {
   visibility: visible;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-area-slider .elementor-container .section-title {
+    padding: 0 12px;
+  }
 }
 
 .service-offer.style-2 {
@@ -10940,6 +10958,7 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .border-wrapper {
     padding: 24px;
+    padding-bottom: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -10949,7 +10968,7 @@ ul.children {
   }
 }
 .border-wrapper .service-card-wrapper {
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
   padding: 3px;
   background: linear-gradient(to top, #ffffff, #03c0b4);
 }

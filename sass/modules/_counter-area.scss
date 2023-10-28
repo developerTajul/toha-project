@@ -123,6 +123,9 @@
     margin-right: 60px;
     height: 100% !important;
     z-index: 10;
+    @include sm{
+        height: auto;
+    }
     .elementor-widget-container{
         @include rwd (1199){
             // padding-top: 115px;
@@ -175,6 +178,7 @@
     // position: relative;
     @include sm{
         padding: 24px;
+        padding-top: 0;
     }
 }
 .counter-items-box {
@@ -235,6 +239,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @include sm{
+            flex-direction: column;
+            padding: 20px 12px;
+        }
     }
    
 }
@@ -311,7 +319,7 @@
     z-index: 10;
     @include sm {
         width: 100%;
-        justify-content: space-between;
+        gap: 12px;
     }
     .icon {
         display: flex;
