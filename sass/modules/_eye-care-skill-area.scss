@@ -108,7 +108,9 @@
 // Theme Responsive
 .eye-care-skill-area{
     .elementor-container {
-        // padding: 0 12px;
+        @include sm{
+            padding: 0 12px;
+        }
         .shape-1{
             justify-content: end !important;
         }
@@ -118,12 +120,6 @@
         .content-wrapper{
             .skill-progressbar{
                 margin-bottom: 31px;
-            }
-            .elementor-widget-wrap{
-                @include rmaxwd(1399){
-                    margin-left: 18px !important;
-                }
-                
             }
         }
     }
