@@ -5086,7 +5086,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .consultation-form {
     border-radius: 0px;
-    padding: 20px;
+    padding: 37px;
   }
 }
 .consultation-form .base-area {
@@ -5108,6 +5108,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .consultation-form .base-area .base-inner-area .title {
     padding: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .consultation-form .base-area .base-inner-area .title br {
+    display: none;
   }
 }
 .consultation-form .base-area p {
@@ -5299,8 +5304,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .appointment-area.style-2 .appointment-form form {
-    flex-direction: column;
-    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 .appointment-area .title-border1 {

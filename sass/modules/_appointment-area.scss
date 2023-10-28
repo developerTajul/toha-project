@@ -14,7 +14,7 @@
     }
     @include sm {
         border-radius: 0px;
-        padding: 20px;
+        padding: 37px;
     }
     .base-area {
         background: linear-gradient(to top, $black, $primary-color);
@@ -31,6 +31,11 @@
                 padding: 0 32px;
                 @include sm{
                     padding: 0;
+                }
+                br{
+                    @include sm{
+                        display: none;
+                    }
                 }
             }
         }
@@ -249,8 +254,7 @@
                     gap: 30px;
                 }
                 @include sm {
-                    flex-direction: column;
-                    gap: 30px;
+                    grid-template-columns: repeat(1, 1fr);
                 }
             }
             
