@@ -513,14 +513,14 @@ input.theme-btn {
   }
 }
 
-@media (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .py-md-100 {
     padding-top: 100px !important;
     padding-bottom: 100px !important;
   }
 }
 
-@media (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .py-lg-120 {
     padding-top: 120px !important;
     padding-bottom: 120px !important;
