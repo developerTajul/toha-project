@@ -128,7 +128,7 @@
             position: absolute;
             bottom: 0;
             right: 0;
-            transform: translate(40px, 40px);
+            transform: translate(40px, 32px);
             @include rmaxwd(767) {
                 transform: translate(0, 40px);
             }
