@@ -6184,7 +6184,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: center;
   align-items: center;
   margin-right: 60px;
-  height: 100% !important;
+  height: 100%;
   z-index: 10;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
