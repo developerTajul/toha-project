@@ -204,7 +204,7 @@
 // Theme Responsive
 .feature-area{
   @include rmaxwd(991){
-    background-image: unset;
+    background-image: unset !important;
   }
   .elementor-section{
     .shape-1{

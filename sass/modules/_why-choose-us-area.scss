@@ -222,6 +222,9 @@
     @include rmaxwd(1700) {
         padding: 40px 22px 30px 22px;
     }
+    @include xl{
+        padding: 40px 20px 30px 20px;
+    }
     &:after{
         content: "";
         position: absolute;

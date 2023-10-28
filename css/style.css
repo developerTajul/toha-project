@@ -6050,7 +6050,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   flex-direction: column;
   gap: 24px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .blog-post-area.style-1 .sidebar .post-card-wrapper {
     flex-direction: row;
   }
@@ -7114,7 +7114,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 @media (max-width: 991px) {
   .feature-area {
-    background-image: unset;
+    background-image: unset !important;
   }
 }
 .feature-area .elementor-section .shape-1 {
@@ -7272,10 +7272,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #666666;
 }
 
-@media (max-width: 1199px) {
-  .testimonial-area .testimonial-title-wrapper {
-    padding: 0 12px;
-  }
+.testimonial-area .testimonial-title-wrapper {
+  padding: 0 12px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-area .testimonial-title-wrapper .elementor-container {
@@ -12142,6 +12140,11 @@ ul.children {
 @media (max-width: 1700px) {
   .single-choose-card {
     padding: 40px 22px 30px 22px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .single-choose-card {
+    padding: 40px 20px 30px 20px;
   }
 }
 .single-choose-card:after {
