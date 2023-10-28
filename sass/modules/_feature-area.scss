@@ -203,7 +203,7 @@
 
 // Theme Responsive
 .feature-area{
-  @include sm{
+  @include rmaxwd(991){
     background-image: unset;
   }
   .elementor-section{
@@ -212,7 +212,9 @@
         left: -67px !important;
         z-index: 99;
         transform: translate(-0%, 0%);
-
+      @include rmaxwd(991){
+        display: none;
+      }
       @include lg{
         left: -39px;
         top: 45px !important;

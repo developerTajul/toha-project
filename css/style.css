@@ -7102,7 +7102,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: #111821;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media (max-width: 991px) {
   .feature-area {
     background-image: unset;
   }
@@ -7112,6 +7112,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   left: -67px !important;
   z-index: 99;
   transform: translate(0%, 0%);
+}
+@media (max-width: 991px) {
+  .feature-area .elementor-section .shape-1 {
+    display: none;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .feature-area .elementor-section .shape-1 {
