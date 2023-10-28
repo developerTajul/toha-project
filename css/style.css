@@ -5760,6 +5760,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 0;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-1 > .elementor-container {
+    padding: 0 12px;
+  }
+}
 @media (max-width: 1199px) {
   .about-us-area.style-1 .elementor-container {
     flex-direction: column;
@@ -5772,6 +5777,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .about-us-area.style-1 .elementor-container .content-wrapper {
   padding-left: 12px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-1 .elementor-container .content-wrapper {
+    padding-left: 0;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
   .about-us-area.style-1 .elementor-container .content-wrapper {

@@ -370,6 +370,11 @@
 }
 .about-us-area{
     &.style-1{
+        >.elementor-container{
+            @include sm{
+                padding: 0 12px;
+            }
+        }
         .elementor-container{
             @include rmaxwd(1199){
                 flex-direction: column;
@@ -381,6 +386,9 @@
             }
             .content-wrapper{
                 padding-left: 12px;
+                @include sm{
+                    padding-left: 0;
+                }
                 @media only screen and (min-width: 768px) and (max-width: 1199px){
                     width: 80%;
                 }
