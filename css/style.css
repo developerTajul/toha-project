@@ -237,32 +237,35 @@ input:focus {
   background-color: #f7f7f5;
 }
 
+.blog-area,
 .page-area {
-  padding-top: 136px;
-  padding-bottom: 124px;
-}
-
-.blog-area {
   padding-top: 140px;
   padding-bottom: 140px;
 }
 
+@media (max-width: 1199px) {
+  .blog-area,
+  .page-area {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
 @media (max-width: 991px) {
-  .page-area,
-  .blog-area {
+  .blog-area,
+  .page-area {
     padding-top: 100px;
-    padding-bottom: 52px;
+    padding-bottom: 100px;
   }
 }
 @media (max-width: 767px) {
-  .page-area,
-  .blog-area {
+  .blog-area,
+  .page-area {
     padding-top: 70px;
-    padding-bottom: 22px;
+    padding-bottom: 70px;
   }
 }
-.page-area .page-links,
-.blog-area .page-links {
+.blog-area .page-links,
+.page-area .page-links {
   margin-bottom: 20px;
 }
 

@@ -166,23 +166,29 @@ input:focus {
   background-color: #f7f7f5;
 }
 
+// .page-area {
+//   padding-top: 136px;
+//   padding-bottom: 124px;
+// }
+.blog-area,
 .page-area {
-  padding-top: 136px;
-  padding-bottom: 124px;
-}
-.blog-area {
   padding-top: 140px;
   padding-bottom: 140px;
 }
-.page-area,
-.blog-area {
+// .page-area,
+.blog-area,
+.page-area {
+  @include rmaxwd(1199) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   @include rmaxwd(991) {
     padding-top: 100px;
-    padding-bottom: 52px;
+    padding-bottom: 100px;
   }
   @include rmaxwd(767) {
     padding-top: 70px;
-    padding-bottom: 22px;
+    padding-bottom: 70px;
   }
   .page-links {
     margin-bottom: 20px;
