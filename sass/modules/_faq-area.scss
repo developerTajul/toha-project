@@ -80,6 +80,9 @@
     }
     .section-title {
         margin-bottom: 30px;
+        @include sm{
+            margin-bottom: 20px;
+        }
         .title {
             color: $white;
         }
@@ -111,7 +114,10 @@
         @include sm {
             margin-left: 10px;
             transform: translateY(50%);
-
+        }
+        @include md{
+            top: unset !important;
+            bottom: unset !important;
         }
         &.top{
             top: 0;
@@ -181,8 +187,8 @@
                 line-height: 24px;
             }
             @include sm {
-                font-size: 24px;
-                line-height: 24px;
+                // font-size: 24px;
+                // line-height: 24px;
             }
         }
         .content-title {
