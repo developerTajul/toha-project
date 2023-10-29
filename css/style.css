@@ -10027,6 +10027,7 @@ ul.children {
   font-style: normal;
   font-weight: 500;
   line-height: 34px;
+  margin-bottom: 20px !important;
   margin-top: 10px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -10051,6 +10052,9 @@ ul.children {
   font-size: 14px;
   font-weight: 600;
   line-height: 29px;
+}
+.single-post-item .post-content > p {
+  margin-top: 0;
 }
 .single-post-item .post-content p {
   margin-top: 21px;
