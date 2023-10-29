@@ -28,16 +28,17 @@
 .book-appointment-area {
     position: relative;
     z-index: 20;
-    // margin-top: 82px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // margin-bottom: 74px;
+    padding: 0;
+    margin: 80px 0;
     @include lg {
         display: grid;
         grid-template-columns: auto;
         gap: 20px;
-        padding: 0px 40px;
+        padding: 0;
+        margin: 60px 0;
     }
     @include md {
         display: grid;
@@ -199,6 +200,7 @@
     @include lg {
         flex-wrap: wrap;
         grid-row-gap: 30px;
+        padding: 24px;
     }
     @include xl{
         padding: 50px 26px;
@@ -373,7 +375,7 @@
     }
     >.elementor-container{
         @include xl{
-            padding: 0 82px;
+            // padding: 0 82px;
         }
     }
 }
