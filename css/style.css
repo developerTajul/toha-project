@@ -6691,17 +6691,22 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .eye-care-skill-area .elementor-container {
+  .eye-care-skill-area > .elementor-container {
     padding: 0 12px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .eye-care-skill-area > .elementor-container {
+    padding: 0 42px;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .eye-care-skill-area .elementor-container {
+  .eye-care-skill-area > .elementor-container {
     padding: 0 12px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .eye-care-skill-area .elementor-container {
+  .eye-care-skill-area > .elementor-container {
     padding: 0 12px;
   }
 }
@@ -11752,6 +11757,7 @@ ul.children {
 }
 .contact-form-area .comment-respond input {
   height: 37px;
+  color: #ffffff;
 }
 .contact-form-area .comment-respond .theme-btn {
   background-color: #f17732;
