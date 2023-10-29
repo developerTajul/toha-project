@@ -114,6 +114,9 @@
         @include lg{
             padding: 0 12px;
         }
+        @include xl{
+            padding: 0 12px;
+        }
         .shape-1{
             justify-content: end !important;
         }
@@ -134,7 +137,10 @@
                     margin-left: 0 !important;
                 }
                 @include lg{
-                    margin-left: 48 !important;
+                    margin-left: 48px !important;
+                }
+                @include xl{
+                    margin-left: 48px !important;
                 }
             }
             .skill-progressbar{
