@@ -117,7 +117,8 @@
         }
         @include lg{
             top: unset !important;
-            bottom: unset !important;
+            bottom: 0 !important;
+            transform: translateY(unset);
         }
         &.top{
             top: 0;
