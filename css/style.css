@@ -5293,6 +5293,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     margin: 18px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appointment-area.style-2 .appointment-form form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .appointment-area.style-2 .appointment-form form div:last-child {
   grid-column: 1/3;
 }
@@ -6714,7 +6719,17 @@ body.admin-bar .header-menu-area.sticky_menu {
 .eye-care-skill-area .elementor-container .section-desc {
   margin-bottom: 30px;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .eye-care-skill-area .elementor-container .elementor-col-50 {
+    width: 70% !important;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .eye-care-skill-area .elementor-container .content-wrapper > .elementor-widget-wrap {
+    margin-left: 0 !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .eye-care-skill-area .elementor-container .content-wrapper > .elementor-widget-wrap {
     margin-left: 0 !important;
   }

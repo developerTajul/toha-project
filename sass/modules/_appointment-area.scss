@@ -237,6 +237,9 @@
                 @include sm{
                     margin: 18px;
                 }
+                @include md{
+                    grid-template-columns: repeat(2, 1fr);
+                }
                 div:last-child {
                     grid-column: 1 / 3;
                 }

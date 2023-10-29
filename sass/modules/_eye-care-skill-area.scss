@@ -131,9 +131,17 @@
         .section-desc{
             margin-bottom: 30px;
         }
+        .elementor-col-50{
+            @include md{
+                width: 70% !important;
+            }
+        }
         .content-wrapper{
             >.elementor-widget-wrap{
                 @include sm{
+                    margin-left: 0 !important;
+                }
+                @include md{
                     margin-left: 0 !important;
                 }
                 @include lg{
