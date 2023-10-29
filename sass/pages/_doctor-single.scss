@@ -121,6 +121,11 @@
             padding: 0 82px !important;
         }
     }
+    .elementor-container{
+        @include xl {
+            gap: 48px;
+        }
+    }
     .elementor-widget-wrap{
         @include sm{
             padding: 0 !important;
