@@ -213,7 +213,7 @@
         .elementor-column{
             &:last-child{
                 @include sm{
-                    margin-top: 70px;
+                    // margin-top: 70px;
                 }
             }
         }
