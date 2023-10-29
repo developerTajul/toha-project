@@ -10638,6 +10638,11 @@ ul.children {
   margin: 10px 0;
   padding-right: 24px;
 }
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .post-card .content-wrapper .post-content .title {
+    padding-right: 26px;
+  }
+}
 .post-card .content-wrapper .post-content .title:hover {
   color: #666666;
 }

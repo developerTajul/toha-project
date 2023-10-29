@@ -57,6 +57,9 @@
       .title {
         margin: 10px 0;
         padding-right: 24px;
+        @media only screen and (min-width: 0px) and (max-width: 768px){
+          padding-right: 26px;
+        }
         &:hover{
           color: $text-color;
         }
