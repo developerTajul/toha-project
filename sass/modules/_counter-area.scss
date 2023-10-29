@@ -417,4 +417,9 @@
             }
         }
     }
+    >.elementor-container{
+        @include xl{
+            padding: 0 82px;
+        }
+    }
 }

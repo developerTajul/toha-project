@@ -102,6 +102,9 @@
 .testimonial-area{
     .testimonial-title-wrapper{
         padding: 0 12px;
+        @include xl{
+            padding: 0 82px;
+        }
         .elementor-container{
             @include md{
                 flex-direction: column;

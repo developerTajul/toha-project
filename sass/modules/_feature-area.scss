@@ -209,6 +209,9 @@
   @include lg{
     background-image: unset !important;
   }
+  @include xl{
+    background-image: unset !important;
+  }
   .elementor-section{
     .shape-1{
         top: 12px !important;
@@ -222,8 +225,8 @@
         display: none;
       }
       @include xl{
-        left: 40px;
-        top: 28px;
+        top: 46px !important;
+        left: -39px !important;
       }
     }
   }
