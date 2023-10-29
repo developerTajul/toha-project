@@ -9591,7 +9591,6 @@ ul.children {
 
 .blog-details-wrapper .comment-respond {
   margin-top: 78px;
-  margin-bottom: 78px;
 }
 .blog-details-wrapper .comment-respond input,
 .blog-details-wrapper .comment-respond select {
@@ -9821,7 +9820,7 @@ ul.children {
 }
 .single-post-meta .blog-post-tag .title {
   font-family: "Jost", sans-serif;
-  color: #03c0b4;
+  color: #000;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -10054,7 +10053,7 @@ ul.children {
   line-height: 29px;
 }
 .single-post-item .post-content > p {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 .single-post-item .post-content p {
   margin-top: 21px;
@@ -10137,7 +10136,7 @@ ul.children {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
-  color: #03c0b4;
+  color: #000;
   margin-right: 5px;
   text-transform: uppercase;
 }

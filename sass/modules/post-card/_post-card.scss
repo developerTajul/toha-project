@@ -66,7 +66,7 @@
 .blog-details-wrapper {
   .comment-respond {
     margin-top: 78px;
-    margin-bottom: 78px;
+    // margin-bottom: 78px;
     
     input,
     select{
@@ -346,7 +346,7 @@
     }
     .title {
       font-family: $heading-font;
-      color: $secondary-color;
+      color: #000;
       font-size: 20px;
       font-style: normal;
       font-weight: 500;
@@ -620,7 +620,7 @@
   }
   .post-content {
     >p{
-      margin-top: 0;
+      margin-top: 0 !important;
     }
     p {
       margin-top: 21px;
@@ -722,7 +722,7 @@
       font-size: 20px;
       font-weight: 500;
       line-height: 30px;
-      color: $secondary-color;
+      color: #000;
       margin-right: 5px;
       text-transform: uppercase;
     }
