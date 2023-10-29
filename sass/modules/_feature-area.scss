@@ -106,10 +106,11 @@
     gap: 10px;
     position: relative;
     @include transition;
-    @include sm {
+    @media only screen and (min-width: 0px) and (max-width: 768px) {
       width: 65px;
       height: 65px;
       gap: 5px;
+      margin-bottom: 0;
     }
     @include lg {
       width: 70px;
@@ -169,6 +170,13 @@
       margin-bottom: 0;
       @include sm {
         margin-top: 0;
+      }
+    }
+    p{
+      br{
+        @media only screen and (min-width: 0px) and (max-width: 768px){
+          display: none;
+        }
       }
     }
   }
@@ -240,7 +248,7 @@
         margin: 0 50px;
       }
       @include xl{
-        padding: 30px 12px;
+        padding: 30px 12px 30px 30px;
         margin: 0 48px;
       }
     }

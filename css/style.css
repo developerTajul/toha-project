@@ -7161,11 +7161,12 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
   transition: all 0.5s ease-out;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 768px) {
   .feature-item .icon-wrapper {
     width: 65px;
     height: 65px;
     gap: 5px;
+    margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7238,6 +7239,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   .feature-item .content p,
   .feature-item .content .desc {
     margin-top: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .feature-item .content p br {
+    display: none;
   }
 }
 .feature-item:hover .icon-wrapper {
@@ -7313,7 +7319,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .feature-area > .elementor-container .feature-container {
-    padding: 30px 12px;
+    padding: 30px 12px 30px 30px;
     margin: 0 48px;
   }
 }
@@ -10664,6 +10670,7 @@ ul.children {
 .post-card .content-wrapper .post-content .post-meta .meta-info span i {
   color: #f17732;
 }
+.post-card .content-wrapper .post-content .post-meta .meta-info a,
 .post-card .content-wrapper .post-content .post-meta .meta-info p {
   font-size: 12px;
   font-weight: 400;
@@ -10747,6 +10754,9 @@ ul.children {
 }
 .post-card.style-2 .content-wrapper .post-content .title {
   margin-top: 0;
+}
+.post-card.style-2 .content-wrapper .post-content .post-meta {
+  gap: 30px;
 }
 .post-card.style-3 .content-wrapper .post-image {
   position: relative;
