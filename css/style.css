@@ -5817,11 +5817,6 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 80%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-us-area.style-1 .elementor-container .content-wrapper {
-    padding-left: 32px;
-  }
-}
 .about-us-area.style-1 .elementor-container .content-wrapper,
 .about-us-area.style-1 .elementor-container .image-card-wrapper {
   padding-left: 12px;
@@ -5841,6 +5836,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-us-area.style-1 .elementor-container .content-wrapper .section-title,
 .about-us-area.style-1 .elementor-container .image-card-wrapper .section-title {
   margin-bottom: 20px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-area.style-1 .elementor-container .content-wrapper {
+    padding-left: 32px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -6610,6 +6610,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .counter-area > .elementor-container {
     padding: 0 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .counter-area > .elementor-container {
+    padding: 0 44px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7446,6 +7451,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .testimonial-area .testimonial-title-wrapper {
   padding: 0 12px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .testimonial-area .testimonial-title-wrapper {
+    padding: 0 54px;
+  }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .testimonial-area .testimonial-title-wrapper {

@@ -102,6 +102,9 @@
 .testimonial-area{
     .testimonial-title-wrapper{
         padding: 0 12px;
+        @include lg{
+            padding: 0 54px;
+        }
         @include xl{
             padding: 0 82px;
         }

@@ -390,11 +390,7 @@
                     width: 80%;
                 }
             }
-            .content-wrapper{
-                @include lg{
-                    padding-left: 32px;
-                }
-            }
+            
             .content-wrapper,
             .image-card-wrapper{
                 padding-left: 12px;
@@ -409,6 +405,11 @@
                 }
                 .section-title{
                     margin-bottom: 20px;
+                }
+            }
+            .content-wrapper{
+                @include lg{
+                    padding-left: 32px;
                 }
             }
         }
