@@ -5117,11 +5117,6 @@ body.admin-bar .header-menu-area.sticky_menu {
     display: none;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .consultation-form .base-area .base-inner-area .title br {
-    display: none;
-  }
-}
 .consultation-form .base-area p {
   font-family: "Jost", sans-serif;
   margin-top: 18px;
@@ -6051,7 +6046,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-us-area.style-2 .elementor-container {
     flex-direction: row !important;
-    padding: 0 12px;
+    padding: 0 82px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -6875,7 +6870,7 @@ body.admin-bar .header-menu-area.sticky_menu {
     transform: translateY(50%);
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single-expert .icon {
     top: unset !important;
     bottom: unset !important;
@@ -11771,6 +11766,7 @@ ul.children {
 .contact-form-area .comment-respond .theme-btn {
   background-color: #f17732;
   color: #ffffff;
+  line-height: 24px;
 }
 
 .elementor-widget-Eyewell-map {
