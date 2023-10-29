@@ -5,9 +5,10 @@
     padding: 20px 40px 50px 40px;
     z-index: 10;
     @include xl {
-        margin-top: 16px;
-        margin-left: 21px;
-        margin-right: 3px;
+        // margin-top: 16px;
+        // margin-left: 21px;
+        // margin-right: 3px;
+        margin: 0;
     }
     @include md {
         border-radius: 0px;
