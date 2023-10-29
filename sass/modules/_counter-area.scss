@@ -188,10 +188,6 @@
     @include sm{
         padding: 0;
     }
-    @include lg {
-        flex-wrap: wrap;
-        grid-row-gap: 30px;
-    }
     @include md {
         padding: 50px 58px 55px 57px;
         margin: 0px;
@@ -200,13 +196,12 @@
         // grid-template-columns: auto auto;
         gap: 30px;
     }
-    @include sm {
-        // padding: 14px;
-        // display: flex;
-        // flex-wrap: wrap;
-        // align-items: center;
-        // justify-content: center;
-        // gap: 20px;
+    @include lg {
+        flex-wrap: wrap;
+        grid-row-gap: 30px;
+    }
+    @include xl{
+        padding: 50px 26px;
     }
    
     &.style-2{
@@ -301,6 +296,9 @@
         align-items: center;
         font-size: 80px;
         color: $white;
+        @include lg{
+            font-size: 64px;
+        }
     }
     .content {
         @include sm {
@@ -318,6 +316,9 @@
             line-height: 72px;
             @include xl{
                 font-size: 58px;
+            }
+            @include lg{
+                font-size: 64px;
             }
         }
         .content-title {
@@ -415,11 +416,22 @@
                     }
                 }
             }
+            .elementor-column{
+                @include md{
+                    width: 50% !important;
+                }
+            }
         }
     }
     >.elementor-container{
-        @include xl{
+        @media only screen and (min-width: 0px) and (max-width: 768px){
+            padding: 0 15px;
+        }
+        @include lg{
             padding: 0 82px;
+        }
+        @include xl{
+            padding: 0 42px;
         }
     }
 }

@@ -6312,12 +6312,6 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding: 0;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-items-box {
-    flex-wrap: wrap;
-    grid-row-gap: 30px;
-  }
-}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-items-box {
     padding: 50px 58px 55px 57px;
@@ -6325,6 +6319,17 @@ body.admin-bar .header-menu-area.sticky_menu {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .counter-items-box {
+    flex-wrap: wrap;
+    grid-row-gap: 30px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .counter-items-box {
+    padding: 50px 26px;
   }
 }
 .counter-items-box.style-2 {
@@ -6445,6 +6450,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 80px;
   color: #ffffff;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .counter-card .icon {
+    font-size: 64px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-card .content {
     display: inline-flex;
@@ -6464,6 +6474,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .counter-card .content .counter {
     font-size: 58px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .counter-card .content .counter {
+    font-size: 64px;
   }
 }
 .counter-card .content .content-title {
@@ -6574,9 +6589,24 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 50% !important;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .counter-area .elementor-container .counter-items-box .elementor-column {
+    width: 50% !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .counter-area > .elementor-container {
+    padding: 0 15px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .counter-area > .elementor-container {
     padding: 0 82px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .counter-area > .elementor-container {
+    padding: 0 42px;
   }
 }
 
@@ -12500,7 +12530,7 @@ ul.children {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .why-choose-us-area .why-choose-us-title-wrapper .elementor-container .elementor-column {
-    width: 80%;
+    width: 100%;
   }
 }
 .why-choose-us-area .elementor-section .shape-2 {
