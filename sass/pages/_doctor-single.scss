@@ -110,8 +110,10 @@
 
 // Theme
 .progress-area{
-    @include sm{
-        padding: 0 12px !important;
+    .elementor-container{
+        @include sm{
+            padding: 0 12px !important;
+        }
     }
     .elementor-widget-wrap{
         @include sm{
