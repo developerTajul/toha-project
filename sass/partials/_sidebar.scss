@@ -52,7 +52,7 @@
     padding: 20px;
   }
   @include lg {
-    padding: 24px;
+    padding: 24px 16px;
   }
   ol,
   ul {
@@ -721,6 +721,9 @@
       margin-bottom: 14px;
       border: 0;
       align-items: center;
+      @include lg{
+        margin-bottom: 0;
+      }
 
       &:hover {
         .latest-post-thumb {

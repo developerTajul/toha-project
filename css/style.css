@@ -7962,7 +7962,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .widget {
-    padding: 24px;
+    padding: 24px 16px;
   }
 }
 .widget ol,
@@ -8557,6 +8557,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 14px;
   border: 0;
   align-items: center;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .widget_latest_post ul li {
+    margin-bottom: 0;
+  }
 }
 .widget_latest_post ul li:hover .latest-post-thumb img {
   transform: scale(1.05);
