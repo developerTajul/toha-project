@@ -11502,6 +11502,9 @@ ul.children {
   top: 12px;
   font-size: 20px;
 }
+.service-details-area .sidebar .consultation-form .base-area .base-inner-area {
+  padding: 0 20px;
+}
 @media only screen and (min-width: 992px) and (max-width: 1399px) {
   .service-details-area .sidebar .consultation-form .base-area p {
     font-size: 22px;
@@ -11513,6 +11516,16 @@ ul.children {
 .service-details-area .sidebar .consultation-form .base-area .appointment-form .form-box {
   margin-left: 12px;
   margin-right: 12px;
+}
+.service-details-area .sidebar .consultation-form .base-area .appointment-form .form-btn p {
+  margin-bottom: 0;
+}
+.service-details-area .sidebar .consultation-form .base-area .appointment-form .form-btn .theme-btn {
+  display: flex;
+  justify-content: center;
+  background: #f17732;
+  width: 100%;
+  height: 59px;
 }
 .service-details-area.appointment-area .title-border1 {
   margin: 0 35px 4px 35px;
@@ -11537,6 +11550,7 @@ ul.children {
   margin-top: 20px;
   padding-left: 0;
   gap: 20px;
+  margin-bottom: 0;
 }
 .service-details-area .content-wrapper .single-item ul li {
   display: flex;
