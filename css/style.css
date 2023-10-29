@@ -11442,8 +11442,13 @@ ul.children {
   color: #ffffff;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .progress-area .elementor-widget-wrap {
+    padding: 0;
+  }
+}
 .progress-area .skill-progressbar {
-  padding: auto;
+  padding-top: 31px;
 }
 
 .service-details-area .sidebar .categories-wrapper {

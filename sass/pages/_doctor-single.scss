@@ -110,7 +110,12 @@
 
 // Theme
 .progress-area{
+    .elementor-widget-wrap{
+        @include sm{
+            padding: 0;
+        }
+    }
     .skill-progressbar{
-        padding: auto;
+        padding-top: 31px;
     }
 }
