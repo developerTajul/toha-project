@@ -5817,6 +5817,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 80%;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-us-area.style-1 .elementor-container .content-wrapper {
+    padding-left: 32px;
+  }
+}
 .about-us-area.style-1 .elementor-container .content-wrapper,
 .about-us-area.style-1 .elementor-container .image-card-wrapper {
   padding-left: 12px;
@@ -6543,6 +6548,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .counter-area .elementor-container {
+    gap: 12px 0;
+  }
+}
 .counter-area .elementor-container .side-image,
 .counter-area .elementor-container .bottom-icon,
 .counter-area .elementor-container .top-icon {
@@ -6594,6 +6604,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 50% !important;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .counter-area .elementor-container .counter-items-box .elementor-column {
+    width: 50% !important;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .counter-area > .elementor-container {
     padding: 0 15px;
@@ -6601,12 +6616,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .counter-area > .elementor-container {
-    padding: 0 82px;
+    padding: 0 42px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .counter-area > .elementor-container {
-    padding: 0 42px;
+    padding: 0 82px;
   }
 }
 

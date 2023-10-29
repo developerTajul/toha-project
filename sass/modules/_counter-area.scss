@@ -379,6 +379,9 @@
 }
 .counter-area{
     .elementor-container{
+        @include lg{
+            gap: 12px 0;
+        }
         .side-image,
         .bottom-icon,
         .top-icon{
@@ -420,6 +423,9 @@
                 @include md{
                     width: 50% !important;
                 }
+                @include lg{
+                    width: 50% !important;
+                }
             }
         }
     }
@@ -428,10 +434,10 @@
             padding: 0 15px;
         }
         @include lg{
-            padding: 0 82px;
+            padding: 0 42px;
         }
         @include xl{
-            padding: 0 42px;
+            padding: 0 82px;
         }
     }
 }
