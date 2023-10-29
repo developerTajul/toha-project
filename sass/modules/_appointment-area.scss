@@ -28,18 +28,15 @@
             border-radius: 20px 20px 0 0;
             .title{
                 margin-top: 40px;
-                padding: 0 32px;
-                @include sm{
-                    padding: 0 12px;
-                }
                 br{
                     @include sm{
                         display: none;
                     }
+                    @include lg{
+                        display: none;
+                    }
                 }
-                @include xl{
-                    padding: 0 12px;
-                }
+                
             }
         }
         p {

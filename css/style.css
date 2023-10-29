@@ -5108,21 +5108,15 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .consultation-form .base-area .base-inner-area .title {
   margin-top: 40px;
-  padding: 0 32px;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .consultation-form .base-area .base-inner-area .title {
-    padding: 0 12px;
-  }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .consultation-form .base-area .base-inner-area .title br {
     display: none;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .consultation-form .base-area .base-inner-area .title {
-    padding: 0 12px;
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .consultation-form .base-area .base-inner-area .title br {
+    display: none;
   }
 }
 .consultation-form .base-area p {
