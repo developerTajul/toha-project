@@ -11442,6 +11442,10 @@ ul.children {
   color: #ffffff;
 }
 
+.progress-area .skill-progressbar {
+  padding: auto;
+}
+
 .service-details-area .sidebar .categories-wrapper {
   background-color: #ffffff;
   box-shadow: 0px 4px 60px 0px rgba(209, 209, 209, 0.25);
@@ -11526,6 +11530,11 @@ ul.children {
   background: #f17732;
   width: 100%;
   height: 59px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .service-details-area .sidebar .consultation-form .base-area .appointment-form .form-btn .theme-btn {
+    padding: 8px;
+  }
 }
 .service-details-area.appointment-area .title-border1 {
   margin: 0 35px 4px 35px;

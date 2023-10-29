@@ -89,6 +89,9 @@
                             background: #f17732;
                             width: 100%;
                             height: 59px;
+                            @include lg{
+                                padding: 8px;
+                            }
                         }
                     }
                 } 
