@@ -7146,6 +7146,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     background-image: unset !important;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .feature-area {
+    background-image: unset !important;
+  }
+}
 .feature-area .elementor-section .shape-1 {
   top: 12px !important;
   left: -67px !important;
@@ -7159,9 +7164,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .feature-area .elementor-section .shape-1 {
-    left: -39px;
-    top: 45px !important;
-    transform: unset;
+    display: none;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {

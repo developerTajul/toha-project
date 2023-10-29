@@ -206,6 +206,9 @@
   @include rmaxwd(991){
     background-image: unset !important;
   }
+  @include lg{
+    background-image: unset !important;
+  }
   .elementor-section{
     .shape-1{
         top: 12px !important;
@@ -216,9 +219,7 @@
         display: none;
       }
       @include lg{
-        left: -39px;
-        top: 45px !important;
-        transform: unset;
+        display: none;
       }
       @include xl{
         left: 40px;
