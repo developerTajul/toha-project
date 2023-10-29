@@ -115,7 +115,7 @@
             margin-left: 10px;
             transform: translateY(50%);
         }
-        @include md{
+        @include lg{
             top: unset !important;
             bottom: unset !important;
         }
