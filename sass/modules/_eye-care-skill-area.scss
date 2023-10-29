@@ -111,6 +111,9 @@
         @include sm{
             padding: 0 12px;
         }
+        @include lg{
+            padding: 0 12px;
+        }
         .shape-1{
             justify-content: end !important;
         }

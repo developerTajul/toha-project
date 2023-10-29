@@ -6687,6 +6687,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding: 0 12px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .eye-care-skill-area .elementor-container {
+    padding: 0 12px;
+  }
+}
 .eye-care-skill-area .elementor-container .shape-1 {
   justify-content: end !important;
 }
