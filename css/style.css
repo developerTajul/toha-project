@@ -11443,6 +11443,11 @@ ul.children {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .progress-area {
+    padding: 0 12px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   .progress-area .elementor-widget-wrap {
     padding: 0;
   }
