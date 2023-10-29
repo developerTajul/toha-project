@@ -8977,7 +8977,10 @@ ul.children {
 }
 
 .comment-form {
-  margin-top: 40px;
+  margin-top: 20px;
+}
+.comment-form .theme-btn {
+  text-transform: uppercase;
 }
 
 .comment-respond {

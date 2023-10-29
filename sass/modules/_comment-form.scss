@@ -34,7 +34,10 @@
   }
 }
 .comment-form {
-  margin-top: 40px;
+  margin-top: 20px;
+  .theme-btn{
+    text-transform: uppercase;
+  }
 }
 .comment-respond {
   background-color: $white;
