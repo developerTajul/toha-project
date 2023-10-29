@@ -114,6 +114,14 @@
         .shape-1{
             justify-content: end !important;
         }
+        .child-img{
+            @include lg{
+                width: 200px !important;
+                right: 0;
+                top: unset !important;
+                bottom: 0 !important;
+            }
+        }
         .section-desc{
             margin-bottom: 30px;
         }
@@ -121,6 +129,9 @@
             >.elementor-widget-wrap{
                 @include sm{
                     margin-left: 0 !important;
+                }
+                @include lg{
+                    margin-left: 48 !important;
                 }
             }
             .skill-progressbar{

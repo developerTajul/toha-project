@@ -6690,12 +6690,25 @@ body.admin-bar .header-menu-area.sticky_menu {
 .eye-care-skill-area .elementor-container .shape-1 {
   justify-content: end !important;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .eye-care-skill-area .elementor-container .child-img {
+    width: 200px !important;
+    right: 0;
+    top: unset !important;
+    bottom: 0 !important;
+  }
+}
 .eye-care-skill-area .elementor-container .section-desc {
   margin-bottom: 30px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .eye-care-skill-area .elementor-container .content-wrapper > .elementor-widget-wrap {
     margin-left: 0 !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .eye-care-skill-area .elementor-container .content-wrapper > .elementor-widget-wrap {
+    margin-left: 48 !important;
   }
 }
 .eye-care-skill-area .elementor-container .content-wrapper .skill-progressbar {
@@ -10912,14 +10925,19 @@ ul.children {
   z-index: 99;
   position: relative;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-offer-container {
+    padding: 0 20px 20px 20px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .service-offer-container {
     padding: 0 50px 74px;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .service-offer-container {
-    padding: 0 20px 20px 20px;
+    padding: 0 60px 70px;
   }
 }
 .service-offer-container .process-step-slider-tab {
