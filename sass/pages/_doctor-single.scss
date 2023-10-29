@@ -114,6 +114,12 @@
         @include sm{
             padding: 0 12px !important;
         }
+        @include lg{
+            padding: 0 42px !important;
+        }
+        @include xl{
+            padding: 0 42px !important;
+        }
     }
     .elementor-widget-wrap{
         @include sm{

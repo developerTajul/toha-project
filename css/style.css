@@ -11447,6 +11447,16 @@ ul.children {
     padding: 0 12px !important;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .progress-area .elementor-container {
+    padding: 0 42px !important;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .progress-area .elementor-container {
+    padding: 0 42px !important;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .progress-area .elementor-widget-wrap {
     padding: 0 !important;
