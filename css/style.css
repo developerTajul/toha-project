@@ -5115,6 +5115,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     display: none;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .consultation-form .base-area .base-inner-area .title {
+    padding: 0 12px;
+  }
+}
 .consultation-form .base-area p {
   font-family: "Jost", sans-serif;
   margin-top: 18px;
@@ -5145,8 +5150,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .consultation-form .base-area .appointment-form .form-box {
-    margin-left: 18px;
-    margin-right: 18px;
+    margin: 0 18px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .consultation-form .base-area .appointment-form .form-box {
+    margin: 0 12px;
   }
 }
 .consultation-form .base-area .appointment-form .form-box .form-btn .theme-btn {
@@ -5330,15 +5339,20 @@ body.admin-bar .header-menu-area.sticky_menu {
   width: 416px;
   height: 1px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .appointment-area .title-border1 p {
+    background: #DFDFDF;
+    width: 250px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .appointment-area .title-border1 p {
     background: #DFDFDF;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .appointment-area .title-border1 p {
-    background: #DFDFDF;
-    width: 250px;
+    width: 298px;
   }
 }
 .appointment-area .title-border2 {
@@ -5358,15 +5372,20 @@ body.admin-bar .header-menu-area.sticky_menu {
   width: 349px;
   height: 1px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .appointment-area .title-border2 p {
+    background: #DFDFDF;
+    width: 200px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .appointment-area .title-border2 p {
     background: #DFDFDF;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .appointment-area .title-border2 p {
-    background: #DFDFDF;
-    width: 200px;
+    width: 248px;
   }
 }
 
@@ -6520,6 +6539,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   .book-appointment-area .elementor-container .book-appointment-btn {
     margin-right: 0;
   }
+}
+.book-appointment-area > .elementor-container {
+  padding: 0 12px;
 }
 
 .counter-area .elementor-container .side-image {
