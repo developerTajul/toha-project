@@ -180,3 +180,14 @@
         }
     }
 }
+
+// Theme
+.service-offer{
+    &.style-2{
+        .section-title{
+            @include sm{
+                padding: 0 12px;
+            }
+        }
+    }
+}

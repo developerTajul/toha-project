@@ -118,6 +118,11 @@
             margin-bottom: 30px;
         }
         .content-wrapper{
+            >.elementor-widget-wrap{
+                @include sm{
+                    margin-left: 0;
+                }
+            }
             .skill-progressbar{
                 margin-bottom: 31px;
             }

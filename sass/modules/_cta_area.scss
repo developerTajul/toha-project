@@ -1,3 +1,4 @@
+// Theme
 .cta-area {
     // padding-bottom: 80px;
     .book-appointment-area {
@@ -7,5 +8,8 @@
         // @include md {
         //     padding: 100px 0 1px 0px;
         // }
+    }
+    .book-appointment-btn{
+        margin-bottom: 0 !important;
     }
 }

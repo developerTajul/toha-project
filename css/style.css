@@ -6693,6 +6693,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 .eye-care-skill-area .elementor-container .section-desc {
   margin-bottom: 30px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .eye-care-skill-area .elementor-container .content-wrapper > .elementor-widget-wrap {
+    margin-left: 0;
+  }
+}
 .eye-care-skill-area .elementor-container .content-wrapper .skill-progressbar {
   margin-bottom: 31px;
 }
@@ -9168,6 +9173,10 @@ ul.children {
   border-color: #f17732 !important;
 }
 
+.cta-area .book-appointment-btn {
+  margin-bottom: 0 !important;
+}
+
 .portfolio-slider-wrapper {
   position: relative;
 }
@@ -11073,6 +11082,12 @@ ul.children {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-offer.style-2 .section-title {
+    padding: 0 12px;
+  }
 }
 
 .border-wrapper {
