@@ -368,6 +368,7 @@
         }
     }
 }
+// Theme
 .about-us-area{
     &.style-1{
         >.elementor-container{
@@ -378,6 +379,11 @@
         .elementor-container{
             @include rmaxwd(1199){
                 flex-direction: column;
+            }
+            .list-section{
+                @include xl{
+                    justify-content: unset;
+                }
             }
             .about-image-card{
                 @media only screen and (min-width: 768px) and (max-width: 1199px){

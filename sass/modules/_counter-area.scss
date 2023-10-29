@@ -188,34 +188,9 @@
     @include sm{
         padding: 0;
     }
-    .elementor-container{
-        display: flex;
-        justify-content: space-between;
-        @include md{
-            flex-wrap: wrap !important;
-            gap: 30px 0;
-            justify-content: space-between;
-        }
-        @include sm {
-            padding: 24px;
-            flex-direction: column;
-        }
-        @include lg {
-            flex-wrap: wrap;
-            grid-row-gap: 30px;
-        }
-        .elementor-column{
-            width: unset;
-            @include sm{
-                width: 100% !important;
-            }
-            @include md{
-                width: 50% !important;
-            }
-            @include lg{
-                width: 50% !important;
-            }
-        }
+    @include lg {
+        flex-wrap: wrap;
+        grid-row-gap: 30px;
     }
     @include md {
         padding: 50px 58px 55px 57px;
@@ -403,8 +378,43 @@
 }
 .counter-area{
     .elementor-container{
-        .side-image{
-            bottom: unset !important;
+        .side-image,
+        .bottom-icon,
+        .top-icon{
+            display: none;
+        }
+        .counter-items-box{
+            &.style-2{
+                .elementor-container{
+                    display: flex;
+                    justify-content: space-between;
+                    @include md{
+                        flex-wrap: wrap !important;
+                        gap: 30px 0;
+                        justify-content: space-between;
+                    }
+                    @include sm {
+                        padding: 24px;
+                        flex-direction: column;
+                    }
+                    @include lg {
+                        flex-wrap: wrap;
+                        grid-row-gap: 30px;
+                    }
+                    .elementor-column{
+                        width: unset;
+                        @include sm{
+                            width: 100% !important;
+                        }
+                        @include md{
+                            width: 50% !important;
+                        }
+                        @include lg{
+                            width: 50% !important;
+                        }
+                    }
+                }
+            }
         }
     }
 }

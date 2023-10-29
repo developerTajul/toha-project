@@ -243,6 +243,9 @@
     }
   }
   .elementor-container{
+    .feather-item-wrapper{
+      display: unset;
+    }
     .feature-item{
       @include sm{
         margin-bottom: 20px;

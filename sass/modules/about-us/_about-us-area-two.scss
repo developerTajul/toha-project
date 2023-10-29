@@ -98,6 +98,9 @@
         .image-wrapper {
             position: relative;
             padding-left: 60px;
+            @include sm{
+                padding-left: 0;
+            }
             .certificate {
                 position: absolute;
                 bottom: 10px;
@@ -163,13 +166,13 @@
 .about-us-area{
     &.style-2{
         @include sm{
-            padding: 70px 0;
+            padding: 70px 0 !important;
         }
         @include md{
-            padding: 100px 0;
+            padding: 100px 0 !important;
         }
         @include lg{
-            padding: 120px 0;
+            padding: 120px 0 !important;
         }
         .elementor-container{
             align-items: center;
@@ -183,7 +186,10 @@
                 padding: 0 12px;
             }
             .elementor-col-50{
-                @include rmaxwd(991){
+                @include sm{
+                    width: 90% !important;
+                }
+                @include md{
                     width: 80% !important;
                 }
             }
