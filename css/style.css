@@ -4273,6 +4273,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 20px;
   margin-bottom: 0;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .slider-area .single-slider-inner {
+    margin: 30px 24px;
+  }
+}
 .slider-area .single-slider-inner:after {
   content: "";
   background: #ffffff;
@@ -6540,8 +6545,10 @@ body.admin-bar .header-menu-area.sticky_menu {
     margin-right: 0;
   }
 }
-.book-appointment-area > .elementor-container {
-  padding: 0 12px;
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .book-appointment-area > .elementor-container {
+    padding: 0 12px;
+  }
 }
 
 .counter-area .elementor-container .side-image {
@@ -7180,6 +7187,9 @@ body.admin-bar .header-menu-area.sticky_menu {
     margin: 0 48px;
   }
 }
+.feature-area .elementor-container .feather-item-wrapper .elementor-container {
+  gap: 12px;
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .feature-area .elementor-container .feature-item {
     margin-bottom: 20px;
@@ -7192,6 +7202,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .feature-area .elementor-container .feature-item .content p br {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .feature-area .elementor-container .feature-item .content p br {
     display: none;
   }

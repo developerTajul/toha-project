@@ -242,6 +242,11 @@
     }
   }
   .elementor-container{
+    .feather-item-wrapper{
+      .elementor-container{
+        gap: 12px;
+      }
+    }
     .feature-item{
       @include sm{
         margin-bottom: 20px;
@@ -256,6 +261,9 @@
         p{
           br{
             @include sm{
+              display: none;
+            }
+            @include lg{
               display: none;
             }
           }

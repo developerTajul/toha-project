@@ -396,7 +396,9 @@
         }
     }
     >.elementor-container{
-        padding: 0 12px;
+        @include xl{
+            padding: 0 12px;
+        }
     }
 }
 .counter-area{
