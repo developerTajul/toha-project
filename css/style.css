@@ -9697,9 +9697,6 @@ ul.children {
   gap: 30px;
   margin: 0;
 }
-.blog-details-wrapper .single-post-item .post-content p {
-  margin: 20px;
-}
 .blog-details-wrapper .single-post-item .post-content p img {
   border-radius: 8px;
 }
@@ -9821,6 +9818,7 @@ ul.children {
 }
 .single-post-meta .blog-post-tag .title {
   font-family: "Jost", sans-serif;
+  color: #03c0b4;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -10128,9 +10126,10 @@ ul.children {
   color: #1a70c6;
 }
 .single-post-item .social-share .social-share-title {
-  font-size: 16px;
-  font-weight: 700;
   font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
   color: #03c0b4;
   margin-right: 5px;
   text-transform: uppercase;
