@@ -13,6 +13,19 @@
         @include xl {
             padding: 48px 0;
         }
+        .accordion-wrapper{
+            .accordion-list-item {
+                border-top: none;
+                .accordion-head{
+                    &:after{
+                      color: $text-color;
+                    }
+                }
+                .accordion-item-body {
+                    border-top: none;
+                }
+            }
+        }
     }
 }
 .feature-area {

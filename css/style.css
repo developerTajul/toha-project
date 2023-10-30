@@ -11922,6 +11922,15 @@ ul.children {
     padding: 48px 0;
   }
 }
+.faq-area.style-2 .accordion-wrapper .accordion-list-item {
+  border-top: none;
+}
+.faq-area.style-2 .accordion-wrapper .accordion-list-item .accordion-head:after {
+  color: #666666;
+}
+.faq-area.style-2 .accordion-wrapper .accordion-list-item .accordion-item-body {
+  border-top: none;
+}
 
 .feature-area.style-2 {
   padding-top: 82px;
