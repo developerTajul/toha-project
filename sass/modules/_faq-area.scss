@@ -120,7 +120,7 @@
         @include lg{
             top: unset !important;
             bottom: 0 !important;
-            transform: translateY(unset);
+            transform: translateY(50%);
         }
         &.top{
             top: 0;
