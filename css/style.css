@@ -5842,6 +5842,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding-left: 32px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .about-us-area.style-1 .elementor-container .content-wrapper {
+    padding-left: 32px;
+  }
+}
 
 @media (max-width: 1199px) {
   .about-us-area.style-2 .content-wrapper {
@@ -7476,6 +7481,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-area .testimonial-title-wrapper .elementor-container {
     flex-direction: column;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .testimonial-area .testimonial-title-wrapper .elementor-container .section-desc {
+    margin-top: 10px;
   }
 }
 .testimonial-area .testimonial-title-wrapper .elementor-container .elementor-column {
