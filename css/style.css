@@ -7002,17 +7002,17 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 @media (max-width: 991px) {
-  .faq-area .elementor-container {
+  .faq-area > .elementor-container {
     padding: 0 12px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1399px) {
-  .faq-area .elementor-container {
-    padding: 0 28px;
+  .faq-area > .elementor-container {
+    padding: 0 42px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .faq-area .elementor-container .elementor-widget-wrap {
+  .faq-area > .elementor-container .elementor-widget-wrap {
     padding-left: 0 !important;
   }
 }

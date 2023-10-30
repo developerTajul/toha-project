@@ -209,22 +209,12 @@
 
 // Theme 
 .faq-area{
-    .elementor-container{
+    >.elementor-container{
         @include rmaxwd(991){
             padding: 0 12px;
         }
         @media only screen and (min-width: 992px) and (max-width: 1399px){
-            padding: 0 28px;
-        }
-        .section-title{
-            // margin-bottom: 32px;
-        }
-        .elementor-column{
-            &:last-child{
-                @include sm{
-                    // margin-top: 70px;
-                }
-            }
+            padding: 0 42px;
         }
         .elementor-widget-wrap{
             @include sm{
