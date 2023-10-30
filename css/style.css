@@ -11909,17 +11909,17 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .faq-area.style-2 {
-    padding: 30px 0;
+    padding: 30px 0 !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .faq-area.style-2 {
-    padding: 38px 0;
+    padding: 38px 0 !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .faq-area.style-2 {
-    padding: 48px 0;
+    padding: 48px 0 !important;
   }
 }
 .faq-area.style-2 .accordion-wrapper .accordion-list-item {
