@@ -13,6 +13,20 @@
         @include xl {
             padding: 48px 0 !important;
         }
+        .faq-inner-wrapper{
+            .elementor-column{
+                @media only screen and (min-width: 0px) and (max-width: 768px){
+                    width: unset !important;
+                }
+            }
+            .elementor-container {
+                .elementor-widget-wrap{
+                    @media only screen and (min-width: 0px) and (max-width: 768px){
+                        padding-right: 30px;
+                    }
+                }
+            }
+        }
         .accordion-wrapper{
             .accordion-list-item {
                 border-top: none;

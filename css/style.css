@@ -11922,6 +11922,16 @@ ul.children {
     padding: 48px 0 !important;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .faq-area.style-2 .faq-inner-wrapper .elementor-column {
+    width: unset !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .faq-area.style-2 .faq-inner-wrapper .elementor-container .elementor-widget-wrap {
+    padding-right: 30px;
+  }
+}
 .faq-area.style-2 .accordion-wrapper .accordion-list-item {
   border-top: none;
 }
