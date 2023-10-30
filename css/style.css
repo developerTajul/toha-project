@@ -6925,7 +6925,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   .single-expert .icon {
     top: unset !important;
     bottom: 0 !important;
-    transform: translateY(50%);
+    transform: translateY(50%) !important;
   }
 }
 .single-expert .icon.top {
