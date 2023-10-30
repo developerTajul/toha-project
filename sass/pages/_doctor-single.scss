@@ -117,13 +117,14 @@
         @include sm{
             padding: 0 12px !important;
         }
+        @include md{
+            padding: 0 42px !important;
+        }
         @include lg{
             padding: 0 42px !important;
         }
         @include xl{
             padding: 0 82px !important;
-        }
-        .elementor-column{
         }
     }
     .elementor-container{
@@ -133,6 +134,14 @@
         .skill-progress-wrapper{
             .elementor-container{
                 gap: 236px;
+                @include lg {
+                    gap: 24px;
+                }
+                .elementor-col-50{
+                    @include lg{
+                        width: unset;
+                    }
+                }
             }
         }
     }

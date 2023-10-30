@@ -11568,6 +11568,11 @@ ul.children {
     padding: 0 12px !important;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .progress-area > .elementor-container {
+    padding: 0 42px !important;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .progress-area > .elementor-container {
     padding: 0 42px !important;
@@ -11585,6 +11590,16 @@ ul.children {
 }
 .progress-area .elementor-container .skill-progress-wrapper .elementor-container {
   gap: 236px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .progress-area .elementor-container .skill-progress-wrapper .elementor-container {
+    gap: 24px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .progress-area .elementor-container .skill-progress-wrapper .elementor-container .elementor-col-50 {
+    width: unset;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .progress-area .elementor-widget-wrap {
