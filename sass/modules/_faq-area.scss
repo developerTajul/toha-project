@@ -111,8 +111,10 @@
         right: 0;
         transform: translateY(50%);
         z-index: 10;
-        @include sm {
-            margin-left: 10px;
+        @media only screen and (min-width: 0px) and (max-width: 768px) {
+            // margin-left: 10px;
+            top: unset;
+            bottom: 0;
             transform: translateY(50%);
         }
         @include lg{
@@ -185,7 +187,7 @@
             line-height: 66px;
             @include md {
                 font-size: 48px;
-                line-height: 24px;
+                // line-height: 24px;
             }
             @include sm {
                 // font-size: 24px;

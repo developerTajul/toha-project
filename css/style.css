@@ -6158,7 +6158,6 @@ body.admin-bar .header-menu-area.sticky_menu {
     grid-template-columns: auto;
     gap: 20px;
     padding: 0;
-    margin: 60px 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6915,9 +6914,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   transform: translateY(50%);
   z-index: 10;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 768px) {
   .single-expert .icon {
-    margin-left: 10px;
+    top: unset;
+    bottom: 0;
     transform: translateY(50%);
   }
 }
@@ -7001,7 +7001,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single-expert .content .counter {
     font-size: 48px;
-    line-height: 24px;
   }
 }
 .single-expert .content .content-title {
@@ -9317,6 +9316,11 @@ ul.children {
 
 .cta-area .book-appointment-btn {
   margin-bottom: 0 !important;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .cta-area.style-1 .elementor-container {
+    padding: 0 82px;
+  }
 }
 
 .portfolio-slider-wrapper {
