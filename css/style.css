@@ -6925,8 +6925,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 991px) {
   .single-expert .icon {
     top: unset !important;
-    bottom: 0;
-    transform: translateY(50%);
+    bottom: 0 !important;
+    transform: translateY(50%) !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -6941,13 +6941,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   bottom: unset;
   transform: translateY(-50%);
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .single-expert .icon.top {
-    top: unset;
-    bottom: 0;
-    transform: translateY(50%);
-  }
-}
 .single-expert .icon.right {
   top: unset;
   bottom: 50%;
@@ -6955,14 +6948,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: end;
   margin-right: 0;
   transform: translate(25px, 25px);
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .single-expert .icon.right {
-    top: unset;
-    bottom: 0;
-    transform: translateY(50%);
-    justify-content: center;
-  }
 }
 .single-expert .icon.left {
   top: 50%;
@@ -6972,14 +6957,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-right: 0;
   transform: translate(-25px, -25px);
   left: 0;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .single-expert .icon.left {
-    top: unset;
-    bottom: 0;
-    transform: translateY(50%);
-    justify-content: center;
-  }
 }
 .single-expert .icon i {
   z-index: 20;
