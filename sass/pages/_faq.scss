@@ -20,7 +20,9 @@
                 }
                 &:last-child{
                     .accordion-wrapper{
-                        margin-top: 70px;
+                        @include rmaxwd(991){
+                            margin-top: 70px;
+                        }
                     }
                 }
             }

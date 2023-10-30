@@ -11927,8 +11927,10 @@ ul.children {
     width: 100% !important;
   }
 }
-.faq-area.style-2 .faq-inner-wrapper .elementor-column:last-child .accordion-wrapper {
-  margin-top: 70px;
+@media (max-width: 991px) {
+  .faq-area.style-2 .faq-inner-wrapper .elementor-column:last-child .accordion-wrapper {
+    margin-top: 70px;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .faq-area.style-2 .faq-inner-wrapper .elementor-container .elementor-widget-wrap {
