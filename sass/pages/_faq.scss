@@ -15,8 +15,8 @@
         }
         .faq-inner-wrapper{
             .elementor-column{
-                @media only screen and (min-width: 0px) and (max-width: 768px){
-                    width: unset !important;
+                @media only screen and (min-width: 0px) and (max-width: 991px){
+                    width: 100% !important;
                 }
                 &:last-child{
                     .accordion-wrapper{
@@ -30,8 +30,7 @@
                         padding-right: 0;
                     }
                     @include md{
-                        padding-left: 0;
-                        padding-right: 30px;
+                        padding: 0 30px;
                     }
                 }
             }

@@ -11922,9 +11922,9 @@ ul.children {
     padding: 120px 0 48px 0 !important;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 768px) {
+@media only screen and (min-width: 0px) and (max-width: 991px) {
   .faq-area.style-2 .faq-inner-wrapper .elementor-column {
-    width: unset !important;
+    width: 100% !important;
   }
 }
 .faq-area.style-2 .faq-inner-wrapper .elementor-column:last-child .accordion-wrapper {
@@ -11937,8 +11937,7 @@ ul.children {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .faq-area.style-2 .faq-inner-wrapper .elementor-container .elementor-widget-wrap {
-    padding-left: 0;
-    padding-right: 30px;
+    padding: 0 30px;
   }
 }
 .faq-area.style-2 .accordion-wrapper .accordion-list-item {
