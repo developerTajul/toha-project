@@ -7302,8 +7302,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .feature-area .elementor-section .shape-1 {
-    top: 46px !important;
-    left: -39px !important;
+    top: 47px !important;
+    left: -56px !important;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
