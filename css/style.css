@@ -9318,8 +9318,13 @@ ul.children {
   margin-bottom: 0 !important;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .cta-area.style-1 .elementor-container {
+  .cta-area.style-1 > .elementor-container {
     padding: 0 82px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cta-area.style-1 > .elementor-container {
+    padding: 0 42px;
   }
 }
 

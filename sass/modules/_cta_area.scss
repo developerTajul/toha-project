@@ -13,9 +13,12 @@
         margin-bottom: 0 !important;
     }
     &.style-1{
-        .elementor-container{
+        >.elementor-container{
             @include xl{
                 padding: 0 82px;
+            }
+            @include lg{
+                padding: 0 42px;
             }
         }
     }
