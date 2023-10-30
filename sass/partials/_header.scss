@@ -125,7 +125,7 @@
     @include lg {
       flex-direction: column;
       gap: 0;
-      align-items: start;
+      align-items: end;
       padding: 8px 0;
     }
     .time {

@@ -66,6 +66,11 @@
       li {
         > a {
           padding: 30px;
+          &:last-child{
+            @include lg{
+              padding-right: 16px;
+            }
+          }
           &:before {
             right: 12px;
           }

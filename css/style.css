@@ -3444,7 +3444,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   .header-top .social-wrapper {
     flex-direction: column;
     gap: 0;
-    align-items: start;
+    align-items: end;
     padding: 8px 0;
   }
 }
@@ -3859,6 +3859,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .header-area.style-2 ul li > a {
   padding: 30px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-area.style-2 ul li > a:last-child {
+    padding-right: 16px;
+  }
 }
 .header-area.style-2 ul li > a:before {
   right: 12px;
