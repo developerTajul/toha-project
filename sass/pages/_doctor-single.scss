@@ -134,10 +134,16 @@
         .skill-progress-wrapper{
             .elementor-container{
                 gap: 236px;
+                @include md {
+                    gap: 12px;
+                }
                 @include lg {
                     gap: 24px;
                 }
                 .elementor-col-50{
+                    @include md{
+                        width: unset;
+                    }
                     @include lg{
                         width: unset;
                     }
