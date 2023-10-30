@@ -11456,6 +11456,11 @@ ul.children {
   flex-shrink: 0;
   color: #a6a6a6;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .doctor-single-area .feature-shape i {
+    font-size: 112px;
+  }
+}
 @media (max-width: 991px) {
   .doctor-single-area .feature-shape {
     display: none;
@@ -11571,6 +11576,16 @@ ul.children {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .progress-area > .elementor-container {
     padding: 0 82px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .progress-area > .elementor-container .elementor-column .elementor-widget-wrap {
+    padding-right: 48px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .progress-area > .elementor-container .elementor-column:last-child .elementor-widget-wrap {
+    padding-left: 48px !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {

@@ -16,6 +16,9 @@
             font-size: 170px;
             flex-shrink: 0;
             color: #a6a6a6;
+            @include lg{
+                font-size: 112px;
+            }
         }
         @include rmaxwd(991) {
             display: none;
@@ -119,6 +122,20 @@
         }
         @include xl{
             padding: 0 82px !important;
+        }
+        .elementor-column{
+            .elementor-widget-wrap{
+                @include lg{
+                    padding-right: 48px !important;
+                }
+            }
+            &:last-child{
+                .elementor-widget-wrap{
+                    @include lg{
+                        padding-left: 48px !important;
+                    }
+                }
+            }
         }
     }
     .elementor-container{
