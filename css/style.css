@@ -11583,6 +11583,9 @@ ul.children {
     gap: 48px;
   }
 }
+.progress-area .elementor-container .skill-progress-wrapper .elementor-container {
+  gap: 236px;
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .progress-area .elementor-widget-wrap {
     padding: 0 !important;

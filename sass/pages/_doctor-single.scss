@@ -130,6 +130,11 @@
         @include xl {
             gap: 48px;
         }
+        .skill-progress-wrapper{
+            .elementor-container{
+                gap: 236px;
+            }
+        }
     }
     .elementor-widget-wrap{
         @include sm{
