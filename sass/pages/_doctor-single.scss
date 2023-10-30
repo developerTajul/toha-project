@@ -126,13 +126,13 @@
         .elementor-column{
             .elementor-widget-wrap{
                 @include lg{
-                    padding-right: 48px !important;
+                    // padding-right: 48px !important;
                 }
             }
             &:last-child{
                 .elementor-widget-wrap{
                     @include lg{
-                        padding-left: 48px !important;
+                        // padding-left: 48px !important;
                     }
                 }
             }
