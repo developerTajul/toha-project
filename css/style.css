@@ -3599,6 +3599,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-menu-area.style-2.sticky_menu .main-menu ul ul li a {
   padding: 10px 20px;
 }
+.header-menu-area.style-2 .header-menu-wrapper {
+  padding-left: 12px;
+}
 
 .main-menu.style-2 ul li > a {
   padding: 30px;
