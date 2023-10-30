@@ -11935,6 +11935,9 @@ ul.children {
 .faq-area.style-2 .accordion-wrapper .accordion-list-item {
   border-top: none;
 }
+.faq-area.style-2 .accordion-wrapper .accordion-list-item:first-child .accordion-head {
+  padding-top: 0;
+}
 .faq-area.style-2 .accordion-wrapper .accordion-list-item .accordion-head:after {
   color: #666666;
 }

@@ -30,7 +30,13 @@
         .accordion-wrapper{
             .accordion-list-item {
                 border-top: none;
+                &:first-child{
+                    .accordion-head{
+                        padding-top: 0;
+                    }
+                }
                 .accordion-head{
+
                     &:after{
                       color: $text-color;
                     }
