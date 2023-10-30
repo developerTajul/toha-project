@@ -5,13 +5,13 @@
             background-color: $white;
         }
         @include sm {
-            padding: 30px 0 !important;
+            padding: 70px 0 30px 0 !important;
         }
         @include lg {
-            padding: 38px 0 !important;
+            padding: 100px 0 38px 0 !important;
         }
         @include xl {
-            padding: 48px 0 !important;
+            padding: 120px 0 48px 0 !important;
         }
         .faq-inner-wrapper{
             .elementor-column{
@@ -21,7 +21,10 @@
             }
             .elementor-container {
                 .elementor-widget-wrap{
-                    @media only screen and (min-width: 0px) and (max-width: 768px){
+                    @include sm{
+                        padding-right: 0;
+                    }
+                    @include md{
                         padding-right: 30px;
                     }
                 }
@@ -33,6 +36,11 @@
                 &:first-child{
                     .accordion-head{
                         padding-top: 0;
+                    }
+                }
+                &:last-child{
+                    .accordion-head{
+                        padding-bottom: 0;
                     }
                 }
                 .accordion-head{
@@ -51,7 +59,7 @@
 .feature-area {
     &.style-2 {
         padding-top: 82px;
-        padding-left: 18px;
+        // padding-left: 18px;
         padding-bottom: 140px;
         @include sm {
             padding-bottom: 70px;
@@ -61,6 +69,13 @@
         }
         @include xl {
             padding-bottom: 120px;
+        }
+        .feature-container{
+            .shape-1{
+                @include sm{
+                    display: none;
+                }
+            }
         }
     }
 }

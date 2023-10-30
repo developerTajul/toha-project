@@ -11909,17 +11909,17 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .faq-area.style-2 {
-    padding: 30px 0 !important;
+    padding: 70px 0 30px 0 !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .faq-area.style-2 {
-    padding: 38px 0 !important;
+    padding: 100px 0 38px 0 !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .faq-area.style-2 {
-    padding: 48px 0 !important;
+    padding: 120px 0 48px 0 !important;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 768px) {
@@ -11927,7 +11927,12 @@ ul.children {
     width: unset !important;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 768px) {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .faq-area.style-2 .faq-inner-wrapper .elementor-container .elementor-widget-wrap {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .faq-area.style-2 .faq-inner-wrapper .elementor-container .elementor-widget-wrap {
     padding-right: 30px;
   }
@@ -11938,6 +11943,9 @@ ul.children {
 .faq-area.style-2 .accordion-wrapper .accordion-list-item:first-child .accordion-head {
   padding-top: 0;
 }
+.faq-area.style-2 .accordion-wrapper .accordion-list-item:last-child .accordion-head {
+  padding-bottom: 0;
+}
 .faq-area.style-2 .accordion-wrapper .accordion-list-item .accordion-head:after {
   color: #666666;
 }
@@ -11947,7 +11955,6 @@ ul.children {
 
 .feature-area.style-2 {
   padding-top: 82px;
-  padding-left: 18px;
   padding-bottom: 140px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -11963,6 +11970,11 @@ ul.children {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .feature-area.style-2 {
     padding-bottom: 120px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .feature-area.style-2 .feature-container .shape-1 {
+    display: none;
   }
 }
 
