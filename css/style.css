@@ -3865,7 +3865,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-area.style-2 ul li > a:last-child {
-    padding-right: 16px;
+    padding-right: 20px;
   }
 }
 .header-area.style-2 ul li > a:before {
