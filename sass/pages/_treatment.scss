@@ -50,8 +50,7 @@
             .service-slider-wrapper {
                 padding: 40px 40px 40px 40px;
                 @include sm {
-                    padding: 20px;
-                    padding-bottom: 0;
+                    padding: 10px 20px 0 20px;
                 }
                 @include md{
                     padding-bottom: 0;
@@ -64,6 +63,9 @@
                 }
                 .service-card{
                     .content{
+                        @include sm{
+                            padding-bottom: 24px;
+                        }
                         @include md{
                             padding-bottom: 32px;
                         }

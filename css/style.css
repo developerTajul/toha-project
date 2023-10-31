@@ -12033,8 +12033,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper {
-    padding: 20px;
-    padding-bottom: 0;
+    padding: 10px 20px 0 20px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -12050,6 +12049,11 @@ ul.children {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper {
     padding: 40px 40px 0 40px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper .service-card .content {
+    padding-bottom: 24px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
