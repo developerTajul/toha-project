@@ -19,6 +19,9 @@
   @include lg{
     padding: 127px 24px;
   }
+  @include xl{
+    padding: 127px 24px;
+  }
 }
 .page-overlay {
   background: rgb(247, 247, 245);

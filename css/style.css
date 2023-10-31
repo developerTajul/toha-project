@@ -7724,6 +7724,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding: 127px 24px;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .page-breadcrumb-area {
+    padding: 127px 24px;
+  }
+}
 
 .page-overlay {
   background: rgb(247, 247, 245);
