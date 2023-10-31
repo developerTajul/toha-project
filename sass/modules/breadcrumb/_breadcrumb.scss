@@ -83,6 +83,7 @@
       &:first-child{
         padding-left: 4px;
       }
+      &:last-child,
       &.active {
         color: $primary-color;
 

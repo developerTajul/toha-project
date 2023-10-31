@@ -7796,10 +7796,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 .breadcrumb-list ul li:first-child {
   padding-left: 4px;
 }
-.breadcrumb-list ul li.active {
+.breadcrumb-list ul li:last-child, .breadcrumb-list ul li.active {
   color: #f17732;
 }
-.breadcrumb-list ul li.active a {
+.breadcrumb-list ul li:last-child a, .breadcrumb-list ul li.active a {
   color: #666666;
 }
 .breadcrumb-list ul li a {
