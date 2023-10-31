@@ -144,7 +144,10 @@
 .contact-info-area{
     .elementor-container{
         .elementor-column{
-            @media only screen and (min-width: 0px) and (max-width: 768px){
+            @media only screen and (min-width: 0px) and (max-width: 767px){
+                width: 100% !important;
+            }
+            @media only screen and (min-width: 768px) and (max-width: 991px){
                 width: 50% !important;
             }
         }
