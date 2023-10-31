@@ -11945,6 +11945,12 @@ ul.children {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
+  .contact-info-area .elementor-container .elementor-column {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
   .contact-form-area > .elementor-container {
     padding: 0 30px;
   }

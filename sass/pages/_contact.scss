@@ -141,6 +141,15 @@
 }
 
 // Theme 
+.contact-info-area{
+    .elementor-container{
+        .elementor-column{
+            @media only screen and (min-width: 0px) and (max-width: 768px){
+                width: 50% !important;
+            }
+        }
+    }
+}
 .contact-form-area {
     >.elementor-container{
         @media only screen and (min-width: 0px) and (max-width: 768px){
