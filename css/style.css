@@ -7770,12 +7770,25 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: inline-flex;
   gap: 0 9px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .breadcrumb-list ul {
+    display: block;
+  }
+}
 .breadcrumb-list ul li {
   list-style: none;
   display: inline-flex;
   gap: 0 16px;
   align-items: center;
   color: #ffffff;
+  padding-left: 4px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .breadcrumb-list ul li {
+    padding-left: 16px;
+  }
+}
+.breadcrumb-list ul li:first-child {
   padding-left: 4px;
 }
 .breadcrumb-list ul li.active {
