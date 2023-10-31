@@ -11725,7 +11725,7 @@ ul.children {
 .service-details-area .content-wrapper .single-item .title {
   margin-top: 48px;
 }
-.service-details-area .content-wrapper .single-item .text {
+.service-details-area .content-wrapper .single-item p {
   margin-top: 27px;
   margin-bottom: 0;
 }
