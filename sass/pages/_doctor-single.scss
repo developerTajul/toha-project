@@ -159,6 +159,13 @@
             padding: 0 !important;
         }
     }
+    .elementor-element{
+        &:first-child{
+            .skill-progressbar{
+                padding-top: 12px !important;
+            }
+        }
+    }
     .skill-progressbar{
         padding-top: 31px;
     }

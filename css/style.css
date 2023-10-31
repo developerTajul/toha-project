@@ -11659,6 +11659,9 @@ ul.children {
     padding: 0 !important;
   }
 }
+.progress-area .elementor-element:first-child .skill-progressbar {
+  padding-top: 12px !important;
+}
 .progress-area .skill-progressbar {
   padding-top: 31px;
 }
