@@ -192,7 +192,10 @@
         display: inline-flex;
         flex-wrap: wrap;
         gap: 30px;
-        margin: 0;
+        margin: 40px 0;
+        @include sm{
+          margin: 24px 0;
+        }
         @include rmaxwd(1399) {
           // flex-direction: column;
         }

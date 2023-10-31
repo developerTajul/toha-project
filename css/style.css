@@ -9817,7 +9817,12 @@ ul.children {
   display: inline-flex;
   flex-wrap: wrap;
   gap: 30px;
-  margin: 0;
+  margin: 40px 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-details-wrapper .single-post-item .post-content .image-wrapper {
+    margin: 24px 0;
+  }
 }
 .blog-details-wrapper .single-post-item .post-content p img {
   border-radius: 8px;
