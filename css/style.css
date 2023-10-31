@@ -11625,6 +11625,11 @@ ul.children {
   padding-top: 31px;
 }
 
+@media (max-width: 991px) {
+  .service-details-area .sidebar {
+    padding-top: 0;
+  }
+}
 .service-details-area .sidebar .categories-wrapper {
   background-color: #ffffff;
   box-shadow: 0px 4px 60px 0px rgba(209, 209, 209, 0.25);
@@ -11721,6 +11726,11 @@ ul.children {
 .service-details-area.appointment-area .title-border2 {
   margin-left: 60px;
   margin-right: 60px;
+}
+@media (max-width: 991px) {
+  .service-details-area .content-wrapper {
+    margin-top: 40px;
+  }
 }
 .service-details-area .content-wrapper .single-item .title {
   margin-top: 48px;
