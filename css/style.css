@@ -9734,6 +9734,11 @@ ul.children {
   margin-bottom: 40px;
   padding: 30px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-details-wrapper .single-post-item {
+    padding: 12px;
+  }
+}
 .blog-details-wrapper .single-post-item .comment-respond {
   padding: 0;
   box-shadow: none;
