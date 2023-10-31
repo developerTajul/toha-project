@@ -1,6 +1,5 @@
 .page-breadcrumb-area {
-  padding-top: 127px;
-  padding-bottom: 194px;
+  padding-top: 127px 272px 194px 272px;
   margin: 30px 40px 0 40px;
   position: relative;
   z-index: 2;
@@ -9,8 +8,8 @@
   background-position: center center;
   border-radius: 20px;
 
-  @media only screen and (min-width: 768px) and (max-width: 1399px)  {
-    padding: 100px 24px;
+  @include md  {
+    padding: 100px 28px;
   }
   @include sm {
     padding: 80px 12px;
@@ -71,6 +70,7 @@
       gap: 0 16px;
       align-items: center;
       color: $white;
+      padding-left: 4px;
       &.active {
         color: $primary-color;
 

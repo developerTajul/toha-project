@@ -7698,8 +7698,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .page-breadcrumb-area {
-  padding-top: 127px;
-  padding-bottom: 194px;
+  padding-top: 127px 272px 194px 272px;
   margin: 30px 40px 0 40px;
   position: relative;
   z-index: 2;
@@ -7708,9 +7707,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-position: center center;
   border-radius: 20px;
 }
-@media only screen and (min-width: 768px) and (max-width: 1399px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .page-breadcrumb-area {
-    padding: 100px 24px;
+    padding: 100px 28px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -7777,6 +7776,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 0 16px;
   align-items: center;
   color: #ffffff;
+  padding-left: 4px;
 }
 .breadcrumb-list ul li.active {
   color: #f17732;
