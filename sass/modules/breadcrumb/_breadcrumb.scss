@@ -16,6 +16,9 @@
     margin: 20px 0 0 0;
     border-radius: 0;
   }
+  @include lg{
+    padding: 127px 24px;
+  }
 }
 .page-overlay {
   background: rgb(247, 247, 245);
