@@ -7790,7 +7790,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: inline-flex;
   gap: 0 16px;
   align-items: center;
-  color: #ffffff;
+  color: #111821;
   padding-left: 4px;
 }
 .breadcrumb-list ul li:first-child {
