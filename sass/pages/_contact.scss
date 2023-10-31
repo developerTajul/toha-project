@@ -162,6 +162,16 @@
     }
     .elementor-container{
         .elementor-column{
+            &:first-child{
+                @include lg{
+                    width: 60% !important;
+                }
+            }
+            &:last-child{
+                @include lg{
+                    width: unset !important;
+                }
+            }
             @media only screen and (min-width: 0px) and (max-width: 768px){
                 width: 100% !important;
             }
