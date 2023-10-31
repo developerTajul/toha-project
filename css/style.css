@@ -12120,12 +12120,9 @@ ul.children {
 }
 
 .treatment-service-area .border-wrapper {
-  border-radius: 20px;
-  padding-bottom: 40px;
+  border-radius: 20px 20px 0 0;
+  padding-bottom: 0;
   margin-top: 0;
-}
-.treatment-service-area .border-wrapper .service-card-wrapper {
-  background: #03c0b4;
 }
 .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper {
   padding: 40px 40px 0 40px;
@@ -12150,19 +12147,12 @@ ul.children {
     padding: 40px 40px 0 40px;
   }
 }
+.treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper .service-card .content {
+  padding-bottom: 24px;
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper .service-card .content {
     padding-bottom: 24px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper .service-card .content {
-    padding-bottom: 32px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper .service-card .content {
-    padding-bottom: 32px;
   }
 }
 .treatment-service-area .border-wrapper .service-card-wrapper .service-single-item .content {

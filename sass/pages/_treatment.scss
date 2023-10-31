@@ -42,11 +42,11 @@
 }
 .treatment-service-area {
     .border-wrapper {
-        border-radius: 20px;
-        padding-bottom: 40px;
+        border-radius: 20px 20px 0 0;
+        padding-bottom: 0;
         margin-top: 0;
         .service-card-wrapper {
-            background: $secondary-color;
+            // background: $secondary-color;
             .service-slider-wrapper {
                 padding: 40px 40px 0 40px;
                 @include sm {
@@ -63,15 +63,16 @@
                 }
                 .service-card{
                     .content{
+                        padding-bottom: 24px;
                         @include sm{
                             padding-bottom: 24px;
                         }
-                        @include md{
-                            padding-bottom: 32px;
-                        }
-                        @include lg{
-                            padding-bottom: 32px;
-                        }
+                        // @include md{
+                        //     padding-bottom: 32px;
+                        // }
+                        // @include lg{
+                        //     padding-bottom: 32px;
+                        // }
                     }
                 }
             }
