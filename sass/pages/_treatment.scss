@@ -61,6 +61,9 @@
                 }
                 .service-card{
                     .content{
+                        @include md{
+                            padding-bottom: 32px;
+                        }
                         @include lg{
                             padding-bottom: 32px;
                         }
