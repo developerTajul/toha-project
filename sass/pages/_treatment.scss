@@ -53,6 +53,9 @@
                     padding: 20px;
                     padding-bottom: 0;
                 }
+                @include md{
+                    padding-bottom: 0;
+                }
                 @include lg{
                     padding: 40px 40px 0 40px;
                 }

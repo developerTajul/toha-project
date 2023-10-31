@@ -12037,6 +12037,11 @@ ul.children {
     padding-bottom: 0;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper {
+    padding-bottom: 0;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper {
     padding: 40px 40px 0 40px;
