@@ -11626,6 +11626,13 @@ ul.children {
     gap: 48px;
   }
 }
+.progress-area .elementor-container .skill-progress-wrapper {
+  padding-top: 12px;
+}
+.progress-area .elementor-container .skill-progress-wrapper .skill-progressbar-left .elementor-widget-wrap,
+.progress-area .elementor-container .skill-progress-wrapper .skill-progressbar-right .elementor-widget-wrap {
+  gap: 30px;
+}
 .progress-area .elementor-container .skill-progress-wrapper .elementor-container {
   gap: 236px;
 }
@@ -11658,12 +11665,6 @@ ul.children {
   .progress-area .elementor-widget-wrap {
     padding: 0 !important;
   }
-}
-.progress-area .elementor-element:first-child .skill-progressbar {
-  padding-top: 12px;
-}
-.progress-area .skill-progressbar {
-  padding-top: 31px;
 }
 
 @media (max-width: 991px) {

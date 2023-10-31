@@ -132,6 +132,13 @@
             gap: 48px;
         }
         .skill-progress-wrapper{
+            padding-top: 12px;
+            .skill-progressbar-left,
+            .skill-progressbar-right{
+                .elementor-widget-wrap{
+                    gap: 30px;
+                }
+            }
             .elementor-container{
                 gap: 236px;
                 @include rmaxwd(991) {
@@ -158,15 +165,5 @@
         @include xl{
             padding: 0 !important;
         }
-    }
-    .elementor-element{
-        &:first-child{
-            .skill-progressbar{
-                padding-top: 12px;
-            }
-        }
-    }
-    .skill-progressbar{
-        padding-top: 31px;
     }
 }
