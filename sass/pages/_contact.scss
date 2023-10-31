@@ -163,11 +163,17 @@
     .elementor-container{
         .elementor-column{
             &:first-child{
+                @include md{
+                    width: 60% !important;
+                }
                 @include lg{
                     width: 60% !important;
                 }
             }
             &:last-child{
+                @include md{
+                    width: unset !important;
+                }
                 @include lg{
                     width: unset !important;
                 }
