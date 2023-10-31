@@ -48,10 +48,23 @@
         .service-card-wrapper {
             background: $secondary-color;
             .service-slider-wrapper {
-                padding: 40px 42px 40px 41px;
+                padding: 40px 40px 40px 40px;
                 @include sm {
                     padding: 20px;
                     padding-bottom: 0;
+                }
+                @include lg{
+                    padding: 40px 40px 0 40px;
+                }
+                @include xl{
+                    padding: 40px 40px 0 40px;
+                }
+                .service-card{
+                    .content{
+                        @include lg{
+                            padding-bottom: 32px;
+                        }
+                    }
                 }
             }
             .service-single-item {
@@ -85,5 +98,10 @@
                 }
             }
         }
+    }
+}
+.service-area-wrapper{
+    .treatment-service-area{
+        padding: 0 !important;
     }
 }

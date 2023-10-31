@@ -12029,12 +12029,27 @@ ul.children {
   background: #03c0b4;
 }
 .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper {
-  padding: 40px 42px 40px 41px;
+  padding: 40px 40px 40px 40px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper {
     padding: 20px;
     padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper {
+    padding: 40px 40px 0 40px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper {
+    padding: 40px 40px 0 40px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper .service-card .content {
+    padding-bottom: 32px;
   }
 }
 .treatment-service-area .border-wrapper .service-card-wrapper .service-single-item .content {
@@ -12061,6 +12076,10 @@ ul.children {
 }
 .why-choose-us-area.style-2 .single-card-box .elementor-column .elementor-widget-container {
   height: 100%;
+}
+
+.service-area-wrapper .treatment-service-area {
+  padding: 0 !important;
 }
 
 .icotop-navbar {
