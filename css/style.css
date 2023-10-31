@@ -11949,8 +11949,10 @@ ul.children {
     width: 100% !important;
   }
 }
-.contact-form-area .elementor-container .elementor-column .map-widget.style-2 {
-  padding: 0 30px;
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .contact-form-area .elementor-container .elementor-column .map-widget.style-2 {
+    padding: 0 30px;
+  }
 }
 
 .faq-area.style-2 {

@@ -149,7 +149,9 @@
             }
             .map-widget{
                 &.style-2{
-                    padding: 0 30px;
+                    @media only screen and (min-width: 0px) and (max-width: 768px){
+                        padding: 0 30px;
+                    }
                 }
             }
         }
