@@ -7772,7 +7772,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .breadcrumb-list ul {
-    display: block;
+    flex-wrap: wrap;
   }
 }
 .breadcrumb-list ul li {
@@ -7782,11 +7782,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   align-items: center;
   color: #ffffff;
   padding-left: 4px;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .breadcrumb-list ul li {
-    padding-left: 16px;
-  }
 }
 .breadcrumb-list ul li:first-child {
   padding-left: 4px;

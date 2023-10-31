@@ -65,7 +65,7 @@
     display: inline-flex;
     gap: 0 9px;
     @include sm{
-      display: block;
+      flex-wrap: wrap;
     }
     li {
       list-style: none;
@@ -74,9 +74,6 @@
       align-items: center;
       color: $white;
       padding-left: 4px;
-      @include sm{
-        padding-left: 16px;
-      }
       &:first-child{
         padding-left: 4px;
       }
