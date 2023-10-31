@@ -48,7 +48,7 @@
         .service-card-wrapper {
             background: $secondary-color;
             .service-slider-wrapper {
-                padding: 40px 40px 40px 40px;
+                padding: 40px 40px 0 40px;
                 @include sm {
                     padding: 10px 20px 0 20px;
                 }

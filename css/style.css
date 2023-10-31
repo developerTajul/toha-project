@@ -12128,7 +12128,7 @@ ul.children {
   background: #03c0b4;
 }
 .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper {
-  padding: 40px 40px 40px 40px;
+  padding: 40px 40px 0 40px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .treatment-service-area .border-wrapper .service-card-wrapper .service-slider-wrapper {
