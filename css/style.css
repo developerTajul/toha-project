@@ -7770,7 +7770,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: inline-flex;
   gap: 0 9px;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media (max-width: 991px) {
   .breadcrumb-list ul {
     flex-wrap: wrap;
   }

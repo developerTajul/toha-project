@@ -64,7 +64,7 @@
     padding-left: 0;
     display: inline-flex;
     gap: 0 9px;
-    @include sm{
+    @include rmaxwd(991){
       flex-wrap: wrap;
     }
     li {
