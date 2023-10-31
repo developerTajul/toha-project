@@ -11970,11 +11970,6 @@ ul.children {
     width: 60% !important;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .contact-form-area .elementor-container .elementor-column:last-child {
-    width: unset !important;
-  }
-}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .contact-form-area .elementor-container .elementor-column:last-child {
     width: unset !important;
