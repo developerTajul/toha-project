@@ -12759,6 +12759,11 @@ ul.children {
 .why-choose-us-area .why-choose-us-title-wrapper .elementor-container {
   padding: 0 12px;
 }
+@media (min-width: 1400px) {
+  .why-choose-us-area .why-choose-us-title-wrapper .elementor-container {
+    align-items: end;
+  }
+}
 @media (max-width: 1399px) {
   .why-choose-us-area .why-choose-us-title-wrapper .elementor-container {
     align-items: end;

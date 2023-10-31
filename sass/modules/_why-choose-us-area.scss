@@ -356,7 +356,9 @@
     .why-choose-us-title-wrapper{
         .elementor-container{
             padding: 0 12px;
-            
+            @include rwd (1400){
+                align-items: end;
+            }
             @include rmaxwd(1399){
                 align-items: end;
             }
