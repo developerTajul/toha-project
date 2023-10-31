@@ -9877,12 +9877,17 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .blog-details-wrapper .post-content .wp-block-quote, .blog-details-wrapper .post-content blockquote {
     padding-left: 30px;
-    padding-top: 100px;
+    padding-top: 116px;
     text-align: center;
   }
 }
 .blog-details-wrapper .post-content .wp-block-quote:before, .blog-details-wrapper .post-content blockquote:before {
   position: absolute;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-details-wrapper .post-content .wp-block-quote:before, .blog-details-wrapper .post-content blockquote:before {
+    top: 20px;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .blog-details-wrapper .post-content .wp-block-quote.is-style-large, .blog-details-wrapper .post-content blockquote.is-style-large {
@@ -9892,6 +9897,11 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .blog-details-wrapper .post-content .wp-block-quote.cite, .blog-details-wrapper .post-content blockquote.cite {
     text-align: center;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-details-wrapper .post-content .wp-block-quote p, .blog-details-wrapper .post-content blockquote p {
+    margin-bottom: 0;
   }
 }
 .blog-details-wrapper .post-content .wp-block-column .wp-block-quote, .blog-details-wrapper .post-content .wp-block-column blockquote {

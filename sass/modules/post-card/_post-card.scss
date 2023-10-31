@@ -271,11 +271,14 @@
     padding-left: 175px;
     @include sm{
       padding-left: 30px;
-      padding-top: 100px;
+      padding-top: 116px;
       text-align: center;
     }
     &:before{
       position: absolute;
+      @include sm{
+        top: 20px;
+      }
     }
     &.is-style-large{
       @include sm{
@@ -285,6 +288,11 @@
     &.cite{
       @include sm{
         text-align: center;
+      }
+    }
+    p{
+      @include sm{
+        margin-bottom: 0;
       }
     }
   }
