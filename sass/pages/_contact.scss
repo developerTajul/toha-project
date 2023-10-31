@@ -139,3 +139,14 @@
         }
     }
 }
+
+// Theme 
+.contact-form-area {
+    .elementor-container{
+        .elementor-column{
+            @media only screen and (min-width: 0px) and (max-width: 768px){
+                width: 100% !important;
+            }
+        }
+    }
+}
