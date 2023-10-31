@@ -11960,7 +11960,7 @@ ul.children {
     padding: 0 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
   .contact-form-area .elementor-container .elementor-column:first-child {
     width: 60% !important;
   }

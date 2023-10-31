@@ -163,7 +163,7 @@
     .elementor-container{
         .elementor-column{
             &:first-child{
-                @include md{
+                @media only screen and (min-width: 769px) and (max-width: 991px){
                     width: 60% !important;
                 }
                 @include lg{
