@@ -11956,7 +11956,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .contact-form-area .elementor-container .elementor-column .map-widget.style-2 {
-    padding: 30px 30px 0 30px;
+    padding-top: 30px;
   }
 }
 
