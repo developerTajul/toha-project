@@ -7473,6 +7473,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 .testimonial-area .testimonial-title-wrapper .elementor-container .elementor-column {
   width: 80%;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-area .testimonial-title-wrapper .elementor-container .elementor-column {
+    width: 100%;
+  }
+}
 
 .skill-progressbar-wrapper {
   width: 100%;

@@ -122,6 +122,9 @@
             }
             .elementor-column{
                 width: 80%;
+                @include sm{
+                    width: 100%;
+                }
             }
         }
     }
