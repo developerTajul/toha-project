@@ -437,7 +437,7 @@
         font-weight: 500;
         padding: 24px;
         @include rwd(1700) {
-          padding: 30px 44px;
+          padding: 30px 25px;
         }
         &:before {
           position: absolute;
@@ -452,7 +452,7 @@
           line-height: 30px;
           right: 8px;
           @include rwd(1700) {
-            right: 27px;
+            // right: 27px;
           }
         }
       }

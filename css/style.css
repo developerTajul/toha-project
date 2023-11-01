@@ -3689,7 +3689,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media (min-width: 1700px) {
   .main-menu ul li a {
-    padding: 30px 44px;
+    padding: 30px 25px;
   }
 }
 .main-menu ul li a:before {
@@ -3704,11 +3704,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 16px;
   line-height: 30px;
   right: 8px;
-}
-@media (min-width: 1700px) {
-  .main-menu ul li a:before {
-    right: 27px;
-  }
 }
 .main-menu ul li:hover > a {
   color: #f17732;
