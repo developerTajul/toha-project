@@ -5439,7 +5439,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section .appointment-area.style-2 .consultation-form {
-    padding: 0px 20px 20px 20px;
+    padding: 37px;
+    padding-top: 0;
   }
 }
 .elementor-section .appointment-area.style-2 .consultation-form .appointment-form .input-box p {
