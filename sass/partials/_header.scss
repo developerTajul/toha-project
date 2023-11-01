@@ -219,6 +219,11 @@
     .main-menu {
       ul {
         li {
+          &:last-child{
+            a{
+              padding-right: 0;
+            }
+          }
           &.active {
             > a {
               &:after {
@@ -230,7 +235,7 @@
             @include transition;
             padding: 24px;
             @include rwd(1700) {
-              padding: 30px 44px;
+              padding: 30px 40px;
             }
           }
           ul {
@@ -437,7 +442,7 @@
         font-weight: 500;
         padding: 24px;
         @include rwd(1700) {
-          padding: 30px 25px;
+          padding: 30px 40px;
         }
         &:before {
           position: absolute;
@@ -452,7 +457,7 @@
           line-height: 30px;
           right: 8px;
           @include rwd(1700) {
-            // right: 27px;
+            right: 27px;
           }
         }
       }

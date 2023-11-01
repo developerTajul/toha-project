@@ -108,7 +108,7 @@ button {
   @include transition;
 
   &:hover {
-    color: $secondary-color;
+    color: $primary-color;
     @include transition;
   }
 }

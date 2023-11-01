@@ -170,7 +170,7 @@ button {
 }
 a:hover,
 button:hover {
-  color: #03c0b4;
+  color: #f17732;
   transition: all 0.5s ease-out;
 }
 
@@ -3546,6 +3546,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   width: 170px;
   transition: all 0.5s ease-out;
 }
+.header-menu-area.sticky_menu .main-menu ul li:last-child a {
+  padding-right: 0;
+}
 .header-menu-area.sticky_menu .main-menu ul li.active > a:after {
   bottom: 20px;
 }
@@ -3555,7 +3558,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media (min-width: 1700px) {
   .header-menu-area.sticky_menu .main-menu ul li a {
-    padding: 30px 44px;
+    padding: 30px 40px;
   }
 }
 .header-menu-area.sticky_menu .main-menu ul li ul li a {
@@ -3689,7 +3692,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media (min-width: 1700px) {
   .main-menu ul li a {
-    padding: 30px 25px;
+    padding: 30px 40px;
   }
 }
 .main-menu ul li a:before {
@@ -3704,6 +3707,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 16px;
   line-height: 30px;
   right: 8px;
+}
+@media (min-width: 1700px) {
+  .main-menu ul li a:before {
+    right: 27px;
+  }
 }
 .main-menu ul li:hover > a {
   color: #f17732;
