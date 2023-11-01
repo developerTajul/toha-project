@@ -384,6 +384,19 @@
     }
 }
 .counter-area{
+    &.style-1{
+        .elementor-container{
+            .fun-fact-area{
+                .counter-items-box{
+                    .elementor-container{
+                        @include sm{
+                            gap: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
     .elementor-container{
         @include lg{
             gap: 12px 0;
