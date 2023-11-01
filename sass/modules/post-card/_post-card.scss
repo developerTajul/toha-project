@@ -333,6 +333,18 @@
       }
     }
   }
+  // Pagination
+  .post-content-wrapper{
+    .post-page-numbers{
+      &:hover {
+        background: $primary-color !important;
+      }
+  
+      &.current {
+        background: $primary-color !important;
+      }
+    }
+  }
 }
 // Tag area
 .single-post-meta {

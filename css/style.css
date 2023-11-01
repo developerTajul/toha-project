@@ -10053,6 +10053,12 @@ ul.children {
 .blog-details-wrapper .comments-text blockquote:before {
   position: absolute;
 }
+.blog-details-wrapper .post-content-wrapper .post-page-numbers:hover {
+  background: #f17732 !important;
+}
+.blog-details-wrapper .post-content-wrapper .post-page-numbers.current {
+  background: #f17732 !important;
+}
 
 .single-post-meta {
   display: flex;
