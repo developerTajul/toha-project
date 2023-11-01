@@ -48,6 +48,9 @@
                     @include md{
                         padding-bottom: 32px;
                     }
+                    @include lg{
+                        padding-bottom: 40px;
+                    }
                 }
             }
         }

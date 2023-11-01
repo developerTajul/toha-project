@@ -355,7 +355,13 @@
 .why-choose-us-area{
     .why-choose-us-title-wrapper{
         @include sm{
-            padding-bottom: 24px;
+            padding-bottom: 24px !important;
+        }
+        @include md{
+            padding-bottom: 32px !important;
+        }
+        @include lg{
+            padding-bottom: 40px !important;
         }
         .elementor-container{
             padding: 0 12px;

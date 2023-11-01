@@ -8900,6 +8900,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding-bottom: 32px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .team-area.style-1 .elementor-container .team-section-title .elementor-widget-container {
+    padding-bottom: 40px;
+  }
+}
 
 .blog-coment-title h2,
 .blog-coment-title .wp-block-comments-title,
@@ -12779,7 +12784,17 @@ ul.children {
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .why-choose-us-area .why-choose-us-title-wrapper {
-    padding-bottom: 24px;
+    padding-bottom: 24px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .why-choose-us-area .why-choose-us-title-wrapper {
+    padding-bottom: 32px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .why-choose-us-area .why-choose-us-title-wrapper {
+    padding-bottom: 40px !important;
   }
 }
 .why-choose-us-area .why-choose-us-title-wrapper .elementor-container {
