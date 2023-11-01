@@ -40,6 +40,16 @@
                     padding-bottom: 24px;
                 }
             }
+            .section-title-wrapper{
+                .elementor-widget-container{
+                    @include sm{
+                        padding-bottom: 24px;
+                    }
+                    @include md{
+                        padding-bottom: 32px;
+                    }
+                }
+            }
         }
     }
 }

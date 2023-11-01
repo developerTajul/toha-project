@@ -7664,7 +7664,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .section-title .title {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 42px;
   }
 }
@@ -8883,6 +8883,16 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .team-area.style-1 .elementor-container > .elementor-widget-container {
     padding-bottom: 24px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .team-area.style-1 .elementor-container .section-title-wrapper .elementor-widget-container {
+    padding-bottom: 24px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-area.style-1 .elementor-container .section-title-wrapper .elementor-widget-container {
+    padding-bottom: 32px;
   }
 }
 
@@ -12762,6 +12772,11 @@ ul.children {
   font-weight: 700;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .why-choose-us-area .why-choose-us-title-wrapper {
+    padding-bottom: 24px;
+  }
+}
 .why-choose-us-area .why-choose-us-title-wrapper .elementor-container {
   padding: 0 12px;
 }

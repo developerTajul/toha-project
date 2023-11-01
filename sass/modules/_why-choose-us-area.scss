@@ -354,6 +354,9 @@
 // Theme Responsive
 .why-choose-us-area{
     .why-choose-us-title-wrapper{
+        @include sm{
+            padding-bottom: 24px;
+        }
         .elementor-container{
             padding: 0 12px;
             @include rwd (1400){
