@@ -3638,6 +3638,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding: 0;
   position: relative;
 }
+.main-menu ul li:last-child a {
+  padding-right: 0;
+}
 .main-menu ul li.active {
   position: relative;
 }
