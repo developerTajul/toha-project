@@ -244,7 +244,7 @@ input:focus {
 
 .page-area {
   padding-top: 130px;
-  padding-bottom: 116px;
+  padding-bottom: 124px;
 }
 
 @media (max-width: 1199px) {
@@ -2298,6 +2298,9 @@ table td#today a {
 .page-content ol,
 .page-content ul {
   margin-bottom: 11px;
+}
+.page-content ol {
+  margin-top: 14px;
 }
 .page-content .comment-respond {
   margin-top: 78px;
