@@ -224,3 +224,12 @@
         }
     }
 }
+
+// Theme
+.portfolio-slider-area{
+    .elementor-section{
+        @include sm{
+            padding-bottom: 7px;
+        }
+    }
+}
