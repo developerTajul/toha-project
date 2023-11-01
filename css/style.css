@@ -4451,6 +4451,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .slider-area .single-slider-inner .slider-content-wrapper .slider-content .slider-short-title {
     font-size: 16px;
+    margin-bottom: 6px;
   }
 }
 .slider-area .single-slider-inner .slider-content-wrapper .slider-content .slider-title {
@@ -4485,7 +4486,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   .slider-area .single-slider-inner .slider-content-wrapper .slider-content .slider-title {
     font-size: 38px;
     line-height: 44px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
 }
 .slider-area .single-slider-inner .slider-content-wrapper .slider-content .slider-title span {
@@ -4516,6 +4517,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .slider-area .single-slider-inner .slider-content-wrapper .slider-content .slider-short-desc {
     width: 100%;
+    margin-top: 0;
   }
 }
 .slider-area .single-slider-inner .slider-content-wrapper .slider-content .slider-btn-wrapper {
@@ -4523,7 +4525,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .slider-area .single-slider-inner .slider-content-wrapper .slider-content .slider-btn-wrapper {
-    margin-top: 30px;
+    margin-top: 24px;
   }
 }
 .slider-area .single-slider-inner .slider-image {
