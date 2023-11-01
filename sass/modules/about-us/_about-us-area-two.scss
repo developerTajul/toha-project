@@ -5,6 +5,9 @@
             @include rmaxwd(1199) {
                 margin-top: 36px;
             }
+            @include lg{
+                margin-top: 0;
+            }
             .about-list {
                 display: flex;
                 margin-top: 40px;
