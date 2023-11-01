@@ -244,7 +244,7 @@ input:focus {
 
 .page-area {
   padding-top: 130px;
-  padding-bottom: 124px;
+  padding-bottom: 130px;
 }
 
 @media (max-width: 1199px) {
@@ -8970,6 +8970,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   .team-area.style-1 .elementor-container .team-section-title .elementor-widget-container {
     padding-bottom: 40px;
   }
+}
+
+.page-area .post-comments-form {
+  margin-bottom: 10px;
 }
 
 .blog-coment-title h2,
