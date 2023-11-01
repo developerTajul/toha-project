@@ -156,6 +156,9 @@
         writing-mode: vertical-rl;
         margin-bottom: 30px;
         width: 80px;
+        @include sm{
+            margin-bottom: 20px;
+        }
         h2 {
             text-align: start;
             color: $gray;

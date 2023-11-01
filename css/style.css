@@ -4518,6 +4518,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   .slider-area .single-slider-inner .slider-content-wrapper .slider-content .slider-short-desc {
     width: 100%;
     margin-top: 0;
+    margin-bottom: 0;
   }
 }
 .slider-area .single-slider-inner .slider-content-wrapper .slider-content .slider-btn-wrapper {
@@ -5608,6 +5609,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   writing-mode: vertical-rl;
   margin-bottom: 30px;
   width: 80px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-image-card .water-text {
+    margin-bottom: 20px;
+  }
 }
 .about-image-card .water-text h2 {
   text-align: start;
