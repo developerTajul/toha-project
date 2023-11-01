@@ -6617,7 +6617,7 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 50% !important;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 768px) {
+@media only screen and (min-width: 575px) and (max-width: 768px) {
   .counter-area > .elementor-container {
     padding: 0 15px;
   }
@@ -12292,7 +12292,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .service-area-slider .service-slider-wrapper {
-    padding: 20px 0 0 0;
+    padding: 12px 0 0 0;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
