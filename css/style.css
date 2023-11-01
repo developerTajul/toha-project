@@ -6095,6 +6095,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding: 0 82px;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .about-us-area.style-2 .elementor-container {
+    padding-right: 24px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-us-area.style-2 .elementor-container .elementor-col-50 {
     width: 90% !important;
@@ -6810,7 +6815,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .eye-care-skill-area > .elementor-container {
-    padding: 0 12px;
+    padding: 0 24px;
   }
 }
 .eye-care-skill-area .elementor-container .shape-1 {
