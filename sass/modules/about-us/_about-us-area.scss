@@ -297,6 +297,7 @@
     @include rmaxwd(500) {
         flex-direction: column;
         align-items: start;
+        margin-top: 34px;
     }
     .image {
         @include rmaxwd(500){
