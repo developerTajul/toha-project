@@ -7078,6 +7078,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 40px;
   color: #111821;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .feature-area .feature-container .title {
+    font-size: 35px;
+  }
+}
 .feature-area .feature-container .feather-item-wrapper {
   display: flex;
   gap: 45px;
@@ -12498,7 +12503,12 @@ ul.children {
   display: flex;
   align-items: end;
 }
-@media (max-width: 991px) {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .why-choose-us-area .section-desc {
+    margin-top: 14px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .why-choose-us-area .section-desc {
     margin-top: 24px;
   }
