@@ -4,6 +4,9 @@
   flex-direction: column;
   z-index: 2;
   position: relative;
+  @include sm{
+    gap: 19px;
+  }
 
   &.mb-70,
   &.mb-75 {

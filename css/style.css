@@ -7633,6 +7633,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   z-index: 2;
   position: relative;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .section-title {
+    gap: 19px;
+  }
+}
 @media (max-width: 767px) {
   .section-title.mb-70, .section-title.mb-75 {
     margin-bottom: 50px;
