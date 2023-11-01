@@ -40,10 +40,16 @@
 }
 
 // Theme
-// .blog-post-area{
-//     &.style-1{
-//         .elementor-container {
-//             @include
-//         }
-//     }
-// }
+.blog-post-area{
+    &.style-1{
+        .elementor-container {
+            .elementor-section{
+                .elementor-widget-wrap{
+                @include sm{
+                    padding-top: 32px;
+                }
+                }
+            }
+        }
+    }
+}
