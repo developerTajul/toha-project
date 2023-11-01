@@ -4652,7 +4652,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .slider-area.style-2 .single-slider .hero-title .slider-title {
     font-size: 38px;
-    line-height: 37px;
+    line-height: 56px;
   }
   .slider-area.style-2 .single-slider .hero-title .slider-title span {
     font-size: 26px;
@@ -4668,10 +4668,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .slider-area.style-2 .single-slider .hero-title .tag {
-    font-size: 35px;
+    font-size: 26px;
+    line-height: 38px;
   }
 }
-@media (max-width: 1199px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
   .slider-area.style-2 .single-slider .hero-title .tag {
     font-size: 39px;
   }
@@ -5102,7 +5103,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .consultation-form {
     border-radius: 0px;
-    padding: 70px 10px 20px 20px !important;
+    padding: 70px 20px 20px 20px;
   }
 }
 .consultation-form .base-area {
@@ -5435,6 +5436,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .elementor-section .appointment-area.style-1 .consultation-form {
   padding-bottom: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section .appointment-area.style-2 .consultation-form {
+    padding: 0px 20px 20px 20px;
+  }
 }
 .elementor-section .appointment-area.style-2 .consultation-form .appointment-form .input-box p {
   margin-bottom: 0;
@@ -11559,6 +11565,9 @@ ul.children {
 .service-area-wrapper .slider-area {
   z-index: 10;
 }
+.service-area-wrapper .slider-area .service-slider-wrapper {
+  padding: 12px 24px 0px 24px;
+}
 
 .doctor-single-area {
   position: relative;
@@ -12334,6 +12343,11 @@ ul.children {
   margin-top: 0;
   z-index: 10;
   position: relative;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-area .border-wrapper .service-slider-wrapper {
+    padding: 12px 24px 0px 24px;
+  }
 }
 
 .service-offer-inner {

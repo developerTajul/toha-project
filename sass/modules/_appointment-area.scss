@@ -15,7 +15,7 @@
     }
     @include sm {
         border-radius: 0px;
-        padding: 70px 10px 20px 20px !important;
+        padding: 70px 20px 20px 20px;
     }
     .base-area {
         background: linear-gradient(to top, $black, $primary-color);
@@ -363,6 +363,9 @@
         }
         &.style-2{
             .consultation-form{
+                @include sm{
+                    padding: 0px 20px 20px 20px;
+                }
                 .appointment-form{
                     .input-box{
                         p{
