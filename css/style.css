@@ -5086,7 +5086,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
   background: #111821;
   border-radius: 20px 20px 0px 0px;
-  padding: 20px 40px 50px 40px;
+  padding: 20px;
   z-index: 10;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -5102,7 +5102,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .consultation-form {
     border-radius: 0px;
-    padding: 37px;
+    padding: 70px 10px 20px 20px;
   }
 }
 .consultation-form .base-area {
@@ -5119,6 +5119,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .consultation-form .base-area .base-inner-area .title {
   margin-top: 40px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .consultation-form .base-area .base-inner-area .title {
+    margin-top: 24px;
+    font-size: 27px;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .consultation-form .base-area .base-inner-area .title br {
