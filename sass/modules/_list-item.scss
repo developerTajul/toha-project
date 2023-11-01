@@ -8,16 +8,25 @@
         li{
             display: inline-flex;
             align-items: center;
-            gap: 25px;
+            gap: 32px;
             margin-bottom: 0;
+            position: relative;
+            line-height: 31px;
             @include transition;
             .square {
-                width: 15px;                         
-                height: 15px;                         
-                border-radius: 3px;
-                background-color: $secondary-color;
-                flex-shrink: 0;
-                @include transition;
+                &:after{
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 15px;                         
+                    height: 15px;                         
+                    border-radius: 3px;
+                    background-color: $secondary-color;
+                    flex-shrink: 0;
+                    transform: translate(50%, 50%);
+                    @include transition;
+                }
             }
         }
     }

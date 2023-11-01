@@ -13558,16 +13558,23 @@ ul.children {
 .list-wrapper ul li {
   display: inline-flex;
   align-items: center;
-  gap: 25px;
+  gap: 32px;
   margin-bottom: 0;
+  position: relative;
+  line-height: 31px;
   transition: all 0.5s ease-out;
 }
-.list-wrapper ul li .square {
+.list-wrapper ul li .square:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 15px;
   height: 15px;
   border-radius: 3px;
   background-color: #03c0b4;
   flex-shrink: 0;
+  transform: translate(50%, 50%);
   transition: all 0.5s ease-out;
 }
 .list-wrapper.style-2 ul li {
