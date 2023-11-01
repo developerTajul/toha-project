@@ -6133,7 +6133,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .blog-post-area.style-1 .elementor-container .elementor-section .elementor-widget-wrap {
-    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
@@ -6255,6 +6255,12 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .book-appointment-area .book-appointment-time-desc .title-desc p {
+    font-size: 32px;
+    margin-bottom: 6px;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .book-appointment-area .book-appointment-time-desc {
