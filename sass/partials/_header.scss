@@ -257,6 +257,7 @@
     height: 90px;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 
     @include md {
       height: 100px;

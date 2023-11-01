@@ -3570,6 +3570,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   height: 90px;
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-menu-area .logo {
@@ -9103,7 +9104,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 20px;
-  color: #666666;
+  color: #ffffff;
 }
 .latest-comments li .comments-box .comments-text .avatar-name {
   margin-bottom: 10px;
