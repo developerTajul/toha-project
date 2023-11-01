@@ -2938,6 +2938,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-top: 20px;
 }
 
+.page-area .page-content ol {
+  margin-bottom: 4px;
+}
+.page-area .page-content .page-links {
+  margin-bottom: 10px;
+}
+
 @keyframes MovefadeUp {
   0% {
     opacity: 0;
