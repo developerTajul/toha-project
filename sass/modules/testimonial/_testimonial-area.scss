@@ -128,4 +128,11 @@
             }
         }
     }
+    .elementor-container{
+        .testimonial-card-wrapper{
+            @include sm{
+                margin-top: 24px;
+            }
+        }
+    }
 }
