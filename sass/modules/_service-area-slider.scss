@@ -67,5 +67,20 @@
                 padding: 0 12px;
             }
         }
+        .service-area-slider{
+            &.style-1{
+                .border-wrapper{
+                    @include sm{
+                        margin-top: 24px !important;
+                    }
+                    @include md{
+                        margin-top: 24px !important;
+                    }
+                    @include lg{
+                        margin-top: 32px !important;
+                    }
+                }
+            }
+        }
     }
 }

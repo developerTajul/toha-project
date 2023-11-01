@@ -11120,6 +11120,21 @@ ul.children {
     padding: 0 12px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-area-slider .elementor-container .service-area-slider.style-1 .border-wrapper {
+    margin-top: 24px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .service-area-slider .elementor-container .service-area-slider.style-1 .border-wrapper {
+    margin-top: 24px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .service-area-slider .elementor-container .service-area-slider.style-1 .border-wrapper {
+    margin-top: 32px !important;
+  }
+}
 
 .service-offer.style-2 {
   background-position: center center;
