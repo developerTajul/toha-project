@@ -187,9 +187,18 @@
 // Theme
 .service-offer{
     &.style-2{
-        .section-title{
-            @include sm{
-                padding: 0 12px;
+        .elementor-container{
+            .section-title{
+                @include sm{
+                    padding: 0 12px;
+                }
+            }
+            .elementor-section{
+                &:last-child{
+                    @include sm{
+                        margin-top: 32px;
+                    }
+                }
             }
         }
     }

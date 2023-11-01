@@ -9732,7 +9732,7 @@ ul.children {
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .portfolio-slider-area .elementor-section {
-    padding-bottom: 7px;
+    padding-bottom: 7px !important;
   }
 }
 
@@ -11368,8 +11368,13 @@ ul.children {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-offer.style-2 .section-title {
+  .service-offer.style-2 .elementor-container .section-title {
     padding: 0 12px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-offer.style-2 .elementor-container .elementor-section:last-child {
+    margin-top: 32px;
   }
 }
 

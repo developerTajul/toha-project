@@ -229,7 +229,7 @@
 .portfolio-slider-area{
     .elementor-section{
         @include sm{
-            padding-bottom: 7px;
+            padding-bottom: 7px !important;
         }
     }
 }
