@@ -40,6 +40,11 @@
         gap: 20px;
         transform: scale(1.03);
         @include transition;
+        @include sm{
+            visibility: visible !important;
+            opacity: 1 !important;
+            transform: scale(1.03) !important;
+        }
         img {
             padding: 15px;
             border-radius: 50px;
