@@ -11144,7 +11144,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .service-area-slider .elementor-container .service-area-slider.style-1 .border-wrapper {
-    margin-top: 24px !important;
+    margin-top: 32px !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
