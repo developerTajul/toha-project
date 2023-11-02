@@ -407,6 +407,11 @@
                 display: none;
             }
         }
+        .bottom-icon{
+            @include xl{
+                top: 51px !important;
+            }
+        }
         .counter-items-box{
             &.style-2{
                 .elementor-container{

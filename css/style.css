@@ -6637,6 +6637,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     display: none;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .counter-area .elementor-container .bottom-icon {
+    top: 51px !important;
+  }
+}
 .counter-area .elementor-container .counter-items-box.style-2 .elementor-container {
   display: flex;
   justify-content: space-between;
