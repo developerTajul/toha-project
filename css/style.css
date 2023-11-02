@@ -10176,6 +10176,10 @@ ul.children {
 .blog-post-items .single-post-item.format-standard .post-thumbnail img {
   width: unset;
 }
+.blog-posts .single-post-item.tag-sticky-2 .post-content-wrapper,
+.blog-post-items .single-post-item.tag-sticky-2 .post-content-wrapper {
+  padding-bottom: 30px;
+}
 .blog-posts .single-post-item.tag-image .post-content-wrapper,
 .blog-post-items .single-post-item.tag-image .post-content-wrapper {
   padding-bottom: 30px;
