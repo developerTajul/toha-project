@@ -10166,6 +10166,10 @@ ul.children {
 .blog-post-items .single-post-item .post-content-wrapper .post-content {
   padding: 0 30px;
 }
+.blog-posts .single-post-item.post-1 .post-card-bottom,
+.blog-post-items .single-post-item.post-1 .post-card-bottom {
+  margin-bottom: -30px;
+}
 .blog-posts .single-post-item.format-image .post-content-wrapper,
 .blog-post-items .single-post-item.format-image .post-content-wrapper {
   padding-bottom: 0;
@@ -10173,10 +10177,6 @@ ul.children {
 .blog-posts .single-post-item.format-image .post-thumbnail img,
 .blog-post-items .single-post-item.format-image .post-thumbnail img {
   width: unset;
-}
-.blog-posts .single-post-item.post-1 .post-content-wrapper,
-.blog-post-items .single-post-item.post-1 .post-content-wrapper {
-  padding-bottom: 0;
 }
 
 .single-post-item {
