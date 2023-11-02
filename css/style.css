@@ -6631,10 +6631,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     gap: 12px 0;
   }
 }
-.counter-area .elementor-container .side-image,
-.counter-area .elementor-container .bottom-icon,
-.counter-area .elementor-container .top-icon {
-  display: none;
+@media (max-width: 1199px) {
+  .counter-area .elementor-container .bottom-icon,
+  .counter-area .elementor-container .top-icon {
+    display: none;
+  }
 }
 .counter-area .elementor-container .counter-items-box.style-2 .elementor-container {
   display: flex;

@@ -401,10 +401,11 @@
         @include lg{
             gap: 12px 0;
         }
-        .side-image,
         .bottom-icon,
         .top-icon{
-            display: none;
+            @include rmaxwd(1199){
+                display: none;
+            }
         }
         .counter-items-box{
             &.style-2{
