@@ -10176,7 +10176,7 @@ ul.children {
 }
 .blog-posts .single-post-item.post-1785 .post-title,
 .blog-post-items .single-post-item.post-1785 .post-title {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 .blog-posts .single-post-item.format-image .post-content-wrapper,
 .blog-post-items .single-post-item.format-image .post-content-wrapper {
