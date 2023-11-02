@@ -430,6 +430,10 @@ input.theme-btn {
   border: 0 !important;
 }
 
+.elementor a {
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+}
+
 /* Deafult Margin & Padding */
 /*-- Margin Top --*/
 .custom-container {
@@ -4980,7 +4984,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .video-popup-btn a {
   width: 100px;
   height: 100px;
-  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7) !important;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
   border-radius: 50%;
   background-size: cover;
   background-repeat: no-repeat;
