@@ -10174,9 +10174,9 @@ ul.children {
 .blog-post-items .single-post-item.format-image .post-thumbnail img {
   width: unset;
 }
-.blog-posts .single-post-item.tag-image .post-content-wrapper,
-.blog-post-items .single-post-item.tag-image .post-content-wrapper {
-  padding-bottom: 30px;
+.blog-posts .single-post-item.post-1 .post-content-wrapper,
+.blog-post-items .single-post-item.post-1 .post-content-wrapper {
+  padding-bottom: 0;
 }
 
 .single-post-item {
@@ -13612,6 +13612,9 @@ ul.children {
   position: relative;
   transition: all 0.5s ease-out;
   transform: scale(0);
+}
+.image-card .content a:hover {
+  color: #ffffff;
 }
 .image-card .content a i {
   color: #ffffff;
