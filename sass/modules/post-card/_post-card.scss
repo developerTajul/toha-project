@@ -434,8 +434,7 @@
         padding: 0 30px;
       }
     }
-    &.format-image,
-    &.format-standard{
+    &.format-image{
       .post-content-wrapper{
         padding-bottom: 0;
       }
@@ -443,11 +442,6 @@
         img{
           width: unset;
         }
-      }
-    }
-    &.tag-sticky-2{
-      .post-content-wrapper{
-        padding-bottom: 30px;
       }
     }
     &.tag-image{
