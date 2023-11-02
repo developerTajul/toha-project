@@ -407,6 +407,9 @@
                 display: none;
             }
         }
+        .top-icon {
+            left: -38% !important;
+        }
         .bottom-icon{
             @include xl{
                 top: 51px !important;

@@ -5461,6 +5461,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .elementor-section .appointment-area.style-1 .consultation-form {
   padding-bottom: 0;
 }
+.elementor-section .appointment-area.style-2 .consultation-form {
+  padding: 37px;
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section .appointment-area.style-2 .consultation-form {
     padding: 37px;
@@ -6636,6 +6639,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   .counter-area .elementor-container .top-icon {
     display: none;
   }
+}
+.counter-area .elementor-container .top-icon {
+  left: -38% !important;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .counter-area .elementor-container .bottom-icon {
