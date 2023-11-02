@@ -79,6 +79,17 @@
       align-items: center;
       color: $black;
       padding-left: 4px;
+      font-family: $heading-font;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 34px;
+      text-align: center;
+      @include sm {
+        font-size: 18px;
+      }
+      @include md {
+        font-size: 20px;
+      }
       &:first-child{
         padding-left: 4px;
       }
