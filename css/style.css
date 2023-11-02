@@ -10283,7 +10283,7 @@ ul.children {
   font-weight: 500;
   line-height: 34px;
   margin-bottom: 0;
-  margin-top: 10px;
+  margin-top: 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .single-post-item .post-title {
@@ -10317,7 +10317,7 @@ ul.children {
 .single-post-item .post-content h4,
 .single-post-item .post-content h5,
 .single-post-item .post-content h6 {
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 .single-post-item .post-content p {
   margin-bottom: unset;
@@ -10531,6 +10531,7 @@ ul.children {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
   flex-wrap: wrap;
 }
