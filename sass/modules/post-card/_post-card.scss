@@ -555,72 +555,13 @@
       }
     }
   }
-  /* Quote Format Post */
-  &.format-quote {
-    .post-content {
-      margin: 0;
-    }
-    blockquote {
-      margin: 0;
-      position: relative;
-      p {
-        margin-top: 0;
-      }
-      cite {
-        a {
-          font-family: $body-font;
-          font-size: 16px;
-          font-weight: 600;
-          text-transform: capitalize;
-          color: $primary-color;
-          margin-top: 20px;
-          font-style: normal;
-          @include transition;
-
-          &:hover {
-            @include transition;
-            color: $primary-color;
-          }
-        }
-      }
-    }
-  }
-  /* Sticky Post */
-  &.sticky {
-    // padding-top: 30px;
-    border: 2px solid $primary-color;
-
-    .post-content {
-      margin-bottom: 0;
-      p {
-        margin-bottom: 0;
-      }
-    }
-  }
-  &.category-block{
-    .post-title{
-      margin-bottom: 20px;
-    }
-    blockquote{
-      p{
-        color: $white;
-      }
-    }
-    .wp-block-pullquote{
-      blockquote{
-        p{
-          color: unset;
-        }
-      }
-    }
-  }
 
   .post-title {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 34px;
-    margin-bottom: 20px !important;
+    margin-bottom: 0;
     margin-top: 10px;
 
     @include sm {
@@ -652,7 +593,7 @@
   }
   .post-content {
     >p{
-      margin-top: 0 !important;
+      // margin-top: 0 !important;
     }
     p {
       margin-top: 21px;
@@ -965,6 +906,65 @@
             color: $primary-color;
             @include transition;
           }
+        }
+      }
+    }
+  }
+   /* Quote Format Post */
+   &.format-quote {
+    .post-content {
+      margin: 0;
+    }
+    blockquote {
+      margin: 0;
+      position: relative;
+      p {
+        margin-top: 0;
+      }
+      cite {
+        a {
+          font-family: $body-font;
+          font-size: 16px;
+          font-weight: 600;
+          text-transform: capitalize;
+          color: $primary-color;
+          margin-top: 20px;
+          font-style: normal;
+          @include transition;
+
+          &:hover {
+            @include transition;
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+  /* Sticky Post */
+  &.sticky {
+    // padding-top: 30px;
+    border: 2px solid $primary-color;
+
+    .post-content {
+      margin-bottom: 0;
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &.category-block{
+    .post-title{
+      margin-bottom: 20px;
+    }
+    blockquote{
+      p{
+        color: $white;
+      }
+    }
+    .wp-block-pullquote{
+      blockquote{
+        p{
+          color: unset;
         }
       }
     }

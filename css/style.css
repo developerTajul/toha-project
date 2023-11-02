@@ -10277,54 +10277,12 @@ ul.children {
   color: #ffffff;
   transition: all 0.5s ease-out;
 }
-.single-post-item.format-quote .post-content {
-  margin: 0;
-}
-.single-post-item.format-quote blockquote {
-  margin: 0;
-  position: relative;
-}
-.single-post-item.format-quote blockquote p {
-  margin-top: 0;
-}
-.single-post-item.format-quote blockquote cite a {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-transform: capitalize;
-  color: #f17732;
-  margin-top: 20px;
-  font-style: normal;
-  transition: all 0.5s ease-out;
-}
-.single-post-item.format-quote blockquote cite a:hover {
-  transition: all 0.5s ease-out;
-  color: #f17732;
-}
-.single-post-item.sticky {
-  border: 2px solid #f17732;
-}
-.single-post-item.sticky .post-content {
-  margin-bottom: 0;
-}
-.single-post-item.sticky .post-content p {
-  margin-bottom: 0;
-}
-.single-post-item.category-block .post-title {
-  margin-bottom: 20px;
-}
-.single-post-item.category-block blockquote p {
-  color: #ffffff;
-}
-.single-post-item.category-block .wp-block-pullquote blockquote p {
-  color: unset;
-}
 .single-post-item .post-title {
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 34px;
-  margin-bottom: 20px !important;
+  margin-bottom: 0;
   margin-top: 10px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -10349,9 +10307,6 @@ ul.children {
   font-size: 14px;
   font-weight: 600;
   line-height: 29px;
-}
-.single-post-item .post-content > p {
-  margin-top: 0 !important;
 }
 .single-post-item .post-content p {
   margin-top: 21px;
@@ -10621,6 +10576,48 @@ ul.children {
 .single-post-item .post-meta span a:hover i {
   color: #f17732;
   transition: all 0.5s ease-out;
+}
+.single-post-item.format-quote .post-content {
+  margin: 0;
+}
+.single-post-item.format-quote blockquote {
+  margin: 0;
+  position: relative;
+}
+.single-post-item.format-quote blockquote p {
+  margin-top: 0;
+}
+.single-post-item.format-quote blockquote cite a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #f17732;
+  margin-top: 20px;
+  font-style: normal;
+  transition: all 0.5s ease-out;
+}
+.single-post-item.format-quote blockquote cite a:hover {
+  transition: all 0.5s ease-out;
+  color: #f17732;
+}
+.single-post-item.sticky {
+  border: 2px solid #f17732;
+}
+.single-post-item.sticky .post-content {
+  margin-bottom: 0;
+}
+.single-post-item.sticky .post-content p {
+  margin-bottom: 0;
+}
+.single-post-item.category-block .post-title {
+  margin-bottom: 20px;
+}
+.single-post-item.category-block blockquote p {
+  color: #ffffff;
+}
+.single-post-item.category-block .wp-block-pullquote blockquote p {
+  color: unset;
 }
 
 .author-info {
