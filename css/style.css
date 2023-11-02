@@ -10178,9 +10178,9 @@ ul.children {
 .blog-post-items .single-post-item.post-1785 .post-title {
   margin-bottom: 0 !important;
 }
-.blog-posts .single-post-item.format-image .post-content-wrapper,
-.blog-post-items .single-post-item.format-image .post-content-wrapper {
-  padding-bottom: 0;
+.blog-posts .single-post-item.format-image .post-content-wrapper .post-card-bottom,
+.blog-post-items .single-post-item.format-image .post-content-wrapper .post-card-bottom {
+  margin-bottom: -30px;
 }
 .blog-posts .single-post-item.format-image .post-thumbnail img,
 .blog-post-items .single-post-item.format-image .post-thumbnail img {

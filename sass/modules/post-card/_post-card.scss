@@ -446,7 +446,10 @@
     }
     &.format-image{
       .post-content-wrapper{
-        padding-bottom: 0;
+        // padding-bottom: 0;
+        .post-card-bottom{
+          margin-bottom: -30px;
+        }
       }
       .post-thumbnail{
         img{
