@@ -412,13 +412,11 @@
 
       @include sm {
         animation: none;
-        //margin-bottom: -150px;
         right: unset;
         text-align: center;
       }
       @include rmaxwd(1799) {
         width: auto;
-        // margin-top: inherit;
       }
     }
   }

@@ -18,17 +18,6 @@
     }
     &.style-2 {
         background: $white;
-        // &:after {
-        //     content: "";
-        //     background: $white;
-        //     position: absolute;
-        //     top: 0;
-        //     left: 0;
-        //     right: 0;
-        //     width: 100%;
-        //     height: 100%;
-        //     opacity: 1;
-        // }
     }
     @include lg {
         height: 100%;
@@ -112,7 +101,6 @@
         transform: translateY(50%);
         z-index: 10;
         @media only screen and (min-width: 0px) and (max-width: 991px) {
-            // margin-left: 10px;
             top: unset !important;
             bottom: 0 !important;
             transform: translateY(50%) !important;
@@ -127,9 +115,6 @@
             bottom: unset;
             transform: translateY(-50%);
             @include sm{
-                // top: unset;
-                // bottom: 0;
-                // transform: translateY(50%);
             }
         }
         &.right{
@@ -139,12 +124,6 @@
             justify-content: end;
             margin-right: 0;
             transform: translate(25px, 25px);
-            @include sm{
-                // top: unset;
-                // bottom: 0;
-                // transform: translateY(50%);
-                // justify-content: center;
-            }
         }
         &.left{
             top: 50%;
@@ -154,12 +133,6 @@
             margin-right: 0;
             transform: translate(-25px, -25px);
             left: 0;
-            @include sm{
-                // top: unset;
-                // bottom: 0;
-                // transform: translateY(50%);
-                // justify-content: center;
-            }
         }
         i {
             z-index: 20;
@@ -187,11 +160,6 @@
             line-height: 66px;
             @include md {
                 font-size: 48px;
-                // line-height: 24px;
-            }
-            @include sm {
-                // font-size: 24px;
-                // line-height: 24px;
             }
         }
         .content-title {

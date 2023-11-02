@@ -9819,6 +9819,7 @@ ul.children {
   }
 }
 
+.blog-area ol .no-results .search-form,
 .blog-area .blog-post-items .no-results .search-form {
   display: flex;
   padding: 0 !important;
@@ -9827,6 +9828,7 @@ ul.children {
   background-color: #f2f4f5;
   width: 60%;
 }
+.blog-area ol .no-results .search-form input,
 .blog-area .blog-post-items .no-results .search-form input {
   background-color: #f2f4f5;
   padding: 0 25px;
@@ -9838,6 +9840,7 @@ ul.children {
   line-height: 29px;
   border: none;
 }
+.blog-area ol .no-results .search-form button,
 .blog-area .blog-post-items .no-results .search-form button {
   color: #ffffff;
   padding: 0 20px;
@@ -9936,7 +9939,6 @@ ul.children {
   }
 }
 .blog-details-wrapper .single-post-item .post-content {
-  /* Unit Test Data Compatibility Start */
   /* Unit Test Data Compatibility End */
 }
 .blog-details-wrapper .single-post-item .post-content p {
@@ -10401,7 +10403,6 @@ ul.children {
 .single-post-item .blog-post-tag span {
   font-size: 16px;
   font-weight: 700;
-  display: inline-block;
   font-family: "Jost", sans-serif;
   color: #111821;
   margin-bottom: 0;

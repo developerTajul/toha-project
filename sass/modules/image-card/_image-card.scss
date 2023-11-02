@@ -58,24 +58,6 @@
             }
         }
     }
-    // .slider_icon {
-    //     display: flex;
-    //     justify-content: center;
-    //     margin-bottom: 50px;
-    //     gap: 20px;
-    //     transform: scale(0);
-    //     img {
-    //         padding: 15px;
-    //         border-radius: 50px;
-    //     }
-
-    //     .box-white {
-    //         box-shadow: 0px 4px 50px rgba(151, 151, 151, 0.25);
-    //     }
-    //     .box-primary {
-    //         background-color: $primary-color;
-    //     }
-    // }
     &:hover {
         .content {
             visibility: visible;

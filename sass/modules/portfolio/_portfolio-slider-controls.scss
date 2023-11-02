@@ -7,9 +7,6 @@
     .slick-slide {
       margin: 0 60px;
       @include transition;
-      // &:first-child{
-      //     margin-left: 12px;
-      //   }
       @include sm {
         margin: 0 12px;
       }

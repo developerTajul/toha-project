@@ -1,15 +1,5 @@
 .why-choose-us-area {
     &.style-2 {
-        // padding: 140px 0;
-        // @include sm {
-        //     padding: 70px 0;
-        // }
-        // @include lg {
-        //     padding: 100px 0;
-        // }
-        // @include xl {
-        //     padding: 120px 0;
-        // }
         .treatment-card-wrapper {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -67,12 +57,6 @@
                         @include sm{
                             padding-bottom: 24px;
                         }
-                        // @include md{
-                        //     padding-bottom: 32px;
-                        // }
-                        // @include lg{
-                        //     padding-bottom: 32px;
-                        // }
                     }
                 }
             }

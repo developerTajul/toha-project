@@ -14,13 +14,6 @@
     gap: 0 24px;
     justify-content: space-between;
     width: 100%;
-    // @include rmaxwd(1199) {
-    //   justify-content: space-between;
-    //   width: 100%;
-    // }
-    // @include rmaxwd(991) {
-    //   padding-bottom: 10px;
-    // }
   }
   .header-contact-info {
     display: flex;
@@ -363,17 +356,7 @@
 
           &:before {
             color: $primary-color;
-            // right: 12px;
           }
-          // &:after {
-          //   position: absolute;
-          //   content: "";
-          //   height: 3px;
-          //   width: 18px;
-          //   background-color: $primary-color;
-          //   bottom: 40px;
-          //   left: 20px;
-          // }
         }
       }
       &.dropdown {
@@ -383,18 +366,8 @@
           }
         }
 
-        // .dropdown {
-        //   a {
-        //     &:before {
-        //       visibility: visible;
-        //       //  right: 15px;
-        //       //  transform: rotate(-45deg);
-        //     }
-        //   }
-        // }
         &:hover {
           > a {
-            // color: $primary-color;
             &:before {
               content: "\f068";
               font-family: $font-awesome;

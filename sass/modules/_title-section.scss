@@ -49,11 +49,6 @@
     color: $black;
     margin-bottom: 0;
     @include md {
-      br {
-        // display: none;
-      }
-    }
-    @include md {
       font-size: 38px;
       line-height: 48px;
     }

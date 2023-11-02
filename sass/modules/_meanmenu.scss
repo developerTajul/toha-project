@@ -80,10 +80,6 @@
   display: inline-block;
 }
 
-.mean-container .mean-nav > ul > li:first-child > a {
-  // border-top: 0;
-}
-
 .mean-container .mean-nav ul li.dropdown-opened a.mean-expand.mean-clicked {
   background-color: $black;
   border-color: $black !important;

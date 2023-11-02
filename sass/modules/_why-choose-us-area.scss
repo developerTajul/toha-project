@@ -43,7 +43,6 @@
             }
         }
     &.style-2 {
-        // padding: 140px 0;
         position: relative;
         .shape-1 {
             position: absolute;
@@ -187,11 +186,10 @@
         }
     }
 }
-// For word-press theme
 
+// For word-press theme
 .single-card-wrapper {
     .elementor-container{
-        // margin-top: 60px;
         display: grid !important;
         grid-template-columns: auto auto auto auto;
         @include sm {
