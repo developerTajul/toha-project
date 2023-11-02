@@ -2,13 +2,9 @@
     position: relative;
     background: $black;
     border-radius: 20px 20px 0px 0px;
-    // padding: 20px;
     padding: 37px;
     z-index: 10;
     @include xl {
-        // margin-top: 16px;
-        // margin-left: 21px;
-        // margin-right: 3px;
         margin: 0;
     }
     @include md {
@@ -152,23 +148,16 @@
             top: 40px;
             left: 50px;
             z-index: -99;
-            // transform: rotateY(180deg);
             @include rmaxwd(1199) {
                 display: none;
             }
         }
         @include md {
-            // .fun-fact-area {
-            //     border-radius: 0px;
-            // }
             .container {
                 padding: 0px;
             }
         }
         @include sm {
-            // .fun-fact-area {
-            //     border-radius: 0px;
-            // }
             .container {
                 padding: 0px;
             }
@@ -182,7 +171,6 @@
             font-weight: 600;
             line-height: 40px;
             color: $white;
-            // margin-bottom: 0;
             span {
                 font-family: $heading-font;
                 color: $primary-color;
@@ -216,28 +204,16 @@
                     border-radius: 0 0 20px 20px;
                     border: 1px solid rgba(255, 255, 255, 0.15);
                     border-top: none;
-                    // padding-top: 40px;
                 }
             }
         }
         .appointment-form {
             height: 100%;
-            // form{
-            //     margin: 37px 30px 30px 30px;
-            //     height: 100%;
-            //     display: flex;
-            //     justify-content: space-between;
-            //     align-items: center;
-            //     gap: 20px;
-            //     flex-direction: row;
-            // }
             form {
                 margin: 37px 30px 30px 30px;
                 height: 100%;
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
-                // justify-content: space-between;
-                // align-items: center;
                 gap: 20px;
                 flex-direction: row;
                 @include sm{

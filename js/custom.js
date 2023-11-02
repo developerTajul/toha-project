@@ -62,59 +62,6 @@
             return /\u00A0/.test($(this).text());
         }).hide();
 
-        // /*
-        // Jquery Tab
-        // ============================*/
-        // $('.nav-tab li:first-child').addClass('active');
-        // $('.tab-content').hide();
-        // $('.tab-content:first').show();
-        // $('.nav-tab li').on('click', function(){
-        //     $('.nav-tab li').removeClass('active');
-        //     $(this).addClass('active');
-        //     $('.tab-content').hide();
-        //     const activeTab = $(this).find('a').attr('href');
-        //     $(activeTab).fadeIn();
-        //     return false;
-        // });
-
-
-        /*
-        Jquery Accordion
-        ============================*/
-        // $(function () {
-        //     $('.accordion-list-item .accordion-item-body').css("display", "none");
-        //     $('.accordion-list-item.open .accordion-item-body').css("display", "block");
-        //     $('.accordion-list-item').on('click', function () {
-        //         $(this).toggleClass(' open ');
-        //         $(this).siblings().removeClass(' open ');
-        //         $('.accordion-item-body').stop().slideUp();
-        //         $('.open .accordion-item-body').stop().slideDown();
-        //         return false;
-        //     });
-        // });
-
-
-
-        /*
-        // Jquery Tab
-        // ============================*/
-        // $('.nav-tab li:first-child').addClass('active');
-        // $('.tab-content').hide();
-        // $('.tab-content:first').show();
-        // $('.nav-tab li').on('click', function(){
-        //     $('.nav-tab li').removeClass('active');
-        //     $(this).addClass('active');
-        //     $('.tab-content').hide();
-        //     const activeTab = $(this).find('a').attr('href');
-        //     $(activeTab).fadeIn();
-        //     return false;
-        // });
-
-
-
-
-
-
         // Process Step Slider
         $("#service_tab_slider").slick({
             slidesToShow: 1,
@@ -749,13 +696,4 @@
     for (let i = 0; i < collection.length; i++) {
         collection[i].setAttribute("placeholder", "Search");
       }
-    //   Book-appointment date-picker click handler 
-    // $('.icon-calendar').on('click', function () {
-    //     $('input[type:date]').trigger('click');
-    //     // $('input[type="date"]::-webkit-calendar-picker-indicator').trigger('click');
-    //     console.log("{sdf")
-    //     $("#car_d_date").datepicker('show');
-    //     $(this).datepicker();
-    //     $("input").focus();
-    // });
 })(jQuery);

@@ -6628,6 +6628,7 @@ body.admin-bar .header-menu-area.sticky_menu {
     margin-right: 0;
   }
 }
+
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-area.style-1 .elementor-container .fun-fact-area .counter-items-box .elementor-container {
     gap: 12px;
